@@ -1,0 +1,221 @@
+therion 6.2.0+dev (compiled on 2024-03-19)
+  - using Proj 6.3.2, compiled against 6.3.2
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: 2024-05-26-E3-S4-XR-SL.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.4.8
+ 2> Copyright © 1990-2024 Olly Betts
+ 3> La topographie n’a pas de points fixes. Par conséquent j’ai fixé 1 à (0,0,0)
+ 4> 
+ 5> La topographie contient 53 stations, connectées par 52 visées.
+ 6> Il y a 1 bouclage.
+ 7> La topographie contient 2 composants connectés.
+ 8> Longueur totale de la topographie =   28.52m (  28.52m ajusté)
+ 9> Longueur totale en projection horizontale =   23.47m
+10> Longueur totale verticale =    9.17m
+11> Intervalle vertical = 8.51m (de 36 à 2.00m jusqu’à 53 à -6.51m)
+12> Intervalle Nord-Sud = 18.77m (de 24 à 11.97m jusqu’à 41 à -6.80m)
+13> Intervalle Est-Ouest = 10.95m (de 24 à 4.94m jusqu’à 42 à -6.01m)
+14>   49 1-nœuds.
+15>    1 2-nœud.
+16>    1 14-nœud.
+17>    1 16-nœud.
+18>    1 23-nœud.
+19> 
+######################### transcription ########################
+ 3> 1 : 0@Guiersvif20240526.2009_02_21_GV_entre_S1_S4
+ 5> 53 : 4@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 -- 52 : .@Guiersvif20240526.2009_02_21_GV_entre_S1_S4
+ 6> 1 : 0@Guiersvif20240526.2009_02_21_GV_entre_S1_S4
+ 7> 2 : .@Guiersvif20240526.2009_02_21_GV_entre_S1_S4
+11> 36 : .@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 -- 53 : 4@Guiersvif20240526.2009_02_21_GV_entre_S1_S4
+12> 24 : 1b@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 -- 41 : .@Guiersvif20240526.2009_02_21_GV_entre_S1_S4
+13> 24 : 1b@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 -- 42 : .@Guiersvif20240526.2009_02_21_GV_entre_S1_S4
+14> 49 : .@Guiersvif20240526.2009_02_21_GV_entre_S1_S4
+15> 1 : 0@Guiersvif20240526.2009_02_21_GV_entre_S1_S4
+16> 1 : 0@Guiersvif20240526.2009_02_21_GV_entre_S1_S4
+17> 1 : 0@Guiersvif20240526.2009_02_21_GV_entre_S1_S4
+18> 1 : 0@Guiersvif20240526.2009_02_21_GV_entre_S1_S4
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.01%
+writing Data/2024-05-26-E3-S4-XR-SL_p.xvi ... done
+processing projection extended ... done
+average distortion: 0.01%
+writing Data/2024-05-26-E3-S4-XR-SL_e.xvi ... done
+
+
+############### export maps & scraps selection #################
+M    -0.91 MP-2024-05-26-E3-S4-XR-SL@2009_02_21_GV_entre_S1_S4 (E3 devant S4)
+S    -0.91 SP-E3devantS4-1@2009_02_21_GV_entre_S1_S4 ()
+########## end of export maps & scraps selection ###############
+writing Outputs/2024-05-26-E3-S4-XR-SL-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  27 MAY 2024 10:50
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15]
+[Warning: obsolete transparent colour definition 'tr_lgrey']
+[Warning: obsolete transparent colour definition 'tr_lchamois']
+[Warning: obsolete transparent colour definition 'tr_lqueue']
+[Warning: obsolete transparent colour definition 'tr_largile']
+[Warning: obsolete transparent colour definition 'tr_ttg'] [1] [2] [3] [4]
+(./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] )
+ 
+Here is how much of MetaPost's memory you used:
+ 2176 strings using 58436 characters
+ 3544624 bytes of node memory
+ 1733 symbolic tokens
+ 9i,81n,16p,696b,5f stack positions out of 16i,96n,20p,760b,6f
+21 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  27 MAY 2024 10:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 55 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 303 strings out of 494671
+ 4126 string characters out of 6148971
+ 25158 words of memory out of 5000000
+ 1930 multiletter control sequences out of 15000+600000
+ 22382 words of font info for 69 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 9i,5n,8p,712b,54s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 61670 bytes).
+PDF statistics:
+ 66 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+
+
+############### export maps & scraps selection #################
+M     0.00 MC-2024-05-26-E3-S4-XR-SL@2009_02_21_GV_entre_S1_S4 (E3 devant S4)
+S     0.00 SC-E3devantS4-1@2009_02_21_GV_entre_S1_S4 ()
+########## end of export maps & scraps selection ###############
+writing Outputs/2024-05-26-E3-S4-XR-SL-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 1.999 (TeX Live 2015) (kpathsea version 6.2.1)  27 MAY 2024 10:50
+**data.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2015/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15]
+[Warning: obsolete transparent colour definition 'tr_lgrey']
+[Warning: obsolete transparent colour definition 'tr_lchamois']
+[Warning: obsolete transparent colour definition 'tr_lqueue']
+[Warning: obsolete transparent colour definition 'tr_largile']
+[Warning: obsolete transparent colour definition 'tr_ttg'] [1] [2] [3] [4]
+(./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] )
+ 
+Here is how much of MetaPost's memory you used:
+ 2177 strings using 58289 characters
+ 3547096 bytes of node memory
+ 1728 symbolic tokens
+ 9i,81n,16p,312b,5f stack positions out of 16i,96n,20p,312b,6f
+21 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdftex 2016.5.13)  27 MAY 2024 10:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2015/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 55 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 301 strings out of 494671
+ 4113 string characters out of 6148971
+ 24850 words of memory out of 5000000
+ 1930 multiletter control sequences out of 15000+600000
+ 21194 words of font info for 66 fonts, out of 8000000 for 9000
+ 1420 hyphenation exceptions out of 8191
+ 9i,5n,8p,712b,54s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10
+.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 49272 bytes).
+PDF statistics:
+ 61 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/2024-05-26-E3-S4-XR-SL-tot.lox .... done
+writing xtherion file ... done
+compilation time: 3 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.01%    0.09%  SP-E3devantS4-1@2009_02_21_GV_entre_S1_S4
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.01%    0.06%  SC-E3devantS4-1@2009_02_21_GV_entre_S1_S4
+################### end of scrap distortions ###################

@@ -1,0 +1,279 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -204.5 1267.0 1114.5
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {472.43600000000004 1 1.0} {433.068 0} Marteauelectrique_20170704_p.xvi 0 {}
+
+
+
+scrap MarteauElecSP1 -projection plan -station-names "" "@Martelec_2017_07_04" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+line wall
+endline
+
+line wall -subtype pit
+  491.0 430.5
+  491.0 430.5 469.65 442.45 453.5 436.5
+  444.0 433.0 442.0 426.5 442.0 426.5
+  smooth off
+endline
+
+line wall -subtype invisible
+  435.5 411.5
+  503.0 377.0
+endline
+
+line wall -reverse on -subtype pit
+  435.5 411.5
+  442.0 426.5
+endline
+
+point 536.0 523.0 label -align top-right -text [Marteau électrique] -scale xl
+
+point 504.0 477.5 entrance -orientation 212.8 -scale xl
+
+line wall -subtype pit
+  503.0 377.0
+  503.0 377.0 522.0 377.5 528.0 384.5
+  534.0 391.5 532.5 395.0 522.5 406.0
+  altitude .
+  512.5 417.0 493.5 427.0 491.0 430.5
+  smooth off
+endline
+
+point 505.326 392.318 station -name 1
+
+point 472.43600000000004 433.068 station -name 0
+
+endscrap
+
+
+
+scrap MarteauElecSP2 -projection plan -station-names "" "@Martelec_2017_07_04" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+line wall -subtype invisible
+  357.0 396.0
+  460.5 339.0
+endline
+
+line wall -subtype invisible
+  503.0 377.0
+  435.5 411.5
+endline
+
+line wall
+  460.5 339.0
+  460.5 339.0 460.5 353.5 460.5 356.5
+  460.5 359.5 452.5 366.0 450.0 370.5
+  447.5 375.0 472.0 378.0 482.0 378.5
+  492.0 379.0 503.0 377.0 503.0 377.0
+  smooth off
+endline
+
+line wall -reverse on
+  357.0 396.0
+  357.0 396.0 364.5 404.5 382.5 404.0
+  400.5 403.5 414.0 394.5 422.5 395.0
+  431.0 395.5 435.0 399.5 436.0 404.0
+  437.0 408.5 433.5 408.5 435.5 411.5
+  smooth off
+endline
+
+point 396.636 384.39799999999997 station -name 4
+
+point 467.226 382.54799999999994 station -name 3
+
+point 477.046 417.698 station -name 2
+
+endscrap
+
+
+
+scrap MarteauElecSP3 -projection plan -station-names "" "@Martelec_2017_07_04" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 369.876 378.11799999999994 station -name 6
+
+line wall -reverse on -subtype invisible
+  427.0 293.0
+  327.0 331.5
+endline
+
+line wall
+  427.0 293.0
+  427.0 293.0 421.0 299.0 431.5 304.0
+  442.0 309.0 450.5 303.5 453.0 314.0
+  455.5 324.5 461.5 333.0 460.5 339.0
+  smooth off
+endline
+
+point 326.0 385.5 height -value [-50 m]
+
+line wall -reverse on
+  327.0 331.5
+  327.0 331.5 343.0 330.5 343.5 341.0
+  344.0 351.5 337.5 361.0 340.0 365.5
+  342.5 370.0 345.0 392.5 357.0 396.0
+  smooth off
+endline
+
+point 398.42600000000004 310.85799999999995 station -name 7
+
+point 396.996 349.73799999999994 station -name 5
+
+endscrap
+
+
+
+scrap MarteauElecSP5 -projection plan -station-names "" "@Martelec_2017_07_04" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+line wall -subtype invisible
+  427.0 293.0
+  327.0 331.5
+endline
+
+line wall
+  610.5 235.5
+  610.5 235.5 590.0 240.0 575.0 242.5
+  560.0 245.0 555.0 243.0 543.0 246.0
+  531.0 249.0 477.5 274.5 468.5 278.0
+  459.5 281.5 432.5 292.0 427.0 293.0
+  smooth off
+endline
+
+line wall -reverse on
+  300.5 292.0
+  300.5 292.0 289.0 299.5 273.0 297.5
+  257.0 295.5 249.5 293.0 235.0 295.0
+  220.5 297.0 207.0 298.5 194.5 300.5
+  182.0 302.5 123.0 323.5 114.5 329.0
+  106.0 334.5 99.0 342.0 114.5 344.5
+  130.0 347.0 141.0 349.0 148.5 349.5
+  156.0 350.0 173.0 343.5 179.0 340.5
+  185.0 337.5 226.5 326.0 241.5 319.5
+  256.5 313.0 259.0 310.0 271.0 309.0
+  283.0 308.0 285.0 313.0 292.5 318.5
+  300.0 324.0 318.0 330.0 327.0 331.5
+  smooth off
+endline
+
+line rock-border -close on
+  544.5 241.5
+  545.0 234.5
+  561.0 229.5
+  564.0 238.0
+  560.0 241.5
+  544.5 241.5
+endline
+
+point 545.0 207.0 height -value [-4 m]
+
+line wall -reverse on
+  620.5 213.5
+  620.5 213.5 573.5 220.0 558.0 228.0
+  542.5 236.0 540.0 232.0 518.5 237.0
+  497.0 242.0 423.0 261.0 405.0 266.0
+  387.0 271.0 352.0 281.5 330.0 284.5
+  altitude .
+  308.0 287.5 310.5 290.5 300.5 292.0
+  smooth off
+endline
+
+point 579.586 231.75799999999998 station -name 11
+
+point 557.226 236.46799999999996 station -name 10
+
+point 353.43600000000004 286.52799999999996 station -name 8
+
+point 128.776 334.688 station -name 9
+
+endscrap
+
+
+
+scrap MarteauElecSP6 -projection plan -station-names "" "@Martelec_2017_07_04" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+line wall -subtype invisible
+  767.0 182.0
+  662.5 240.5
+endline
+
+line wall -subtype invisible
+  610.5 235.5
+  620.5 213.5
+endline
+
+line wall
+  662.5 240.5
+  662.5 240.5 666.5 230.0 647.5 233.5
+  628.5 237.0 610.5 235.5 610.5 235.5
+  smooth off
+endline
+
+line wall -reverse on
+  767.0 182.0
+  767.0 182.0 750.0 181.5 743.5 181.5
+  737.0 181.5 727.0 173.0 703.0 188.0
+  679.0 203.0 675.5 208.5 670.0 210.0
+  664.5 211.5 644.5 208.5 636.5 211.0
+  628.5 213.5 620.5 213.5 620.5 213.5
+  smooth off
+endline
+
+point 728.226 182.78799999999995 station -name 13
+
+point 660.476 218.65799999999996 station -name 12
+
+endscrap
+
+
+
+scrap MarteauElecSP7 -projection plan -station-names "" "@Martelec_2017_07_04" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+line wall -reverse on -subtype invisible
+  767.0 182.0
+  662.5 240.5
+endline
+
+point 1000.5 118.0 air-draught -orientation 293.4 -subtype summer
+
+point 948.5 206.0 label -align top-right -text [Arrêt sur brêche de faille et boue en bas, revanche 15 cm de diamètre, desobé en 2017 à voir ]
+
+point 764.0 265.0 height -value [-8 m]
+
+line wall
+  908.5 163.0
+  908.5 163.0 887.5 171.5 879.5 181.5
+  871.5 191.5 860.0 207.5 853.0 213.0
+  846.0 218.5 821.0 225.5 821.0 225.5
+  smooth off
+  793.5 232.0
+  763.0 240.5
+  763.0 240.5 713.0 255.5 703.0 256.5
+  693.0 257.5 666.5 258.5 662.5 256.5
+  658.5 254.5 663.5 244.0 662.5 240.5
+  smooth off
+endline
+
+line wall -reverse on
+  898.5 151.5
+  altitude .
+  898.5 151.5 875.5 161.5 867.5 162.0
+  859.5 162.5 857.0 170.5 846.0 168.0
+  835.0 165.5 820.0 160.0 815.5 161.0
+  811.0 162.0 809.0 158.0 799.0 164.5
+  789.0 171.0 780.5 182.0 767.0 182.0
+  smooth off
+endline
+
+point 903.596 156.76799999999997 station -name 15
+
+point 797.586 199.81799999999998 station -name 14
+
+endscrap
+
+
+
+scrap MarteauElecSP4 -projection plan -station-names "" "@Martelec_2017_07_04" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+endscrap
+
+

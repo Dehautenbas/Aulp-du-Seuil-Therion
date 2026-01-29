@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 2024_03_23 -title "Gouffre du SCB1"
+
+    input Data/scb1_2024_03_23.th
+
+    ## Plan
+    input Data/scb1_2024_03_23.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2024_03_23-maps.th
+
+endsurvey
+

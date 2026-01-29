@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 28.52m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.63m (from 3@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at 1.12m to 4@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at -6.51m)\nnorth-south range: 16.37m (from 1b@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at 11.97m to 4@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at -4.40m)\neast-west range: 8.99m (from 1b@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at 4.94m to 2@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at -4.05m)\nnumber of shots: 52\nnumber of stations: 53"
+xth_cp_data_tree_insert 47 1 1 2009_02_21_GV_entre_S1_S4 2009_02_21_GV_entre_S1_S4 "E3 devant S4" "E3 devant S4" "length: 28.52m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.63m (from 3@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at 1.12m to 4@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at -6.51m)\nnorth-south range: 16.37m (from 1b@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at 11.97m to 4@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at -4.40m)\neast-west range: 8.99m (from 1b@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at 4.94m to 2@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at -4.05m)\nnumber of shots: 52\nnumber of stations: 53"
+xth_cp_data_tree_insert 49 47 2 Guiersvif20240526 Guiersvif20240526.2009_02_21_GV_entre_S1_S4 "guiersvif30240526" "guiersvif30240526" "length: 28.52m (surface 0.00m, duplicated 0.00m)\nvertical range: 7.63m (from 3@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at 1.12m to 4@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at -6.51m)\nnorth-south range: 16.37m (from 1b@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at 11.97m to 4@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at -4.40m)\neast-west range: 8.99m (from 1b@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at 4.94m to 2@Guiersvif20240526.2009_02_21_GV_entre_S1_S4 at -4.05m)\nnumber of shots: 52\nnumber of stations: 53"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 95X1 p1 1 MP-2024-05-26-E3-S4-XR-SL MP-2024-05-26-E3-S4-XR-SL@2009_02_21_GV_entre_S1_S4 "E3 devant S4" "E3 devant S4"
+xth_cp_map_tree_insert map 1 96X1 p2 1 MC-2024-05-26-E3-S4-XR-SL MC-2024-05-26-E3-S4-XR-SL@2009_02_21_GV_entre_S1_S4 "E3 devant S4" "E3 devant S4"
+xth_cp_map_tree_create
+xth_cp_comp_stat 29 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1716799829
+

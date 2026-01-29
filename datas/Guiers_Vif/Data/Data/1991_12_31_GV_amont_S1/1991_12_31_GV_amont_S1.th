@@ -1,0 +1,18 @@
+encoding  utf-8
+
+survey 1991_12_31_GV_amont_S1 -title "Guiers Vif > 1991-12-31"
+
+    input Data/gv_amontS1_1991_12_31.th
+
+    ## Plan
+    input Data/gv_amontS1_1991_12_31.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 1991_12_31_GV_amont_S1-maps.th
+
+endsurvey

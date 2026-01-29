@@ -1,0 +1,12 @@
+encoding  utf-8
+survey AD-tot -title "Grotte du Renard"
+
+    input Data/Alain_Daniel.th
+    input Data/Alain_Daniel_c.th2
+    input Data/Alain_Daniel_p.th2
+  
+    
+    input AD-maps.th
+
+endsurvey
+

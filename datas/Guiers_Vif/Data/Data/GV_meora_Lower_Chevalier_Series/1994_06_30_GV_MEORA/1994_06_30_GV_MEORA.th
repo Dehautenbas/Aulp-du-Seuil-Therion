@@ -1,0 +1,21 @@
+encoding  utf-8
+
+survey 1994_06_30_GV_MEORA -title "Guiers Vif > 1994-06-30"
+
+    input Data/gv_1994_06_30.th
+    
+    #input Data/upper_chevalier_series.th
+
+    ## Plan
+    input Data/gv_1994_06_30.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 1994_06_30_GV_MEORA-maps.th
+
+endsurvey
+

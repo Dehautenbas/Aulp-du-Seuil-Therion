@@ -1,0 +1,92 @@
+encoding  utf-8
+
+map FJS41_MP-
+  FJS41_SP1
+  FJS41_SP2
+  FJS41_SP3
+  FJS41_SP4
+  FJS41_SP5
+  FJS41_SP6
+  FJS41_SP7
+  FJS41_SP8
+  FJS41_SP9
+  FJS41_SP10
+  FJS41_SP11
+  FJS41_SP12
+  FJS41_SP13
+  FJS41_SP14
+  FJS41_SP15
+  
+  FJS41_SP17
+  FJS41_SP18
+  FJS41_SP19
+  FJS41_SP20
+  FJS41_SP21
+  FJS41_SP22
+  
+  FJS41_SP25
+  FJS41_SP25bis
+  FJS41_SP26
+  FJS41_SP27
+  FJS41_SP28
+  FJS41_SP29
+  break
+  FJS41_SP30
+  break
+  FJS41_SP31
+  break
+  FJS41_SP16
+  FJS41_SP32
+  FJS41_SP33
+  FJS41_SP35
+  FJS41_SP36
+  
+  #FJS41_SP38
+  FJS41_SP39
+  FJS41_SP40
+  FJS41_SP41
+  FJS41_SP42
+  FJS41_SP43
+  FJS41_SP44
+  FJS41_SP45
+  FJS41_SP45bis
+  FJS41_SP46
+  FJS41_SP55
+  break
+  FJS41_SP48
+  break
+  FJS41_SP47
+  
+  FJS41_SP49
+  FJS41_SP50
+  FJS41_SP51
+  FJS41_SP52
+  FJS41_SP53
+  FJS41_SP54
+  
+endmap
+#####################
+map FJS41_MP--
+  FJS41_SP23
+  FJS41_SP24
+endmap
+##################
+map FJS41_MP---
+  FJS41_SP34
+endmap
+#######################
+map FJS41_MP----
+  FJS41_SP37
+endmap
+############################################################
+
+map FJS41_1986_10_04_MP -title "FJS41 > 1986-10-04"
+  FJS41_MP-
+  break
+  FJS41_MP-- [0 25 m] below
+  break
+  FJS41_MP--- #[-10 -30 m] below
+  break
+  FJS41_MP---- [0 10 m] below
+endmap
+

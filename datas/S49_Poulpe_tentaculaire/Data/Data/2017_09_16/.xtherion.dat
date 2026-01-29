@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 74.23m (surface 0.00m, duplicated 0.00m)\nvertical range: 52.05m (from 0@S49_2017_09_16.2017_09_16 at 1667.00m to 8@S49_2017_09_16.2017_09_16 at 1614.95m)\nnorth-south range: 4.06m (from 0@S49_2017_09_16.2017_09_16 at 5028112.00m to 4@S49_2017_09_16.2017_09_16 at 5028107.94m)\neast-west range: 19.16m (from 5@S49_2017_09_16.2017_09_16 at 726778.15m to 8@S49_2017_09_16.2017_09_16 at 726758.99m)\nnumber of shots: 46\nnumber of stations: 47"
+xth_cp_data_tree_insert 43 1 1 2017_09_16 2017_09_16 "Poulpe > 2017-09-16" "Poulpe > 2017-09-16" "length: 74.23m (surface 0.00m, duplicated 0.00m)\nvertical range: 52.05m (from 0@S49_2017_09_16.2017_09_16 at 1667.00m to 8@S49_2017_09_16.2017_09_16 at 1614.95m)\nnorth-south range: 4.06m (from 0@S49_2017_09_16.2017_09_16 at 5028112.00m to 4@S49_2017_09_16.2017_09_16 at 5028107.94m)\neast-west range: 19.16m (from 5@S49_2017_09_16.2017_09_16 at 726778.15m to 8@S49_2017_09_16.2017_09_16 at 726758.99m)\nnumber of shots: 46\nnumber of stations: 47"
+xth_cp_data_tree_insert 45 43 2 S49_2017_09_16 S49_2017_09_16.2017_09_16 "Poulpe Tentaculaire" "Poulpe Tentaculaire" "length: 74.23m (surface 0.00m, duplicated 0.00m)\nvertical range: 52.05m (from 0@S49_2017_09_16.2017_09_16 at 1667.00m to 8@S49_2017_09_16.2017_09_16 at 1614.95m)\nnorth-south range: 4.06m (from 0@S49_2017_09_16.2017_09_16 at 5028112.00m to 4@S49_2017_09_16.2017_09_16 at 5028107.94m)\neast-west range: 19.16m (from 5@S49_2017_09_16.2017_09_16 at 726778.15m to 8@S49_2017_09_16.2017_09_16 at 726758.99m)\nnumber of shots: 46\nnumber of stations: 47"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 223X1 p1 1 S49_2017_09_16_MP S49_2017_09_16_MP@2017_09_16 "Poulpe > 2017-09-16" "Poulpe > 2017-09-16"
+xth_cp_map_tree_insert map 1 224X1 p2 1 S49_2017_09_16_ME S49_2017_09_16_ME@2017_09_16 "Poulpe > 2017-09-16" "Poulpe > 2017-09-16"
+xth_cp_map_tree_create
+xth_cp_comp_stat 74 9
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1728477765
+

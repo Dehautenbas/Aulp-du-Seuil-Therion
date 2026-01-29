@@ -1,0 +1,17 @@
+encoding  utf-8
+
+survey Alain_Daniel -title "Gouffre Alain Daniel"
+
+    input Data/Data/1984_06_30/1984_06_30.th
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input Alain_Daniel-tot-maps.th
+
+endsurvey
+

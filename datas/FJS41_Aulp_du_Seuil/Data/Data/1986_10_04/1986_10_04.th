@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey FJS41_1986_10_04 -title "FJS41 > 1986-10-04"
+
+    input Data/FJS41_1986_10_04.th
+
+    ## Plan
+    input Data/FJS41_1986_10_04.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 1986_10_04-maps.th
+
+endsurvey
+

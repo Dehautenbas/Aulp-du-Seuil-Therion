@@ -1,0 +1,1944 @@
+set XVIgrids {1.0 m}
+set XVIstations {
+  {     -466.12      6971.71 Tenebreux1}
+  {     -466.12      6971.71 Tenebreux1}
+  {     -466.12      6971.71 Tenebreux1}
+  {     -466.12      6971.71 Tenebreux1}
+  {     -466.12      6971.71 Tenebreux1}
+  {     -432.10      5672.55 Tenebreux2}
+  {     -432.10      5672.55 Tenebreux2}
+  {     -432.10      5672.55 Tenebreux2}
+  {     -432.10      5672.55 Tenebreux2}
+  {     -432.10      5672.55 Tenebreux2}
+  {     -432.10      5672.55 Tenebreux2}
+  {     -449.10      4977.09 Tenebreux3}
+  {     -432.10      5672.55 Tenebreux2}
+  {     -432.10      5672.55 Tenebreux2}
+  {     -432.10      5672.55 Tenebreux2}
+  {     -378.92      5645.10 Tenebreux4}
+  {     -378.92      5645.10 Tenebreux4}
+  {     -378.92      5645.10 Tenebreux4}
+  {     -378.92      5645.10 Tenebreux4}
+  {     -248.53      5535.30 Tenebreux5}
+  {     -248.53      5535.30 Tenebreux5}
+  {     -248.53      5535.30 Tenebreux5}
+  {     -248.53      5535.30 Tenebreux5}
+  {     -248.53      5535.30 Tenebreux5}
+  {     -248.53      5535.30 Tenebreux5}
+  {     -111.10      4108.04 Tenebreux6}
+  {     -111.10      4108.04 Tenebreux6}
+  {     -111.10      4108.04 Tenebreux6}
+  {     -111.10      4108.04 Tenebreux6}
+  {      110.36      4098.76 Tenebreux7}
+  {      110.36      4098.76 Tenebreux7}
+  {      110.36      4098.76 Tenebreux7}
+  {      110.36      4098.76 Tenebreux7}
+  {      318.27      3989.14 Tenebreux8}
+  {      318.27      3989.14 Tenebreux8}
+  {      318.27      3989.14 Tenebreux8}
+  {      318.27      3989.14 Tenebreux8}
+  {      318.27      3989.14 Tenebreux8}
+  {      318.27      3989.14 Tenebreux8}
+  {      425.34      3805.92 Tenebreux9}
+  {      425.34      3805.92 Tenebreux9}
+  {      425.34      3805.92 Tenebreux9}
+  {      425.34      3805.92 Tenebreux9}
+  {      595.14      3650.32 Tenebreux10}
+  {      595.14      3650.32 Tenebreux10}
+  {      595.14      3650.32 Tenebreux10}
+  {      595.14      3650.32 Tenebreux10}
+  {     1138.83      3614.21 Tenebreux11}
+  {     1138.83      3614.21 Tenebreux11}
+  {     1138.83      3614.21 Tenebreux11}
+  {     1138.83      3614.21 Tenebreux11}
+  {     1713.17      3605.19 Tenebreux12}
+  {     1713.17      3605.19 Tenebreux12}
+  {     1713.17      3605.19 Tenebreux12}
+  {     1713.17      3605.19 Tenebreux12}
+  {     2322.54      3595.62 Tenebreux13}
+  {     2322.54      3595.62 Tenebreux13}
+  {     2322.54      3595.62 Tenebreux13}
+  {     2322.54      3595.62 Tenebreux13}
+  {     2567.07      3568.19 Tenebreux14}
+  {     2567.07      3568.19 Tenebreux14}
+  {     2567.07      3568.19 Tenebreux14}
+  {     2618.70      3000.85 Tenebreux15}
+  {     2618.70      3000.85 Tenebreux15}
+  {     2618.70      3000.85 Tenebreux15}
+  {     2618.70      3000.85 Tenebreux15}
+  {     2952.50      2963.99 Tenebreux16}
+  {     2952.50      2963.99 Tenebreux16}
+  {     2952.50      2963.99 Tenebreux16}
+  {     2952.50      2963.99 Tenebreux16}
+  {     3334.20      2936.63 Tenebreux17}
+  {     3334.20      2936.63 Tenebreux17}
+  {     3334.20      2936.63 Tenebreux17}
+  {     3334.20      2936.63 Tenebreux17}
+  {     3495.06      2900.09 Tenebreux18}
+  {     3495.06      2900.09 Tenebreux18}
+  {     3495.06      2900.09 Tenebreux18}
+  {     3495.06      2900.09 Tenebreux18}
+  {     3495.06      2900.09 Tenebreux18}
+  {     3495.06      2900.09 Tenebreux18}
+  {     3432.20      2662.19 Tenebreux19}
+  {     3432.20      2662.19 Tenebreux19}
+  {     3432.20      2662.19 Tenebreux19}
+  {     3432.20      2662.19 Tenebreux19}
+  {     3257.16      2524.93 Tenebreux20}
+  {     3257.16      2524.93 Tenebreux20}
+  {     3257.16      2524.93 Tenebreux20}
+  {     3257.16      2524.93 Tenebreux20}
+  {     3441.74      2424.30 Tenebreux21}
+  {     3441.74      2424.30 Tenebreux21}
+  {     3441.74      2424.30 Tenebreux21}
+  {     3441.74      2424.30 Tenebreux21}
+  {     3687.36      2351.07 Tenebreux22}
+  {     3687.36      2351.07 Tenebreux22}
+  {     3687.36      2351.07 Tenebreux22}
+  {     3687.36      2351.07 Tenebreux22}
+  {     3687.36      2351.07 Tenebreux22}
+  {     3687.36      2351.07 Tenebreux22}
+  {     3813.54      2076.73 Tenebreux23}
+  {     3813.54      2076.73 Tenebreux23}
+  {     3813.54      2076.73 Tenebreux23}
+  {     3813.54      2076.73 Tenebreux23}
+  {     4122.07      2021.78 Tenebreux24}
+  {     4122.07      2021.78 Tenebreux24}
+  {     4122.07      2021.78 Tenebreux24}
+  {     4122.07      2021.78 Tenebreux24}
+  {     4297.42      1985.14 Tenebreux25}
+  {     4297.42      1985.14 Tenebreux25}
+  {     4297.42      1985.14 Tenebreux25}
+  {     4297.42      1985.14 Tenebreux25}
+  {     4187.18      1985.14 Tenebreux26}
+  {     4187.18      1985.14 Tenebreux26}
+  {     4187.18      1985.14 Tenebreux26}
+  {     4187.18      1985.14 Tenebreux26}
+  {     4312.64      1948.46 Tenebreux27}
+  {     4312.64      1948.46 Tenebreux27}
+  {     4312.64      1948.46 Tenebreux27}
+  {     4312.64      1948.46 Tenebreux27}
+  {     4425.34      1911.84 Tenebreux28}
+  {     4425.34      1911.84 Tenebreux28}
+  {     4425.34      1911.84 Tenebreux28}
+  {     4425.34      1911.84 Tenebreux28}
+  {     4137.29      1454.43 Tenebreux29}
+  {     4137.29      1454.43 Tenebreux29}
+  {     4137.29      1454.43 Tenebreux29}
+  {     4137.29      1454.43 Tenebreux29}
+  {     4137.29      1454.43 Tenebreux29}
+  {     4137.29      1454.43 Tenebreux29}
+  {     4175.17      1399.73 Tenebreux30}
+  {     4137.29      1454.43 Tenebreux29}
+  {     4137.29      1454.43 Tenebreux29}
+  {     4137.29      1454.43 Tenebreux29}
+  {     4323.36      1573.42 Tenebreux31}
+  {     4323.36      1573.42 Tenebreux31}
+  {     4323.36      1573.42 Tenebreux31}
+  {     4323.36      1573.42 Tenebreux31}
+  {     4565.59      1591.64 Tenebreux32}
+  {     4565.59      1591.64 Tenebreux32}
+  {     4565.59      1591.64 Tenebreux32}
+  {     4565.59      1591.64 Tenebreux32}
+  {     4783.51      1582.50 Tenebreux33}
+  {     4783.51      1582.50 Tenebreux33}
+  {     4783.51      1582.50 Tenebreux33}
+  {     4783.51      1582.50 Tenebreux33}
+  {     4925.96      1536.77 Tenebreux34}
+  {     4925.96      1536.77 Tenebreux34}
+  {     4925.96      1536.77 Tenebreux34}
+  {     4925.96      1536.77 Tenebreux34}
+  {     5178.46      1518.67 Tenebreux35}
+  {     5178.46      1518.67 Tenebreux35}
+  {     5178.46      1518.67 Tenebreux35}
+  {     5178.46      1518.67 Tenebreux35}
+  {     5363.28      1509.63 Tenebreux36}
+  {     5363.28      1509.63 Tenebreux36}
+  {     5363.28      1509.63 Tenebreux36}
+  {     5363.28      1509.63 Tenebreux36}
+  {     5620.43      1454.50 Tenebreux37}
+  {     5620.43      1454.50 Tenebreux37}
+  {     5620.43      1454.50 Tenebreux37}
+  {     5620.43      1454.50 Tenebreux37}
+  {     5730.46      1317.16 Tenebreux38}
+  {     5730.46      1317.16 Tenebreux38}
+  {     5730.46      1317.16 Tenebreux38}
+  {     5730.46      1317.16 Tenebreux38}
+  {     5925.26      1335.57 Tenebreux39}
+  {     5925.26      1335.57 Tenebreux39}
+  {     5925.26      1335.57 Tenebreux39}
+  {     5925.26      1335.57 Tenebreux39}
+  {     6011.79      1326.48 Tenebreux40}
+  {     6011.79      1326.48 Tenebreux40}
+  {     6011.79      1326.48 Tenebreux40}
+  {     6011.79      1326.48 Tenebreux40}
+  {     6136.03      1308.13 Tenebreux41}
+  {     6136.03      1308.13 Tenebreux41}
+  {     6136.03      1308.13 Tenebreux41}
+  {     6136.03      1308.13 Tenebreux41}
+  {     6308.87      1308.13 Tenebreux42}
+  {     6308.87      1308.13 Tenebreux42}
+  {     6308.87      1308.13 Tenebreux42}
+  {     6308.87      1308.13 Tenebreux42}
+  {     6130.24      1280.80 Tenebreux43}
+  {     6130.24      1280.80 Tenebreux43}
+  {     6130.24      1280.80 Tenebreux43}
+  {     6130.24      1280.80 Tenebreux43}
+  {     6119.78      1235.13 Tenebreux44}
+  {     6119.78      1235.13 Tenebreux44}
+  {     6119.78      1235.13 Tenebreux44}
+  {     6119.78      1235.13 Tenebreux44}
+  {     6320.57      1189.51 Tenebreux45}
+  {     6320.57      1189.51 Tenebreux45}
+  {     6320.57      1189.51 Tenebreux45}
+  {     6320.57      1189.51 Tenebreux45}
+  {     6524.30      1116.16 Tenebreux46}
+  {     6524.30      1116.16 Tenebreux46}
+  {     6524.30      1116.16 Tenebreux46}
+  {     6524.30      1116.16 Tenebreux46}
+  {     6660.88      1015.47 Tenebreux47}
+  {     6660.88      1015.47 Tenebreux47}
+  {     6660.88      1015.47 Tenebreux47}
+  {     6660.88      1015.47 Tenebreux47}
+  {     6660.88      1015.47 Tenebreux47}
+  {     6660.88      1015.47 Tenebreux47}
+  {     6697.69       732.02 Tenebreux48}
+  {     6697.69       732.02 Tenebreux48}
+  {     6697.69       732.02 Tenebreux48}
+  {     6697.69       732.02 Tenebreux48}
+  {     6930.74       759.40 Tenebreux49}
+  {     6930.74       759.40 Tenebreux49}
+  {     6930.74       759.40 Tenebreux49}
+  {     6930.74       759.40 Tenebreux49}
+  {     7066.97       786.87 Tenebreux50}
+  {     7066.97       786.87 Tenebreux50}
+  {     7066.97       786.87 Tenebreux50}
+  {     7066.97       786.87 Tenebreux50}
+  {     7226.57       768.68 Tenebreux51}
+  {     7226.57       768.68 Tenebreux51}
+  {     7226.57       768.68 Tenebreux51}
+  {     7226.57       768.68 Tenebreux51}
+  {     7401.59       750.29 Tenebreux52}
+  {     7401.59       750.29 Tenebreux52}
+  {     7401.59       750.29 Tenebreux52}
+  {     7401.59       750.29 Tenebreux52}
+  {     7401.59       750.29 Tenebreux52}
+  {     7401.59       750.29 Tenebreux52}
+  {     7452.97       695.38 Tenebreux53}
+  {     7452.97       695.38 Tenebreux53}
+  {     7452.97       695.38 Tenebreux53}
+  {     7574.42       677.02 Tenebreux54}
+  {     7574.42       677.02 Tenebreux54}
+  {     7574.42       677.02 Tenebreux54}
+  {     7574.42       677.02 Tenebreux54}
+  {     7465.36       686.17 Tenebreux55}
+  {     7465.36       686.17 Tenebreux55}
+  {     7465.36       686.17 Tenebreux55}
+  {     7465.36       686.17 Tenebreux55}
+  {     7550.40       686.17 Tenebreux56}
+  {     7550.40       686.17 Tenebreux56}
+  {     7550.40       686.17 Tenebreux56}
+  {     7550.40       686.17 Tenebreux56}
+  {     7686.69       695.47 Tenebreux57}
+  {     7686.69       695.47 Tenebreux57}
+  {     7686.69       695.47 Tenebreux57}
+  {     7686.69       695.47 Tenebreux57}
+  {     7909.04       668.16 Tenebreux58}
+  {     7909.04       668.16 Tenebreux58}
+  {     7909.04       668.16 Tenebreux58}
+  {     7909.04       668.16 Tenebreux58}
+  {     7826.47       677.28 Tenebreux59}
+  {     7826.47       677.28 Tenebreux59}
+  {     7826.47       677.28 Tenebreux59}
+  {     7826.47       677.28 Tenebreux59}
+  {     7954.71       659.03 Tenebreux60}
+  {     7954.71       659.03 Tenebreux60}
+  {     7954.71       659.03 Tenebreux60}
+  {     7954.71       659.03 Tenebreux60}
+  {     8095.75       668.15 Tenebreux61}
+  {     8095.75       668.15 Tenebreux61}
+  {     8095.75       668.15 Tenebreux61}
+  {     8095.75       668.15 Tenebreux61}
+  {     8217.00       622.58 Tenebreux62}
+  {     8217.00       622.58 Tenebreux62}
+  {     8217.00       622.58 Tenebreux62}
+  {     8217.00       622.58 Tenebreux62}
+  {     8318.18       622.58 Tenebreux63}
+  {     8318.18       622.58 Tenebreux63}
+  {     8318.18       622.58 Tenebreux63}
+  {     8318.18       622.58 Tenebreux63}
+  {     8407.78       595.18 Tenebreux64}
+  {     8407.78       595.18 Tenebreux64}
+  {     8407.78       595.18 Tenebreux64}
+  {     8407.78       595.18 Tenebreux64}
+  {     8565.66       595.18 Tenebreux65}
+  {     8565.66       595.18 Tenebreux65}
+  {     8565.66       595.18 Tenebreux65}
+  {     8565.66       595.18 Tenebreux65}
+  {     8773.73       586.10 Tenebreux66}
+  {     8773.73       586.10 Tenebreux66}
+  {     8773.73       586.10 Tenebreux66}
+  {     8773.73       586.10 Tenebreux66}
+  {     8689.58       576.96 Tenebreux67}
+  {     8689.58       576.96 Tenebreux67}
+  {     8689.58       576.96 Tenebreux67}
+  {     8689.58       576.96 Tenebreux67}
+  {     8775.45       558.70 Tenebreux68}
+  {     8775.45       558.70 Tenebreux68}
+  {     8775.45       558.70 Tenebreux68}
+  {     8775.45       558.70 Tenebreux68}
+  {     8886.54       540.31 Tenebreux69}
+  {     8886.54       540.31 Tenebreux69}
+  {     8886.54       540.31 Tenebreux69}
+  {     8886.54       540.31 Tenebreux69}
+  {     8980.84       521.98 Tenebreux70}
+  {     8980.84       521.98 Tenebreux70}
+  {     8980.84       521.98 Tenebreux70}
+  {     8980.84       521.98 Tenebreux70}
+  {     9043.79       485.35 Tenebreux71}
+  {     9043.79       485.35 Tenebreux71}
+  {     9043.79       485.35 Tenebreux71}
+  {     9043.79       485.35 Tenebreux71}
+  {     8966.10       439.59 Tenebreux72}
+  {     8966.10       439.59 Tenebreux72}
+  {     8966.10       439.59 Tenebreux72}
+  {     8966.10       439.59 Tenebreux72}
+  {     9133.17       412.23 Tenebreux73}
+  {     9133.17       412.23 Tenebreux73}
+  {     9133.17       412.23 Tenebreux73}
+  {     9133.17       412.23 Tenebreux73}
+  {     9226.05       330.05 Tenebreux74}
+  {     9226.05       330.05 Tenebreux74}
+  {     9226.05       330.05 Tenebreux74}
+  {     9226.05       330.05 Tenebreux74}
+  {     9226.05       330.05 Tenebreux74}
+  {     9226.05       330.05 Tenebreux74}
+  {     8952.42     -4143.87 Tenebreux75}
+  {     8952.42     -4143.87 Tenebreux75}
+  {     8952.42     -4143.87 Tenebreux75}
+  {     8952.42     -4143.87 Tenebreux75}
+  {     8952.42     -4143.87 Tenebreux75}
+  {     9124.42     -4253.44 Tenebreux76}
+  {     9124.42     -4253.44 Tenebreux76}
+  {     9124.42     -4253.44 Tenebreux76}
+  {     9124.42     -4253.44 Tenebreux76}
+  {     9124.42     -4253.44 Tenebreux76}
+  {     9124.42     -4253.44 Tenebreux76}
+  {     9263.14     -7089.82 Tenebreux77}
+  {     6320.57      1189.51 Tenebreux45}
+  {     6320.57      1189.51 Tenebreux45}
+  {     6320.57      1189.51 Tenebreux45}
+  {     6320.57      1189.51 Tenebreux45}
+  {     6320.57      1189.51 Tenebreux45}
+  {     6288.08       155.77 Tenebreux78}
+  {     6288.08       155.77 Tenebreux78}
+  {     6288.08       155.77 Tenebreux78}
+  {     6288.08       155.77 Tenebreux78}
+  {     6288.08       155.77 Tenebreux78}
+  {     6288.08       155.77 Tenebreux78}
+  {     6322.89      -447.95 Tenebreux79}
+  {     6322.89      -447.95 Tenebreux79}
+  {     6322.89      -447.95 Tenebreux79}
+  {     6322.89      -447.95 Tenebreux79}
+  {     6160.87      -557.65 Tenebreux80}
+  {     6160.87      -557.65 Tenebreux80}
+  {     6160.87      -557.65 Tenebreux80}
+  {     6160.87      -557.65 Tenebreux80}
+  {     6160.87      -557.65 Tenebreux80}
+  {     6277.55      -539.38 Tenebreux81}
+  {     6277.55      -539.38 Tenebreux81}
+  {     6277.55      -539.38 Tenebreux81}
+  {     6277.55      -539.38 Tenebreux81}
+  {     6096.23      -630.97 Tenebreux82}
+  {     6096.23      -630.97 Tenebreux82}
+  {     6096.23      -630.97 Tenebreux82}
+  {     6096.23      -630.97 Tenebreux82}
+  {     6481.35      -750.19 Tenebreux83}
+  {     6481.35      -750.19 Tenebreux83}
+  {     6481.35      -750.19 Tenebreux83}
+  {     6481.35      -750.19 Tenebreux83}
+  {     6481.35      -750.19 Tenebreux83}
+  {     6481.35      -750.19 Tenebreux83}
+  {     6565.56     -1985.51 Tenebreux84}
+  {     6565.56     -1985.51 Tenebreux84}
+  {     6565.56     -1985.51 Tenebreux84}
+  {     6565.56     -1985.51 Tenebreux84}
+  {     6432.01     -1994.61 Tenebreux85}
+  {     6432.01     -1994.61 Tenebreux85}
+  {     6432.01     -1994.61 Tenebreux85}
+  {     6432.01     -1994.61 Tenebreux85}
+  {     6227.96     -2022.20 Tenebreux86}
+  {     6227.96     -2022.20 Tenebreux86}
+  {     6227.96     -2022.20 Tenebreux86}
+  {     6227.96     -2022.20 Tenebreux86}
+  {     6285.51     -2031.32 Tenebreux87}
+  {     6285.51     -2031.32 Tenebreux87}
+  {     6285.51     -2031.32 Tenebreux87}
+  {     6285.51     -2031.32 Tenebreux87}
+  {     6402.04     -2058.65 Tenebreux88}
+  {     6402.04     -2058.65 Tenebreux88}
+  {     6402.04     -2058.65 Tenebreux88}
+  {     6402.04     -2058.65 Tenebreux88}
+  {     6465.55     -2067.80 Tenebreux89}
+  {     6465.55     -2067.80 Tenebreux89}
+  {     6465.55     -2067.80 Tenebreux89}
+  {     6465.55     -2067.80 Tenebreux89}
+  {     6637.80     -2086.21 Tenebreux90}
+  {     6637.80     -2086.21 Tenebreux90}
+  {     6637.80     -2086.21 Tenebreux90}
+  {     6637.80     -2086.21 Tenebreux90}
+  {     6742.91     -2104.55 Tenebreux91}
+  {     6742.91     -2104.55 Tenebreux91}
+  {     6742.91     -2104.55 Tenebreux91}
+  {     6742.91     -2104.55 Tenebreux91}
+  {     6790.26     -2122.92 Tenebreux92}
+  {     6790.26     -2122.92 Tenebreux92}
+  {     6790.26     -2122.92 Tenebreux92}
+  {     6790.26     -2122.92 Tenebreux92}
+  {     6676.18     -2150.31 Tenebreux93}
+  {     6676.18     -2150.31 Tenebreux93}
+  {     6676.18     -2150.31 Tenebreux93}
+  {     6676.18     -2150.31 Tenebreux93}
+  {     6735.31     -2159.46 Tenebreux94}
+  {     6735.31     -2159.46 Tenebreux94}
+  {     6735.31     -2159.46 Tenebreux94}
+  {     6735.31     -2159.46 Tenebreux94}
+  {     6809.02     -2196.05 Tenebreux95}
+  {     6809.02     -2196.05 Tenebreux95}
+  {     6809.02     -2196.05 Tenebreux95}
+  {     6809.02     -2196.05 Tenebreux95}
+  {     6895.75     -2223.40 Tenebreux96}
+  {     6895.75     -2223.40 Tenebreux96}
+  {     6895.75     -2223.40 Tenebreux96}
+  {     6895.75     -2223.40 Tenebreux96}
+  {     6809.53     -2223.40 Tenebreux97}
+  {     6809.53     -2223.40 Tenebreux97}
+  {     6809.53     -2223.40 Tenebreux97}
+  {     6809.53     -2223.40 Tenebreux97}
+  {     6872.60     -2269.22 Tenebreux98}
+  {     6872.60     -2269.22 Tenebreux98}
+  {     6872.60     -2269.22 Tenebreux98}
+  {     6872.60     -2269.22 Tenebreux98}
+  {     7034.47     -2296.59 Tenebreux99}
+  {     7034.47     -2296.59 Tenebreux99}
+  {     7034.47     -2296.59 Tenebreux99}
+  {     7034.47     -2296.59 Tenebreux99}
+  {     7114.00     -2296.59 Tenebreux100}
+  {     7114.00     -2296.59 Tenebreux100}
+  {     7114.00     -2296.59 Tenebreux100}
+  {     7114.00     -2296.59 Tenebreux100}
+  {     7174.74     -2287.52 Tenebreux101}
+  {     7174.74     -2287.52 Tenebreux101}
+  {     7174.74     -2287.52 Tenebreux101}
+  {     7248.03     -2324.06 Tenebreux102}
+  {     7248.03     -2324.06 Tenebreux102}
+  {     7248.03     -2324.06 Tenebreux102}
+  {     7248.03     -2324.06 Tenebreux102}
+  {     7248.03     -2324.06 Tenebreux102}
+  {     7248.03     -2324.06 Tenebreux102}
+  {     7278.42     -2388.07 Tenebreux103}
+  {     7278.42     -2388.07 Tenebreux103}
+  {     7278.42     -2388.07 Tenebreux103}
+  {     7278.42     -2388.07 Tenebreux103}
+  {     7278.42     -2388.07 Tenebreux103}
+  {     7278.42     -2388.07 Tenebreux103}
+  {     7313.78     -2818.12 Tenebreux104}
+  {     7313.78     -2818.12 Tenebreux104}
+  {     7313.78     -2818.12 Tenebreux104}
+  {     7465.48     -2827.13 Tenebreux105}
+  {     7465.48     -2827.13 Tenebreux105}
+  {     7465.48     -2827.13 Tenebreux105}
+  {     7574.30     -2854.46 Tenebreux106}
+  {     7574.30     -2854.46 Tenebreux106}
+  {     7574.30     -2854.46 Tenebreux106}
+  {     7574.30     -2854.46 Tenebreux106}
+  {     7574.30     -2854.46 Tenebreux106}
+  {     7574.30     -2854.46 Tenebreux106}
+  {     7504.73     -3000.99 Tenebreux107}
+  {     7504.73     -3000.99 Tenebreux107}
+  {     7504.73     -3000.99 Tenebreux107}
+  {     7504.73     -3000.99 Tenebreux107}
+  {     7163.90     -3009.91 Tenebreux108}
+  {     7163.90     -3009.91 Tenebreux108}
+  {     7163.90     -3009.91 Tenebreux108}
+  {     7163.90     -3009.91 Tenebreux108}
+  {     7163.90     -3009.91 Tenebreux108}
+  {     7163.90     -3009.91 Tenebreux108}
+  {     7109.05     -4217.72 Tenebreux109}
+  {     7109.05     -4217.72 Tenebreux109}
+  {     7109.05     -4217.72 Tenebreux109}
+  {     7109.05     -4217.72 Tenebreux109}
+  {     7109.05     -4217.72 Tenebreux109}
+  {     7109.05     -4217.72 Tenebreux109}
+  {     7000.48     -4354.72 Tenebreux110}
+  {     7000.48     -4354.72 Tenebreux110}
+  {     7000.48     -4354.72 Tenebreux110}
+  {     6761.91     -4391.22 Tenebreux111}
+  {     6761.91     -4391.22 Tenebreux111}
+  {     6761.91     -4391.22 Tenebreux111}
+  {     6992.96     -4455.30 Tenebreux112}
+  {     6992.96     -4455.30 Tenebreux112}
+  {     6992.96     -4455.30 Tenebreux112}
+  {     6992.96     -4455.30 Tenebreux112}
+  {     6992.96     -4455.30 Tenebreux112}
+  {     6992.96     -4455.30 Tenebreux112}
+  {     7094.06     -6157.02 Tenebreux113}
+  {     7094.06     -6157.02 Tenebreux113}
+  {     7094.06     -6157.02 Tenebreux113}
+  {     7271.30     -6202.86 Tenebreux114}
+  {     7271.30     -6202.86 Tenebreux114}
+  {     7271.30     -6202.86 Tenebreux114}
+  {     7271.30     -6202.86 Tenebreux114}
+  {     7271.30     -6202.86 Tenebreux114}
+  {     7271.30     -6202.86 Tenebreux114}
+  {     7333.12     -7044.68 Tenebreux115}
+  {     7333.12     -7044.68 Tenebreux115}
+  {     7333.12     -7044.68 Tenebreux115}
+  {     7333.12     -7044.68 Tenebreux115}
+  {     7179.48     -7063.00 Tenebreux116}
+  {     5730.46      1317.16 Tenebreux38}
+  {     5730.46      1317.16 Tenebreux38}
+  {     5730.46      1317.16 Tenebreux38}
+  {     5490.30      1317.16 Tenebreux117}
+  {     5490.30      1317.16 Tenebreux117}
+  {     5490.30      1317.16 Tenebreux117}
+  {     5490.30      1317.16 Tenebreux117}
+  {     5316.87      1344.63 Tenebreux118}
+  {     5316.87      1344.63 Tenebreux118}
+  {     5316.87      1344.63 Tenebreux118}
+  {     5316.87      1344.63 Tenebreux118}
+  {     5221.20      1344.63 Tenebreux119}
+  {     5221.20      1344.63 Tenebreux119}
+  {     5221.20      1344.63 Tenebreux119}
+  {     5221.20      1344.63 Tenebreux119}
+  {     5034.98      1344.63 Tenebreux120}
+  {     5034.98      1344.63 Tenebreux120}
+  {     5034.98      1344.63 Tenebreux120}
+  {     5034.98      1344.63 Tenebreux120}
+  {     4885.77      1344.63 Tenebreux121}
+  {     4885.77      1344.63 Tenebreux121}
+  {     4885.77      1344.63 Tenebreux121}
+  {     4885.77      1344.63 Tenebreux121}
+  {     4972.30      1335.53 Tenebreux122}
+  {     4972.30      1335.53 Tenebreux122}
+  {     4972.30      1335.53 Tenebreux122}
+  {     4868.76      1298.87 Tenebreux123}
+  {     4868.76      1298.87 Tenebreux123}
+  {     4868.76      1298.87 Tenebreux123}
+  {     4868.76      1298.87 Tenebreux123}
+  {     4868.76      1298.87 Tenebreux123}
+  {     4868.76      1298.87 Tenebreux123}
+  {     4913.48      1225.61 Tenebreux124}
+  {     4913.48      1225.61 Tenebreux124}
+  {     4913.48      1225.61 Tenebreux124}
+  {     4913.48      1225.61 Tenebreux124}
+  {     4913.48      1225.61 Tenebreux124}
+  {     4913.48      1225.61 Tenebreux124}
+  {     5088.77       914.51 Tenebreux125}
+  {     5088.77       914.51 Tenebreux125}
+  {     5088.77       914.51 Tenebreux125}
+  {     5088.77       914.51 Tenebreux125}
+  {     5449.33       676.76 Tenebreux126}
+  {     5449.33       676.76 Tenebreux126}
+  {     5449.33       676.76 Tenebreux126}
+  {     5449.33       676.76 Tenebreux126}
+  {     5672.10       365.61 Tenebreux127}
+  {     5672.10       365.61 Tenebreux127}
+  {     5672.10       365.61 Tenebreux127}
+  {     5672.10       365.61 Tenebreux127}
+  {     6074.47       164.12 Tenebreux128}
+  {     4868.76      1298.87 Tenebreux123}
+  {     4868.76      1298.87 Tenebreux123}
+  {     4868.76      1298.87 Tenebreux123}
+  {     4538.46      1253.03 Tenebreux129}
+  {     4538.46      1253.03 Tenebreux129}
+  {     4538.46      1253.03 Tenebreux129}
+  {     4538.46      1253.03 Tenebreux129}
+  {     4439.90      1298.78 Tenebreux130}
+  {     4439.90      1298.78 Tenebreux130}
+  {     4439.90      1298.78 Tenebreux130}
+  {     4439.90      1298.78 Tenebreux130}
+  {     4367.35      1317.01 Tenebreux131}
+  {     4367.35      1317.01 Tenebreux131}
+  {     4367.35      1317.01 Tenebreux131}
+  {     4367.35      1317.01 Tenebreux131}
+  {     4296.45      1335.34 Tenebreux132}
+  {     4296.45      1335.34 Tenebreux132}
+  {     4296.45      1335.34 Tenebreux132}
+  {     4296.45      1335.34 Tenebreux132}
+  {     4207.69      1362.82 Tenebreux133}
+  {     4207.69      1362.82 Tenebreux133}
+  {     4207.69      1362.82 Tenebreux133}
+  {     4207.69      1362.82 Tenebreux133}
+  {     4113.40      1381.15 Tenebreux134}
+  {     4113.40      1381.15 Tenebreux134}
+  {     4113.40      1381.15 Tenebreux134}
+  {     4113.40      1381.15 Tenebreux134}
+  {     3904.71      1435.89 Tenebreux135}
+  {     3904.71      1435.89 Tenebreux135}
+  {     3904.71      1435.89 Tenebreux135}
+  {     3904.71      1435.89 Tenebreux135}
+  {     3776.69      1445.07 Tenebreux136}
+  {     3776.69      1445.07 Tenebreux136}
+  {     3776.69      1445.07 Tenebreux136}
+  {     3776.69      1445.07 Tenebreux136}
+  {     3630.52      1454.27 Tenebreux137}
+  {     3630.52      1454.27 Tenebreux137}
+  {     3630.52      1454.27 Tenebreux137}
+  {     3630.52      1454.27 Tenebreux137}
+  {     3571.26      1499.91 Tenebreux138}
+  {     3571.26      1499.91 Tenebreux138}
+  {     3571.26      1499.91 Tenebreux138}
+  {     3571.26      1499.91 Tenebreux138}
+  {     3308.91      1518.25 Tenebreux139}
+  {     3308.91      1518.25 Tenebreux139}
+  {     3308.91      1518.25 Tenebreux139}
+  {     3308.91      1518.25 Tenebreux139}
+  {     3125.57      1536.55 Tenebreux140}
+  {     3125.57      1536.55 Tenebreux140}
+  {     3125.57      1536.55 Tenebreux140}
+  {     3125.57      1536.55 Tenebreux140}
+  {     3039.25      1563.93 Tenebreux141}
+  {     3039.25      1563.93 Tenebreux141}
+  {     3039.25      1563.93 Tenebreux141}
+  {     3039.25      1563.93 Tenebreux141}
+  {     2883.74      1563.93 Tenebreux142}
+  {     2883.74      1563.93 Tenebreux142}
+  {     2883.74      1563.93 Tenebreux142}
+  {     2883.74      1563.93 Tenebreux142}
+  {     2815.85      1591.37 Tenebreux143}
+  {     2815.85      1591.37 Tenebreux143}
+  {     2815.85      1591.37 Tenebreux143}
+  {     2815.85      1591.37 Tenebreux143}
+  {     2698.66      1664.59 Tenebreux144}
+  {     2698.66      1664.59 Tenebreux144}
+  {     2698.66      1664.59 Tenebreux144}
+  {     2698.66      1664.59 Tenebreux144}
+  {     2831.83      1737.81 Tenebreux145}
+  {     2831.83      1737.81 Tenebreux145}
+  {     2831.83      1737.81 Tenebreux145}
+  {     2831.83      1737.81 Tenebreux145}
+  {     2691.27      1756.06 Tenebreux146}
+  {     2691.27      1756.06 Tenebreux146}
+  {     2691.27      1756.06 Tenebreux146}
+  {     2691.27      1756.06 Tenebreux146}
+  {     2431.68      1783.34 Tenebreux147}
+  {     2431.68      1783.34 Tenebreux147}
+  {     2431.68      1783.34 Tenebreux147}
+  {     2431.68      1783.34 Tenebreux147}
+  {     2243.57      1801.46 Tenebreux148}
+  {     2243.57      1801.46 Tenebreux148}
+  {     2243.57      1801.46 Tenebreux148}
+  {     2243.57      1801.46 Tenebreux148}
+  {     2077.26      1819.82 Tenebreux149}
+  {     2077.26      1819.82 Tenebreux149}
+  {     2077.26      1819.82 Tenebreux149}
+  {     2077.26      1819.82 Tenebreux149}
+  {     1839.93      1856.56 Tenebreux150}
+  {     1839.93      1856.56 Tenebreux150}
+  {     1839.93      1856.56 Tenebreux150}
+  {     1839.93      1856.56 Tenebreux150}
+  {     1064.26      1929.88 Tenebreux151}
+  {     1064.26      1929.88 Tenebreux151}
+  {     1064.26      1929.88 Tenebreux151}
+  {     1064.26      1929.88 Tenebreux151}
+  {     1064.26      1929.88 Tenebreux151}
+  {     1064.26      1929.88 Tenebreux151}
+  {      788.74      1966.64 Tenebreux152}
+  {      788.74      1966.64 Tenebreux152}
+  {      788.74      1966.64 Tenebreux152}
+  {      788.74      1966.64 Tenebreux152}
+  {      964.30      2323.43 Tenebreux153}
+  {      964.30      2323.43 Tenebreux153}
+  {      964.30      2323.43 Tenebreux153}
+  {      964.30      2323.43 Tenebreux153}
+  {     1074.07      2360.15 Tenebreux154}
+  {     1074.07      2360.15 Tenebreux154}
+  {     1074.07      2360.15 Tenebreux154}
+  {     1074.07      2360.15 Tenebreux154}
+  {      808.17      2460.63 Tenebreux155}
+  {      808.17      2460.63 Tenebreux155}
+  {      808.17      2460.63 Tenebreux155}
+  {      808.17      2460.63 Tenebreux155}
+  {     -142.70      2497.16 Tenebreux156}
+  {     -142.70      2497.16 Tenebreux156}
+  {     -142.70      2497.16 Tenebreux156}
+  {     -142.70      2497.16 Tenebreux156}
+  {     -306.62      2506.32 Tenebreux157}
+  {     -306.62      2506.32 Tenebreux157}
+  {     -306.62      2506.32 Tenebreux157}
+  {     -306.62      2506.32 Tenebreux157}
+  {     -657.22      2551.86 Tenebreux158}
+  {     -657.22      2551.86 Tenebreux158}
+  {     -657.22      2551.86 Tenebreux158}
+  {     -657.22      2551.86 Tenebreux158}
+  {     -898.32      2606.63 Tenebreux159}
+  {     -898.32      2606.63 Tenebreux159}
+  {     -898.32      2606.63 Tenebreux159}
+  {     -898.32      2606.63 Tenebreux159}
+  {    -1093.18      2670.70 Tenebreux160}
+  {    -1093.18      2670.70 Tenebreux160}
+  {    -1093.18      2670.70 Tenebreux160}
+  {    -1093.18      2670.70 Tenebreux160}
+  {    -1233.80      2698.29 Tenebreux161}
+  {    -1233.80      2698.29 Tenebreux161}
+  {    -1233.80      2698.29 Tenebreux161}
+  {    -1233.80      2698.29 Tenebreux161}
+  {    -1453.36      2753.44 Tenebreux162}
+  {    -1453.36      2753.44 Tenebreux162}
+  {    -1453.36      2753.44 Tenebreux162}
+  {    -1453.36      2753.44 Tenebreux162}
+  {    -1595.51      2771.65 Tenebreux163}
+  {    -1595.51      2771.65 Tenebreux163}
+  {    -1595.51      2771.65 Tenebreux163}
+  {    -1595.51      2771.65 Tenebreux163}
+  {    -1765.87      2817.30 Tenebreux164}
+  {    -1765.87      2817.30 Tenebreux164}
+  {    -1765.87      2817.30 Tenebreux164}
+  {    -1765.87      2817.30 Tenebreux164}
+  {    -1929.26      2817.30 Tenebreux165}
+  {    -1929.26      2817.30 Tenebreux165}
+  {    -1929.26      2817.30 Tenebreux165}
+  {    -1929.26      2817.30 Tenebreux165}
+  {    -2186.98      2826.30 Tenebreux166}
+  {    -2186.98      2826.30 Tenebreux166}
+  {    -2186.98      2826.30 Tenebreux166}
+  {    -2186.98      2826.30 Tenebreux166}
+  {    -2455.67      2853.59 Tenebreux167}
+  {    -2455.67      2853.59 Tenebreux167}
+  {    -2455.67      2853.59 Tenebreux167}
+  {    -2455.67      2853.59 Tenebreux167}
+  {    -2710.62      2862.94 Tenebreux168}
+  {    -2710.62      2862.94 Tenebreux168}
+  {    -2710.62      2862.94 Tenebreux168}
+  {    -2710.62      2862.94 Tenebreux168}
+  {    -2977.32      2881.12 Tenebreux169}
+  {    -2977.32      2881.12 Tenebreux169}
+  {    -2977.32      2881.12 Tenebreux169}
+  {    -2977.32      2881.12 Tenebreux169}
+  {    -3355.16      2890.36 Tenebreux170}
+  {    -3355.16      2890.36 Tenebreux170}
+  {    -3355.16      2890.36 Tenebreux170}
+  {    -3355.16      2890.36 Tenebreux170}
+  {    -3517.90      2899.45 Tenebreux171}
+  {    -3517.90      2899.45 Tenebreux171}
+  {    -3517.90      2899.45 Tenebreux171}
+  {    -3517.90      2899.45 Tenebreux171}
+  {    -3593.89      2899.45 Tenebreux172}
+  {    -3593.89      2899.45 Tenebreux172}
+  {    -3593.89      2899.45 Tenebreux172}
+  {    -3593.89      2899.45 Tenebreux172}
+  {    -4117.18      2926.88 Tenebreux173}
+  {    -4117.18      2926.88 Tenebreux173}
+  {    -4117.18      2926.88 Tenebreux173}
+  {    -4117.18      2926.88 Tenebreux173}
+  {    -4364.89      2890.30 Tenebreux174}
+  {    -4364.89      2890.30 Tenebreux174}
+  {    -4364.89      2890.30 Tenebreux174}
+  {    -4364.89      2890.30 Tenebreux174}
+  {    -4068.69      2853.93 Tenebreux175}
+  {    -4068.69      2853.93 Tenebreux175}
+  {    -4068.69      2853.93 Tenebreux175}
+  {    -4068.69      2853.93 Tenebreux175}
+  {    -3920.05      2808.21 Tenebreux176}
+  {    -3920.05      2808.21 Tenebreux176}
+  {    -3920.05      2808.21 Tenebreux176}
+  {    -3920.05      2808.21 Tenebreux176}
+  {    -3686.78      2798.84 Tenebreux177}
+  {    -3686.78      2798.84 Tenebreux177}
+  {    -3686.78      2798.84 Tenebreux177}
+  {    -3686.78      2798.84 Tenebreux177}
+  {    -3398.19      2798.84 Tenebreux178}
+  {    -3398.19      2798.84 Tenebreux178}
+  {    -3398.19      2798.84 Tenebreux178}
+  {    -3398.19      2798.84 Tenebreux178}
+  {    -3234.26      2780.45 Tenebreux179}
+  {    -3234.26      2780.45 Tenebreux179}
+  {    -3234.26      2780.45 Tenebreux179}
+  {    -3234.26      2780.45 Tenebreux179}
+  {    -3412.21      2780.45 Tenebreux180}
+  {    -3412.21      2780.45 Tenebreux180}
+  {    -3412.21      2780.45 Tenebreux180}
+  {    -3412.21      2780.45 Tenebreux180}
+  {    -3147.04      2743.65 Tenebreux181}
+  {    -3147.04      2743.65 Tenebreux181}
+  {    -3147.04      2743.65 Tenebreux181}
+  {    -3147.04      2743.65 Tenebreux181}
+  {    -2728.93      2725.40 Tenebreux182}
+  {    -2728.93      2725.40 Tenebreux182}
+  {    -2728.93      2725.40 Tenebreux182}
+  {    -2728.93      2725.40 Tenebreux182}
+  {    -2963.58      2725.40 Tenebreux183}
+  {    -2963.58      2725.40 Tenebreux183}
+  {    -2963.58      2725.40 Tenebreux183}
+  {    -2963.58      2725.40 Tenebreux183}
+  {    -2776.57      2725.40 Tenebreux184}
+  {    -2776.57      2725.40 Tenebreux184}
+  {    -2776.57      2725.40 Tenebreux184}
+  {    -2776.57      2725.40 Tenebreux184}
+  {    -2606.49      2725.40 Tenebreux185}
+  {    -2606.49      2725.40 Tenebreux185}
+  {    -2606.49      2725.40 Tenebreux185}
+  {    -2606.49      2725.40 Tenebreux185}
+  {    -2475.39      2725.40 Tenebreux186}
+  {    -2475.39      2725.40 Tenebreux186}
+  {    -2475.39      2725.40 Tenebreux186}
+  {    -2475.39      2725.40 Tenebreux186}
+  {    -2250.77      2716.38 Tenebreux187}
+  {    -2250.77      2716.38 Tenebreux187}
+  {    -2250.77      2716.38 Tenebreux187}
+  {    -2250.77      2716.38 Tenebreux187}
+  {    -2072.42      2716.38 Tenebreux188}
+  {    -2072.42      2716.38 Tenebreux188}
+  {    -2072.42      2716.38 Tenebreux188}
+  {    -2072.42      2716.38 Tenebreux188}
+  {    -1973.71      2698.08 Tenebreux189}
+  {    -1973.71      2698.08 Tenebreux189}
+  {    -1973.71      2698.08 Tenebreux189}
+  {    -1973.71      2698.08 Tenebreux189}
+  {    -1826.66      2670.56 Tenebreux190}
+  {    -1826.66      2670.56 Tenebreux190}
+  {    -1826.66      2670.56 Tenebreux190}
+  {    -1826.66      2670.56 Tenebreux190}
+  {    -1753.03      2670.56 Tenebreux191}
+  {    -1753.03      2670.56 Tenebreux191}
+  {    -1753.03      2670.56 Tenebreux191}
+  {    -1753.03      2670.56 Tenebreux191}
+  {    -1631.38      2670.56 Tenebreux192}
+  {    -1631.38      2670.56 Tenebreux192}
+  {    -1631.38      2670.56 Tenebreux192}
+  {    -1631.38      2670.56 Tenebreux192}
+  {    -1446.77      2634.01 Tenebreux193}
+  {    -1446.77      2634.01 Tenebreux193}
+  {    -1446.77      2634.01 Tenebreux193}
+  {    -1446.77      2634.01 Tenebreux193}
+  {    -1369.35      2624.91 Tenebreux194}
+  {    -1369.35      2624.91 Tenebreux194}
+  {    -1369.35      2624.91 Tenebreux194}
+  {    -1369.35      2624.91 Tenebreux194}
+  {    -1184.35      2597.59 Tenebreux195}
+  {    -1184.35      2597.59 Tenebreux195}
+  {    -1184.35      2597.59 Tenebreux195}
+  {    -1184.35      2597.59 Tenebreux195}
+  {     -467.42      2597.59 Tenebreux196}
+  {     -467.42      2597.59 Tenebreux196}
+  {     -467.42      2597.59 Tenebreux196}
+  {     -467.42      2597.59 Tenebreux196}
+  {     -672.46      2561.07 Tenebreux197}
+  {     -672.46      2561.07 Tenebreux197}
+  {     -672.46      2561.07 Tenebreux197}
+  {     -672.46      2561.07 Tenebreux197}
+  {     -552.35      2533.56 Tenebreux198}
+  {     -552.35      2533.56 Tenebreux198}
+  {     -552.35      2533.56 Tenebreux198}
+  {     -552.35      2533.56 Tenebreux198}
+  {     -411.29      2506.14 Tenebreux199}
+  {     -411.29      2506.14 Tenebreux199}
+  {     -411.29      2506.14 Tenebreux199}
+  {     -411.29      2506.14 Tenebreux199}
+  {     -411.29      2506.14 Tenebreux199}
+  {     -291.99      2506.14 Tenebreux200}
+  {     -291.99      2506.14 Tenebreux200}
+  {     -291.99      2506.14 Tenebreux200}
+  {     -291.99      2506.14 Tenebreux200}
+  {     -291.99      2506.14 Tenebreux200}
+  {     -291.99      2506.14 Tenebreux200}
+  {      -93.50      2222.66 Tenebreux201}
+  {      -93.50      2222.66 Tenebreux201}
+  {      -93.50      2222.66 Tenebreux201}
+  {      -93.50      2222.66 Tenebreux201}
+  {      240.64      2149.20 Tenebreux202}
+  {      240.64      2149.20 Tenebreux202}
+  {      240.64      2149.20 Tenebreux202}
+  {      240.64      2149.20 Tenebreux202}
+  {      434.07      2112.65 Tenebreux203}
+  {      434.07      2112.65 Tenebreux203}
+  {      434.07      2112.65 Tenebreux203}
+  {      434.07      2112.65 Tenebreux203}
+  {      656.94      2094.32 Tenebreux204}
+  {      656.94      2094.32 Tenebreux204}
+  {      656.94      2094.32 Tenebreux204}
+  {      656.94      2094.32 Tenebreux204}
+  {      871.12      2075.96 Tenebreux205}
+  {      871.12      2075.96 Tenebreux205}
+  {      871.12      2075.96 Tenebreux205}
+  {      871.12      2075.96 Tenebreux205}
+  {     1037.36      2048.44 Tenebreux206}
+  {     1037.36      2048.44 Tenebreux206}
+  {     1037.36      2048.44 Tenebreux206}
+  {     1037.36      2048.44 Tenebreux206}
+  {      771.45      2020.96 Tenebreux207}
+  {      771.45      2020.96 Tenebreux207}
+  {      771.45      2020.96 Tenebreux207}
+  {      771.45      2020.96 Tenebreux207}
+  {     1029.04      1993.43 Tenebreux208}
+  {     1029.04      1993.43 Tenebreux208}
+  {     1029.04      1993.43 Tenebreux208}
+  {     1029.04      1993.43 Tenebreux208}
+  {     1276.36      1956.91 Tenebreux209}
+  {    -3412.21      2780.45 Tenebreux180}
+  {    -3412.21      2780.45 Tenebreux180}
+  {    -3412.21      2780.45 Tenebreux180}
+  {    -3657.19      2798.87 Tenebreux210}
+  {    -3657.19      2798.87 Tenebreux210}
+  {    -3657.19      2798.87 Tenebreux210}
+  {    -3657.19      2798.87 Tenebreux210}
+  {    -3827.42      2789.65 Tenebreux211}
+  {    -3827.42      2789.65 Tenebreux211}
+  {    -3827.42      2789.65 Tenebreux211}
+  {    -3827.42      2789.65 Tenebreux211}
+  {    -3958.20      2780.50 Tenebreux212}
+  {    -3958.20      2780.50 Tenebreux212}
+  {    -3958.20      2780.50 Tenebreux212}
+  {    -3958.20      2780.50 Tenebreux212}
+  {    -4259.21      2798.91 Tenebreux213}
+  {    -4259.21      2798.91 Tenebreux213}
+  {    -4259.21      2798.91 Tenebreux213}
+  {    -4259.21      2798.91 Tenebreux213}
+  {    -4384.80      2798.91 Tenebreux214}
+  {    -4384.80      2798.91 Tenebreux214}
+  {    -4384.80      2798.91 Tenebreux214}
+  {    -4384.80      2798.91 Tenebreux214}
+  {    -4663.35      2853.56 Tenebreux215}
+  {    -4663.35      2853.56 Tenebreux215}
+  {    -4663.35      2853.56 Tenebreux215}
+  {    -4663.35      2853.56 Tenebreux215}
+  {    -4896.65      2926.68 Tenebreux216}
+  {    -4896.65      2926.68 Tenebreux216}
+  {    -4896.65      2926.68 Tenebreux216}
+  {    -4896.65      2926.68 Tenebreux216}
+  {    -5038.26      2972.42 Tenebreux217}
+  {    -5038.26      2972.42 Tenebreux217}
+  {    -5038.26      2972.42 Tenebreux217}
+  {    -5038.26      2972.42 Tenebreux217}
+  {    -5221.26      3008.98 Tenebreux218}
+  {    -5221.26      3008.98 Tenebreux218}
+  {    -5221.26      3008.98 Tenebreux218}
+  {    -5221.26      3008.98 Tenebreux218}
+  {    -5480.57      3091.24 Tenebreux219}
+  {    -5480.57      3091.24 Tenebreux219}
+  {    -5480.57      3091.24 Tenebreux219}
+  {    -5480.57      3091.24 Tenebreux219}
+  {    -5878.05      3173.55 Tenebreux220}
+  {    -4663.35      2853.56 Tenebreux215}
+  {    -4663.35      2853.56 Tenebreux215}
+  {    -4663.35      2853.56 Tenebreux215}
+  {    -4813.86      2844.36 Tenebreux221}
+  {    -4813.86      2844.36 Tenebreux221}
+  {    -4813.86      2844.36 Tenebreux221}
+  {    -4813.86      2844.36 Tenebreux221}
+  {    -4990.63      2917.58 Tenebreux222}
+  {    -4990.63      2917.58 Tenebreux222}
+  {    -4990.63      2917.58 Tenebreux222}
+  {    -4990.63      2917.58 Tenebreux222}
+  {    -5073.20      2908.46 Tenebreux223}
+  {    -5073.20      2908.46 Tenebreux223}
+  {    -5073.20      2908.46 Tenebreux223}
+  {    -5073.20      2908.46 Tenebreux223}
+  {    -5183.83      2908.46 Tenebreux224}
+  {    -5183.83      2908.46 Tenebreux224}
+  {    -5183.83      2908.46 Tenebreux224}
+  {    -5183.83      2908.46 Tenebreux224}
+  {    -5305.96      2935.99 Tenebreux225}
+  {    -5305.96      2935.99 Tenebreux225}
+  {    -5305.96      2935.99 Tenebreux225}
+  {    -5305.96      2935.99 Tenebreux225}
+  {    -5428.84      2945.23 Tenebreux226}
+  {    -5428.84      2945.23 Tenebreux226}
+  {    -5428.84      2945.23 Tenebreux226}
+  {    -5428.84      2945.23 Tenebreux226}
+  {    -5654.10      2963.35 Tenebreux227}
+  {    -5654.10      2963.35 Tenebreux227}
+  {    -5654.10      2963.35 Tenebreux227}
+  {    -5654.10      2963.35 Tenebreux227}
+  {    -5808.13      2944.99 Tenebreux228}
+  {    -5808.13      2944.99 Tenebreux228}
+  {    -5808.13      2944.99 Tenebreux228}
+  {    -5808.13      2944.99 Tenebreux228}
+  {    -5972.87      2963.17 Tenebreux229}
+  {    -5972.87      2963.17 Tenebreux229}
+  {    -5972.87      2963.17 Tenebreux229}
+  {    -5972.87      2963.17 Tenebreux229}
+  {    -6136.42      2944.83 Tenebreux230}
+  {    -6136.42      2944.83 Tenebreux230}
+  {    -6136.42      2944.83 Tenebreux230}
+  {    -6136.42      2944.83 Tenebreux230}
+  {    -6235.43      2972.29 Tenebreux231}
+  {    -6235.43      2972.29 Tenebreux231}
+  {    -6235.43      2972.29 Tenebreux231}
+  {    -6235.43      2972.29 Tenebreux231}
+  {    -6303.32      2981.47 Tenebreux232}
+  {    -6303.32      2981.47 Tenebreux232}
+  {    -6303.32      2981.47 Tenebreux232}
+  {    -6303.32      2981.47 Tenebreux232}
+  {    -6384.70      2972.34 Tenebreux233}
+  {    -6384.70      2972.34 Tenebreux233}
+  {    -6384.70      2972.34 Tenebreux233}
+  {    -6384.70      2972.34 Tenebreux233}
+  {    -6957.52      3009.38 Tenebreux234}
+  {    -6957.52      3009.38 Tenebreux234}
+  {    -6957.52      3009.38 Tenebreux234}
+  {    -6957.52      3009.38 Tenebreux234}
+  {    -7344.77      3045.99 Tenebreux235}
+  {    -7344.77      3045.99 Tenebreux235}
+  {    -7344.77      3045.99 Tenebreux235}
+  {    -7344.77      3045.99 Tenebreux235}
+  {    -7508.65      3119.29 Tenebreux236}
+  {    -7344.77      3045.99 Tenebreux235}
+  {    -7344.77      3045.99 Tenebreux235}
+  {    -7344.77      3045.99 Tenebreux235}
+  {    -7404.37      3100.99 Tenebreux237}
+  {    -7404.37      3100.99 Tenebreux237}
+  {    -7404.37      3100.99 Tenebreux237}
+  {    -7404.37      3100.99 Tenebreux237}
+  {    -7453.85      3119.29 Tenebreux238}
+  {    -7453.85      3119.29 Tenebreux238}
+  {    -7453.85      3119.29 Tenebreux238}
+  {    -7453.85      3119.29 Tenebreux238}
+  {    -7638.82      3174.08 Tenebreux239}
+  {    -7638.82      3174.08 Tenebreux239}
+  {    -7638.82      3174.08 Tenebreux239}
+  {    -7638.82      3174.08 Tenebreux239}
+  {    -7775.44      3201.63 Tenebreux240}
+  {    -7775.44      3201.63 Tenebreux240}
+  {    -7775.44      3201.63 Tenebreux240}
+  {    -7775.44      3201.63 Tenebreux240}
+  {    -7856.82      3210.76 Tenebreux241}
+  {    -7856.82      3210.76 Tenebreux241}
+  {    -7856.82      3210.76 Tenebreux241}
+  {    -7856.82      3210.76 Tenebreux241}
+  {    -7999.44      3219.98 Tenebreux242}
+  {    -7999.44      3219.98 Tenebreux242}
+  {    -7999.44      3219.98 Tenebreux242}
+  {    -7999.44      3219.98 Tenebreux242}
+  {    -8081.33      3219.98 Tenebreux243}
+  {    -8081.33      3219.98 Tenebreux243}
+  {    -8081.33      3219.98 Tenebreux243}
+  {    -8081.33      3219.98 Tenebreux243}
+  {    -8380.39      3229.38 Tenebreux244}
+  {    -8380.39      3229.38 Tenebreux244}
+  {    -8380.39      3229.38 Tenebreux244}
+  {    -8380.39      3229.38 Tenebreux244}
+  {    -8574.27      3238.52 Tenebreux245}
+  {    -8574.27      3238.52 Tenebreux245}
+  {    -8574.27      3238.52 Tenebreux245}
+  {    -8574.27      3238.52 Tenebreux245}
+  {    -8898.17      3220.41 Tenebreux246}
+  {    -8898.17      3220.41 Tenebreux246}
+  {    -8898.17      3220.41 Tenebreux246}
+  {    -8898.17      3220.41 Tenebreux246}
+  {    -9029.20      3247.79 Tenebreux247}
+  {    -9029.20      3247.79 Tenebreux247}
+  {    -9029.20      3247.79 Tenebreux247}
+  {    -9029.20      3247.79 Tenebreux247}
+  {    -9029.20      3247.79 Tenebreux247}
+  {    -9029.20      3247.79 Tenebreux247}
+  {    -9134.54      1573.54 Tenebreux248}
+  {    -9134.54      1573.54 Tenebreux248}
+  {    -9134.54      1573.54 Tenebreux248}
+  {    -9134.54      1573.54 Tenebreux248}
+  {    -9134.54      1573.54 Tenebreux248}
+  {    -9134.54      1573.54 Tenebreux248}
+  {    -8563.47       704.17 Tenebreux249}
+  {    -8563.47       704.17 Tenebreux249}
+  {    -8563.47       704.17 Tenebreux249}
+  {    -8563.47       704.17 Tenebreux249}
+  {    -8563.47       704.17 Tenebreux249}
+  {    -7901.61       576.71 Tenebreux250}
+  {    -7901.61       576.71 Tenebreux250}
+  {    -7901.61       576.71 Tenebreux250}
+  {    -7901.61       576.71 Tenebreux250}
+  {    -7901.61       576.71 Tenebreux250}
+  {    -8460.43        73.55 Tenebreux251}
+  {    -8460.43        73.55 Tenebreux251}
+  {    -8460.43        73.55 Tenebreux251}
+  {    -8460.43        73.55 Tenebreux251}
+  {    -8460.43        73.55 Tenebreux251}
+  {    -8460.43        73.55 Tenebreux251}
+  {    -8587.91      -338.27 Tenebreux252}
+  {    -8587.91      -338.27 Tenebreux252}
+  {    -8587.91      -338.27 Tenebreux252}
+  {    -8587.91      -338.27 Tenebreux252}
+  {    -8587.91      -338.27 Tenebreux252}
+  {    -8414.45      -457.05 Tenebreux253}
+  {    -4117.18      2926.88 Tenebreux173}
+  {    -4117.18      2926.88 Tenebreux173}
+  {    -4510.66      2981.48 Tenebreux254}
+  {    -4510.66      2981.48 Tenebreux254}
+  {    -4510.66      2981.48 Tenebreux254}
+  {    -4510.66      2981.48 Tenebreux254}
+  {    -4669.84      2990.66 Tenebreux255}
+  {    -4669.84      2990.66 Tenebreux255}
+  {    -4669.84      2990.66 Tenebreux255}
+  {    -4669.84      2990.66 Tenebreux255}
+  {    -4873.76      3008.86 Tenebreux256}
+  {    -4873.76      3008.86 Tenebreux256}
+  {    -4873.76      3008.86 Tenebreux256}
+  {    -4873.76      3008.86 Tenebreux256}
+  {    -5048.71      3018.02 Tenebreux257}
+  {    -5048.71      3018.02 Tenebreux257}
+  {    -5048.71      3018.02 Tenebreux257}
+  {    -5048.71      3018.02 Tenebreux257}
+  {    -5177.72      3045.45 Tenebreux258}
+  {    -5177.72      3045.45 Tenebreux258}
+  {    -5177.72      3045.45 Tenebreux258}
+  {    -5177.72      3045.45 Tenebreux258}
+  {    -5450.38      3072.66 Tenebreux259}
+  {    -5450.38      3072.66 Tenebreux259}
+  {    -5450.38      3072.66 Tenebreux259}
+  {    -5450.38      3072.66 Tenebreux259}
+  {    -5554.71      3081.79 Tenebreux260}
+  {    -5554.71      3081.79 Tenebreux260}
+  {    -5554.71      3081.79 Tenebreux260}
+  {    -5554.71      3081.79 Tenebreux260}
+  {    -5810.74      3100.14 Tenebreux261}
+  {    -5810.74      3100.14 Tenebreux261}
+  {    -5810.74      3100.14 Tenebreux261}
+  {    -5810.74      3100.14 Tenebreux261}
+  {    -6111.72      3154.84 Tenebreux262}
+  {    -6111.72      3154.84 Tenebreux262}
+  {    -6111.72      3154.84 Tenebreux262}
+  {    -6111.72      3154.84 Tenebreux262}
+  {    -6159.55      3474.91 Tenebreux263}
+}
+set XVIshots {
+  {     -466.12      6971.71      -544.86      6971.71}
+  {     -466.12      6971.71      -387.38      6971.71}
+  {     -466.12      6971.71      -466.12      7089.82}
+  {     -466.12      6971.71      -466.12      6853.60}
+  {     -466.12      6971.71      -432.10      5672.55}
+  {     -432.10      5672.55      -274.62      5672.55}
+  {     -432.10      5672.55      -589.58      5672.55}
+  {     -432.10      5672.55      -432.10      5830.03}
+  {     -432.10      5672.55      -432.10      5515.07}
+  {     -432.10      5672.55      -449.10      4977.09}
+  {     -432.10      5672.55      -471.47      5672.55}
+  {     -432.10      5672.55      -432.10      5869.40}
+  {     -432.10      5672.55      -378.92      5645.10}
+  {     -378.92      5645.10      -418.29      5645.10}
+  {     -378.92      5645.10      -378.92      5841.95}
+  {     -378.92      5645.10      -248.53      5535.30}
+  {     -248.53      5535.30      -406.01      5535.30}
+  {     -248.53      5535.30       -91.05      5535.30}
+  {     -248.53      5535.30      -248.53      5692.78}
+  {     -248.53      5535.30      -248.53      5377.81}
+  {     -248.53      5535.30      -111.10      4108.04}
+  {     -111.10      4108.04      -150.47      4108.04}
+  {     -111.10      4108.04      -111.10      4304.89}
+  {     -111.10      4108.04       110.36      4098.76}
+  {      110.36      4098.76        70.99      4098.76}
+  {      110.36      4098.76       110.36      4295.61}
+  {      110.36      4098.76       318.27      3989.14}
+  {      318.27      3989.14       160.79      3989.14}
+  {      318.27      3989.14       475.75      3989.14}
+  {      318.27      3989.14       318.27      4185.99}
+  {      318.27      3989.14       318.27      3831.66}
+  {      318.27      3989.14       425.34      3805.92}
+  {      425.34      3805.92       385.97      3805.92}
+  {      425.34      3805.92       425.34      4002.77}
+  {      425.34      3805.92       595.14      3650.32}
+  {      595.14      3650.32       555.77      3650.32}
+  {      595.14      3650.32       595.14      3847.17}
+  {      595.14      3650.32      1138.83      3614.21}
+  {     1138.83      3614.21      1099.46      3614.21}
+  {     1138.83      3614.21      1138.83      3811.06}
+  {     1138.83      3614.21      1713.17      3605.19}
+  {     1713.17      3605.19      1673.80      3605.19}
+  {     1713.17      3605.19      1713.17      3802.04}
+  {     1713.17      3605.19      2322.54      3595.62}
+  {     2322.54      3595.62      2283.17      3595.62}
+  {     2322.54      3595.62      2322.54      3792.47}
+  {     2322.54      3595.62      2567.07      3568.19}
+  {     2567.07      3568.19      2567.07      3765.04}
+  {     2567.07      3568.19      2618.70      3000.85}
+  {     2618.70      3000.85      2579.33      3000.85}
+  {     2618.70      3000.85      2618.70      3197.70}
+  {     2618.70      3000.85      2952.50      2963.99}
+  {     2952.50      2963.99      2913.13      2963.99}
+  {     2952.50      2963.99      2952.50      3160.84}
+  {     2952.50      2963.99      3334.20      2936.63}
+  {     3334.20      2936.63      3294.83      2936.63}
+  {     3334.20      2936.63      3334.20      3133.48}
+  {     3334.20      2936.63      3495.06      2900.09}
+  {     3495.06      2900.09      3495.06      2900.09}
+  {     3495.06      2900.09      3495.06      2900.09}
+  {     3495.06      2900.09      3495.06      3057.57}
+  {     3495.06      2900.09      3495.06      2742.61}
+  {     3495.06      2900.09      3432.20      2662.19}
+  {     3432.20      2662.19      3392.83      2662.19}
+  {     3432.20      2662.19      3432.20      2859.04}
+  {     3432.20      2662.19      3257.16      2524.93}
+  {     3257.16      2524.93      3296.53      2524.93}
+  {     3257.16      2524.93      3257.16      2721.78}
+  {     3257.16      2524.93      3441.74      2424.30}
+  {     3441.74      2424.30      3481.11      2424.30}
+  {     3441.74      2424.30      3441.74      2621.15}
+  {     3441.74      2424.30      3687.36      2351.07}
+  {     3687.36      2351.07      3529.88      2351.07}
+  {     3687.36      2351.07      3844.84      2351.07}
+  {     3687.36      2351.07      3687.36      2508.55}
+  {     3687.36      2351.07      3687.36      2193.59}
+  {     3687.36      2351.07      3813.54      2076.73}
+  {     3813.54      2076.73      3852.91      2076.73}
+  {     3813.54      2076.73      3813.54      2273.58}
+  {     3813.54      2076.73      4122.07      2021.78}
+  {     4122.07      2021.78      4161.44      2021.78}
+  {     4122.07      2021.78      4122.07      2218.63}
+  {     4122.07      2021.78      4297.42      1985.14}
+  {     4297.42      1985.14      4258.05      1985.14}
+  {     4297.42      1985.14      4297.42      2181.99}
+  {     4297.42      1985.14      4187.18      1985.14}
+  {     4187.18      1985.14      4187.18      1985.14}
+  {     4187.18      1985.14      4187.18      2181.99}
+  {     4187.18      1985.14      4312.64      1948.46}
+  {     4312.64      1948.46      4352.01      1948.46}
+  {     4312.64      1948.46      4312.64      2145.31}
+  {     4312.64      1948.46      4425.34      1911.84}
+  {     4425.34      1911.84      4425.34      1911.84}
+  {     4425.34      1911.84      4425.34      2108.69}
+  {     4425.34      1911.84      4137.29      1454.43}
+  {     4137.29      1454.43      4019.18      1454.43}
+  {     4137.29      1454.43      4255.40      1454.43}
+  {     4137.29      1454.43      4137.29      1572.54}
+  {     4137.29      1454.43      4137.29      1336.32}
+  {     4137.29      1454.43      4175.17      1399.73}
+  {     4137.29      1454.43      4176.66      1454.43}
+  {     4137.29      1454.43      4137.29      1651.28}
+  {     4137.29      1454.43      4323.36      1573.42}
+  {     4323.36      1573.42      4362.73      1573.42}
+  {     4323.36      1573.42      4323.36      1770.27}
+  {     4323.36      1573.42      4565.59      1591.64}
+  {     4565.59      1591.64      4604.96      1591.64}
+  {     4565.59      1591.64      4565.59      1788.49}
+  {     4565.59      1591.64      4783.51      1582.50}
+  {     4783.51      1582.50      4822.88      1582.50}
+  {     4783.51      1582.50      4783.51      1779.35}
+  {     4783.51      1582.50      4925.96      1536.77}
+  {     4925.96      1536.77      4965.33      1536.77}
+  {     4925.96      1536.77      4925.96      1733.62}
+  {     4925.96      1536.77      5178.46      1518.67}
+  {     5178.46      1518.67      5217.83      1518.67}
+  {     5178.46      1518.67      5178.46      1715.52}
+  {     5178.46      1518.67      5363.28      1509.63}
+  {     5363.28      1509.63      5323.91      1509.63}
+  {     5363.28      1509.63      5363.28      1706.48}
+  {     5363.28      1509.63      5620.43      1454.50}
+  {     5620.43      1454.50      5581.06      1454.50}
+  {     5620.43      1454.50      5620.43      1651.35}
+  {     5620.43      1454.50      5730.46      1317.16}
+  {     5730.46      1317.16      5691.09      1317.16}
+  {     5730.46      1317.16      5730.46      1514.01}
+  {     5730.46      1317.16      5925.26      1335.57}
+  {     5925.26      1335.57      5885.89      1335.57}
+  {     5925.26      1335.57      5925.26      1532.42}
+  {     5925.26      1335.57      6011.79      1326.48}
+  {     6011.79      1326.48      5972.42      1326.48}
+  {     6011.79      1326.48      6011.79      1523.33}
+  {     6011.79      1326.48      6136.03      1308.13}
+  {     6136.03      1308.13      6096.66      1308.13}
+  {     6136.03      1308.13      6136.03      1504.98}
+  {     6136.03      1308.13      6308.87      1308.13}
+  {     6308.87      1308.13      6348.24      1308.13}
+  {     6308.87      1308.13      6308.87      1504.98}
+  {     6308.87      1308.13      6130.24      1280.80}
+  {     6130.24      1280.80      6169.61      1280.80}
+  {     6130.24      1280.80      6130.24      1477.65}
+  {     6130.24      1280.80      6119.78      1235.13}
+  {     6119.78      1235.13      6080.41      1235.13}
+  {     6119.78      1235.13      6119.78      1431.98}
+  {     6119.78      1235.13      6320.57      1189.51}
+  {     6320.57      1189.51      6281.20      1189.51}
+  {     6320.57      1189.51      6320.57      1386.36}
+  {     6320.57      1189.51      6524.30      1116.16}
+  {     6524.30      1116.16      6484.93      1116.16}
+  {     6524.30      1116.16      6524.30      1313.01}
+  {     6524.30      1116.16      6660.88      1015.47}
+  {     6660.88      1015.47      6542.77      1015.47}
+  {     6660.88      1015.47      6778.99      1015.47}
+  {     6660.88      1015.47      6660.88      1133.58}
+  {     6660.88      1015.47      6660.88       897.36}
+  {     6660.88      1015.47      6697.69       732.02}
+  {     6697.69       732.02      6737.06       732.02}
+  {     6697.69       732.02      6697.69       928.87}
+  {     6697.69       732.02      6930.74       759.40}
+  {     6930.74       759.40      6930.74       759.40}
+  {     6930.74       759.40      6930.74       956.25}
+  {     6930.74       759.40      7066.97       786.87}
+  {     7066.97       786.87      7106.34       786.87}
+  {     7066.97       786.87      7066.97       983.72}
+  {     7066.97       786.87      7226.57       768.68}
+  {     7226.57       768.68      7265.94       768.68}
+  {     7226.57       768.68      7226.57       965.54}
+  {     7226.57       768.68      7401.59       750.29}
+  {     7401.59       750.29      7283.48       750.29}
+  {     7401.59       750.29      7519.70       750.29}
+  {     7401.59       750.29      7401.59       868.40}
+  {     7401.59       750.29      7401.59       632.18}
+  {     7401.59       750.29      7452.97       695.38}
+  {     7452.97       695.38      7452.97       892.23}
+  {     7452.97       695.38      7574.42       677.02}
+  {     7574.42       677.02      7613.79       677.02}
+  {     7574.42       677.02      7574.42       873.87}
+  {     7574.42       677.02      7465.36       686.17}
+  {     7465.36       686.17      7425.99       686.17}
+  {     7465.36       686.17      7465.36       883.02}
+  {     7465.36       686.17      7550.40       686.17}
+  {     7550.40       686.17      7511.03       686.17}
+  {     7550.40       686.17      7550.40       883.02}
+  {     7550.40       686.17      7686.69       695.47}
+  {     7686.69       695.47      7647.32       695.47}
+  {     7686.69       695.47      7686.69       892.32}
+  {     7686.69       695.47      7909.04       668.16}
+  {     7909.04       668.16      7948.41       668.16}
+  {     7909.04       668.16      7909.04       865.02}
+  {     7909.04       668.16      7826.47       677.28}
+  {     7826.47       677.28      7787.10       677.28}
+  {     7826.47       677.28      7826.47       874.13}
+  {     7826.47       677.28      7954.71       659.03}
+  {     7954.71       659.03      7915.34       659.03}
+  {     7954.71       659.03      7954.71       855.88}
+  {     7954.71       659.03      8095.75       668.15}
+  {     8095.75       668.15      8056.38       668.15}
+  {     8095.75       668.15      8095.75       865.00}
+  {     8095.75       668.15      8217.00       622.58}
+  {     8217.00       622.58      8177.63       622.58}
+  {     8217.00       622.58      8217.00       819.43}
+  {     8217.00       622.58      8318.18       622.58}
+  {     8318.18       622.58      8278.81       622.58}
+  {     8318.18       622.58      8318.18       819.43}
+  {     8318.18       622.58      8407.78       595.18}
+  {     8407.78       595.18      8368.41       595.18}
+  {     8407.78       595.18      8407.78       792.03}
+  {     8407.78       595.18      8565.66       595.18}
+  {     8565.66       595.18      8526.29       595.18}
+  {     8565.66       595.18      8565.66       792.03}
+  {     8565.66       595.18      8773.73       586.10}
+  {     8773.73       586.10      8773.73       586.10}
+  {     8773.73       586.10      8773.73       782.95}
+  {     8773.73       586.10      8689.58       576.96}
+  {     8689.58       576.96      8650.21       576.96}
+  {     8689.58       576.96      8689.58       773.81}
+  {     8689.58       576.96      8775.45       558.70}
+  {     8775.45       558.70      8736.08       558.70}
+  {     8775.45       558.70      8775.45       755.55}
+  {     8775.45       558.70      8886.54       540.31}
+  {     8886.54       540.31      8453.47       540.31}
+  {     8886.54       540.31      8886.54       737.16}
+  {     8886.54       540.31      8980.84       521.98}
+  {     8980.84       521.98      8980.84       521.98}
+  {     8980.84       521.98      8980.84       718.83}
+  {     8980.84       521.98      9043.79       485.35}
+  {     9043.79       485.35      9083.16       485.35}
+  {     9043.79       485.35      9043.79       682.20}
+  {     9043.79       485.35      8966.10       439.59}
+  {     8966.10       439.59      8926.73       439.59}
+  {     8966.10       439.59      8966.10       636.44}
+  {     8966.10       439.59      9133.17       412.23}
+  {     9133.17       412.23      9093.80       412.23}
+  {     9133.17       412.23      9133.17       609.08}
+  {     9133.17       412.23      9226.05       330.05}
+  {     9226.05       330.05      9422.90       330.05}
+  {     9226.05       330.05      9029.20       330.05}
+  {     9226.05       330.05      9226.05       723.75}
+  {     9226.05       330.05      9226.05       133.20}
+  {     9226.05       330.05      8952.42     -4143.87}
+  {     8952.42     -4143.87      8873.68     -4143.87}
+  {     8952.42     -4143.87      9070.53     -4143.87}
+  {     8952.42     -4143.87      8952.42     -3947.02}
+  {     8952.42     -4143.87      9124.42     -4253.44}
+  {     9124.42     -4253.44      8927.56     -4253.44}
+  {     9124.42     -4253.44      9321.27     -4253.44}
+  {     9124.42     -4253.44      9124.42     -3859.74}
+  {     9124.42     -4253.44      9124.42     -4450.30}
+  {     9124.42     -4253.44      9263.14     -7089.82}
+  {     6320.57      1189.51      6399.31      1189.51}
+  {     6320.57      1189.51      6084.35      1189.51}
+  {     6320.57      1189.51      6320.57      1346.99}
+  {     6320.57      1189.51      6320.57      1032.03}
+  {     6320.57      1189.51      6288.08       155.77}
+  {     6288.08       155.77      6209.34       155.77}
+  {     6288.08       155.77      6603.04       155.77}
+  {     6288.08       155.77      6288.08       313.25}
+  {     6288.08       155.77      6288.08        -1.71}
+  {     6288.08       155.77      6322.89      -447.95}
+  {     6322.89      -447.95      6322.89      -447.95}
+  {     6322.89      -447.95      6322.89      -251.10}
+  {     6322.89      -447.95      6160.87      -557.65}
+  {     6160.87      -557.65      6121.50      -557.65}
+  {     6160.87      -557.65      6200.24      -557.65}
+  {     6160.87      -557.65      6160.87      -360.80}
+  {     6160.87      -557.65      6277.55      -539.38}
+  {     6277.55      -539.38      6316.92      -539.38}
+  {     6277.55      -539.38      6277.55      -342.53}
+  {     6277.55      -539.38      6096.23      -630.97}
+  {     6096.23      -630.97      6056.86      -630.97}
+  {     6096.23      -630.97      6096.23      -434.12}
+  {     6096.23      -630.97      6481.35      -750.19}
+  {     6481.35      -750.19      6284.50      -750.19}
+  {     6481.35      -750.19      6678.20      -750.19}
+  {     6481.35      -750.19      6481.35      -553.34}
+  {     6481.35      -750.19      6481.35      -947.04}
+  {     6481.35      -750.19      6565.56     -1985.51}
+  {     6565.56     -1985.51      6604.93     -1985.51}
+  {     6565.56     -1985.51      6565.56     -1788.66}
+  {     6565.56     -1985.51      6432.01     -1994.61}
+  {     6432.01     -1994.61      6432.01     -1994.61}
+  {     6432.01     -1994.61      6432.01     -1797.76}
+  {     6432.01     -1994.61      6227.96     -2022.20}
+  {     6227.96     -2022.20      6188.59     -2022.20}
+  {     6227.96     -2022.20      6227.96     -1825.35}
+  {     6227.96     -2022.20      6285.51     -2031.32}
+  {     6285.51     -2031.32      6285.51     -2031.32}
+  {     6285.51     -2031.32      6285.51     -1834.47}
+  {     6285.51     -2031.32      6402.04     -2058.65}
+  {     6402.04     -2058.65      6362.67     -2058.65}
+  {     6402.04     -2058.65      6402.04     -1861.80}
+  {     6402.04     -2058.65      6465.55     -2067.80}
+  {     6465.55     -2067.80      6426.18     -2067.80}
+  {     6465.55     -2067.80      6465.55     -1870.95}
+  {     6465.55     -2067.80      6637.80     -2086.21}
+  {     6637.80     -2086.21      6598.43     -2086.21}
+  {     6637.80     -2086.21      6637.80     -1889.36}
+  {     6637.80     -2086.21      6742.91     -2104.55}
+  {     6742.91     -2104.55      6742.91     -2104.55}
+  {     6742.91     -2104.55      6742.91     -1907.70}
+  {     6742.91     -2104.55      6790.26     -2122.92}
+  {     6790.26     -2122.92      6829.63     -2122.92}
+  {     6790.26     -2122.92      6790.26     -1926.07}
+  {     6790.26     -2122.92      6676.18     -2150.31}
+  {     6676.18     -2150.31      6636.81     -2150.31}
+  {     6676.18     -2150.31      6676.18     -1953.46}
+  {     6676.18     -2150.31      6735.31     -2159.46}
+  {     6735.31     -2159.46      6695.94     -2159.46}
+  {     6735.31     -2159.46      6735.31     -1962.61}
+  {     6735.31     -2159.46      6809.02     -2196.05}
+  {     6809.02     -2196.05      6769.65     -2196.05}
+  {     6809.02     -2196.05      6809.02     -1999.20}
+  {     6809.02     -2196.05      6895.75     -2223.40}
+  {     6895.75     -2223.40      6935.12     -2223.40}
+  {     6895.75     -2223.40      6895.75     -2026.55}
+  {     6895.75     -2223.40      6809.53     -2223.40}
+  {     6809.53     -2223.40      6770.16     -2223.40}
+  {     6809.53     -2223.40      6809.53     -2026.55}
+  {     6809.53     -2223.40      6872.60     -2269.22}
+  {     6872.60     -2269.22      6833.23     -2269.22}
+  {     6872.60     -2269.22      6872.60     -2072.37}
+  {     6872.60     -2269.22      7034.47     -2296.59}
+  {     7034.47     -2296.59      6995.10     -2296.59}
+  {     7034.47     -2296.59      7034.47     -2099.74}
+  {     7034.47     -2296.59      7114.00     -2296.59}
+  {     7114.00     -2296.59      7074.63     -2296.59}
+  {     7114.00     -2296.59      7114.00     -2099.74}
+  {     7114.00     -2296.59      7174.74     -2287.52}
+  {     7174.74     -2287.52      7174.74     -2090.67}
+  {     7174.74     -2287.52      7248.03     -2324.06}
+  {     7248.03     -2324.06      7169.29     -2324.06}
+  {     7248.03     -2324.06      7523.62     -2324.06}
+  {     7248.03     -2324.06      7248.03     -2205.95}
+  {     7248.03     -2324.06      7248.03     -2481.54}
+  {     7248.03     -2324.06      7278.42     -2388.07}
+  {     7278.42     -2388.07      7199.68     -2388.07}
+  {     7278.42     -2388.07      7554.01     -2388.07}
+  {     7278.42     -2388.07      7278.42     -2269.96}
+  {     7278.42     -2388.07      7278.42     -2506.18}
+  {     7278.42     -2388.07      7313.78     -2818.12}
+  {     7313.78     -2818.12      7313.78     -2621.27}
+  {     7313.78     -2818.12      7465.48     -2827.13}
+  {     7465.48     -2827.13      7465.48     -2630.28}
+  {     7465.48     -2827.13      7574.30     -2854.46}
+  {     7574.30     -2854.46      7613.67     -2854.46}
+  {     7574.30     -2854.46      7259.34     -2854.46}
+  {     7574.30     -2854.46      7574.30     -2696.98}
+  {     7574.30     -2854.46      7574.30     -3011.94}
+  {     7574.30     -2854.46      7504.73     -3000.99}
+  {     7504.73     -3000.99      7504.73     -3000.99}
+  {     7504.73     -3000.99      7504.73     -2804.14}
+  {     7504.73     -3000.99      7163.90     -3009.91}
+  {     7163.90     -3009.91      7203.27     -3009.91}
+  {     7163.90     -3009.91      6848.94     -3009.91}
+  {     7163.90     -3009.91      7163.90     -2813.06}
+  {     7163.90     -3009.91      7163.90     -3167.39}
+  {     7163.90     -3009.91      7109.05     -4217.72}
+  {     7109.05     -4217.72      7187.79     -4217.72}
+  {     7109.05     -4217.72      6794.09     -4217.72}
+  {     7109.05     -4217.72      7109.05     -4060.24}
+  {     7109.05     -4217.72      7109.05     -4375.21}
+  {     7109.05     -4217.72      7000.48     -4354.72}
+  {     7000.48     -4354.72      7000.48     -4197.24}
+  {     7000.48     -4354.72      6761.91     -4391.22}
+  {     6761.91     -4391.22      6761.91     -4233.74}
+  {     6761.91     -4391.22      6992.96     -4455.30}
+  {     6992.96     -4455.30      6953.59     -4455.30}
+  {     6992.96     -4455.30      7386.66     -4455.30}
+  {     6992.96     -4455.30      6992.96     -4297.82}
+  {     6992.96     -4455.30      6992.96     -4573.41}
+  {     6992.96     -4455.30      7094.06     -6157.02}
+  {     7094.06     -6157.02      7094.06     -5999.54}
+  {     7094.06     -6157.02      7271.30     -6202.86}
+  {     7271.30     -6202.86      7153.19     -6202.86}
+  {     7271.30     -6202.86      7389.41     -6202.86}
+  {     7271.30     -6202.86      7271.30     -5887.90}
+  {     7271.30     -6202.86      7271.30     -6281.60}
+  {     7271.30     -6202.86      7333.12     -7044.68}
+  {     7333.12     -7044.68      7372.49     -7044.68}
+  {     7333.12     -7044.68      7333.12     -6926.57}
+  {     7333.12     -7044.68      7179.48     -7063.00}
+  {     5730.46      1317.16      5769.83      1317.16}
+  {     5730.46      1317.16      5730.46      1435.27}
+  {     5730.46      1317.16      5490.30      1317.16}
+  {     5490.30      1317.16      5529.67      1317.16}
+  {     5490.30      1317.16      5490.30      1435.27}
+  {     5490.30      1317.16      5316.87      1344.63}
+  {     5316.87      1344.63      5356.24      1344.63}
+  {     5316.87      1344.63      5316.87      1462.74}
+  {     5316.87      1344.63      5221.20      1344.63}
+  {     5221.20      1344.63      5221.20      1344.63}
+  {     5221.20      1344.63      5221.20      1462.74}
+  {     5221.20      1344.63      5034.98      1344.63}
+  {     5034.98      1344.63      5074.35      1344.63}
+  {     5034.98      1344.63      5034.98      1462.74}
+  {     5034.98      1344.63      4885.77      1344.63}
+  {     4885.77      1344.63      4846.40      1344.63}
+  {     4885.77      1344.63      4885.77      1462.74}
+  {     4885.77      1344.63      4972.30      1335.53}
+  {     4972.30      1335.53      4972.30      1453.64}
+  {     4972.30      1335.53      4868.76      1298.87}
+  {     4868.76      1298.87      4829.39      1298.87}
+  {     4868.76      1298.87      4908.13      1298.87}
+  {     4868.76      1298.87      4868.76      1338.24}
+  {     4868.76      1298.87      4868.76      1259.50}
+  {     4868.76      1298.87      4913.48      1225.61}
+  {     4913.48      1225.61      4874.10      1225.61}
+  {     4913.48      1225.61      4952.85      1225.61}
+  {     4913.48      1225.61      4913.48      1264.98}
+  {     4913.48      1225.61      4913.48      1186.24}
+  {     4913.48      1225.61      5088.77       914.51}
+  {     5088.77       914.51      5049.40       914.51}
+  {     5088.77       914.51      5088.77      1032.62}
+  {     5088.77       914.51      5449.33       676.76}
+  {     5449.33       676.76      5409.96       676.76}
+  {     5449.33       676.76      5449.33       794.87}
+  {     5449.33       676.76      5672.10       365.61}
+  {     5672.10       365.61      5632.73       365.61}
+  {     5672.10       365.61      5672.10       483.72}
+  {     5672.10       365.61      6074.47       164.12}
+  {     4868.76      1298.87      4908.13      1298.87}
+  {     4868.76      1298.87      4868.76      1416.98}
+  {     4868.76      1298.87      4538.46      1253.03}
+  {     4538.46      1253.03      4577.83      1253.03}
+  {     4538.46      1253.03      4538.46      1371.14}
+  {     4538.46      1253.03      4439.90      1298.78}
+  {     4439.90      1298.78      4479.27      1298.78}
+  {     4439.90      1298.78      4439.90      1416.89}
+  {     4439.90      1298.78      4367.35      1317.01}
+  {     4367.35      1317.01      4406.72      1317.01}
+  {     4367.35      1317.01      4367.35      1435.12}
+  {     4367.35      1317.01      4296.45      1335.34}
+  {     4296.45      1335.34      4335.82      1335.34}
+  {     4296.45      1335.34      4296.45      1453.45}
+  {     4296.45      1335.34      4207.69      1362.82}
+  {     4207.69      1362.82      4247.06      1362.82}
+  {     4207.69      1362.82      4207.69      1480.93}
+  {     4207.69      1362.82      4113.40      1381.15}
+  {     4113.40      1381.15      4152.77      1381.15}
+  {     4113.40      1381.15      4113.40      1499.26}
+  {     4113.40      1381.15      3904.71      1435.89}
+  {     3904.71      1435.89      3865.34      1435.89}
+  {     3904.71      1435.89      3904.71      1554.01}
+  {     3904.71      1435.89      3776.69      1445.07}
+  {     3776.69      1445.07      3737.32      1445.07}
+  {     3776.69      1445.07      3776.69      1563.18}
+  {     3776.69      1445.07      3630.52      1454.27}
+  {     3630.52      1454.27      3591.15      1454.27}
+  {     3630.52      1454.27      3630.52      1572.38}
+  {     3630.52      1454.27      3571.26      1499.91}
+  {     3571.26      1499.91      3531.89      1499.91}
+  {     3571.26      1499.91      3571.26      2799.12}
+  {     3571.26      1499.91      3308.91      1518.25}
+  {     3308.91      1518.25      3269.54      1518.25}
+  {     3308.91      1518.25      3308.91      1636.36}
+  {     3308.91      1518.25      3125.57      1536.55}
+  {     3125.57      1536.55      3086.20      1536.55}
+  {     3125.57      1536.55      3125.57      1654.66}
+  {     3125.57      1536.55      3039.25      1563.93}
+  {     3039.25      1563.93      2999.88      1563.93}
+  {     3039.25      1563.93      3039.25      1682.04}
+  {     3039.25      1563.93      2883.74      1563.93}
+  {     2883.74      1563.93      2844.37      1563.93}
+  {     2883.74      1563.93      2883.74      1682.04}
+  {     2883.74      1563.93      2815.85      1591.37}
+  {     2815.85      1591.37      2776.48      1591.37}
+  {     2815.85      1591.37      2815.85      1709.48}
+  {     2815.85      1591.37      2698.66      1664.59}
+  {     2698.66      1664.59      2738.03      1664.59}
+  {     2698.66      1664.59      2698.66      1782.70}
+  {     2698.66      1664.59      2831.83      1737.81}
+  {     2831.83      1737.81      2792.46      1737.81}
+  {     2831.83      1737.81      2831.83      1855.92}
+  {     2831.83      1737.81      2691.27      1756.06}
+  {     2691.27      1756.06      2651.90      1756.06}
+  {     2691.27      1756.06      2691.27      1874.17}
+  {     2691.27      1756.06      2431.68      1783.34}
+  {     2431.68      1783.34      2392.31      1783.34}
+  {     2431.68      1783.34      2431.68      1901.45}
+  {     2431.68      1783.34      2243.57      1801.46}
+  {     2243.57      1801.46      2204.20      1801.46}
+  {     2243.57      1801.46      2243.57      1919.57}
+  {     2243.57      1801.46      2077.26      1819.82}
+  {     2077.26      1819.82      2037.89      1819.82}
+  {     2077.26      1819.82      2077.26      1937.93}
+  {     2077.26      1819.82      1839.93      1856.56}
+  {     1839.93      1856.56      1800.56      1856.56}
+  {     1839.93      1856.56      1839.93      1974.67}
+  {     1839.93      1856.56      1064.26      1929.88}
+  {     1064.26      1929.88      1103.63      1929.88}
+  {     1064.26      1929.88      1024.89      1929.88}
+  {     1064.26      1929.88      1064.26      1969.25}
+  {     1064.26      1929.88      1064.26      1890.51}
+  {     1064.26      1929.88       788.74      1966.64}
+  {      788.74      1966.64       749.37      1966.64}
+  {      788.74      1966.64       788.74      2084.75}
+  {      788.74      1966.64       964.30      2323.43}
+  {      964.30      2323.43       924.93      2323.43}
+  {      964.30      2323.43       964.30      2441.54}
+  {      964.30      2323.43      1074.07      2360.15}
+  {     1074.07      2360.15      1113.44      2360.15}
+  {     1074.07      2360.15      1074.07      2478.26}
+  {     1074.07      2360.15       808.17      2460.63}
+  {      808.17      2460.63       847.54      2460.63}
+  {      808.17      2460.63       808.17      2578.74}
+  {      808.17      2460.63      -142.70      2497.16}
+  {     -142.70      2497.16      -103.33      2497.16}
+  {     -142.70      2497.16      -142.70      2615.27}
+  {     -142.70      2497.16      -306.62      2506.32}
+  {     -306.62      2506.32      -267.25      2506.32}
+  {     -306.62      2506.32      -306.62      2624.43}
+  {     -306.62      2506.32      -657.22      2551.86}
+  {     -657.22      2551.86      -617.85      2551.86}
+  {     -657.22      2551.86      -657.22      2669.97}
+  {     -657.22      2551.86      -898.32      2606.63}
+  {     -898.32      2606.63      -858.95      2606.63}
+  {     -898.32      2606.63      -898.32      2724.74}
+  {     -898.32      2606.63     -1093.18      2670.70}
+  {    -1093.18      2670.70     -1053.81      2670.70}
+  {    -1093.18      2670.70     -1093.18      2788.81}
+  {    -1093.18      2670.70     -1233.80      2698.29}
+  {    -1233.80      2698.29     -1194.43      2698.29}
+  {    -1233.80      2698.29     -1233.80      2816.40}
+  {    -1233.80      2698.29     -1453.36      2753.44}
+  {    -1453.36      2753.44     -1413.99      2753.44}
+  {    -1453.36      2753.44     -1453.36      2871.55}
+  {    -1453.36      2753.44     -1595.51      2771.65}
+  {    -1595.51      2771.65     -1556.14      2771.65}
+  {    -1595.51      2771.65     -1595.51      2889.76}
+  {    -1595.51      2771.65     -1765.87      2817.30}
+  {    -1765.87      2817.30     -1726.50      2817.30}
+  {    -1765.87      2817.30     -1765.87      2935.41}
+  {    -1765.87      2817.30     -1929.26      2817.30}
+  {    -1929.26      2817.30     -1889.89      2817.30}
+  {    -1929.26      2817.30     -1929.26      2935.41}
+  {    -1929.26      2817.30     -2186.98      2826.30}
+  {    -2186.98      2826.30     -2147.61      2826.30}
+  {    -2186.98      2826.30     -2186.98      2944.41}
+  {    -2186.98      2826.30     -2455.67      2853.59}
+  {    -2455.67      2853.59     -2416.30      2853.59}
+  {    -2455.67      2853.59     -2455.67      2971.70}
+  {    -2455.67      2853.59     -2710.62      2862.94}
+  {    -2710.62      2862.94     -2671.25      2862.94}
+  {    -2710.62      2862.94     -2710.62      2981.05}
+  {    -2710.62      2862.94     -2977.32      2881.12}
+  {    -2977.32      2881.12     -2937.95      2881.12}
+  {    -2977.32      2881.12     -2977.32      2999.23}
+  {    -2977.32      2881.12     -3355.16      2890.36}
+  {    -3355.16      2890.36     -3315.79      2890.36}
+  {    -3355.16      2890.36     -3355.16      3008.47}
+  {    -3355.16      2890.36     -3517.90      2899.45}
+  {    -3517.90      2899.45     -3478.53      2899.45}
+  {    -3517.90      2899.45     -3517.90      3017.56}
+  {    -3517.90      2899.45     -3593.89      2899.45}
+  {    -3593.89      2899.45     -3554.52      2899.45}
+  {    -3593.89      2899.45     -3593.89      3017.56}
+  {    -3593.89      2899.45     -4117.18      2926.88}
+  {    -4117.18      2926.88     -4077.81      2926.88}
+  {    -4117.18      2926.88     -4117.18      3044.99}
+  {    -4117.18      2926.88     -4364.89      2890.30}
+  {    -4364.89      2890.30     -4404.26      2890.30}
+  {    -4364.89      2890.30     -4364.89      3008.41}
+  {    -4364.89      2890.30     -4068.69      2853.93}
+  {    -4068.69      2853.93     -4108.06      2853.93}
+  {    -4068.69      2853.93     -4068.69      2972.04}
+  {    -4068.69      2853.93     -3920.05      2808.21}
+  {    -3920.05      2808.21     -3959.42      2808.21}
+  {    -3920.05      2808.21     -3920.05      2926.32}
+  {    -3920.05      2808.21     -3686.78      2798.84}
+  {    -3686.78      2798.84     -3726.15      2798.84}
+  {    -3686.78      2798.84     -3686.78      2916.95}
+  {    -3686.78      2798.84     -3398.19      2798.84}
+  {    -3398.19      2798.84     -3437.56      2798.84}
+  {    -3398.19      2798.84     -3398.19      2916.95}
+  {    -3398.19      2798.84     -3234.26      2780.45}
+  {    -3234.26      2780.45     -3234.26      2780.45}
+  {    -3234.26      2780.45     -3234.26      2898.56}
+  {    -3234.26      2780.45     -3412.21      2780.45}
+  {    -3412.21      2780.45     -3451.58      2780.45}
+  {    -3412.21      2780.45     -3412.21      2898.56}
+  {    -3412.21      2780.45     -3147.04      2743.65}
+  {    -3147.04      2743.65     -3186.41      2743.65}
+  {    -3147.04      2743.65     -3147.04      2861.76}
+  {    -3147.04      2743.65     -2728.93      2725.40}
+  {    -2728.93      2725.40     -2689.56      2725.40}
+  {    -2728.93      2725.40     -2728.93      2843.51}
+  {    -2728.93      2725.40     -2963.58      2725.40}
+  {    -2963.58      2725.40     -3002.95      2725.40}
+  {    -2963.58      2725.40     -2963.58      2843.51}
+  {    -2963.58      2725.40     -2776.57      2725.40}
+  {    -2776.57      2725.40     -2815.94      2725.40}
+  {    -2776.57      2725.40     -2776.57      2843.51}
+  {    -2776.57      2725.40     -2606.49      2725.40}
+  {    -2606.49      2725.40     -2645.86      2725.40}
+  {    -2606.49      2725.40     -2606.49      2843.51}
+  {    -2606.49      2725.40     -2475.39      2725.40}
+  {    -2475.39      2725.40     -2514.76      2725.40}
+  {    -2475.39      2725.40     -2475.39      2843.51}
+  {    -2475.39      2725.40     -2250.77      2716.38}
+  {    -2250.77      2716.38     -2290.14      2716.38}
+  {    -2250.77      2716.38     -2250.77      2834.49}
+  {    -2250.77      2716.38     -2072.42      2716.38}
+  {    -2072.42      2716.38     -2111.79      2716.38}
+  {    -2072.42      2716.38     -2072.42      2834.49}
+  {    -2072.42      2716.38     -1973.71      2698.08}
+  {    -1973.71      2698.08     -2013.08      2698.08}
+  {    -1973.71      2698.08     -1973.71      2816.19}
+  {    -1973.71      2698.08     -1826.66      2670.56}
+  {    -1826.66      2670.56     -1866.03      2670.56}
+  {    -1826.66      2670.56     -1826.66      2788.67}
+  {    -1826.66      2670.56     -1753.03      2670.56}
+  {    -1753.03      2670.56     -1792.40      2670.56}
+  {    -1753.03      2670.56     -1753.03      2788.67}
+  {    -1753.03      2670.56     -1631.38      2670.56}
+  {    -1631.38      2670.56     -1670.75      2670.56}
+  {    -1631.38      2670.56     -1631.38      2788.67}
+  {    -1631.38      2670.56     -1446.77      2634.01}
+  {    -1446.77      2634.01     -1486.14      2634.01}
+  {    -1446.77      2634.01     -1446.77      2752.12}
+  {    -1446.77      2634.01     -1369.35      2624.91}
+  {    -1369.35      2624.91     -1408.72      2624.91}
+  {    -1369.35      2624.91     -1369.35      2743.02}
+  {    -1369.35      2624.91     -1184.35      2597.59}
+  {    -1184.35      2597.59     -1223.72      2597.59}
+  {    -1184.35      2597.59     -1184.35      2715.70}
+  {    -1184.35      2597.59      -467.42      2597.59}
+  {     -467.42      2597.59      -467.42      2597.59}
+  {     -467.42      2597.59      -467.42      2715.70}
+  {     -467.42      2597.59      -672.46      2561.07}
+  {     -672.46      2561.07      -711.83      2561.07}
+  {     -672.46      2561.07      -672.46      2679.18}
+  {     -672.46      2561.07      -552.35      2533.56}
+  {     -552.35      2533.56      -552.35      2533.56}
+  {     -552.35      2533.56      -552.35      2651.67}
+  {     -552.35      2533.56      -411.29      2506.14}
+  {     -411.29      2506.14      -450.66      2506.14}
+  {     -411.29      2506.14      -371.91      2506.14}
+  {     -411.29      2506.14      -411.29      2624.25}
+  {     -411.29      2506.14      -291.99      2506.14}
+  {     -291.99      2506.14      -331.36      2506.14}
+  {     -291.99      2506.14      -252.62      2506.14}
+  {     -291.99      2506.14      -291.99      2545.51}
+  {     -291.99      2506.14      -291.99      2466.77}
+  {     -291.99      2506.14       -93.50      2222.66}
+  {      -93.50      2222.66       -54.13      2222.66}
+  {      -93.50      2222.66       -93.50      2340.77}
+  {      -93.50      2222.66       240.64      2149.20}
+  {      240.64      2149.20       240.64      2149.20}
+  {      240.64      2149.20       240.64      2267.31}
+  {      240.64      2149.20       434.07      2112.65}
+  {      434.07      2112.65       473.44      2112.65}
+  {      434.07      2112.65       434.07      2230.76}
+  {      434.07      2112.65       656.94      2094.32}
+  {      656.94      2094.32       656.94      2094.32}
+  {      656.94      2094.32       656.94      2212.43}
+  {      656.94      2094.32       871.12      2075.96}
+  {      871.12      2075.96       910.49      2075.96}
+  {      871.12      2075.96       871.12      2194.07}
+  {      871.12      2075.96      1037.36      2048.44}
+  {     1037.36      2048.44       997.99      2048.44}
+  {     1037.36      2048.44      1037.36      2166.55}
+  {     1037.36      2048.44       771.45      2020.96}
+  {      771.45      2020.96       810.82      2020.96}
+  {      771.45      2020.96       771.45      2139.07}
+  {      771.45      2020.96      1029.04      1993.43}
+  {     1029.04      1993.43       989.67      1993.43}
+  {     1029.04      1993.43      1029.04      2111.54}
+  {     1029.04      1993.43      1276.36      1956.91}
+  {    -3412.21      2780.45     -3372.84      2780.45}
+  {    -3412.21      2780.45     -3412.21      2898.56}
+  {    -3412.21      2780.45     -3657.19      2798.87}
+  {    -3657.19      2798.87     -3617.82      2798.87}
+  {    -3657.19      2798.87     -3657.19      2916.98}
+  {    -3657.19      2798.87     -3827.42      2789.65}
+  {    -3827.42      2789.65     -3788.05      2789.65}
+  {    -3827.42      2789.65     -3827.42      2907.76}
+  {    -3827.42      2789.65     -3958.20      2780.50}
+  {    -3958.20      2780.50     -3918.83      2780.50}
+  {    -3958.20      2780.50     -3958.20      2898.61}
+  {    -3958.20      2780.50     -4259.21      2798.91}
+  {    -4259.21      2798.91     -4219.84      2798.91}
+  {    -4259.21      2798.91     -4259.21      2917.02}
+  {    -4259.21      2798.91     -4384.80      2798.91}
+  {    -4384.80      2798.91     -4345.43      2798.91}
+  {    -4384.80      2798.91     -4384.80      2917.02}
+  {    -4384.80      2798.91     -4663.35      2853.56}
+  {    -4663.35      2853.56     -4623.98      2853.56}
+  {    -4663.35      2853.56     -4663.35      2971.67}
+  {    -4663.35      2853.56     -4896.65      2926.68}
+  {    -4896.65      2926.68     -4857.28      2926.68}
+  {    -4896.65      2926.68     -4896.65      3044.79}
+  {    -4896.65      2926.68     -5038.26      2972.42}
+  {    -5038.26      2972.42     -5038.26      2972.42}
+  {    -5038.26      2972.42     -5038.26      3090.53}
+  {    -5038.26      2972.42     -5221.26      3008.98}
+  {    -5221.26      3008.98     -5181.89      3008.98}
+  {    -5221.26      3008.98     -5221.26      3127.09}
+  {    -5221.26      3008.98     -5480.57      3091.24}
+  {    -5480.57      3091.24     -5441.20      3091.24}
+  {    -5480.57      3091.24     -5480.57      3209.35}
+  {    -5480.57      3091.24     -5878.05      3173.55}
+  {    -4663.35      2853.56     -4623.98      2853.56}
+  {    -4663.35      2853.56     -4663.35      2971.67}
+  {    -4663.35      2853.56     -4813.86      2844.36}
+  {    -4813.86      2844.36     -4774.49      2844.36}
+  {    -4813.86      2844.36     -4813.86      2962.47}
+  {    -4813.86      2844.36     -4990.63      2917.58}
+  {    -4990.63      2917.58     -4951.26      2917.58}
+  {    -4990.63      2917.58     -4990.63      3035.69}
+  {    -4990.63      2917.58     -5073.20      2908.46}
+  {    -5073.20      2908.46     -5033.83      2908.46}
+  {    -5073.20      2908.46     -5073.20      3026.57}
+  {    -5073.20      2908.46     -5183.83      2908.46}
+  {    -5183.83      2908.46     -5223.20      2908.46}
+  {    -5183.83      2908.46     -5183.83      3026.57}
+  {    -5183.83      2908.46     -5305.96      2935.99}
+  {    -5305.96      2935.99     -5345.33      2935.99}
+  {    -5305.96      2935.99     -5305.96      3054.10}
+  {    -5305.96      2935.99     -5428.84      2945.23}
+  {    -5428.84      2945.23     -5468.21      2945.23}
+  {    -5428.84      2945.23     -5428.84      3063.34}
+  {    -5428.84      2945.23     -5654.10      2963.35}
+  {    -5654.10      2963.35     -5693.47      2963.35}
+  {    -5654.10      2963.35     -5654.10      3081.46}
+  {    -5654.10      2963.35     -5808.13      2944.99}
+  {    -5808.13      2944.99     -5847.50      2944.99}
+  {    -5808.13      2944.99     -5808.13      3063.10}
+  {    -5808.13      2944.99     -5972.87      2963.17}
+  {    -5972.87      2963.17     -6012.24      2963.17}
+  {    -5972.87      2963.17     -5972.87      3081.28}
+  {    -5972.87      2963.17     -6136.42      2944.83}
+  {    -6136.42      2944.83     -6175.79      2944.83}
+  {    -6136.42      2944.83     -6136.42      3062.94}
+  {    -6136.42      2944.83     -6235.43      2972.29}
+  {    -6235.43      2972.29     -6274.80      2972.29}
+  {    -6235.43      2972.29     -6235.43      3090.40}
+  {    -6235.43      2972.29     -6303.32      2981.47}
+  {    -6303.32      2981.47     -6342.69      2981.47}
+  {    -6303.32      2981.47     -6303.32      3099.58}
+  {    -6303.32      2981.47     -6384.70      2972.34}
+  {    -6384.70      2972.34     -6424.07      2972.34}
+  {    -6384.70      2972.34     -6384.70      3090.45}
+  {    -6384.70      2972.34     -6957.52      3009.38}
+  {    -6957.52      3009.38     -6996.89      3009.38}
+  {    -6957.52      3009.38     -6957.52      3127.49}
+  {    -6957.52      3009.38     -7344.77      3045.99}
+  {    -7344.77      3045.99     -7384.14      3045.99}
+  {    -7344.77      3045.99     -7344.77      3164.10}
+  {    -7344.77      3045.99     -7508.65      3119.29}
+  {    -7344.77      3045.99     -7384.14      3045.99}
+  {    -7344.77      3045.99     -7344.77      3164.10}
+  {    -7344.77      3045.99     -7404.37      3100.99}
+  {    -7404.37      3100.99     -7443.74      3100.99}
+  {    -7404.37      3100.99     -7404.37      3219.10}
+  {    -7404.37      3100.99     -7453.85      3119.29}
+  {    -7453.85      3119.29     -7493.22      3119.29}
+  {    -7453.85      3119.29     -7453.85      3237.40}
+  {    -7453.85      3119.29     -7638.82      3174.08}
+  {    -7638.82      3174.08     -7678.19      3174.08}
+  {    -7638.82      3174.08     -7638.82      3292.19}
+  {    -7638.82      3174.08     -7775.44      3201.63}
+  {    -7775.44      3201.63     -7814.81      3201.63}
+  {    -7775.44      3201.63     -7775.44      3319.74}
+  {    -7775.44      3201.63     -7856.82      3210.76}
+  {    -7856.82      3210.76     -7896.19      3210.76}
+  {    -7856.82      3210.76     -7856.82      3328.87}
+  {    -7856.82      3210.76     -7999.44      3219.98}
+  {    -7999.44      3219.98     -8038.81      3219.98}
+  {    -7999.44      3219.98     -7999.44      3338.09}
+  {    -7999.44      3219.98     -8081.33      3219.98}
+  {    -8081.33      3219.98     -8120.70      3219.98}
+  {    -8081.33      3219.98     -8081.33      3338.09}
+  {    -8081.33      3219.98     -8380.39      3229.38}
+  {    -8380.39      3229.38     -8419.76      3229.38}
+  {    -8380.39      3229.38     -8380.39      3347.49}
+  {    -8380.39      3229.38     -8574.27      3238.52}
+  {    -8574.27      3238.52     -8613.64      3238.52}
+  {    -8574.27      3238.52     -8574.27      3356.63}
+  {    -8574.27      3238.52     -8898.17      3220.41}
+  {    -8898.17      3220.41     -8937.54      3220.41}
+  {    -8898.17      3220.41     -8898.17      3338.52}
+  {    -8898.17      3220.41     -9029.20      3247.79}
+  {    -9029.20      3247.79     -8950.46      3247.79}
+  {    -9029.20      3247.79     -9422.90      3247.79}
+  {    -9029.20      3247.79     -9029.20      3365.90}
+  {    -9029.20      3247.79     -9029.20      3129.68}
+  {    -9029.20      3247.79     -9134.54      1573.54}
+  {    -9134.54      1573.54     -9213.28      1573.54}
+  {    -9134.54      1573.54     -8740.84      1573.54}
+  {    -9134.54      1573.54     -9134.54      1691.65}
+  {    -9134.54      1573.54     -9134.54      1455.43}
+  {    -9134.54      1573.54     -8563.47       704.17}
+  {    -8563.47       704.17     -8681.58       704.17}
+  {    -8563.47       704.17     -8445.36       704.17}
+  {    -8563.47       704.17     -8563.47       901.02}
+  {    -8563.47       704.17     -7901.61       576.71}
+  {    -7901.61       576.71     -7901.61       576.71}
+  {    -7901.61       576.71     -7901.61       576.71}
+  {    -7901.61       576.71     -7901.61       773.56}
+  {    -7901.61       576.71     -8460.43        73.55}
+  {    -8460.43        73.55     -8381.69        73.55}
+  {    -8460.43        73.55     -8854.13        73.55}
+  {    -8460.43        73.55     -8460.43       191.66}
+  {    -8460.43        73.55     -8460.43       -44.56}
+  {    -8460.43        73.55     -8587.91      -338.27}
+  {    -8587.91      -338.27     -8706.02      -338.27}
+  {    -8587.91      -338.27     -8469.80      -338.27}
+  {    -8587.91      -338.27     -8587.91      -141.42}
+  {    -8587.91      -338.27     -8414.45      -457.05}
+  {    -4117.18      2926.88     -4117.18      3044.99}
+  {    -4117.18      2926.88     -4510.66      2981.48}
+  {    -4510.66      2981.48     -4471.29      2981.48}
+  {    -4510.66      2981.48     -4510.66      3099.59}
+  {    -4510.66      2981.48     -4669.84      2990.66}
+  {    -4669.84      2990.66     -4630.47      2990.66}
+  {    -4669.84      2990.66     -4669.84      3108.77}
+  {    -4669.84      2990.66     -4873.76      3008.86}
+  {    -4873.76      3008.86     -4834.39      3008.86}
+  {    -4873.76      3008.86     -4873.76      3126.97}
+  {    -4873.76      3008.86     -5048.71      3018.02}
+  {    -5048.71      3018.02     -5009.34      3018.02}
+  {    -5048.71      3018.02     -5048.71      3136.13}
+  {    -5048.71      3018.02     -5177.72      3045.45}
+  {    -5177.72      3045.45     -5177.72      3045.45}
+  {    -5177.72      3045.45     -5177.72      3163.56}
+  {    -5177.72      3045.45     -5450.38      3072.66}
+  {    -5450.38      3072.66     -5411.01      3072.66}
+  {    -5450.38      3072.66     -5450.38      3190.77}
+  {    -5450.38      3072.66     -5554.71      3081.79}
+  {    -5554.71      3081.79     -5515.34      3081.79}
+  {    -5554.71      3081.79     -5554.71      3199.90}
+  {    -5554.71      3081.79     -5810.74      3100.14}
+  {    -5810.74      3100.14     -5771.37      3100.14}
+  {    -5810.74      3100.14     -5810.74      3218.25}
+  {    -5810.74      3100.14     -6111.72      3154.84}
+  {    -6111.72      3154.84     -6072.35      3154.84}
+  {    -6111.72      3154.84     -6111.72      3272.95}
+  {    -6111.72      3154.84     -6159.55      3474.91}
+}
+set XVIgrid  {-11804.7 -9484.98 39.3701 0.0 0.0 39.3701 600 481}

@@ -1,0 +1,21 @@
+encoding  utf-8
+
+survey 2002_05_06 -title "SCB1 > 2002-05-06"
+
+    input Data/scb1_2002_05_06.th
+
+    ## Plan
+    input Data/scb1_2002_05_06.th2
+    # debut du nouveau dessin
+    #input Data/2002_05_06.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2002_05_06-maps.th
+
+endsurvey
+

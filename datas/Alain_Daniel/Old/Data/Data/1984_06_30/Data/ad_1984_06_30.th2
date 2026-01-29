@@ -1,0 +1,411 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -294.0 -1234.0 1820.9143000000001 1751.0
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {275.59299999999996 1 1.0} {236.21900000000005 AD0} Alain_Daniel-th_p.xvi 0 {}
+
+
+
+scrap Alain_Daniel_SP1 -projection plan -station-names "" "@ad_1984_06_30" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 438.423 488.889 station -name AD1
+
+point 215.0 113.0 label -text [Gouffre Alain Daniel] -align bottom -scale xl
+
+line wall
+endline
+
+point 368.0 804.5 label -align left -text [Petite entrée]
+
+point 429.0 780.0 entrance -orientation 140.4 -scale m
+
+point 239.5 164.5 entrance -orientation 27.3 -scale xl
+
+line rock-edge
+  357.0 357.0
+  357.0 357.0 339.0 321.0 337.0 314.0
+  335.0 307.0 308.0 294.0 308.0 294.0
+  smooth off
+endline
+
+line rock-edge -close on
+  289.0 287.0
+  308.0 326.0
+  333.0 369.0
+  371.0 381.0
+  371.0 381.0 355.0 324.0 351.0 317.0
+  347.0 310.0 328.0 287.0 325.0 284.0
+  322.0 281.0 289.0 287.0 289.0 287.0
+  smooth off
+endline
+
+line pit -reverse on
+  266.0 289.0
+  266.0 289.0 308.0 361.0 331.0 389.0
+  354.0 417.0 389.0 458.0 393.0 462.0
+  397.0 466.0 418.0 513.0 422.0 523.0
+  426.0 533.0 448.0 626.0 455.0 568.0
+  462.0 510.0 441.0 457.0 436.0 448.0
+  431.0 439.0 394.0 374.0 390.0 367.0
+  386.0 360.0 345.0 256.0 345.0 256.0
+  smooth off
+endline
+
+point 365.0 189.0 altitude -align bottom-right
+
+line wall -reverse on -subtype invisible
+  345.5 197.0
+  345.5 197.0 321.5 275.0 200.0 283.0
+  smooth off
+endline
+
+line wall -reverse on
+  476.0 737.0
+  476.0 737.0 478.0 692.0 479.0 683.0
+  480.0 674.0 481.0 629.0 478.0 611.0
+  475.0 593.0 470.0 526.0 469.0 516.0
+  468.0 506.0 469.0 491.0 458.0 468.0
+  447.0 445.0 423.0 400.0 418.0 391.0
+  413.0 382.0 376.0 313.0 369.0 283.0
+  362.0 253.0 347.5 221.0 345.5 197.0
+  smooth off
+endline
+
+line wall
+  449.0 737.0
+  435.0 666.0
+endline
+
+line wall -reverse on
+  200.0 283.0
+  200.0 283.0 237.0 325.0 258.0 340.0
+  279.0 355.0 317.0 391.0 333.0 409.0
+  349.0 427.0 370.0 459.0 380.0 470.0
+  390.0 481.0 394.0 490.0 397.0 496.0
+  400.0 502.0 430.0 625.0 435.0 666.0
+  smooth off
+endline
+
+point 275.59299999999996 236.21900000000005 station -name AD0
+
+endscrap
+
+
+
+scrap Alain_Daniel_SP2 -projection plan -station-names "" "@ad_1984_06_30" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 438.423 603.799 station -name AD3
+
+line wall
+  430.0 497.0
+  430.0 497.0 477.0 458.0 489.0 488.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  489.0 488.0
+  498.0 682.0
+endline
+
+point 348.0 605.0 label -text P55 -align right
+
+line wall -reverse on
+  430.0 497.0
+  430.0 497.0 411.0 529.0 420.0 561.0
+  429.0 593.0 428.0 644.0 445.0 665.0
+  462.0 686.0 498.0 682.0 498.0 682.0
+  smooth off
+endline
+
+point 438.423 545.9290000000001 station -name AD2
+
+endscrap
+
+
+
+scrap Alain_Daniel_SP3 -projection plan -station-names "" "@ad_1984_06_30" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 1073.963 1157.949 station -name AD12
+
+line wall -subtype invisible
+  498.0 682.0
+  489.0 488.0
+endline
+
+line wall -reverse on -subtype invisible
+  596.0 649.0
+  553.0 543.0
+endline
+
+line wall -reverse on
+  498.0 682.0
+  498.0 682.0 557.0 687.0 569.0 680.0
+  581.0 673.0 596.0 649.0 596.0 649.0
+  smooth off
+endline
+
+line wall
+  489.0 488.0
+  489.0 488.0 515.0 520.0 526.0 529.0
+  537.0 538.0 547.0 544.0 553.0 543.0
+  smooth off
+endline
+
+point 511.803 603.779 station -name AD5
+
+point 471.113 595.649 station -name AD4
+
+endscrap
+
+
+
+scrap Alain_Daniel_SP4 -projection plan -station-names "" "@ad_1984_06_30" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+line wall
+  553.0 543.0
+  568.0 542.0
+endline
+
+line wall -subtype invisible
+  596.0 649.0
+  553.0 543.0
+endline
+
+line pit -clip off
+  610.0 616.5
+  610.0 616.5 569.82 665.9 555.0 670.5
+  540.5 675.0 475.0 671.0 467.5 664.5
+  460.0 658.0 443.0 647.0 439.0 630.0
+  435.0 613.0 436.0 601.0 434.5 591.5
+  433.0 582.0 425.5 546.0 437.0 527.0
+  448.5 508.0 452.5 493.0 471.5 504.5
+  490.5 516.0 494.5 520.0 504.0 531.0
+  513.5 542.0 522.5 553.5 535.5 552.0
+  548.5 550.5 572.5 552.0 583.0 548.5
+  smooth off
+endline
+
+point 607.0 657.0 altitude -align top-right
+
+line wall -reverse on
+  610.0 634.0
+  684.0 508.0 568.0 542.0 568.0 542.0
+  smooth off
+endline
+
+line wall -reverse on
+  596.0 649.0
+  610.0 634.0
+endline
+
+point 560.733 611.969 station -name AD6
+
+endscrap
+
+
+
+scrap Alain_Daniel_SP5 -projection plan -station-names "" "@ad_1984_06_30" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 340.88300000000004 334.749 station -name AD13
+
+point 389.703 342.91900000000004 station -name AD8
+
+line label -text [Glacier souterrain]
+  558.0 260.0
+  794.0 416.0 1396.0 992.0 1476.0 1204.0
+  smooth off
+endline
+
+point 286.0 347.0 ice
+
+point 612.0 562.0 gradient -orientation 208.8
+
+point 699.0 769.5 gradient -orientation 208.8
+
+line border
+  828.5 496.5
+  828.5 496.5 499.5 612.5 401.0 557.0
+  smooth off
+endline
+
+line border -reverse on
+  550.0 799.0
+  552.5 799.5 821.5 744.0 849.5 615.5
+  smooth off
+endline
+
+area debris
+  l100-813-543
+endarea
+
+line border -id l60-777-697 -subtype invisible
+  796.0 735.0
+  796.0 735.0 767.0 673.0 756.0 646.0
+  745.0 619.0 760.0 617.0 729.0 580.0
+  698.0 543.0 682.0 522.0 658.0 506.0
+  634.0 490.0 592.0 466.0 561.0 444.0
+  530.0 422.0 509.0 410.0 482.0 387.0
+  455.0 364.0 351.0 296.0 316.0 265.0
+  281.0 234.0 132.0 237.0 145.0 289.0
+  158.0 341.0 226.0 491.0 235.0 502.0
+  244.0 513.0 506.0 846.0 511.0 861.0
+  516.0 876.0 567.0 957.0 567.0 957.0
+  smooth off
+  673.0 907.0
+endline
+
+line border -id l62-783-772 -subtype invisible
+  673.0 907.0
+  802.0 751.0
+endline
+
+line border -id l100-813-543 -close on -reverse on -subtype invisible
+  802.0 751.0
+  802.0 751.0 798.0 782.0 816.0 785.0
+  834.0 788.0 815.0 544.0 815.0 544.0
+  smooth off
+  418.0 257.0
+  316.0 265.0
+  514.0 404.0
+  602.0 466.0
+  698.0 537.0
+  761.0 617.0
+  772.0 662.0
+  804.0 739.0
+  802.0 751.0
+endline
+
+area ice
+  l62-783-772
+  l60-777-697
+  l63-800-743
+endarea
+
+line border -id l63-800-743 -reverse on
+  802.0 751.0
+  796.0 735.0
+endline
+
+line wall
+  227.0 392.0
+  227.0 392.0 130.0 250.0 271.0 262.0
+  smooth off
+endline
+
+point 327.0 264.5 altitude -align bottom
+
+line wall -reverse on
+  420.0 306.0
+  420.0 306.0 280.0 265.0 271.0 262.0
+  smooth off
+endline
+
+line wall
+  673.0 907.0
+  673.0 907.0 599.0 813.0 578.0 786.0
+  557.0 759.0 526.0 720.0 518.0 708.0
+  510.0 696.0 424.0 483.0 406.0 454.0
+  388.0 425.0 363.0 442.0 310.0 431.0
+  257.0 420.0 227.0 392.0 227.0 392.0
+  smooth off
+endline
+
+line wall
+  420.0 306.0
+  420.0 306.0 513.0 373.0 528.0 394.0
+  543.0 415.0 747.0 493.0 770.0 544.0
+  793.0 595.0 805.0 693.0 820.0 725.0
+  smooth off
+endline
+
+point 601.5129999999999 563.019 station -name AD7
+
+endscrap
+
+
+
+scrap Alain_Daniel_SP6 -projection plan -station-names "" "@ad_1984_06_30" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 1521.943 1402.6889999999999 station -name AD11
+
+line pit -close on
+  1147.0 1219.0
+  1118.45 1247.04 1076.0 1254.0 1052.0 1256.0
+  1028.0 1258.0 990.0 1269.0 979.0 1248.0
+  968.0 1227.0 949.0 1219.0 951.0 1199.0
+  953.0 1179.0 948.0 1116.0 958.0 1095.0
+  968.0 1074.0 1078.0 1065.0 1089.0 1074.0
+  1100.0 1083.0 1203.0 1164.0 1147.0 1219.0
+endline
+
+point 1122.873 1125.329 station -name AD10
+
+line border
+endline
+
+point 1235.5 968.5 altitude -align bottom-right
+
+line wall
+  1552.0 1396.0
+  1552.0 1396.0 1523.0 1366.0 1514.0 1358.0
+  1505.0 1350.0 1379.0 1270.0 1365.0 1259.0
+  1351.0 1248.0 1278.0 1203.0 1273.0 1173.0
+  1268.0 1143.0 1249.0 1153.0 1245.0 1087.0
+  1241.0 1021.0 1247.0 1003.0 1221.0 986.0
+  1195.0 969.0 1041.0 927.0 1022.0 912.0
+  1003.0 897.0 868.0 860.0 850.0 849.0
+  832.0 838.0 813.0 829.0 806.0 817.0
+  799.0 805.0 804.0 787.0 807.0 776.0
+  810.0 765.0 830.0 758.0 820.0 725.0
+  smooth off
+endline
+
+point 900.0 1240.0 label -align top-left -text [PR en cascade de glace]
+
+line wall -reverse on
+  673.0 907.0
+  673.0 907.0 690.0 937.0 721.0 962.0
+  752.0 987.0 865.0 1039.0 885.0 1052.0
+  905.0 1065.0 942.0 1069.0 943.0 1114.0
+  944.0 1159.0 910.0 1226.0 951.0 1257.0
+  992.0 1288.0 1073.0 1265.0 1104.0 1252.0
+  1135.0 1239.0 1186.0 1248.0 1202.0 1263.0
+  1218.0 1278.0 1302.0 1298.0 1316.0 1313.0
+  1330.0 1328.0 1481.0 1413.0 1481.0 1413.0
+  smooth off
+endline
+
+point 748.323 856.1890000000001 station -name AD9
+
+line border -id l67-803-792 -subtype visible
+  802.0 751.0
+  802.0 751.0 791.0 798.0 816.0 812.0
+  smooth off
+endline
+
+line border -id l68-1487-1245 -reverse on -subtype visible
+  648.0 1045.0
+  648.0 1045.0 921.0 1306.0 940.0 1317.0
+  959.0 1328.0 1236.0 1433.0 1252.0 1440.0
+  1268.0 1447.0 1405.0 1462.0 1405.0 1462.0
+  smooth off
+  1611.0 1385.0
+  1611.0 1385.0 1172.0 879.0 1150.0 874.0
+  1128.0 869.0 816.0 812.0 816.0 812.0
+  smooth off
+endline
+
+area ice
+  l67-803-792
+  l66-661-985
+  l68-1487-1245
+endarea
+
+line border -id l66-661-985 -subtype invisible
+  648.0 1045.0
+  673.0 907.0
+  802.0 751.0
+endline
+
+endscrap
+
+

@@ -1,0 +1,38 @@
+encoding  utf-8
+
+map Aulp_du_seuil-tot_MP
+
+  Cavernicole-tot-massif-MP@Cavernicole #[-140 0 m] below
+  Turbine-tot-MP@Turbine
+  Abreq_Ad_Habra-tot_MP@Abreq_Ad_Habra
+  
+  #Alain_Daniel-tot_MP@Alain_Daniel
+  #MP-AD@AD-tot
+  
+  BL42-tot_MP@BL42
+  Chainons-tot_MP@Chainon
+  Clochette-tot_MP@Clochette
+  Disco-tot_MP@Disco
+  FJS41-tot_MP@FJS41
+  FJS319-tot_MP@FJS319
+  FJS332-tot_MP@FJS332
+  BL72-tot_MP@FJS510_BL72
+  FJS556-tot_MP@FJS556
+  Marteauelectrique-tot_MP@Marteauelectrique
+  RocknRoll-tot_MP@RocknRoll
+  S21-tot_MP@S21
+  S23-tot_MP@S23
+  S49-tot_MP@Poulpe
+  Tasurinchi-tot_MP@Tasurinchi
+  Tenebreux-tot_MP@Tenebreux
+  FJS305-tot_MP@FJS305
+  V49-tot_MP@V49
+  
+  SCB1-tot_MP@SCB1    # nouveau
+  #SCBB1-tot_MP@SCBB1  # ancien
+  
+  Guiers-Vif-tot-MP@Guiers_Vif
+  Trou_des_Flammes_MP-tot@trou_des_flammes
+  
+endmap
+

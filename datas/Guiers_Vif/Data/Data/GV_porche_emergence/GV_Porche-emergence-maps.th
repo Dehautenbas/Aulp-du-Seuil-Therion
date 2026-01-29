@@ -1,0 +1,10 @@
+encoding  utf-8
+map MP-ext -title "exterieur"
+    SP-ext1
+endmap
+
+map MC-ext -title "exterieur"
+   SC-ext
+   SC-ext2
+endmap
+

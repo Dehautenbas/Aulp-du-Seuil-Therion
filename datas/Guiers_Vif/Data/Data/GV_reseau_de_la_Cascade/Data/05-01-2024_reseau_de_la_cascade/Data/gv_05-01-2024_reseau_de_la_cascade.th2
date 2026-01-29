@@ -1,0 +1,204 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -257.0 -219.0 450.5 546.0
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {288.706 1 1.0} {105.85399999999998 0} 2024-01-05_GV_Cascade-th_p.xvi 0 {}
+
+
+
+scrap scrap1 -projection plan -station-names "" "@gv_05-01-2024_reseau_de_la_cascade" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 521.7 -128.0 0.0 0.0 16.50238 0.0 m]
+
+point 233.556 167.394 station -name 2
+
+point 247.776 162.804 station -name 1
+
+line pit -reverse on
+  242.25 155.0
+  242.25 155.0 256.0 158.75 248.25 167.5
+  smooth off
+endline
+
+line pit -reverse on
+  236.75 174.5
+  236.75 174.5 226.25 165.75 233.5 157.25
+  smooth off
+endline
+
+line pit -reverse on
+  197.75 180.0
+  197.75 180.0 195.5 154.0 229.75 155.75
+  smooth off
+endline
+
+line wall -subtype presumed
+  183.75 155.25
+  192.5 150.5 174.45 152.77 164.75 149.0
+  160.09 147.19 154.91 143.45 150.0 142.5
+  146.87 141.9 143.33 139.72 140.5 138.25
+  smooth off
+endline
+
+point 125.5 128.0 water-flow -orientation 235.7
+
+line wall -subtype presumed
+  143.5 130.75
+  147.02 132.13 153.43 134.55 156.5 136.75
+  167.29 144.48 185.0 147.25 192.5 149.0
+  smooth off
+endline
+
+line wall -subtype pit
+  186.0 176.5
+  193.67 160.73 167.86 171.14 183.75 155.25
+  smooth off
+endline
+
+point 196.25 97.0 height -value -10 -scale s
+
+point 225.5 227.75 height -value [+9]
+
+point 317.5 199.0 height -value [+20]
+
+point 311.5 34.5 height -value [+40]
+
+point 261.25 7.75 label -text [Puits Amado Mio] -align bottom
+
+line wall -subtype pit
+  192.5 149.0
+  225.25 140.0 226.6 164.1 242.25 155.0
+  248.63 151.29 239.06 137.75 238.75 136.75
+  233.1 118.48 243.45 92.75 265.0 90.25
+  272.89 89.34 281.35 91.65 288.25 95.5
+  327.25 117.25 330.0 128.75 306.5 142.5
+  286.15 154.41 281.0 161.5 248.25 167.5
+  altitude .
+  241.98 168.65 236.61 175.56 230.5 177.25
+  218.3 180.62 203.25 176.75 192.75 181.5
+  smooth off
+endline
+
+point 288.706 105.854 station -name 0
+
+endscrap
+
+
+
+scrap scrap2 -projection plan -station-names "" "@gv_05-01-2024_reseau_de_la_cascade" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 521.7 -128.0 0.0 0.0 16.50238 0.0 m]
+
+point 125.57600000000002 201.524 station -name 5
+
+point 113.48600000000002 209.954 station -name 4
+
+line wall -reverse on
+  186.0 176.5
+  184.58 176.75 183.12 176.81 181.75 177.25
+  173.44 179.9 165.7 185.13 157.0 185.75
+  smooth off
+endline
+
+point 162.0 245.75 height -value [+11]
+
+line wall -reverse on -subtype pit
+  157.0 185.75
+  149.88 186.26 143.01 182.77 136.25 180.5
+  132.29 179.17 128.8 173.27 125.0 175.0
+  116.79 178.73 105.09 209.56 111.0 215.75
+  115.81 220.79 123.69 209.97 130.0 207.0
+  141.36 201.64 152.18 194.99 164.0 190.75
+  smooth off
+endline
+
+line wall -reverse on
+  164.0 190.75
+  178.78 185.45 184.91 196.53 192.75 181.5
+  smooth off
+endline
+
+point 182.19600000000003 181.494 station -name 3
+
+endscrap
+
+
+
+scrap scrap3 -projection plan -station-names "" "@gv_05-01-2024_reseau_de_la_cascade" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 521.7 -128.0 0.0 0.0 16.50238 0.0 m]
+
+point -14.303999999999974 69.574 station -name 10
+
+point 17.616000000000014 104.904 station -name 9
+
+point 13.676000000000016 146.564 station -name 8
+
+point 61.51600000000002 185.85399999999998 station -name 7
+
+line wall -subtype presumed
+  248.25 147.75
+  240.0 148.25 233.5 150.25 164.5 186.0
+  smooth off
+endline
+
+point 88.75 130.0 height -value [+12]
+
+point 12.5 439.75 label -text [Puits Total Reboot]
+
+line wall -subtype presumed
+  162.75 177.75
+  232.0 145.75 245.25 145.25 244.25 139.0
+  smooth off
+endline
+
+line wall -reverse on -subtype pit
+  162.75 177.75
+  138.5 183.25 146.25 161.75 116.0 167.5
+  113.4 167.99 108.25 173.25 106.25 175.75
+  104.12 178.42 102.75 181.25 97.75 181.5
+  smooth off
+endline
+
+line wall -reverse on
+  97.75 181.5
+  62.72 180.51 49.75 184.75 20.25 145.75
+  11.94 134.77 26.7 117.73 21.5 105.0
+  15.11 89.36 0.08 79.25 -11.0 66.5
+  smooth off
+  altitude .
+endline
+
+point -43.0 171.5 bat
+
+point -38.25 43.25 narrow-end -orientation 224.7
+
+point -127.75 48.0 date -orientation 318.0 -value [2024.01.05] -scale xs
+
+point -95.5 -11.0 air-draught -orientation 229.2 -subtype winter
+
+point 0.25 84.0 water-flow -orientation 33.9
+
+point 15.5 129.5 water-flow -orientation 344.4
+
+point 45.5 176.75 water-flow -orientation 57.4
+
+point 59.0 200.5 water-flow -orientation 0.0
+
+line wall -reverse on -place top
+  -17.25 72.0
+  40.0 129.5 -1.31 121.29 7.75 145.75
+  12.3 158.03 27.09 166.85 36.0 174.75
+  43.79 181.66 51.72 186.19 61.75 189.0
+  smooth off
+  89.75 185.0 95.0 189.5 101.25 193.25
+  smooth off
+endline
+
+line wall -reverse on -subtype pit -place bottom
+  101.25 193.25
+  100.0 208.5 48.21 172.93 39.75 196.25
+  31.5 219.0 43.99 227.35 50.25 231.25
+  72.75 245.25 88.38 238.38 115.75 226.75
+  141.44 215.83 142.5 199.25 164.5 186.0
+  smooth off
+endline
+
+point 103.09600000000002 184.404 station -name 6
+
+endscrap
+
+

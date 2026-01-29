@@ -1,0 +1,9 @@
+set XVIgrids {10.0 m}
+set XVIstations {
+  {        9.90      -378.09 cal_0}
+  {       -9.90       378.09 cal_1}
+}
+set XVIshots {
+  {        9.90      -378.09        -9.90       378.09}
+}
+set XVIgrid  {-167.381 -606.16 196.85 0.0 0.0 196.85 2 6}

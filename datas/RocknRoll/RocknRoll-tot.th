@@ -1,0 +1,17 @@
+encoding  utf-8
+
+survey RocknRoll -title "Gouffre du Rock'n Roll"
+
+    input Data/Data/2016_09_12/2016_09_12.th
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input RocknRoll-tot-maps.th
+
+endsurvey
+

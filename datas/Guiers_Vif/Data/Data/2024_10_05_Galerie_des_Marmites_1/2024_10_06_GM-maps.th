@@ -1,0 +1,21 @@
+encoding  utf-8
+
+map GV_galerie_des_marmites_1-MP
+  GV_061024-p1
+  break
+  GV_061024-p2
+  break
+  GV_061024-p3
+  break
+  GV_061024-p4
+  break
+  GV_061024-p4bis
+  break
+  GV_061024-p5
+  break
+  GV_061024-p6
+  break
+  GV_061024-p7
+  break
+endmap
+

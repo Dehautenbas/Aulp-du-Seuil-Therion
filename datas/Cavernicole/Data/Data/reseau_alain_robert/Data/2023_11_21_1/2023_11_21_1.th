@@ -1,0 +1,21 @@
+encoding  utf-8
+
+survey 2023_11_21_1 -title "Cavernicole > Alain Robert > 2023_11_21_1"
+
+    input Data/alain-robert.th
+
+    ## Plan
+    input Data/alain-robert_2_p.th2
+    input Data/alain-robert_p.th2
+    
+    join alain-robert_sp2 alain-robert_2_sp1
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2023_11_21_1-maps.th
+
+endsurvey
+

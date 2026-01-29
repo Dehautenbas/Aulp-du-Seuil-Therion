@@ -1,0 +1,10 @@
+therion 5.4.4 (2019-05-01)
+initialization file: /etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... NOT INSTALLED
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... NOT INSTALLED
+configuration file: 2024-05-25-TC-AA
+reading ... done
+reading source files ... 
+therion: error -- can't open file for input -- 2024-05-25-S1-S2-TC-AA.th
+writing xtherion file ... done

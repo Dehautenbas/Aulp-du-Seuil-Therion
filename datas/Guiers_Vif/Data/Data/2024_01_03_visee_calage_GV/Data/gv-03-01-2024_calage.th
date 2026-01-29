@@ -1,0 +1,28 @@
+encoding  utf-8
+
+survey gv-calage -title "calage : 03-01-2024"
+
+  centerline
+    date 2024.01.03 
+    team "Léa Varnerot"
+    team "David Parrot"
+    explo-team "David Parrot"
+    explo-team "Léa Varnerot"
+    explo-team "Olivier Gente"
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    #cs UTM31
+    
+    # pour geolocaliser
+    
+    #fix cal_1 726318 5030360 1152
+    
+    cal_0 cal_1 38.47 358.5 -2.7
+    
+  endcenterline
+
+endsurvey
+

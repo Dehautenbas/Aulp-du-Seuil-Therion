@@ -1,0 +1,108 @@
+encoding  utf-8
+# 2024.08.27 created by TopoDroid v 6.2.85
+
+survey GV_Porche-emergence -title "GV Porche-emergence"
+
+  centerline
+    date 2024.08.10 
+    team "Théophile Cailhol" 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    cs UTM31
+   
+   station 11 "Emergence" entrance
+   
+    fix 11 726356 5030418 1068
+    
+    # extend auto
+    0 . 12.13 287.0 2.9
+    0 . 8.62 116.8 25.3
+    0 . 14.00 353.9 72.6
+    0 . 0.95 283.5 -86.0
+    extend right
+    0 1 22.25 4.2 -9.2
+    # extend auto
+    1 . 7.73 293.1 10.5
+    1 . 22.11 289.2 29.5
+    1 . 19.61 106.5 32.9
+    1 . 4.74 108.0 17.5
+    extend right
+    1 2 12.33 27.6 -13.4
+    # extend auto
+    2 . 5.51 290.7 10.5
+    2 . 2.91 90.9 8.5
+    2 . 19.88 106.9 33.0
+    2 . 26.24 287.2 32.8
+    extend right
+    2 3 9.53 345.1 -33.7
+    # extend auto
+    3 . 2.60 308.7 28.3
+    3 . 6.62 308.4 28.6
+    3 . 10.75 105.5 20.0
+    3 . 30.19 108.2 35.7
+    extend right
+    3 4 10.19 42.3 -4.2
+    # extend auto
+    4 . 7.86 339.8 3.5
+    4 . 10.96 135.1 17.8
+    4 . 29.56 125.8 35.1
+    4 . 31.84 350.7 30.2
+    extend right
+    4 5 22.47 64.3 -10.5
+    # extend auto
+    5 . 1.83 2.0 7.1
+    5 . 14.96 158.1 22.3
+    5 . 35.08 81.2 5.7
+    5 . 31.05 255.2 12.1
+    extend left
+    5 6 7.53 107.1 -13.5
+    # extend auto
+    6 . 3.83 6.7 5.3
+    6 . 10.07 159.5 31.0
+    extend right
+    6 7 10.40 75.7 -19.2
+    # extend auto
+    7 . 5.05 321.6 11.4
+    7 . 4.26 131.2 14.6
+    7 . 30.79 16.5 86.7
+    7 . 2.23 56.4 -82.2
+    7 . 20.58 73.3 24.5
+    extend right
+    7 8 4.48 358.1 -11.4
+    # extend auto
+    8 . 3.58 271.8 -1.8
+    8 . 3.23 53.8 12.2
+    8 . 4.39 356.1 79.0
+    8 . 1.70 113.6 -59.8
+    extend right
+    8 9 11.01 339.1 -24.9
+    # extend auto
+    9 . 3.51 247.2 24.5
+    9 . 4.43 54.9 18.5
+    9 . 6.76 6.7 81.9
+    9 . 0.35 213.2 -60.7
+    extend right
+    9 10 11.33 332.7 -30.6
+    # extend auto
+    10 . 2.11 260.3 21.3
+    10 . 1.58 72.4 22.4
+    10 . 12.35 56.1 79.8
+    extend right
+    10 11 19.41 338.6 -10.9
+    # extend auto
+    11 . 4.57 257.8 18.9
+    extend left
+    11 12 1.78 257.8 19.0
+  endcenterline
+
+  # input "GV_Porche-emergence-1p.th2"
+  # input "GV_Porche-emergence-xx0.th2"
+
+  # map m1p -projection plan
+  #   GV_Porche-emergence-1p
+  # endmap
+
+endsurvey
+

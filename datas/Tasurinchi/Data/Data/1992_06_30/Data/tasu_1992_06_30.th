@@ -1,0 +1,98 @@
+encoding  utf-8
+
+survey tasu_1992_06_30 -title "Gouffre du Tasurinchi"
+
+  centerline
+  #centrelie faite à pertir de la publi de 1993, les sonnées sous jacente sont celle selon le nord magnétique 1992 1993 (sans correction)
+    date 1992.06.30 
+    declination -1.327 degrees  #declinaison au milieu de l'année 1992
+    # declination 1.327 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    fix TASU68 726799 5030394 1448 #ou 1460 m
+    station TASU68 "Gouffre Tasurinchi" entrance
+    
+    extend right
+    TASU1 TASU2 17.38 45.0 15.6
+    TASU2 TASU3 21.49 55.4 20.7
+    TASU3 TASU4 32.46 55.1 5.2
+    TASU4 TASU5 8.95 46.9 -5.6
+    TASU5 TASU6 4.75 80.3 -21.7
+    TASU6 TASU7 3.46 28.9 9.8
+    extend left
+    TASU7 TASU8 4.35 107.6 -3.9
+    extend right
+    TASU8 TASU9 8.21 51.9 -14.5
+    TASU9 TASU10 19.90 63.6 -3.4
+    TASU10 TASU11 7.13 46.3 -9.4
+    extend left
+    TASU11 TASU12 8.81 91.9 -15.4
+    extend right
+    TASU12 TASU13 29.69 62.9 2.8
+    TASU13 TASU14 20.08 72.7 5.8
+    TASU14 TASU15 11.69 29.6 2.9
+    TASU15 TASU16 25.91 82.7 5.2
+    extend left
+    TASU16 TASU17 5.00 108.5 3.4
+    extend right
+    TASU17 TASU18 9.17 70.7 14.8
+    extend left
+    TASU18 TASU19 15.82 107.4 3.2
+    TASU19 TASU20 5.58 177.9 47.2
+    extend right
+    TASU20 TASU21 35.18 79.7 11.0
+    extend left
+    TASU21 TASU22 14.67 147.8 8.0
+    extend right
+    TASU22 TASU23 31.03 56.0 3.8
+    TASU23 TASU24 4.84 32.6 17.6
+    TASU24 TASU25 11.58 58.0 16.1
+    TASU25 TASU26 36.25 50.9 8.3
+    TASU26 TASU27 39.80 49.8 3.4
+    TASU27 TASU28 13.84 3.9 36.3
+    TASU28 TASU29 41.68 62.6 -0.8
+    TASU29 TASU30 15.09 345.5 7.8
+    TASU30 TASU31 6.04 58.2 -67.0
+    TASU31 TASU32 11.24 47.2 -6.0
+    TASU32 TASU33 5.52 34.8 58.0
+    TASU33 TASU34 13.90 63.0 -4.8
+    TASU34 TASU35 4.02 61.4 -60.8
+    TASU35 TASU36 13.73 64.1 -1.2
+    TASU36 TASU37 4.98 58.2 61.8
+    TASU37 TASU38 20.80 65.0 25.9
+    TASU38 TASU39 11.64 324.2 -5.8
+    TASU39 TASU40 15.95 76.4 -34.7
+    TASU40 TASU41 10.78 89.8 -32.9
+    TASU41 TASU42 22.73 82.0 -5.9
+    TASU24 TASU43 17.38 357.9 83.2
+    TASU43 TASU44 5.93 6.5 5.7
+    TASU44 TASU45 11.02 6.1 79.2
+    TASU45 TASU46 5.62 25.8 0.0
+    TASU46 TASU47 13.22 12.0 84.8
+    TASU47 TASU48 6.84 37.7 0.0
+    TASU48 TASU49 6.63 66.1 76.3
+    TASU49 TASU50 6.84 37.7 0.0
+    TASU50 TASU51 16.17 66.1 84.4
+    TASU51 TASU52 4.23 70.8 20.2
+    TASU52 TASU53 5.44 48.6 40.2
+    TASU53 TASU54 4.22 46.3 33.6
+    TASU54 TASU55 5.01 50.4 17.0
+    TASU55 TASU56 36.59 31.6 88.3
+    TASU56 TASU57 13.51 6.7 55.4
+    TASU57 TASU58 52.99 357.9 88.1
+    TASU58 TASU59 2.94 357.9 -5.7
+    TASU59 TASU60 14.34 357.9 88.8
+    TASU60 TASU61 4.11 2.0 4.1
+    TASU61 TASU62 7.52 345.4 69.0
+    TASU62 TASU63 6.33 357.9 56.4
+    TASU63 TASU64 24.89 357.9 88.0
+    TASU64 TASU65 2.56 54.2 34.8
+    TASU65 TASU66 50.63 357.9 88.7
+    TASU66 TASU67 2.89 334.0 5.8
+    TASU67 TASU68 5.25 291.9 56.8
+  endcenterline
+
+endsurvey
+

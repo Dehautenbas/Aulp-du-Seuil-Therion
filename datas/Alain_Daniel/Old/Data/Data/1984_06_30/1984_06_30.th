@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 1984_06_30 -title "Alain Daniel > 1984_06_30"
+
+    input Data/ad_1984_06_30.th
+
+    ## Plan
+    input Data/ad_1984_06_30.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 1984_06_30-maps.th
+
+endsurvey
+

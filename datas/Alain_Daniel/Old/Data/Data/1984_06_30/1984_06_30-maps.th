@@ -1,0 +1,21 @@
+encoding  utf-8
+
+map Alain_Daniel_MP -title "Alain Daniel > Alain Daniel"
+  Alain_Daniel_MP-
+  break
+  Alain_Daniel_MP-- #[0 35 m] below
+endmap
+
+map Alain_Daniel_MP-
+  Alain_Daniel_SP1
+  break
+  Alain_Daniel_SP2
+  Alain_Daniel_SP3
+  Alain_Daniel_SP4
+endmap
+
+map Alain_Daniel_MP--
+  Alain_Daniel_SP5
+  Alain_Daniel_SP6
+endmap
+

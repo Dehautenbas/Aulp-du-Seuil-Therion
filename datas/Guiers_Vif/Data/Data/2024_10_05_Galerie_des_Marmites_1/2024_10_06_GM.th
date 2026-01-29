@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 2024_10_06_GM -title "Galerie des Marmites Ouest"
+
+    input Data/GV_Galerie_des_marmites_1.th
+
+    ## Plan
+    input Data/GV_Galerie_des_marmites_1.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2024_10_06_GM-maps.th
+
+endsurvey
+

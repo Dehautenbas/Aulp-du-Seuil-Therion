@@ -1,0 +1,240 @@
+therion 6.2.1 (2024-03-20)
+  - using Proj 9.3.1, compiled against 9.3.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: 1990_09_15-config.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM31
+meridian convergence (deg): -2.0549
+geomag declinations (deg):
+  1990.1.1  -1.5469
+  1991.1.1  -1.4433
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.15%
+
+
+############### export maps & scraps selection #################
+M  1441.74 Tenebreux_MP@1990_09_15 ()
+M  1433.29 Tenebreux_MP-@1990_09_15 ()
+S  1587.00 Tenebreux_SP1@1990_09_15 ()
+S  1552.61 Tenebreux_SP2@1990_09_15 ()
+S  1536.34 Tenebreux_SP3@1990_09_15 ()
+S  1513.18 Tenebreux_SP4@1990_09_15 ()
+S  1502.37 Tenebreux_SP5@1990_09_15 ()
+S  1484.43 Tenebreux_SP6@1990_09_15 ()
+S  1475.80 Tenebreux_SP7@1990_09_15 ()
+S  1470.57 Tenebreux_SP8@1990_09_15 ()
+S  1460.42 Tenebreux_SP9@1990_09_15 ()
+S  1444.35 Tenebreux_SP10@1990_09_15 ()
+S  1449.23 Tenebreux_SP11@1990_09_15 ()
+S  1438.85 Tenebreux_SP12@1990_09_15 ()
+S  1428.09 Tenebreux_SP13@1990_09_15 ()
+S  1424.80 Tenebreux_SP14@1990_09_15 ()
+S  1419.93 Tenebreux_SP15@1990_09_15 ()
+S  1303.27 Tenebreux_SP16@1990_09_15 ()
+S  1229.84 Tenebreux_SP17@1990_09_15 ()
+S  1413.88 Tenebreux_SP18@1990_09_15 ()
+S  1396.10 Tenebreux_SP19@1990_09_15 ()
+S  1390.86 Tenebreux_SP20@1990_09_15 ()
+S  1358.44 Tenebreux_SP21@1990_09_15 ()
+S  1354.79 Tenebreux_SP22@1990_09_15 ()
+S  1351.03 Tenebreux_SP23@1990_09_15 ()
+S  1337.95 Tenebreux_SP24@1990_09_15 ()
+S  1333.58 Tenebreux_SP24bis@1990_09_15 ()
+S  1299.31 Tenebreux_SP25@1990_09_15 ()
+S  1252.95 Tenebreux_SP26@1990_09_15 ()
+S  1230.75 Tenebreux_SP27@1990_09_15 ()
+S  1430.13 Tenebreux_SP28@1990_09_15 ()
+S  1449.18 Tenebreux_SP28bis@1990_09_15 ()
+S  1416.65 Tenebreux_SP29@1990_09_15 ()
+S  1454.64 Tenebreux_SP30@1990_09_15 ()
+S  1470.41 Tenebreux_SP33@1990_09_15 ()
+S  1459.55 Tenebreux_SP31@1990_09_15 ()
+S  1463.70 Tenebreux_SP32@1990_09_15 ()
+S  1475.20 Tenebreux_SP34@1990_09_15 ()
+S  1479.71 Tenebreux_SP35@1990_09_15 ()
+S  1484.67 Tenebreux_SP36@1990_09_15 ()
+S  1490.29 Tenebreux_SP37@1990_09_15 ()
+S  1492.10 Tenebreux_SP38@1990_09_15 ()
+S  1449.89 Tenebreux_SP39@1990_09_15 ()
+S  1426.19 Tenebreux_SP40@1990_09_15 ()
+S  1474.45 Tenebreux_SP43@1990_09_15 ()
+S  1480.15 Tenebreux_SP44@1990_09_15 ()
+S  1484.08 Tenebreux_SP45@1990_09_15 ()
+S  1488.43 Tenebreux_SP46@1990_09_15 ()
+S  1498.18 Tenebreux_SP46bis@1990_09_15 ()
+S  1489.48 Tenebreux_SP47@1990_09_15 ()
+M  1486.14 Tenebreux_MP--@1990_09_15 ()
+S  1486.14 Tenebreux_SP6bis@1990_09_15 ()
+M  1405.80 Tenebreux_MP---@1990_09_15 ()
+S  1411.79 Tenebreux_SP41@1990_09_15 ()
+S  1399.82 Tenebreux_SP42@1990_09_15 ()
+########## end of export maps & scraps selection ###############
+writing Outputs/teneb-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  9 OCT 2024 13:26
+**data.mp
+(c:/Program Files/Therion/texmf/mpost/mpost.mp
+(c:/Program Files/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31]
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46]
+[47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61]
+[62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76]
+[77] [78] [79] [80] [81] [82]
+[Warning: scrap outline intersects itself in scrap Tenebreux_SP18@1990_09_15]
+[83] [84] [85]
+[Warning: scrap outline intersects itself in scrap Tenebreux_SP17@1990_09_15]
+[86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100]
+[101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113]
+[114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126]
+[127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137] [138] [139]
+[Warning: scrap outline intersects itself in scrap Tenebreux_SP41@1990_09_15]
+[140] [141] [142] (./mptextmp.mp) [143] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [144]
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) [145] )
+ 
+Here is how much of MetaPost's memory you used:
+ 47277 strings using 1071305 characters
+ 4243080 bytes of node memory
+ 1739 symbolic tokens
+ 10i,82n,19p,456b,5f stack positions out of 16i,98n,20p,487b,6f
+160 output files written: data-patt.1 .. data.145
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  9 OCT 2024 13:26
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
+rogram Files/Therion/texmf/fonts/pdftex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aa
+aaaac.dat>><<th_gour_aaaaaae.dat>><<th_gour_aaaaaag.dat>><<th_gour_aaaaaai.dat>
+><<th_gour_aaaaaba.dat>><<th_gour_aaaaabc.dat>><<th_gour_aaaaabe.dat>><<th_gour
+_aaaaabg.dat>><<th_gour_aaaaabi.dat>><<th_gour_aaaaaca.dat>><<th_gour_aaaaacc.d
+at>><<th_gour_aaaaace.dat>><<th_gour_aaaaacg.dat>><<th_gour_aaaaaci.dat>><<th_g
+our_aaaaada.dat>><<th_gour_aaaaadc.dat>><<th_gour_aaaaade.dat>><<th_gour_aaaaad
+g.dat>><<th_gour_aaaaadi.dat>><<th_gour_aaaaaea.dat>><<th_gour_aaaaaec.dat>><<t
+h_gour_aaaaaee.dat>><<th_gour_aaaaaeg.dat>><<th_gour_aaaaaei.dat>><<th_gour_aaa
+aafa.dat>><<th_gour_aaaaafc.dat>><<th_gour_aaaaafe.dat>><<th_gour_aaaaafg.dat>>
+<<th_gour_aaaaafi.dat>><<th_gour_aaaaaga.dat>><<th_gour_aaaaagc.dat>><<th_gour_
+aaaaage.dat>><<th_gour_aaaaagg.dat>><<th_gour_aaaaagi.dat>><<th_gour_aaaaaha.da
+t>><<th_gour_aaaaahc.dat>><<th_gour_aaaaahe.dat>><<th_gour_aaaaahg.dat>><<th_go
+ur_aaaaahi.dat>><<th_gour_aaaaaia.dat>><<th_gour_aaaaaic.dat>><<th_gour_aaaaaie
+.dat>><<th_gour_aaaaaig.dat>><<th_gour_aaaaaii.dat>><<th_gour_aaaaajb.dat>><<th
+_gour_aaaaajd.dat>><<th_gour_aaaaajf.dat>><<th_gour_aaaaajh.dat>><<th_gour_aaaa
+ajj.dat>>)
+(./th_formdef.tex
+Normal \count register pool exhausted, switching to extended pool.)
+(./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 253 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 750 strings out of 95671
+ 9607 string characters out of 1192323
+ 74243 words of memory out of 1556286
+ 2139 multiletter control sequences out of 15000+50000
+ 23531 words of font info for 72 fonts, out of 1000000 for 2000
+ 844 hyphenation exceptions out of 5000
+ 10i,6n,9p,606b,54s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files/Therion/texmf/fonts/type1/cmbx10.pfb><c:/Program Files/
+Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/Therion/texmf/fonts/type
+1/cmssi10.pfb><c:/Program Files/Therion/texmf/fonts/type1/cmti10.pfb><c:/Progra
+m Files/Therion/texmf/fonts/type1/csss10.pfb><c:/Program Files/Therion/texmf/fo
+nts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 494461 bytes).
+PDF statistics:
+ 972 PDF objects out of 1000 (max. 8388607)
+ 493 compressed objects within 5 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 2903 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing xtherion file ... done
+compilation time: 5 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.88%    6.84%  Tenebreux_SP16@1990_09_15
+   0.29%    6.81%  Tenebreux_SP38@1990_09_15
+   1.60%    6.20%  Tenebreux_SP40@1990_09_15
+   0.85%    5.87%  Tenebreux_SP19@1990_09_15
+   1.05%    5.73%  Tenebreux_SP42@1990_09_15
+   0.48%    5.48%  Tenebreux_SP2@1990_09_15
+   0.08%    4.16%  Tenebreux_SP46@1990_09_15
+   0.54%    2.86%  Tenebreux_SP39@1990_09_15
+   0.43%    2.70%  Tenebreux_SP20@1990_09_15
+   0.76%    2.37%  Tenebreux_SP17@1990_09_15
+   0.11%    2.21%  Tenebreux_SP12@1990_09_15
+   0.45%    1.88%  Tenebreux_SP18@1990_09_15
+   0.25%    1.56%  Tenebreux_SP41@1990_09_15
+   0.39%    1.37%  Tenebreux_SP1@1990_09_15
+   0.38%    1.33%  Tenebreux_SP46bis@1990_09_15
+   0.06%    1.12%  Tenebreux_SP21@1990_09_15
+   0.00%    0.03%  Tenebreux_SP10@1990_09_15
+   0.00%    0.03%  Tenebreux_SP5@1990_09_15
+   0.00%    0.02%  Tenebreux_SP26@1990_09_15
+   0.00%    0.02%  Tenebreux_SP23@1990_09_15
+   0.00%    0.02%  Tenebreux_SP31@1990_09_15
+   0.00%    0.01%  Tenebreux_SP35@1990_09_15
+   0.00%    0.01%  Tenebreux_SP13@1990_09_15
+   0.00%    0.01%  Tenebreux_SP24bis@1990_09_15
+   0.00%    0.01%  Tenebreux_SP22@1990_09_15
+   0.00%    0.01%  Tenebreux_SP36@1990_09_15
+   0.00%    0.01%  Tenebreux_SP15@1990_09_15
+   0.00%    0.01%  Tenebreux_SP37@1990_09_15
+   0.00%    0.01%  Tenebreux_SP30@1990_09_15
+   0.00%    0.01%  Tenebreux_SP45@1990_09_15
+   0.00%    0.01%  Tenebreux_SP14@1990_09_15
+   0.00%    0.01%  Tenebreux_SP32@1990_09_15
+   0.00%    0.01%  Tenebreux_SP28bis@1990_09_15
+   0.00%    0.01%  Tenebreux_SP34@1990_09_15
+   0.00%    0.01%  Tenebreux_SP6@1990_09_15
+   0.00%    0.01%  Tenebreux_SP11@1990_09_15
+   0.00%    0.01%  Tenebreux_SP9@1990_09_15
+   0.00%    0.01%  Tenebreux_SP24@1990_09_15
+   0.00%    0.01%  Tenebreux_SP44@1990_09_15
+   0.00%    0.01%  Tenebreux_SP8@1990_09_15
+   0.00%    0.01%  Tenebreux_SP47@1990_09_15
+   0.00%    0.01%  Tenebreux_SP25@1990_09_15
+   0.00%    0.00%  Tenebreux_SP27@1990_09_15
+   0.00%    0.00%  Tenebreux_SP33@1990_09_15
+   0.00%    0.00%  Tenebreux_SP29@1990_09_15
+   0.00%    0.00%  Tenebreux_SP4@1990_09_15
+   0.00%    0.00%  Tenebreux_SP43@1990_09_15
+   0.00%    0.00%  Tenebreux_SP28@1990_09_15
+   0.00%    0.00%  Tenebreux_SP7@1990_09_15
+   0.00%    0.00%  Tenebreux_SP6bis@1990_09_15
+   0.00%    0.00%  scrap134@1990_09_15
+   0.00%    0.00%  Tenebreux_SP3@1990_09_15
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (5.886, 45.379) (5.886, 45.379)
+  [UTM31 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM31 → LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM31 → UTM31] AoU: [yes] transformation: [Inverse of UTM zone 31N + UTM zone 31N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM31 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 → UTM31] AoU: [yes] transformation: [axis order change (2D) + UTM zone 31N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=31 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

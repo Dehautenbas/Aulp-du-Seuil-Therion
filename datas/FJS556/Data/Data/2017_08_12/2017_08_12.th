@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 2017_08_12 -title "FJS556 > 2017-08-12"
+
+    input Data/FJS556_2017_08_12.th
+
+    ## Plan
+    input Data/FJS556_2017_08_12.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2017_08_12-maps.th
+
+endsurvey
+

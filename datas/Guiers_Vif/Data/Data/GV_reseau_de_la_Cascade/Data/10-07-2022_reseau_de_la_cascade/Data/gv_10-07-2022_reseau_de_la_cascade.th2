@@ -1,0 +1,449 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -228.00000000000003 -228.0000000000001 618.55 1409.5
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {293.70399999999995 1 1.0} {1277.955 dp_stat_} 10_07_2022_GV_Cascade-th_p.xvi 0 {}
+
+
+
+scrap scrap1 -projection plan -station-names "" "@gv_2022-07-09_cascade" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 718.55 -128.0 0.0 0.0 21.50237 0.0 m]
+
+point 307.07399999999996 1081.265 station -name dp_stat_7
+
+point 285.19399999999996 1098.9850000000001 station -name dp_stat_6
+
+point 288.62399999999997 1131.045 station -name dp_stat_5
+
+point 307.034 1154.605 station -name dp_stat_4
+
+point 295.50399999999996 1186.625 station -name dp_stat_3
+
+point 339.0 1247.0 dig -scale s
+
+line wall
+  329.5 1052.0
+  324.0 1062.67 319.57 1073.96 313.0 1084.0
+  299.37 1104.84 285.84 1100.93 295.5 1130.5
+  298.52 1139.73 310.71 1144.88 312.0 1154.5
+  313.47 1165.48 304.01 1175.47 303.0 1186.5
+  301.65 1201.29 303.84 1216.2 305.0 1231.0
+  306.01 1243.88 308.93 1256.59 309.5 1269.5
+  309.61 1271.98 309.46 1276.22 307.0 1276.5
+  smooth off
+endline
+
+line wall
+  307.0 1276.5
+  297.5 1279.5 296.5 1283.0 282.0 1275.25
+  smooth off
+endline
+
+line wall
+  280.75 1266.0
+  295.75 1265.75 295.77 1267.51 298.0 1260.0
+  smooth off
+endline
+
+line wall
+  298.0 1260.0
+  300.56 1251.37 294.36 1241.99 294.0 1233.0
+  293.36 1217.31 290.28 1201.68 291.0 1186.0
+  291.29 1179.68 294.94 1173.98 297.0 1168.0
+  298.44 1163.81 302.95 1159.68 301.5 1155.5
+  292.36 1129.17 282.25 1144.0 282.25 1099.5
+  altitude .
+  282.25 1089.79 297.49 1086.63 303.5 1079.0
+  310.74 1069.81 314.5 1058.33 320.0 1048.0
+  smooth off
+endline
+
+point 304.134 1271.605 station -name dp_stat_2
+
+point 270.81399999999996 1267.275 station -name dp_stat_1
+
+point 293.704 1277.955 station -name dp_stat_
+
+endscrap
+
+
+
+scrap scrap2 -projection plan -station-names "" "@gv_2022-07-09_cascade" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 718.55 -128.0 0.0 0.0 21.50237 0.0 m]
+
+point 217.664 715.145 station -name dp_stat_16
+
+point 219.42399999999998 744.775 station -name dp_stat_15
+
+point 200.56399999999996 770.945 station -name dp_stat_14
+
+point 214.634 803.455 station -name dp_stat_13
+
+point 247.74399999999997 879.255 station -name dp_stat_12
+
+point 285.334 936.915 station -name dp_stat_10
+
+point 299.674 985.0350000000001 station -name dp_stat_9
+
+point 299.25 1028.5 dig -scale s
+
+point 318.0 920.0 dig -scale s
+
+point 247.5 772.5 dig -scale s
+
+line wall
+  320.0 1048.0
+  323.58 1040.58 330.28 1033.97 330.75 1025.75
+  331.23 1017.33 302.75 993.31 298.5 985.25
+  281.71 953.4 293.25 958.25 277.75 932.0
+  257.69 898.02 256.5 902.23 245.25 881.5
+  239.79 871.44 237.3 860.01 232.75 849.5
+  231.61 846.88 196.75 776.78 197.5 770.5
+  smooth off
+  202.5 756.0 209.87 752.99 211.0 743.5
+  215.48 705.74 204.83 714.41 236.25 701.5
+  smooth off
+endline
+
+point 310.5 833.0 date -orientation 291.0 -value [2022.07.10] -scale s
+
+point 268.5 849.0 air-draught -orientation 205.4 -subtype summer
+
+line wall -reverse on
+  329.5 1052.0
+  333.17 1042.75 340.62 1034.2 340.5 1024.25
+  340.43 1018.21 332.87 1014.89 329.0 1010.25
+  320.62 1000.22 310.69 991.32 303.75 980.25
+  294.44 965.4 297.65 951.15 290.25 935.75
+  282.3 919.22 260.88 893.29 252.0 877.25
+  233.0 842.92 236.37 840.26 222.5 804.75
+  218.17 793.66 208.35 783.9 208.25 772.0
+  208.17 762.05 219.38 755.1 222.0 745.5
+  229.11 719.45 214.25 721.0 240.75 709.5
+  smooth off
+endline
+
+point 337.69399999999996 1024.405 station -name dp_stat_8
+
+endscrap
+
+
+
+scrap scrap3 -projection plan -station-names "" "@gv_2022-07-09_cascade" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 718.55 -128.0 0.0 0.0 21.50237 0.0 m]
+
+point 289.534 516.4350000000001 station -name dp_stat_23
+
+point 314.534 561.9250000000001 station -name dp_stat_22
+
+point 320.044 613.485 station -name dp_stat_21
+
+point 293.224 618.835 station -name dp_stat_20
+
+point 305.394 682.035 station -name dp_stat_19
+
+point 327.0 685.5 water-flow -orientation 32.6
+
+point 341.0 716.0 sink -orientation 32.6
+
+line pit
+  294.5 668.25
+  294.5 668.25 298.75 658.5 309.5 667.0
+  smooth off
+endline
+
+line pit
+  307.5 696.5
+  307.5 696.5 292.75 697.5 289.5 681.5
+  smooth off
+endline
+
+line label -reverse on -clip off -text [Méandre de la Mouffette] -scale m
+  251.5 1034.0
+  244.5 981.0 246.4 1004.24 241.5 962.0
+  232.35 883.13 177.44 873.54 175.5 827.5
+  173.01 768.4 166.54 728.9 172.0 670.0
+  177.55 610.2 184.83 573.83 175.5 514.5
+  smooth off
+endline
+
+point 314.0 581.5 water-flow -orientation 11.8
+
+point 270.0 504.25 water-flow -orientation 41.5
+
+line wall
+  242.5 456.0
+  245.25 461.0 286.98 496.92 293.75 509.75
+  303.25 527.75 331.36 596.92 326.75 611.5
+  324.18 619.63 298.45 615.04 297.25 620.5
+  292.78 640.85 310.44 661.7 307.0 682.25
+  300.35 722.05 280.09 702.99 261.25 704.0
+  254.19 704.38 247.58 707.67 240.75 709.5
+  smooth off
+endline
+
+point 280.0 430.5 height -value [+3]
+
+line overhang
+  224.5 472.5
+  224.5 472.5 244.75 473.5 247.25 454.5
+  smooth off
+endline
+
+point 337.0 530.75 air-draught -orientation 23.2 -subtype winter
+
+point 381.5 513.25 date -orientation 290.0 -value [2022.12.03] -scale s
+
+line wall
+  236.25 701.5
+  245.08 698.5 253.47 693.45 262.75 692.5
+  277.3 691.01 303.0 689.5 299.5 670.25
+  296.33 652.84 286.62 635.17 290.75 618.0
+  292.62 610.21 312.28 616.7 313.25 608.75
+  315.09 593.64 281.27 534.65 273.25 524.75
+  263.34 512.51 247.67 503.73 237.75 491.5
+  234.11 487.02 230.0 475.5 227.25 468.75
+  smooth off
+  altitude .
+endline
+
+point 282.804 701.125 station -name dp_stat_18
+
+point 263.034 695.0450000000001 station -name dp_stat_17
+
+point 232.524 466.95500000000004 station -name dp_stat_25
+
+point 245.444 487.145 station -name dp_stat_24
+
+endscrap
+
+
+
+scrap scrap4 -projection plan -station-names "" "@gv_2022-07-09_cascade" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 718.55 -128.0 0.0 0.0 21.50237 0.0 m]
+
+point 271.99399999999997 288.065 station -name dp_stat_38
+
+point 274.13399999999996 320.26500000000004 station -name dp_stat_37
+
+point 245.51399999999998 354.495 station -name dp_stat_36
+
+point 215.01399999999998 346.435 station -name dp_stat_35
+
+point 198.51399999999998 340.035 station -name dp_stat_34
+
+point 173.694 355.90500000000003 station -name dp_stat_33
+
+point 176.214 394.96500000000003 station -name dp_stat_32
+
+point 169.79399999999998 430.665 station -name dp_stat_31
+
+point 143.094 430.20500000000004 station -name dp_stat_27
+
+point 275.00399999999996 329.19500000000005 station -name dp_stat_30
+
+point 254.67399999999998 341.70500000000004 station -name dp_stat_29
+
+point 211.374 412.07500000000005 station -name dp_stat_28
+
+line wall
+  199.75 428.0
+  204.5 417.5
+endline
+
+line wall
+  204.5 417.5
+  214.25 400.25 216.0 392.75 226.5 379.25
+  230.41 374.22 238.72 364.16 242.75 359.25
+  243.63 358.18 240.58 354.13 239.25 353.75
+  230.52 351.28 224.14 349.32 215.25 347.5
+  203.36 345.07 202.75 340.25 182.5 356.5
+  173.74 363.53 181.28 380.79 180.25 392.0
+  179.27 402.69 175.75 413.0 173.5 423.5
+  smooth off
+endline
+
+line wall
+  173.5 423.5
+  176.25 435.5 172.07 431.01 199.75 428.0
+  smooth off
+endline
+
+point 140.5 497.5 height -value [+20]
+
+point 101.0 464.75 label -text [<center>Puits Michto]
+
+line wall
+  268.25 279.0
+  277.19 285.58 277.5 323.25 276.5 330.75
+  smooth off
+  269.5 336.5 264.04 337.43 257.75 347.25
+  246.14 365.38 235.14 390.5 230.25 401.5
+  227.25 408.25 226.2 409.35 224.5 413.5
+  221.16 421.66 216.56 423.21 217.0 434.25
+  217.41 444.44 236.0 447.5 242.5 456.0
+  smooth off
+endline
+
+line wall
+  227.25 468.75
+  222.94 459.06 206.58 441.9 197.0 436.5
+  194.46 435.07 191.25 434.0 188.25 437.0
+  smooth off
+endline
+
+line pit -reverse on
+  182.75 430.75
+  182.75 430.75 190.0 432.0 188.25 437.0
+  smooth off
+endline
+
+line pit
+  162.25 420.0
+  162.25 420.0 169.75 428.5 176.75 421.75
+  smooth off
+endline
+
+point 210.75 420.25 water-flow -orientation 351.1
+
+point 238.75 370.5 water-flow -orientation 321.9
+
+line contour
+  214.25 382.5
+  214.25 382.5 219.0 394.0 238.25 395.75
+  smooth off
+endline
+
+line floor-meander
+  226.5 347.75
+  254.31 354.37 242.57 358.26 259.75 337.5
+  263.59 332.86 267.58 328.33 271.5 323.75
+  smooth off
+endline
+
+line gradient
+endline
+
+line gradient
+  232.5 380.25
+  218.5 403.0
+endline
+
+line pit
+  204.0 404.75
+  204.0 404.75 212.25 417.25 231.0 413.25
+  smooth off
+endline
+
+line pit
+  196.25 421.75
+  196.25 421.75 205.5 438.25 223.75 432.0
+  smooth off
+endline
+
+line wall -subtype pit
+  188.25 437.0
+  187.25 440.75 185.83 455.75 180.5 457.75
+  160.5 465.25 113.86 432.36 151.25 422.75
+  156.09 421.51 161.25 422.75 166.25 422.75
+  smooth off
+endline
+
+line wall
+  166.25 422.75
+  187.55 386.54 144.37 355.06 198.25 337.0
+  212.99 332.06 227.71 349.57 243.25 349.25
+  247.73 349.16 250.0 343.28 252.75 339.75
+  267.03 321.39 278.18 305.94 261.25 285.75
+  smooth off
+endline
+
+point 202.384 428.235 station -name dp_stat_26
+
+endscrap
+
+
+
+scrap scrap5 -projection plan -station-names "" "@gv_2022-07-09_cascade" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 718.55 -128.0 0.0 0.0 21.50237 0.0 m]
+
+point 392.344 127.88499999999999 station -name dp_stat_46
+
+point 294.00399999999996 93.63499999999999 station -name dp_stat_45
+
+point 268.704 115.55500000000006 station -name dp_stat_44
+
+point 239.32399999999998 174.985 station -name dp_stat_43
+
+point 260.604 203.755 station -name dp_stat_42
+
+point 274.38399999999996 217.375 station -name dp_stat_41
+
+line wall -subtype pit
+  387.75 139.25
+  378.75 146.5 357.75 144.75 364.25 126.5
+  smooth off
+endline
+
+line wall
+  364.25 126.5
+  340.46 122.59 325.81 107.28 301.5 106.25
+  298.04 106.1 295.77 110.16 293.0 112.25
+  287.35 116.5 278.71 118.62 276.25 125.25
+  274.79 129.18 277.94 136.16 278.5 140.5
+  279.19 145.82 268.11 154.63 265.0 159.0
+  261.05 164.54 243.34 162.89 245.25 173.75
+  smooth off
+  242.75 188.75 274.32 201.29 277.5 216.5
+  280.54 231.04 252.7 249.46 268.25 279.0
+  smooth off
+endline
+
+line wall -subtype pit
+  373.25 110.25
+  390.1 107.3 403.6 109.23 397.25 131.0
+  smooth off
+endline
+
+point 369.75 75.25 height -value [+7]
+
+point 253.75 147.0 water-flow -orientation 319.9
+
+point 341.0 110.5 water-flow -orientation 251.5
+
+area water
+  l132-287-89
+endarea
+
+line border -id l132-287-89 -close on -visibility off
+  284.25 88.75
+  318.64 88.17 273.29 116.87 272.0 117.25
+  240.71 126.49 264.88 89.08 284.25 88.75
+endline
+
+area water
+  l129-396-134
+endarea
+
+line border -id l129-396-134 -close on -visibility off
+  382.25 136.0
+  378.86 138.6 369.36 134.83 374.5 126.0
+  382.5 112.25 395.45 125.88 382.25 136.0
+endline
+
+line wall
+  261.25 285.75
+  257.92 281.17 252.68 277.48 251.25 272.0
+  248.35 260.87 258.4 240.92 262.25 230.5
+  263.8 226.3 268.64 222.64 267.75 218.25
+  264.1 200.21 254.66 208.73 246.75 199.5
+  242.65 194.72 242.47 191.55 239.5 186.0
+  236.81 180.97 231.46 176.7 231.25 171.0
+  231.13 167.76 249.33 144.52 251.0 141.0
+  264.19 113.18 262.0 100.5 293.25 91.5
+  300.19 89.5 344.55 108.72 356.25 110.5
+  361.85 111.35 367.58 110.33 373.25 110.25
+  smooth off
+endline
+
+point 264.154 232.08500000000004 station -name dp_stat_40
+
+point 253.60399999999998 271.20500000000004 station -name dp_stat_39
+
+endscrap
+
+

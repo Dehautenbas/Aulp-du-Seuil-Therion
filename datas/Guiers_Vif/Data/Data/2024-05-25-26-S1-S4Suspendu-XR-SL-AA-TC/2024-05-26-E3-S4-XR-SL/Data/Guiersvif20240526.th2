@@ -1,0 +1,121 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -127.9997 -128.0018 201.5 228.0
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {39.374100000000006 1 1.0} {39.3654 0} 2024-05-26-E3-S4-XR-SL_p.xvi 0 {}
+
+
+
+scrap SP-E3devantS4-1 -projection plan -station-names "" "@Guiersvif20240526" -author 2024 "Xavier Robert" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 167.3701 -128.0 0.0 0.0 7.502400539999999 0.0 m]
+
+point 58.8241 86.4954 station -name 1b
+
+line wall
+  61.25 92.25
+  53.5 84.0
+endline
+
+line slope
+  28.5 21.5
+  28.5 21.5 22.0 16.5 27.25 12.75
+  smooth off
+  l-size 3.0
+endline
+
+line slope
+  24.75 20.75
+  24.75 20.75 18.75 13.75 24.5 10.25
+  smooth off
+  l-size 3.0
+endline
+
+line water-flow
+  36.75 42.5
+  36.75 42.5 36.5 39.25 31.5 34.5
+  26.5 29.75 24.5 27.0 25.0 24.25
+  25.5 21.5 27.25 19.5 27.25 19.5
+  smooth off
+endline
+
+point 72.25 98.75 continuation -attr Code S -text "Sipphon à plonger, petite CF de 1.8 m de diamètre, n'a pas l'air profond"
+
+point 68.0 69.25 passage-height -value [-1.2 m]
+
+point 42.0 92.75 passage-height -value [+0.6 m]
+
+point 9.25 28.75 height -value [+3 m]
+
+line pit
+  33.5 27.75
+  33.5 27.75 23.25 19.25 16.5 20.0
+  smooth off
+endline
+
+point 39.374100000000006 39.3654 stalagmites
+
+area sump
+  l12-56-92
+endarea
+
+area water
+  l13-56-72
+endarea
+
+line label -id l13-56-72 -close on
+  63.25 81.0
+  60.5 83.5
+  57.0 88.25
+  57.0 88.25 50.75 86.75 48.5 82.0
+  46.25 77.25 38.0 66.75 37.5 60.75
+  37.0 54.75 36.0 47.0 37.5 44.0
+  39.0 41.0 45.5 48.75 47.25 50.75
+  49.0 52.75 52.75 68.5 55.0 71.75
+  57.25 75.0 63.25 81.0 63.25 81.0
+  smooth off
+endline
+
+line label -id l12-56-92 -close on
+  68.5 84.5
+  65.25 88.25
+  61.25 92.25
+  61.25 92.25 54.75 94.75 55.25 92.25
+  55.75 89.75 60.5 81.5 63.25 81.0
+  66.0 80.5 68.5 84.5 68.5 84.5
+  smooth off
+endline
+
+line wall
+  35.25 26.0
+  35.25 26.0 29.0 25.5 31.25 28.75
+  33.5 32.0 34.0 32.5 37.25 34.25
+  40.5 36.0 42.0 38.5 43.75 42.75
+  45.5 47.0 46.25 51.75 47.0 55.75
+  47.75 59.75 56.0 78.75 56.75 79.25
+  57.5 79.75 65.25 88.25 65.25 88.25
+  smooth off
+endline
+
+line wall
+  53.5 84.0
+  53.5 84.0 48.75 78.25 44.0 69.5
+  39.25 60.75 38.5 59.0 37.5 53.0
+  36.5 47.0 34.5 44.5 33.75 41.5
+  33.0 38.5 29.25 35.0 25.5 34.0
+  21.75 33.0 24.75 20.5 21.75 20.0
+  10.03 18.05 6.75 11.5 21.5 12.5
+  25.32 12.76 28.0 12.5 30.25 13.0
+  smooth off
+endline
+
+point 43.0741 22.045400000000004 station -name 4
+
+point 29.724100000000004 22.995400000000004 station -name 3
+
+point 23.424100000000003 27.675400000000003 station -name 2
+
+point 39.374100000000006 39.3654 station -name 0
+
+point 53.7841 80.47540000000001 station -name 1
+
+endscrap
+
+

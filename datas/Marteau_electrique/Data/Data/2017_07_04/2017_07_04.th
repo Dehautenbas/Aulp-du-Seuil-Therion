@@ -1,0 +1,18 @@
+encoding  utf-8
+
+survey 2017_07_04 -title "Marteau Electrique > 2017_07_04"
+
+    input Data/Martelec_2017_07_04.th
+
+    ## Plan
+    input Data/Martelec_2017_07_04.th2
+    #    join .......
+    
+    ## Coupe
+    input Data/Martelec_2017_07_04-e.th2
+
+    ## Maps
+    input 2017_07_04-maps.th
+
+endsurvey
+

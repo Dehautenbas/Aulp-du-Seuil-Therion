@@ -1,0 +1,55 @@
+encoding  utf-8
+
+map Guiers-Vif-tot-MP
+  
+  # INTERSIPHON S1/S4 suspendu (2024)
+  
+    MP-2024-05-25-S1-S2@Intersiphon_S1_S2
+    break
+    
+    gv_amontS1_1991_12_31_MP@1991_12_31_GV_amont_S1
+    break
+  
+  
+  # RESEAU DE LA CASCADE
+  
+    gv_reseau_de_la_cascade-tot-MP@reseau_de_la_cascade
+    break
+  
+  
+  # GALERIE DES MARMITES : OUEST
+
+    upper_chevalier_series_MP@upcs
+    break
+      
+    GV_galerie_des_marmites_1-MP@2024_10_06_GM
+    break
+    
+    GV_siphon_de_gravier-MP@2024_11_10
+    break
+  
+    gv_1994_06_30_MP@1994_06_30_GV_MEORA
+    break
+    
+    #gv_1969_06_30_MP@1969_06_30_GV_Lower_Chevalier_Series
+    #break
+
+
+  # GROTTE DU GUIERS-VIF
+  
+    gv_catacombe-MP@2024_06_01
+    break
+  
+    gv_2024-MP@2024_06_03
+    break
+  
+    MP-ext@GV_Porche-emergence-tot
+
+endmap
+
+map Guiers-Vif-tot-2024-MP
+  gv_catacombe-MP@2024_06_01
+  break
+  gv_2024-MP@2024_06_03
+endmap
+

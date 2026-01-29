@@ -1,0 +1,94 @@
+encoding  utf-8
+survey ad_1984_06_30 -title "Alain_Daniel"
+
+centerline
+    cs UTM31
+   
+    fix AD0 726978 5030124 1528 #coordonnees GPS prise en juillet 2017
+    station AD0 "Gouffre Alain Daniel" entrance
+    
+    date 1984.06.30 
+    #declination 0.00 degrees
+    declination -2.174 degrees
+    
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    AD0 - 2.00 302.8 0.0
+    extend right
+    AD0 - 2.00 122.8 0.0
+    extend vertical
+    AD0 - 2.00 0.0 90.0
+    AD0 - 3.00 0.0 -90.0
+    extend right
+    AD0 AD1 7.68 32.8 -6.2
+    extend left
+    AD1 - 1.00 270.0 0.0
+    extend right
+    AD1 - 1.00 90.0 0.0
+    extend vertical
+    AD1 - 1.00 0.0 90.0
+    AD1 - 4.00 0.0 -90.0
+    extend right
+    AD1 AD2 9.16 0.0 -80.9
+    extend left
+    AD2 - 2.00 270.0 0.0
+    extend right
+    AD2 - 2.00 90.0 0.0
+    AD2 AD3 27.18 0.0 -86.9
+    AD3 - 2.00 14.0 0.0
+    extend left
+    AD3 - 2.00 194.0 0.0
+    AD3 AD4 5.41 104.0 -80.9
+    AD4 - 2.00 348.7 0.0
+    extend right
+    AD4 - 2.00 168.7 0.0
+    AD4 AD5 9.92 78.7 -83.9
+    extend vertical
+    AD5 - 2.00 350.5 0.0
+    AD5 - 2.00 170.5 0.0
+    extend right
+    AD5 AD6 3.91 80.5 -71.2
+    AD6 - 1.00 50.2 0.0
+    extend left
+    AD6 - 1.00 230.2 0.0
+    AD6 AD7 5.98 140.2 -74.3
+    extend right
+    AD7 - 1.00 133.9 0.0
+    extend left
+    AD7 - 6.00 313.9 0.0
+    AD7 AD8 9.09 223.9 -31.4
+    AD7 - 6.00 296.6 0.0
+    extend right
+    AD7 - 1.00 116.6 0.0
+    AD7 AD9 8.63 26.6 15.2
+    extend left
+    AD9 - 2.00 324.3 0.0
+    extend right
+    AD9 - 2.00 144.3 0.0
+    AD9 AD10 11.83 54.3 8.0
+    extend left
+    AD10 - 3.00 325.2 0.0
+    extend right
+    AD10 - 4.00 145.2 0.0
+    AD10 AD11 12.36 55.2 2.9
+    extend left
+    AD10 - 2.00 213.7 0.0
+    extend right
+    AD10 - 2.00 33.7 0.0
+    extend vertical
+    AD10 - 2.00 0.0 90.0
+    AD10 - 2.00 0.0 -90.0
+    extend right
+    AD10 AD12 12.43 303.7 83.1
+    extend vertical
+    AD8 - 1.00 170.5 0.0
+    AD8 - 1.00 350.5 0.0
+    extend left
+    AD8 AD13 2.07 260.5 -52.6
+  endcenterline
+
+endsurvey
+

@@ -1,0 +1,21 @@
+encoding  utf-8
+
+map Turbines_MP-
+  scrap1
+  scrap2
+  scrap3
+  scrap4
+  scrap5
+  scrap6
+endmap
+
+map Turbines_MP--
+  scrap7
+endmap
+
+map bl30_1992_06_30_MP -title "Turbine > 1992-06-30"
+  Turbines_MP-
+  break
+  Turbines_MP-- [0.5 -12 m] below
+endmap
+

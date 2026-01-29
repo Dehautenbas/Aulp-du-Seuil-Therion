@@ -1,0 +1,26 @@
+encoding  utf-8
+
+survey 2024_07_27 -title "Gouffre du SCB1"
+
+    input Data/scb1_2024_07_27.th
+
+    ## Plan
+    #input Data/scb1_2024_07_27.th2
+    
+    input Data/scb1-20240727-p1.th2
+    input Data/scb1-20240727-p2.th2
+    input Data/scb1-20240727-p3.th2
+    input Data/scb1-20240727-p4.th2
+    input Data/scb1-20240727-p5.th2
+    
+    join scb1-20240727-p3 scb1-20240727-p4
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2024_07_27-maps.th
+
+endsurvey
+

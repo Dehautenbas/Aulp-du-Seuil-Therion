@@ -1,0 +1,21 @@
+encoding  utf-8
+
+survey trou_des_flammes -title "Trou des Flammes"
+
+    #--------------------------------------------------------------------
+    # ** Trou des Flammes **
+    #--------------------------------------------------------------------
+    
+    input Data/Data/2006_08_29/2006_08_29.th
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input Trou_des_flammes-tot-maps.th
+
+endsurvey
+

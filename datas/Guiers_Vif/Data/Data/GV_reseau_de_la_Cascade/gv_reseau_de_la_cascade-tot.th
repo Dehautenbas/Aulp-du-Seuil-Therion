@@ -1,0 +1,28 @@
+encoding  utf-8
+
+survey reseau_de_la_cascade -title "Guiers Vif > Réseau de la Cascade"
+
+    input Data/10-07-2022_reseau_de_la_cascade/10_07_2022_GV_Cascade.th
+    input Data/12-03-2022_reseau_de_la_cascade/12_03_2022_GV_Cascade.th
+    input Data/16-12-2023_reseau_de_la_cascade/16-12-2023_GV_Cascade.th
+    input Data/05-01-2024_reseau_de_la_cascade/05-01-2024_GV_Cascade.th
+    
+    #***********
+    
+    equate dp_stat_@gv_2022-07-09_cascade.10_07_2022_GV_Cascade dp_stat_1@gv_12-03-2022_reseau_de_la_cascade.12_03_2022_GV_Cascade
+    equate dp_stat_46@gv_2022-07-09_cascade.10_07_2022_GV_Cascade 0@gv_16-12-2023_reseau_de_la_cascade.16_12_2023_GV_Cascade
+    equate 38@gv_16-12-2023_reseau_de_la_cascade.16_12_2023_GV_Cascade 0@gv_05-01-2024_reseau_de_la_cascade.05_01_2024_GV_Cascade
+
+    ## Plan
+   
+    join scrap1@16_12_2023_GV_Cascade scrap5@10_07_2022_GV_Cascade
+    
+    ## Coupe
+  
+    #   join ........
+
+    ## Maps
+    input gv_reseau_de_la_cascade-tot-maps.th
+
+endsurvey
+

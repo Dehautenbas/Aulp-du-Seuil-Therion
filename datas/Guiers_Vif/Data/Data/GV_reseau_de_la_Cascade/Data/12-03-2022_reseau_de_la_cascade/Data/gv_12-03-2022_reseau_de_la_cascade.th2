@@ -1,0 +1,497 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -228.0 -228.1500000000001 1066.25 618.3999999999999
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {884.255 1 1.0} {293.5469999999999 dp_stat_} 12_03_2022_GV_Cascade-th_p.xvi 0 {}
+
+
+
+scrap scrap12 -projection plan -station-names "" "@gv_12-03-2022_reseau_de_la_cascade" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1112.25 -128.0 0.0 0.0 31.50235 0.0 m]
+
+point 129.25 216.25 height -value [+30]
+
+line wall -subtype pit
+endline
+
+line wall -close on -subtype pit
+  87.75 215.75
+  87.97 208.81 87.75 196.75 91.5 191.75
+  93.65 188.88 105.41 181.31 108.75 180.0
+  127.43 172.65 160.72 180.52 174.25 198.5
+  177.14 202.34 170.88 210.89 173.75 214.75
+  177.12 219.27 191.44 218.71 192.5 224.25
+  193.36 228.72 181.05 233.61 177.75 236.75
+  174.29 240.04 172.18 244.94 168.0 247.25
+  154.12 254.9 103.52 265.09 94.25 242.5
+  91.27 235.25 87.5 223.58 87.75 215.75
+endline
+
+point 110.38499999999999 245.627 station -name dp_stat_35
+
+point 123.53500000000003 221.7569999999999 station -name dp_stat_37
+
+endscrap
+
+
+
+scrap scrap22 -projection plan -station-names "" "@gv_12-03-2022_reseau_de_la_cascade" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1112.25 -128.0 0.0 0.0 31.50235 0.0 m]
+
+point 233.59500000000003 185.417 station -name dp_stat_23
+
+point 289.975 98.137 station -name dp_stat_27
+
+point 372.0 146.5 narrow-end -orientation 55.6
+
+point 353.75 136.25 water-flow -orientation 242.0
+
+line overhang
+endline
+
+point 321.25 191.25 continuation -scale s
+
+line wall -reverse on
+  306.0 136.75
+  305.08 132.75 301.1 124.69 307.25 121.25
+  313.5 117.75 333.0 132.5 346.75 138.25
+  smooth off
+endline
+
+line wall
+  179.5 180.0
+  193.06 175.35 212.86 179.36 225.0 170.75
+  232.13 165.7 239.05 151.51 244.25 145.5
+  254.82 133.28 253.0 137.75 263.75 126.25
+  267.37 122.38 281.78 95.35 289.25 94.0
+  293.47 93.24 345.59 123.71 352.5 128.75
+  smooth off
+endline
+
+point 201.5 180.25 water-flow -orientation 283.2
+
+point 276.75 124.25 water-flow -orientation 317.4
+
+point 308.5 164.5 water-flow -orientation 191.8
+
+line overhang
+endline
+
+point 297.25 179.75 water-flow -orientation 249.3
+
+line overhang -reverse on
+  288.5 127.25
+  288.5 127.25 298.0 115.0 307.5 123.0
+  smooth off
+endline
+
+line overhang -reverse on
+  252.0 178.75
+  252.0 178.75 250.0 168.0 263.0 162.5
+  smooth off
+endline
+
+line overhang -reverse on
+  219.5 193.5
+  227.75 181.75 237.5 184.5 251.0 186.75
+  smooth off
+endline
+
+line wall
+  221.5 200.75
+  224.09 185.58 206.02 197.78 201.25 192.25
+  199.47 190.18 214.14 186.65 213.5 184.0
+  212.99 181.88 187.26 188.1 182.25 188.75
+  smooth off
+endline
+
+line wall -reverse on
+  269.5 170.0
+  269.5 170.0 256.0 168.5 261.0 161.5
+  smooth off
+endline
+
+line wall -reverse on
+  237.75 203.25
+  237.03 197.9 248.29 177.33 252.0 175.5
+  255.45 173.8 262.92 176.67 266.75 177.0
+  smooth off
+endline
+
+line wall -reverse on
+  260.0 161.75
+  267.0 155.0 284.78 120.75 291.5 125.75
+  294.88 128.26 295.25 134.0 296.75 138.25
+  smooth off
+endline
+
+point 226.575 173.167 station -name dp_stat_25
+
+point 181.70500000000004 186.117 station -name dp_stat_29
+
+point 141.75 201.75 water-flow -orientation 0.0
+
+line wall -reverse on
+  146.25 200.0
+  144.41 176.79 166.68 188.75 182.25 188.75
+  smooth off
+endline
+
+line wall -reverse on
+  179.5 180.0
+  174.39 182.82 143.41 173.87 141.25 176.5
+  133.13 186.38 146.5 183.5 137.25 198.75
+  smooth off
+endline
+
+point 148.91500000000002 183.30700000000002 station -name dp_stat_31
+
+point 138.365 216.147 station -name dp_stat_33
+
+endscrap
+
+
+
+scrap scrap32 -projection plan -station-names "" "@gv_12-03-2022_reseau_de_la_cascade" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1112.25 -128.0 0.0 0.0 31.50235 0.0 m]
+
+line wall
+  310.75 268.25
+  330.84 275.89 342.88 282.95 364.5 284.25
+  368.74 284.51 378.91 283.58 383.0 284.75
+  391.49 287.19 398.61 293.07 406.75 296.5
+  smooth off
+endline
+
+point 227.5 231.25 water-flow -orientation 183.4
+
+line wall
+  237.75 203.25
+  235.4 210.4 234.52 219.01 242.5 224.0
+  244.76 225.41 250.51 229.61 252.75 231.0
+  268.0 240.5 245.1 241.18 260.5 251.75
+  264.71 254.64 302.9 265.97 310.75 268.25
+  smooth off
+endline
+
+line wall
+  303.25 291.25
+  297.87 289.08 262.0 274.85 256.0 271.25
+  253.06 269.49 243.2 263.74 240.25 262.0
+  223.44 252.05 215.57 258.64 211.75 235.5
+  208.86 217.99 217.01 215.44 221.5 200.75
+  smooth off
+endline
+
+line overhang -reverse on
+  358.0 301.75
+  358.0 301.75 346.5 286.5 364.0 278.5
+  smooth off
+endline
+
+point 278.75 326.5 height -value [+9] -scale s
+
+point 279.5 215.0 height -value [+10]
+
+line pit -reverse on
+  306.25 294.25
+  306.25 294.25 299.25 277.0 317.25 264.0
+  smooth off
+endline
+
+line pit -reverse on
+  211.0 251.5
+  223.5 239.0 239.25 237.25 263.25 243.25
+  smooth off
+endline
+
+line pit -reverse on
+  210.75 211.75
+  210.75 211.75 230.75 205.75 243.5 218.25
+  smooth off
+endline
+
+point 341.25 339.5 height -value [+2] -scale s
+
+line wall
+endline
+
+point 392.25 310.5 water-flow -orientation 190.8
+
+point 395.0 344.5 narrow-end -orientation 7.1
+
+line wall -reverse on
+  396.25 313.75
+  396.0 306.5
+  402.75 306.75
+endline
+
+line wall
+  388.5 313.5
+  386.75 304.5
+  353.75 293.91 338.25 297.25 303.25 291.25
+  smooth off
+endline
+
+point 384.915 296.087 station -name dp_stat_18
+
+point 304.95500000000004 286.687 station -name dp_stat_19
+
+point 219.71500000000003 249.097 station -name dp_stat_21
+
+endscrap
+
+
+
+scrap scrap42 -projection plan -station-names "" "@gv_12-03-2022_reseau_de_la_cascade" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1112.25 -128.0 0.0 0.0 31.50235 0.0 m]
+
+point 442.425 359.837 station -name dp_stat_13
+
+point 468.755 323.98699999999997 station -name dp_stat_14
+
+point 499.135 304.627 station -name dp_stat_15
+
+line wall
+  406.75 296.5
+  427.0 302.25 439.72 311.38 458.25 312.75
+  smooth off
+endline
+
+point 517.75 255.75 height -value [+13]
+
+point 462.5 279.25 water-flow -orientation 215.4
+
+line wall -subtype pit
+  458.25 312.75
+  461.0 312.0 464.73 312.73 466.5 310.5
+  469.13 307.19 465.97 300.14 469.75 298.25
+  494.93 285.66 546.02 313.7 503.75 335.0
+  491.94 340.95 485.74 343.36 474.75 337.0
+  473.19 336.1 473.53 332.77 471.75 332.5
+  469.32 332.13 467.25 334.5 465.0 335.5
+  smooth off
+endline
+
+line pit -reverse on
+  452.0 326.5
+  452.0 326.5 466.5 327.0 467.75 337.5
+  smooth off
+endline
+
+point 450.25 348.75 water-flow -orientation 137.9
+
+line wall
+  465.0 335.5
+  457.64 348.52 447.31 357.6 442.75 372.0
+  smooth off
+endline
+
+point 430.5 343.75 dig -scale xs
+
+line wall
+  432.0 369.5
+  436.25 357.75 454.99 340.76 456.5 331.25
+  457.77 323.29 441.92 321.15 434.5 318.0
+  423.33 313.26 417.0 311.0 402.75 306.75
+  smooth off
+endline
+
+point 495.435 335.267 station -name dp_stat_16
+
+point 420.755 307.937 station -name dp_stat_17
+
+endscrap
+
+
+
+scrap scrap52 -projection plan -station-names "" "@gv_12-03-2022_reseau_de_la_cascade" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1112.25 -128.0 0.0 0.0 31.50235 0.0 m]
+
+point 745.195 405.937 station -name dp_stat_4
+
+point 676.745 381.837 station -name dp_stat_5
+
+point 640.485 389.147 station -name dp_stat_6
+
+point 542.015 373.197 station -name dp_stat_8
+
+point 529.155 395.377 station -name dp_stat_9
+
+point 506.755 400.387 station -name dp_stat_10
+
+point 471.445 367.227 station -name dp_stat_11
+
+line wall
+  552.25 381.0
+  542.5 379.5 545.5 382.25 531.25 400.75
+  smooth off
+endline
+
+line wall -subtype pit
+  531.25 400.75
+  527.0 406.0 505.96 400.31 492.5 403.75
+  smooth off
+endline
+
+point 427.5 395.75 water-flow -orientation 154.5
+
+line pit -reverse on
+  532.0 405.25
+  532.0 405.25 523.0 398.5 526.75 385.75
+  smooth off
+endline
+
+line wall
+  492.5 403.75
+  486.25 404.75 488.59 411.35 486.0 412.75
+  477.96 417.08 442.8 424.56 433.0 423.25
+  425.5 422.25 418.73 417.63 410.75 419.5
+  407.15 420.34 404.42 423.33 401.25 425.25
+  smooth off
+endline
+
+line wall
+  442.75 372.0
+  434.75 394.25 466.0 365.25 471.25 364.75
+  476.22 364.28 489.77 376.68 492.5 378.75
+  smooth off
+endline
+
+point 560.75 405.25 dig -scale xs
+
+line wall
+  548.5 370.0
+  567.58 370.04 585.87 376.51 604.75 378.0
+  610.48 378.45 618.28 379.92 624.0 380.5
+  645.61 382.69 635.3 385.21 658.25 380.75
+  664.18 379.6 671.97 376.38 678.0 376.75
+  690.59 377.53 735.79 401.73 745.5 395.25
+  747.68 393.8 748.67 391.08 750.25 389.0
+  smooth off
+endline
+
+point 618.0 352.0 remark -text [Terminus de 1965] -scale s -align bottom
+
+line wall -reverse on
+  552.25 381.0
+  585.2 384.76 611.89 398.33 645.25 398.5
+  altitude .
+  655.19 398.55 667.83 393.46 677.75 394.0
+  693.13 394.84 736.97 416.49 746.75 413.75
+  753.69 411.81 760.04 401.58 764.25 395.5
+  smooth off
+endline
+
+point 514.5 455.75 height -value [+14]
+
+line wall -subtype pit
+  492.5 378.75
+  494.58 379.58 496.54 380.89 498.75 381.25
+  503.28 381.99 506.43 381.88 510.5 384.0
+  516.75 387.25 518.25 395.25 528.0 391.0
+  smooth off
+endline
+
+line wall
+  528.0 391.0
+  532.5 390.0 535.0 370.0 548.5 370.0
+  smooth off
+endline
+
+point 379.25 438.25 narrow-end -orientation 307.2
+
+line wall
+  397.5 420.5
+  409.62 411.04 410.67 396.07 419.5 384.5
+  422.35 380.77 426.0 383.0 432.0 369.5
+  smooth off
+endline
+
+point 427.555 412.047 station -name dp_stat_12
+
+endscrap
+
+
+
+scrap scrap62 -projection plan -station-names "" "@gv_12-03-2022_reseau_de_la_cascade" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1112.25 -128.0 0.0 0.0 31.50235 0.0 m]
+
+point 884.255 293.697 station -name dp_stat_
+
+point 869.245 350.48699999999997 station -name dp_stat_1
+
+point 804.455 349.577 station -name dp_stat_2
+
+line wall
+  915.0 287.75
+  908.42 290.42 901.09 291.71 895.25 295.75
+  893.43 297.0 894.45 300.09 894.0 302.25
+  892.7 308.51 891.72 314.85 890.0 321.0
+  888.55 326.2 885.29 330.9 884.5 336.25
+  882.84 347.49 887.77 350.46 873.5 357.25
+  864.49 361.54 819.31 358.51 809.25 355.5
+  804.85 354.18 800.36 347.75 796.5 350.25
+  781.84 359.73 771.86 380.71 764.25 395.5
+  smooth off
+endline
+
+line pit -close on
+  860.25 348.5
+  845.15 345.87 848.41 336.1 865.0 338.0
+  876.01 339.26 869.88 350.17 860.25 348.5
+endline
+
+line floor-meander
+  757.5 390.0
+  762.0 384.42 764.5 375.26 768.0 369.0
+  774.34 357.64 780.76 343.67 793.5 335.5
+  800.33 331.12 803.13 346.53 811.0 348.5
+  820.87 350.97 823.33 349.92 833.5 349.75
+  837.97 349.67 846.0 343.25 850.25 342.75
+  smooth off
+endline
+
+point 948.25 279.25 narrow-end -orientation 101.6
+
+line border
+  870.75 326.75
+  870.75 326.75 875.0 340.0 888.75 334.0
+  smooth off
+endline
+
+line border
+  867.0 309.75
+  867.0 309.75 880.0 329.75 893.5 320.75
+  smooth off
+endline
+
+line gradient
+  887.0 299.5
+  876.25 341.75
+endline
+
+line border
+  870.0 296.75
+  870.0 296.75 880.5 315.5 896.5 307.75
+  smooth off
+endline
+
+line wall
+  852.75 334.5
+  860.25 334.25 865.15 335.96 870.0 335.75
+  875.75 335.5 872.52 321.35 874.25 314.25
+  881.15 285.94 885.96 287.25 914.5 283.25
+  smooth off
+endline
+
+line wall
+  750.25 389.0
+  753.83 382.5 757.42 376.0 761.0 369.5
+  smooth off
+  764.33 366.42 768.25 359.94 770.5 356.0
+  777.46 343.8 774.07 325.91 790.5 319.5
+  809.98 311.9 797.35 330.48 811.5 336.75
+  819.42 340.26 833.09 339.12 841.75 338.75
+  846.79 338.53 849.25 335.5 852.75 334.5
+  smooth off
+endline
+
+point 793.655 326.537 station -name dp_stat_3
+
+endscrap
+
+

@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 2024_06_01 -title "GV > 2024-06-01"
+
+    input Data/cata_2024_06_01.th
+
+    ## Plan
+    input Data/cata_2024_06_01.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2024_06_01-maps.th
+
+endsurvey
+

@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 1.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.00m (from 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 1447.00m to 1@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 1446.00m)\nnorth-south range: 0.00m (from 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 5030170.00m to 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 5030170.00m)\neast-west range: 0.00m (from 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 726296.00m to 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 726296.00m)\nnumber of shots: 5\nnumber of stations: 6"
+xth_cp_data_tree_insert 43 1 1 FJS319 FJS319 "Gouffre FJS319" "Gouffre FJS319" "length: 1.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.00m (from 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 1447.00m to 1@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 1446.00m)\nnorth-south range: 0.00m (from 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 5030170.00m to 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 5030170.00m)\neast-west range: 0.00m (from 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 726296.00m to 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 726296.00m)\nnumber of shots: 5\nnumber of stations: 6"
+xth_cp_data_tree_insert 45 43 2 FJS319_2024_10_13 FJS319_2024_10_13.FJS319 "FJS319\_2024\_10\_13" "FJS319\_2024\_10\_13" "length: 1.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.00m (from 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 1447.00m to 1@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 1446.00m)\nnorth-south range: 0.00m (from 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 5030170.00m to 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 5030170.00m)\neast-west range: 0.00m (from 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 726296.00m to 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 726296.00m)\nnumber of shots: 5\nnumber of stations: 6"
+xth_cp_data_tree_insert 47 45 3 FJS319_2024_10_13 FJS319_2024_10_13.FJS319_2024_10_13.FJS319 "FJS319" "FJS319" "length: 1.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 1.00m (from 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 1447.00m to 1@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 1446.00m)\nnorth-south range: 0.00m (from 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 5030170.00m to 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 5030170.00m)\neast-west range: 0.00m (from 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 726296.00m to 0@FJS319_2024_10_13.FJS319_2024_10_13.FJS319 at 726296.00m)\nnumber of shots: 5\nnumber of stations: 6"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 0 63X1 p1 1 FJS319-tot_MP FJS319-tot_MP@FJS319 "" ""
+xth_cp_map_tree_insert map 1 61X1 63X1 2 FJS319_2024_10_13_MP FJS319_2024_10_13_MP@FJS319_2024_10_13.FJS319 "FJS319\_2024\_10\_13" "FJS319\_2024\_10\_13"
+xth_cp_map_tree_create
+xth_cp_comp_stat 1 1
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1729062878
+

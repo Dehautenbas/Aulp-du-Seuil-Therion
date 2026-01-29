@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 2024_11_10 -title "GV > Siphon de Gravier"
+
+    input Data/GV_siphon_de_gravier.th
+
+    ## Plan
+    input Data/GV_siphon_de_gravier.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2024_11_10-maps.th
+
+endsurvey
+

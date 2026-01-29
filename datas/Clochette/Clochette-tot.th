@@ -1,0 +1,17 @@
+encoding  utf-8
+
+survey Clochette -title "Gouffre de la Clochette"
+
+    input Data/Data/1981_06_30/1981_06_30.th
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input Clochette-tot-maps.th
+
+endsurvey
+

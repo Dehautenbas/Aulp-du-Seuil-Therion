@@ -1,0 +1,79 @@
+encoding  utf-8
+
+map gv_1994_06_30_MP -title "Guiers Vif > 1994_06_30"
+
+						#GV_R_stA_SP1
+GV_R_stA_SP2
+GV_R_stA_SP3
+GV_R_stA_SP4
+GV_R_stA_SP5
+GV_R_stA_SP6
+GV_R_stA_SP7
+GV_R_stA_SP8
+
+GV_R_stA_SP11
+GV_R_stA_SP12
+GV_R_stA_SP13
+GV_R_stA_SP14
+GV_R_stA_SP15
+GV_R_stA_SP16
+GV_R_stA_SP17
+GV_R_stA_SP18
+GV_R_stA_SP19
+GV_R_stA_SP20
+GV_R_stA_SP21
+GV_R_stA_SP22
+GV_R_stA_SP23
+GV_R_stA_SP24
+
+GV_R_stA_SP26
+GV_R_stA_SP27
+GV_R_stA_SP28
+GV_R_stA_SP29
+GV_R_stA_SP30
+GV_R_stA_SP31
+GV_R_stA_SP32
+GV_R_stA_SP33
+						#GV_R_stA_SP34
+						#GV_R_stA_SP35
+						#GV_R_stA_SP36
+GV_R_stA_SP37
+GV_R_stA_SP38
+GV_R_stA_SP39
+GV_R_stA_SP40
+GV_R_stA_SP41
+GV_R_stA_SP42
+GV_R_stA_SP43
+GV_R_stA_SP44
+GV_R_stA_SP45
+GV_R_stA_SP46
+GV_R_stA_SP47
+GV_R_stA_SP48
+						#GV_R_stA_SP49
+						#GV_R_stA_SP50
+						#GV_R_stA_SP51
+                      
+					# UPPER CHEVALIER SERIES
+
+						# GV_R_stA_SP52
+						# GV_R_stA_SP53
+						# GV_R_stA_SP54
+						# GV_R_stA_SP55
+						# GV_R_stA_SP56
+						# GV_R_stA_SP57
+						# GV_R_stA_SP58
+						# GV_R_stA_SP59
+						# GV_R_stA_SP60
+						# GV_R_stA_SP61
+						# GV_R_stA_SP62
+						# GV_R_stA_SP63
+						# GV_R_stA_SP64
+						# GV_R_stA_SP65
+
+
+break
+GV_R_stA_SP9
+GV_R_stA_SP10
+
+endmap
+

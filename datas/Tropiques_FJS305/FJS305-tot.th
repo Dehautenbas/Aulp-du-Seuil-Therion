@@ -1,0 +1,17 @@
+encoding  utf-8
+
+survey FJS305 -title "Gouffre des Tropiques"
+
+    input Data/Data/2023_10_15/2023_10_15.th
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input FJS305-tot-maps.th
+
+endsurvey
+

@@ -1,0 +1,429 @@
+therion 6.3.1 (2024-11-22)
+  - using Proj 9.4.1, compiled against 9.4.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: Trou_des_flammes-tot-config.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM31
+meridian convergence (deg): -2.0596
+geomag declinations (deg):
+  2016.1.1  1.4822
+  2017.1.1  1.6340
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 0.62%
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.02%
+
+
+############### export maps & scraps selection #################
+M  1329.42 Trou_des_Flammes_MP-tot@trou_des_flammes (Trou des Flammes)
+M  1353.03 puits_lionel_terray_MP@2006_08_29.trou_des_flammes ()
+S  1338.34 SP-tdf20@2006_08_29.trou_des_flammes ()
+S  1367.72 SP-tdf19@2006_08_29.trou_des_flammes ()
+M  1369.20 entree_tdf_fin_faille_holmes_MP@2006_08_29.trou_des_flammes ()
+S  1523.06 SP-tdf1@2006_08_29.trou_des_flammes ()
+S  1476.43 SP-tdf2@2006_08_29.trou_des_flammes ()
+S  1443.17 SP-tdf3@2006_08_29.trou_des_flammes ()
+S  1402.72 SP-tdf4@2006_08_29.trou_des_flammes ()
+S  1460.97 SP-tdf9@2006_08_29.trou_des_flammes ()
+S  1466.03 SP-tdf10@2006_08_29.trou_des_flammes ()
+S  1433.17 SP-tdf11@2006_08_29.trou_des_flammes ()
+S  1410.40 SP-tdf12@2006_08_29.trou_des_flammes ()
+S  1384.73 SP-tdf13@2006_08_29.trou_des_flammes ()
+S  1417.60 SP-tdf15@2006_08_29.trou_des_flammes ()
+S  1393.30 SP-tdf14@2006_08_29.trou_des_flammes ()
+S  1352.95 SP-tdf16@2006_08_29.trou_des_flammes ()
+S  1337.12 SP-tdf17@2006_08_29.trou_des_flammes ()
+S  1321.78 SP-tdf18@2006_08_29.trou_des_flammes ()
+S  1316.02 SP-tdf21@2006_08_29.trou_des_flammes ()
+S  1312.37 SP-tdf22@2006_08_29.trou_des_flammes ()
+S  1300.76 SP-tdf23@2006_08_29.trou_des_flammes ()
+S  1292.10 SP-tdf24@2006_08_29.trou_des_flammes ()
+S  1291.42 SP-tdf25@2006_08_29.trou_des_flammes ()
+S  1292.52 SP-tdf26@2006_08_29.trou_des_flammes ()
+S  1292.77 SP-tdf27@2006_08_29.trou_des_flammes ()
+S  1289.75 SP-tdf28@2006_08_29.trou_des_flammes ()
+S  1280.48 SP-tdf29@2006_08_29.trou_des_flammes ()
+M  1437.25 salle_ben_puits_eologue_MP@2006_08_29.trou_des_flammes ()
+S  1399.12 SP-tdf5@2006_08_29.trou_des_flammes ()
+S  1419.14 SP-tdf6@2006_08_29.trou_des_flammes ()
+S  1454.30 SP-tdf7@2006_08_29.trou_des_flammes ()
+S  1476.46 SP-tdf8@2006_08_29.trou_des_flammes ()
+M  1272.76 cascade_watson_conan_doyle_MP@2006_08_29.trou_des_flammes ()
+S  1274.15 SP-tdf33@2006_08_29.trou_des_flammes ()
+S  1279.14 SP-tdf34@2006_08_29.trou_des_flammes ()
+S  1277.52 SP-tdf74@2006_08_29.trou_des_flammes ()
+S  1269.25 SP-tdf73@2006_08_29.trou_des_flammes ()
+S  1263.73 SP-tdf72@2006_08_29.trou_des_flammes ()
+M  1251.75 aval_riviere_malissard_MP@2006_08_29.trou_des_flammes ()
+S  1256.79 SP-tdf32@2006_08_29.trou_des_flammes ()
+S  1252.32 SP-tdf70@2006_08_29.trou_des_flammes ()
+S  1250.54 SP-tdf71@2006_08_29.trou_des_flammes ()
+S  1247.35 SP-tdf75@2006_08_29.trou_des_flammes ()
+M  1256.20 jonction_fossile_riviere_MP@2006_08_29.trou_des_flammes ()
+S  1265.41 SP-tdfsuite106@2006_08_29.trou_des_flammes ()
+S  1260.11 SP-tdfsuite107@2006_08_29.trou_des_flammes ()
+S  1252.64 SP-tdfsuite108@2006_08_29.trou_des_flammes ()
+S  1246.62 SP-tdfsuite109@2006_08_29.trou_des_flammes ()
+M  1294.07 amont_riviere_malissard_MP@2006_08_29.trou_des_flammes ()
+S  1289.79 SP-tdf30@2006_08_29.trou_des_flammes ()
+S  1278.02 SP-tdf31@2006_08_29.trou_des_flammes ()
+S  1282.22 SP-tdf35@2006_08_29.trou_des_flammes ()
+S  1284.52 SP-tdf36@2006_08_29.trou_des_flammes ()
+S  1283.66 SP-tdf37@2006_08_29.trou_des_flammes ()
+S  1284.56 SP-tdf38@2006_08_29.trou_des_flammes ()
+S  1295.57 SP-tdf39@2006_08_29.trou_des_flammes ()
+S  1294.04 SP-tdf42@2006_08_29.trou_des_flammes ()
+S  1300.58 SP-tdf41@2006_08_29.trou_des_flammes ()
+S  1302.09 SP-tdf40@2006_08_29.trou_des_flammes ()
+S  1289.89 SP-tdf44@2006_08_29.trou_des_flammes ()
+S  1285.01 SP-tdf43@2006_08_29.trou_des_flammes ()
+S  1289.61 SP-tdf45@2006_08_29.trou_des_flammes ()
+S  1285.35 SP-tdf47@2006_08_29.trou_des_flammes ()
+S  1311.71 SP-tdf48@2006_08_29.trou_des_flammes ()
+S  1310.97 SP-tdf49@2006_08_29.trou_des_flammes ()
+S  1311.96 SP-tdf50@2006_08_29.trou_des_flammes ()
+S  1313.69 SP-tdf51@2006_08_29.trou_des_flammes ()
+M  1324.81 galerie_des_puits_remontant_MP@2006_08_29.trou_des_flammes ()
+S  1318.29 SP-tdf60@2006_08_29.trou_des_flammes ()
+S  1323.66 SP-tdf61@2006_08_29.trou_des_flammes ()
+S  1326.82 SP-tdf62@2006_08_29.trou_des_flammes ()
+S  1330.47 SP-tdf63@2006_08_29.trou_des_flammes ()
+M  1319.43 meandre_des_phonolithes_MP@2006_08_29.trou_des_flammes ()
+S  1313.56 SP-tdf52@2006_08_29.trou_des_flammes ()
+S  1314.96 SP-tdf53@2006_08_29.trou_des_flammes ()
+S  1317.36 SP-tdf54@2006_08_29.trou_des_flammes ()
+S  1320.92 SP-tdf55@2006_08_29.trou_des_flammes ()
+S  1323.90 SP-tdf56@2006_08_29.trou_des_flammes ()
+S  1325.87 SP-tdf57@2006_08_29.trou_des_flammes ()
+M  1245.15 aval_riviere_malissard_suite_MP@2006_08_29.trou_des_flammes ()
+S  1245.64 SP-tdfsuite100@2006_08_29.trou_des_flammes ()
+S  1244.58 SP-tdfsuite101@2006_08_29.trou_des_flammes ()
+S  1243.61 SP-tdfsuite102@2006_08_29.trou_des_flammes ()
+S  1247.65 SP-tdfsuite103@2006_08_29.trou_des_flammes ()
+S  1244.78 SP-tdfsuite104@2006_08_29.trou_des_flammes ()
+S  1244.62 SP-tdfsuite105@2006_08_29.trou_des_flammes ()
+M  1350.79 galerie_fossile_sud_MP@2006_08_29.trou_des_flammes ()
+S  1280.87 SP-tdfsuite110@2006_08_29.trou_des_flammes ()
+S  1293.80 SP-tdfsuite111@2006_08_29.trou_des_flammes ()
+S  1301.35 SP-tdfsuite112@2006_08_29.trou_des_flammes ()
+S  1317.20 SP-tdfsuite113@2006_08_29.trou_des_flammes ()
+S  1339.64 SP-tdfsuite114@2006_08_29.trou_des_flammes ()
+S  1341.00 SP-tdfsuite115@2006_08_29.trou_des_flammes ()
+S  1335.33 SP-tdfsuite115bis@2006_08_29.trou_des_flammes ()
+S  1339.95 SP-tdfsuite116@2006_08_29.trou_des_flammes ()
+S  1350.89 SP-tdfsuite117@2006_08_29.trou_des_flammes ()
+S  1358.25 SP-tdfsuite118@2006_08_29.trou_des_flammes ()
+S  1368.78 SP-tdfsuite119@2006_08_29.trou_des_flammes ()
+S  1369.22 SP-tdfsuite120@2006_08_29.trou_des_flammes ()
+S  1373.57 SP-tdfsuite121@2006_08_29.trou_des_flammes ()
+S  1379.77 SP-tdfsuite122@2006_08_29.trou_des_flammes ()
+S  1383.30 SP-tdfsuite123@2006_08_29.trou_des_flammes ()
+S  1390.94 SP-tdfsuite140@2006_08_29.trou_des_flammes ()
+S  1364.12 SP-tdfsuite124@2006_08_29.trou_des_flammes ()
+S  1342.25 SP-tdfsuite125@2006_08_29.trou_des_flammes ()
+S  1394.13 SP-tdfsuite141@2006_08_29.trou_des_flammes ()
+S  1391.49 SP-tdfsuite142@2006_08_29.trou_des_flammes ()
+M  1343.20 affluent_marteau_canne_MP@2006_08_29.trou_des_flammes ()
+S  1339.35 SP-tdfsuite127@2006_08_29.trou_des_flammes ()
+S  1339.38 SP-tdfsuite130@2006_08_29.trou_des_flammes ()
+S  1340.77 SP-tdfsuite131@2006_08_29.trou_des_flammes ()
+S  1341.50 SP-tdfsuite132@2006_08_29.trou_des_flammes ()
+S  1343.33 SP-tdfsuite133@2006_08_29.trou_des_flammes ()
+S  1345.99 SP-tdfsuite134@2006_08_29.trou_des_flammes ()
+S  1347.95 SP-tdfsuite135@2006_08_29.trou_des_flammes ()
+S  1345.70 SP-tdfsuite128@2006_08_29.trou_des_flammes ()
+S  1344.80 SP-tdfsuite129@2006_08_29.trou_des_flammes ()
+M  1335.37 affluent_sous_salle_face_ouest_MP@2006_08_29.trou_des_flammes ()
+S  1335.37 SP-tdfsuite126@2006_08_29.trou_des_flammes ()
+M  1336.17 galerie_fossile_sud_114bis_MP@2006_08_29.trou_des_flammes ()
+S  1336.17 SP-tdfsuite114bis@2006_08_29.trou_des_flammes ()
+M  1388.92 siphon_pedale_douce_MP@2006_08_29.trou_des_flammes ()
+S  1386.19 SP-tdfsuite143@2006_08_29.trou_des_flammes ()
+S  1391.64 SP-tdfsuite144@2006_08_29.trou_des_flammes ()
+M  1392.61 affluent_pedale_douce_MP@2006_08_29.trou_des_flammes ()
+S  1391.39 SP-tdfsuite145@2006_08_29.trou_des_flammes ()
+S  1393.05 SP-tdfsuite146@2006_08_29.trou_des_flammes ()
+S  1394.27 SP-tdfsuite147@2006_08_29.trou_des_flammes ()
+S  1391.73 SP-tdfsuite148@2006_08_29.trou_des_flammes ()
+########## end of export maps & scraps selection ###############
+writing Outputs/trou_des_flammes-tot-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  2 JAN 2025 17:09
+**data.mp
+(c:/Program Files/Therion/texmf/mpost/mpost.mp
+(c:/Program Files/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16]
+[17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31]
+[32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46]
+[47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61]
+[62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76]
+[77] [78] [79] [80]
+[Warning: scrap outline intersects itself in scrap SP-tdf3@2006_08_29.trou_des_
+flammes] [81] [82] [83] [84] [85] [86] [87] [88] [89] [90] [91] [92] [93] [94]
+[95] [96] [97] [98] [99] [100] [101] [102] [103] [104] [105] [106] [107] [108]
+[109] [110] [111] [112] [113] [114] [115]
+[Warning: scrap outline intersects itself in scrap SP-tdf33@2006_08_29.trou_des
+_flammes] [116] [117] [118] [119] [120] [121] [122] [123]
+[Warning: text scaled down to fit the path in scrap SP-tdf71@2006_08_29.trou_de
+s_flammes] [124] [125] [126] [127] [128] [129] [130] [131] [132] [133] [134]
+[135] [136] [137] [138] [139] [140] [141] [142] [143] [144] [145] [146] [147]
+[148]
+[Warning: scrap outline intersects itself in scrap SP-tdf51@2006_08_29.trou_des
+_flammes] [149] [150] [151] [152] [153] [154] [155] [156] [157] [158] [159]
+[160]
+[Warning: scrap outline intersects itself in scrap SP-tdf48@2006_08_29.trou_des
+_flammes] [161] [162] [163] [164] [165] [166] [167] [168] [169] [170] [171]
+[172] [173] [174] [175] [176] [177] [178] [179] [180] [181] [182] [183] [184]
+[185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196] [197]
+[198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208] [209] [210]
+[211] [212] [213] [214] [215] [216] [217] [218] [219] [220] [221] [222] [223]
+[224] [225] [226] [227] [228] [229] [230] [231] [232] [233] [234] [235] [236]
+[237] [238] [239] [240] [241] [242] [243] [244] [245] [246] [247] [248] [249]
+[250] [251] [252] [253] [254] [255] [256] [257] [258] [259] [260] [261] [262]
+[263] [264] [265] [266] [267] [268] [269] [270] [271] [272] [273] [274] [275]
+[276] [277] [278] [279] [280] [281] [282] [283] [284] [285] [286] [287] [288]
+[289] [290] [291] [292] [293] [294] [295] [296] [297] [298] [299] [300] [301]
+[302] [303] [304] [305] [306] [307] [308] [309] [310] [311] [312] [313] [314]
+[315] [316] [317] [318] [319] [320] [321] [322] [323] [324] [325] [326] [327]
+[328] [329]
+[Warning: text scaled down to fit the path in scrap SP-tdfsuite115bis@2006_08_2
+9.trou_des_flammes] [330] [331] [332] [333] [334] [335] [336] [337] [338] [339]
+[340] [341] [342] [343] [344] [345] [346] [347] [348] [349] [350] [351] [352]
+[353] [354] [355] [356] [357] [358] [359] [360] [361] [362] [363] [364] [365]
+[366] [367] [368] [369] [370] [371] [372] [373] [374] [375] [376] [377] [378]
+[379] [380] [381] [382] [383] [384] [385] [386] [387] [388] [389] [390] [391]
+[392] [393] [394] [395] [396] [397] [398] [399] [400] [401] [402] [403] [404]
+[405] [406] [407] [408] [409] [410] [411] [412] [413] [414] [415]
+(./mptextmp.mp) [416] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [417] (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[418] )
+ 
+Here is how much of MetaPost's memory you used:
+ 134014 strings using 3289741 characters
+ 6047736 bytes of node memory
+ 1751 symbolic tokens
+ 11i,82n,19p,637b,5f stack positions out of 16i,98n,20p,760b,6f
+433 output files written: data-patt.1 .. data.418
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  2 JAN 2025 17:09
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
+rogram Files/Therion/texmf/fonts/pdftex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aa
+aaaac.dat>><<th_gour_aaaaaae.dat>><<th_gour_aaaaaag.dat>><<th_gour_aaaaaai.dat>
+><<th_gour_aaaaaba.dat>><<th_gour_aaaaabc.dat>><<th_gour_aaaaabe.dat>><<th_gour
+_aaaaabg.dat>><<th_gour_aaaaabi.dat>><<th_gour_aaaaaca.dat>><<th_gour_aaaaacc.d
+at>><<th_gour_aaaaace.dat>><<th_gour_aaaaacg.dat>><<th_gour_aaaaaci.dat>><<th_g
+our_aaaaada.dat>><<th_gour_aaaaadc.dat>><<th_gour_aaaaade.dat>><<th_gour_aaaaad
+g.dat>><<th_gour_aaaaadi.dat>><<th_gour_aaaaaea.dat>><<th_gour_aaaaaec.dat>><<t
+h_gour_aaaaaee.dat>><<th_gour_aaaaaeg.dat>><<th_gour_aaaaaei.dat>><<th_gour_aaa
+aafa.dat>><<th_gour_aaaaafc.dat>><<th_gour_aaaaafe.dat>><<th_gour_aaaaafg.dat>>
+<<th_gour_aaaaafi.dat>><<th_gour_aaaaaga.dat>><<th_gour_aaaaagc.dat>><<th_gour_
+aaaaage.dat>><<th_gour_aaaaagg.dat>><<th_gour_aaaaagi.dat>><<th_gour_aaaaaha.da
+t>><<th_gour_aaaaahc.dat>><<th_gour_aaaaahe.dat>><<th_gour_aaaaahg.dat>><<th_go
+ur_aaaaahi.dat>><<th_gour_aaaaaia.dat>><<th_gour_aaaaaic.dat>><<th_gour_aaaaaie
+.dat>><<th_gour_aaaaaig.dat>><<th_gour_aaaaaii.dat>><<th_gour_aaaaaja.dat>><<th
+_gour_aaaaajc.dat>><<th_gour_aaaaaje.dat>><<th_gour_aaaaajg.dat>><<th_gour_aaaa
+aji.dat>><<th_gour_aaaabaa.dat>><<th_gour_aaaabac.dat>><<th_gour_aaaabae.dat>><
+<th_gour_aaaabag.dat>><<th_gour_aaaabai.dat>><<th_gour_aaaabba.dat>><<th_gour_a
+aaabbc.dat>><<th_gour_aaaabbe.dat>><<th_gour_aaaabbg.dat>><<th_gour_aaaabbi.dat
+>><<th_gour_aaaabca.dat>><<th_gour_aaaabcc.dat>><<th_gour_aaaabce.dat>><<th_gou
+r_aaaabcg.dat>><<th_gour_aaaabci.dat>><<th_gour_aaaabda.dat>><<th_gour_aaaabdc.
+dat>><<th_gour_aaaabde.dat>><<th_gour_aaaabdg.dat>><<th_gour_aaaabdi.dat>><<th_
+gour_aaaabea.dat>><<th_gour_aaaabec.dat>><<th_gour_aaaabee.dat>><<th_gour_aaaab
+eg.dat>><<th_gour_aaaabei.dat>><<th_gour_aaaabfa.dat>><<th_gour_aaaabfc.dat>><<
+th_gour_aaaabfe.dat>><<th_gour_aaaabfg.dat>><<th_gour_aaaabfi.dat>><<th_gour_aa
+aabga.dat>><<th_gour_aaaabgc.dat>><<th_gour_aaaabge.dat>><<th_gour_aaaabgg.dat>
+><<th_gour_aaaabgi.dat>><<th_gour_aaaabha.dat>><<th_gour_aaaabhc.dat>><<th_gour
+_aaaabhe.dat>><<th_gour_aaaabhg.dat>><<th_gour_aaaabhi.dat>><<th_gour_aaaabia.d
+at>><<th_gour_aaaabic.dat>><<th_gour_aaaabie.dat>><<th_gour_aaaabig.dat>><<th_g
+our_aaaabii.dat>><<th_gour_aaaabja.dat>><<th_gour_aaaabjc.dat>><<th_gour_aaaabj
+e.dat>><<th_gour_aaaabjg.dat>><<th_gour_aaaabji.dat>><<th_gour_aaaacaa.dat>><<t
+h_gour_aaaacac.dat>><<th_gour_aaaacae.dat>><<th_gour_aaaacag.dat>><<th_gour_aaa
+acai.dat>><<th_gour_aaaacba.dat>><<th_gour_aaaacbc.dat>><<th_gour_aaaacbe.dat>>
+<<th_gour_aaaacbg.dat>><<th_gour_aaaacbi.dat>><<th_gour_aaaacca.dat>><<th_gour_
+aaaaccc.dat>><<th_gour_aaaacce.dat>>)
+(./th_formdef.tex
+Normal \count register pool exhausted, switching to extended pool.)
+(./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 253 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 1416 strings out of 95671
+ 17641 string characters out of 1192323
+ 290302 words of memory out of 1759345
+ 2805 multiletter control sequences out of 15000+50000
+ 24129 words of font info for 73 fonts, out of 1000000 for 2000
+ 844 hyphenation exceptions out of 5000
+ 10i,6n,9p,1703b,54s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files/Therion/texmf/fonts/type1/cmbx10.pfb><c:/Program Files/
+Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/Therion/texmf/fonts/type
+1/cmssi10.pfb><c:/Program Files/Therion/texmf/fonts/type1/cmti10.pfb><c:/Progra
+m Files/Therion/texmf/fonts/type1/csss10.pfb><c:/Program Files/Therion/texmf/fo
+nts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 1983966 bytes).
+PDF statistics:
+ 2350 PDF objects out of 2487 (max. 8388607)
+ 1178 compressed objects within 12 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 7143 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing xtherion file ... done
+compilation time: 9 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  0.62%    4.8m  785.4m  84    0.6m    0.9m    4.7m [125@tdf_2006_08_29.2006_08_29.trou_des_flammes - 126g - 127g - 128g - 129g - 130g - 131g - 132g - 133g - 134g - 135g = 199c - 198c - 197c - 196c - 195c - 194c - 193c - 192c - 191c - 190c - 189c - 188c - 187c - 186c - 185c - 184c - 183c - 182c - 181c - 180c - 179c - 178c - 177c - 176c - 175c - 174c - 173c - 172c - 171c - 170c - 169c - 168c - 167c - 166c - 165c - 164c - 163c - 162c - 161c - 160c - 159c - 158c - 157c - 156c - 155c - 154c - 153c - 152c - 151c - 150c - 149 - 148 - 147 - 146 - 145 - 144 - 143 - 142 - 141 - 140 - 139 - 138 - 137 - 136 - 135 - 134 - 133 - 132 - 131 - 130 - 129 - 128 - 127 - 126 - 125]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.62%   32.85%  SP-tdfsuite100@2006_08_29.trou_des_flammes
+   1.66%   27.88%  SP-tdf75@2006_08_29.trou_des_flammes
+   0.01%    6.01%  SP-tdf70@2006_08_29.trou_des_flammes
+   0.11%    1.53%  SP-tdf33@2006_08_29.trou_des_flammes
+   0.10%    1.04%  SP-tdf29@2006_08_29.trou_des_flammes
+   0.03%    0.62%  SP-tdf34@2006_08_29.trou_des_flammes
+   0.07%    0.53%  SP-tdf71@2006_08_29.trou_des_flammes
+   0.06%    0.52%  SP-tdf31@2006_08_29.trou_des_flammes
+   0.17%    0.47%  SP-tdf72@2006_08_29.trou_des_flammes
+   0.07%    0.47%  SP-tdf32@2006_08_29.trou_des_flammes
+   0.03%    0.24%  SP-tdf74@2006_08_29.trou_des_flammes
+   0.02%    0.20%  SP-tdf30@2006_08_29.trou_des_flammes
+   0.02%    0.15%  SP-tdf73@2006_08_29.trou_des_flammes
+   0.00%    0.11%  SP-tdf26@2006_08_29.trou_des_flammes
+   0.00%    0.08%  SP-tdf39@2006_08_29.trou_des_flammes
+   0.00%    0.07%  SP-tdfsuite128@2006_08_29.trou_des_flammes
+   0.00%    0.06%  SP-tdfsuite114@2006_08_29.trou_des_flammes
+   0.00%    0.05%  SP-tdf57@2006_08_29.trou_des_flammes
+   0.00%    0.05%  SP-tdfsuite119@2006_08_29.trou_des_flammes
+   0.00%    0.05%  SP-tdfsuite102@2006_08_29.trou_des_flammes
+   0.01%    0.05%  SP-tdf15@2006_08_29.trou_des_flammes
+   0.00%    0.05%  SP-tdfsuite131@2006_08_29.trou_des_flammes
+   0.00%    0.04%  SP-tdf20@2006_08_29.trou_des_flammes
+   0.00%    0.04%  SP-tdfsuite121@2006_08_29.trou_des_flammes
+   0.00%    0.04%  SP-tdf22@2006_08_29.trou_des_flammes
+   0.00%    0.04%  SP-tdf51@2006_08_29.trou_des_flammes
+   0.01%    0.04%  SP-tdf8@2006_08_29.trou_des_flammes
+   0.00%    0.04%  SP-tdf4@2006_08_29.trou_des_flammes
+   0.00%    0.04%  SP-tdf52@2006_08_29.trou_des_flammes
+   0.00%    0.04%  SP-tdf55@2006_08_29.trou_des_flammes
+   0.00%    0.03%  SP-tdf56@2006_08_29.trou_des_flammes
+   0.00%    0.03%  SP-tdfsuite145@2006_08_29.trou_des_flammes
+   0.00%    0.03%  SP-tdfsuite114bis@2006_08_29.trou_des_flammes
+   0.00%    0.03%  SP-tdfsuite135@2006_08_29.trou_des_flammes
+   0.00%    0.03%  SP-tdfsuite115bis@2006_08_29.trou_des_flammes
+   0.01%    0.03%  SP-tdf1@2006_08_29.trou_des_flammes
+   0.00%    0.03%  SP-tdf25@2006_08_29.trou_des_flammes
+   0.00%    0.03%  SP-tdf12@2006_08_29.trou_des_flammes
+   0.00%    0.03%  SP-tdfsuite146@2006_08_29.trou_des_flammes
+   0.00%    0.03%  SP-tdfsuite123@2006_08_29.trou_des_flammes
+   0.00%    0.03%  SP-tdfsuite130@2006_08_29.trou_des_flammes
+   0.00%    0.03%  SP-tdf7@2006_08_29.trou_des_flammes
+   0.00%    0.03%  SP-tdfsuite134@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf5@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf53@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf6@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdfsuite108@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf54@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdfsuite132@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf13@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdfsuite104@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf21@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdfsuite103@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf62@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf2@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf42@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf27@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf28@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdfsuite127@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf47@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf35@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf40@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf36@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdfsuite133@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf38@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf48@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdfsuite115@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf11@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdf60@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdfsuite107@2006_08_29.trou_des_flammes
+   0.00%    0.02%  SP-tdfsuite129@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf14@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf18@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf49@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite101@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf10@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf24@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf37@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite124@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite106@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf19@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite105@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite109@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite117@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite126@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite141@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf43@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf9@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf44@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf16@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf61@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf50@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite148@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite122@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite147@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite142@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite120@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf3@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite118@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite113@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite116@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite112@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite110@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf63@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf41@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite143@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf45@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdf17@2006_08_29.trou_des_flammes
+   0.00%    0.01%  SP-tdfsuite144@2006_08_29.trou_des_flammes
+   0.00%    0.00%  SP-tdf23@2006_08_29.trou_des_flammes
+   0.00%    0.00%  SP-tdfsuite140@2006_08_29.trou_des_flammes
+   0.00%    0.00%  SP-tdfsuite111@2006_08_29.trou_des_flammes
+   0.00%    0.00%  SP-tdfsuite125@2006_08_29.trou_des_flammes
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (5.893, 45.375) (5.893, 45.375)
+  [UTM31 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM31 → LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM31 → UTM31] AoU: [yes] transformation: [Inverse of UTM zone 31N + UTM zone 31N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM31 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 → UTM31] AoU: [yes] transformation: [axis order change (2D) + UTM zone 31N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=31 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

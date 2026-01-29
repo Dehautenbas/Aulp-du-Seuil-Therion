@@ -1,0 +1,213 @@
+encoding  utf-8
+
+select Aulp_du_seuil-tot_MP@Aulp_du_seuil
+
+source "Data/aulp_du_seuil-tot.th"
+
+#source "surface/AulpSeuil-DEM-Crop.th" #cs EPSG:2154
+
+input "_config/config.thc"
+
+layout xviexport
+	scale 1 1000
+	grid-size 10 10 10 m
+	grid bottom
+endlayout
+
+lookup explo-date -title "Où ça bosse ?" #explo-date | topo-date | Altitude      #A besoin dans un un layout de :   colour map-fg explo-date 
+  #1980.01.01 [] "1980 et avant"
+  #1990.01.01 [] 1990
+  #2000.01.01 [] 2000
+  #2010.01.01 [] 2010
+  #2020.12.31 [] "2020 et avant"
+  #2024.12.31 [] "2024"
+  #2023.01.01 [] 2023
+  #2024.01.01 [] 2024
+  #- [] "2024 et après"  #my experimentation suggests that '-' colours undated surveys if last in the list, and all surveys if first in list.  Bruce
+endlookup
+
+layout my_layout
+	# Call the config settings (Layout config inside the config.thc file)
+	copy drawingconfig
+	copy headerl
+	copy langue-fr 
+	
+	map-comment "<it>Plan<ss> - Aulp du Seuil Souterrain, Plateau des Petites Roches, 38, France"
+	
+	doc-title "Aulp du Seuil Souterrain - Plan"
+	doc-author "David Parrot"
+        doc-keywords "cave, system"
+        doc-subject "plan map of cave"
+	
+	#cs UTM31	# UTM31 Nord
+	cs EPSG:2154	# RGF93 - Lambert 93 ; projection de l'IGN
+
+        surface bottom
+        surface-opacity 30
+
+	#base-scale 1 3000
+	#scale 1 7000
+	
+	#base-scale 1 500
+	#scale 1 1000
+	
+	base-scale 1 1000
+	scale 1 1000
+	
+	scale-bar 100 m
+	
+	#color map-bg 85
+	color map-bg transparent
+	
+	#color map-fg [100 100 80]
+	color map-fg altitude #explo-date | topo-date | altitude
+	
+	transparency on
+	opacity 75
+	
+	statistics explo-length off
+	statistics topo-length off
+	statistics copyright all
+	
+	legend off
+	legend-width 12 cm
+	#map-header 95 100 nw
+	map-header 0 0 nw
+	map-header-bg off
+	
+	layers off
+	
+	#grid bottom
+	#grid-size 100 100 100 m
+	grid off
+	
+	rotate 90
+	
+	#debug station-names
+	
+	symbol-hide line survey
+	
+	#symbol-hide group text
+	
+	     #symbol-hide point label          # texte en point
+	     #symbol-hide line label           # texte en ligne
+	     
+	#symbol-hide group all
+	#symbol-show line wall
+	
+	#symbol-hide point cave-station   # station
+	#symbol-hide point height         # hauteur d'un obstacle
+	#symbol-hide point passage-height # syombole hauteur d'un passage
+	#symbol-hide point entrance       # symobole Entrée
+	
+	# Pour décharger le dessin en TGT
+	
+        symbol-hide point date           # symbole date d'observation
+	symbol-hide point remark         # texte en remarque
+	
+	#symbol-hide point altitude       # point d'altitude
+	#symbol-hide point wall-altitude  # point d'altitude sur le mur
+	
+        code metapost
+          #fonts_setup(6,8,14,18,28);
+          #fonts_setup(12,16,28,36,56);
+          #fonts_setup(8,11,18,24,37);
+        endcode
+  
+	# To change the Title          
+	code tex-map
+  
+		\edef\temp{\the\cavename}   % cavename from Therion
+		\edef\nostring{}            % empty string
+		\ifx\temp\nostring          % test if cavename is empty
+			% if empty reassign cavename to describe selected maps as a group
+			\cavename={Aulp du Seuil Souterrain} 		
+		\else % if not empty keep the value set by therion, or assign an override cavename here
+		\fi
+		%\newtoks\club \club={FJS}
+	endcode  
+
+        # Pour changer le logo du point 'entrance'.
+
+        code metapost
+                #def p_entrance (expr pos,theta,sc,al)=
+                  #U:=(.2u,.5u);
+                  #T:=identity aligned al rotated theta scaled sc shifted pos;
+                  #path p;
+                  #p = (-.3u,-.25u) -- (-.2u,-.25u){dir 135} .. (0u, .25u) .. {dir 225}(.2u,-.25u) -- (.3u,-.25u);
+                  #thdraw p withpen PenA;
+                  #thdraw unitsquare scaled u shifted (-0.5u,-0.5u) rotated 45 withpen PenD;
+                #enddef;
+        endcode
+
+	# add general view
+	#map-image 45 20 nw xxxxxxxxxxxxx.pdf
+ 
+ endlayout
+ 
+ layout my_layout-coupe
+	# Call the config settings (Layout config inside the config.thc file)
+	copy drawingconfig
+	copy header_coupe
+	copy langue-fr 
+  
+	doc-title "Aulp du Seuil Souterrain"
+	doc-author "David Parrot"
+	cs UTM31
+	base-scale 1 1000
+	scale 1 1000
+	scale-bar 100 m
+	#color map-bg 85
+	color map-fg [100 100 80]
+	transparency on
+	opacity 75
+	language fr
+	map-comment "<it>Coupe<ss> - Aulp du Seuil Souterrain, Plateau des Petites Roches, 38, France"
+	statistics explo-length off
+	statistics topo-length off
+	statistics copyright all
+	legend off
+	legend-width 16 cm
+	map-header 0 45 sw
+	map-header-bg off
+	layers on
+	#symbol-hide line survey
+	debug station-names
+	#grid bottom
+	#grid-size 100 100 100 m
+	grid off  
+  
+	# To change the Title          
+	code tex-map
+  
+		\edef\temp{\the\cavename}   % cavename from Therion
+		\edef\nostring{}            % empty string
+		\ifx\temp\nostring          % test if cavename is empty
+			% if empty reassign cavename to describe selected maps as a group
+			\cavename={Aulp du Seuil Souterrain} 		
+		\else % if not empty keep the value set by therion, or assign an override cavename here
+		\fi
+		%\newtoks\club \club={FJS}
+	endcode
+
+	# add general view
+	#map-image 45 20 nw xxxxxxxxxxxxx.pdf
+
+ endlayout
+
+ 
+  
+ #export map -projection plan -fmt xvi -layout xviexport -o Data/Aulp_du_Seuil_Souterrain-th_p.xvi
+ #export map -projection extended -fmt xvi -layout xviexport -o Data/Aulp_du_Seuil_Souterrain-th_e.xvi
+  
+ #export map -projection plan -o Outputs/ADS24DEC24-plan.pdf -layout my_layout
+ #export map -projection plan -o "C:\Users\David\Desktop\ADS24DEC24-plan1000.pdf" -layout my_layout
+ 
+ #export map -projection extended -layout my_layout-coupe -o Outputs/Aulp_du_Seuil_Souterrain-coupe.pdf
+ 
+ #export model -o Outputs/7OCT24.lox
+ export model -o "C:\Users\David\Desktop\02_01_2025.lox"
+ 
+ #export model -fmt kml -o Outputs/kml/ADS2024.kml
+ #export map -projection plan -fmt esri -o Outputs/AulpSeuil
+ #export model -fmt esri -o Outputs/AulpSeuil

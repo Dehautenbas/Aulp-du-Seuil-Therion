@@ -1,0 +1,111 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 718.55 324.85
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {88.84499999999997 1 1.0} {101.851 19} 2024_07_27-th_p5.xvi 0 {}
+
+
+
+scrap scb1-20240727-p5 -projection plan -station-names "" "@SCB1-2024-07-27" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 718.55 -128.0 0.0 0.0 21.50237 0.0 m]
+
+point 544.635 195.211 station -name 25
+
+point 486.255 189.481 station -name 24
+
+point 426.755 167.711 station -name 23
+
+point 314.835 126.311 station -name 22
+
+line overhang
+  482.75 195.75
+  482.75 195.75 496.99 190.81 489.0 179.75
+  smooth off
+endline
+
+point 22.75 89.5 narrow-end -orientation 258.9
+
+line wall
+  39.75 90.0
+  47.92 91.5 55.98 93.72 64.25 94.5
+  68.41 94.89 72.58 93.26 76.75 93.5
+  90.82 94.3 104.43 98.76 118.25 101.5
+  smooth off
+endline
+
+line wall
+  116.0 115.25
+  102.53 112.19 87.93 121.3 75.0 114.0
+  72.04 112.33 73.59 106.97 71.25 104.5
+  65.55 98.48 44.25 96.75 38.25 95.0
+  smooth off
+endline
+
+line wall
+  118.25 101.5
+  158.75 110.25 137.65 108.24 176.25 116.0
+  207.58 122.3 217.51 125.38 241.5 124.5
+  244.24 124.4 268.08 123.42 270.75 122.75
+  smooth off
+  289.25 122.75 296.48 121.11 314.75 124.0
+  333.75 127.01 352.26 133.89 370.5 140.0
+  smooth off
+  405.0 150.75 435.3 165.06 467.0 176.0
+  507.4 189.94 490.02 164.49 519.75 172.75
+  528.79 175.26 535.54 185.51 544.25 189.0
+  545.78 189.61 563.92 189.5 568.0 189.5
+  smooth off
+endline
+
+line wall
+endline
+
+point 431.5 184.5 air-draught -orientation 246.2
+
+point 573.0 174.0 dig
+
+point 416.0 138.25 dig
+
+point 175.0 101.25 dig
+
+point 441.0 155.0 air-draught -orientation 68.8
+
+point 575.5 194.0 water-flow -orientation 85.9
+
+point 403.25 157.25 water-flow -orientation 67.7
+
+point 121.5 109.0 water-flow -orientation 82.0
+
+point 306.0 109.0 water-flow -orientation 345.7
+
+point 274.0 108.5 water-flow -orientation 0.0
+
+line overhang
+  138.75 122.75
+  138.75 122.75 151.75 114.0 143.5 101.5
+endline
+
+line wall -reverse on
+  116.0 115.25
+  169.5 120.75 196.0 135.0 251.0 145.0
+  altitude .
+  271.04 148.64 291.73 141.78 312.0 143.5
+  323.57 144.48 335.72 148.24 347.0 151.0
+  373.55 157.49 401.53 160.24 427.25 169.5
+  434.42 172.08 507.28 208.71 516.75 209.5
+  altitude .
+  528.75 210.5 534.97 202.75 545.0 200.5
+  551.51 199.04 560.58 199.42 567.25 199.25
+  smooth off
+endline
+
+point 249.385 137.141 station -name 21
+
+point 171.75499999999997 120.081 station -name 20
+
+point 88.84499999999997 101.851 station -name 19
+
+line wall
+endline
+
+endscrap
+
+

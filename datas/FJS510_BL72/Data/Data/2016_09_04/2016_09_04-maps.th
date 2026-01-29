@@ -1,0 +1,6 @@
+encoding  utf-8
+
+map FJS510_2016_09_04_MP -title "FJS510 > 2016_09_04"
+  FJS510_SP1
+  FJS510_SP2
+endmap

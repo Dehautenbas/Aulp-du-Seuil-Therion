@@ -1,0 +1,105 @@
+therion 6.2.1 (2024-03-20)
+  - using Proj 9.3.1, compiled against 9.3.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: 2024_06_01-config.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.00%
+
+
+############### export maps & scraps selection #################
+M    17.75 gv_catacombe-MP@2024_06_01 ()
+S     4.72 cata-010624-p1@2024_06_01 ()
+S    19.83 cata-010624-p2@2024_06_01 ()
+S    24.53 cata-010624-p3@2024_06_01 ()
+S    21.91 cata-010624-p4@2024_06_01 ()
+########## end of export maps & scraps selection ###############
+writing Outputs/cata_2024_06_01-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  21 JUN 2024 09:29
+**data.mp
+(c:/Program Files/Therion/texmf/mpost/mpost.mp
+(c:/Program Files/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15]
+[Warning: obsolete transparent colour definition 'tr_lgrey']
+[Warning: obsolete transparent colour definition 'tr_lchamois']
+[Warning: obsolete transparent colour definition 'tr_lqueue']
+[Warning: obsolete transparent colour definition 'tr_largile']
+[Warning: obsolete transparent colour definition 'tr_ttg'] [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] (./mptextmp.mp) [14] (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[15] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) [16] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3889 strings using 97824 characters
+ 4071320 bytes of node memory
+ 1731 symbolic tokens
+ 11i,82n,19p,451b,5f stack positions out of 16i,98n,20p,487b,6f
+31 output files written: data-patt.1 .. data.16
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  21 JUN 2024 09:29
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
+rogram Files/Therion/texmf/fonts/pdftex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aa
+aaaab.dat>><<th_gour_aaaaaac.dat>><<th_gour_aaaaaad.dat>>)
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 79 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 330 strings out of 95671
+ 4364 string characters out of 1192323
+ 114817 words of memory out of 1590860
+ 1719 multiletter control sequences out of 15000+50000
+ 23531 words of font info for 72 fonts, out of 1000000 for 2000
+ 844 hyphenation exceptions out of 5000
+ 10i,6n,8p,663b,54s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files/Therion/texmf/fonts/type1/cmbx10.pfb><c:/Program Files/T
+herion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/Therion/texmf/fonts/type1
+/cmssi10.pfb><c:/Program Files/Therion/texmf/fonts/type1/cmti10.pfb><c:/Program
+ Files/Therion/texmf/fonts/type1/csss10.pfb><c:/Program Files/Therion/texmf/fon
+ts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 109777 bytes).
+PDF statistics:
+ 110 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 237 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing xtherion file ... done
+compilation time: 2 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.02%  cata-010624-p3@2024_06_01
+   0.00%    0.01%  cata-010624-p2@2024_06_01
+   0.00%    0.01%  cata-010624-p1@2024_06_01
+   0.00%    0.00%  cata-010624-p4@2024_06_01
+################### end of scrap distortions ###################

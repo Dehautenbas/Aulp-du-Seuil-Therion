@@ -1,0 +1,29 @@
+encoding  utf-8
+survey S23_2024_04_13 -title "S23"
+
+centerline
+    cs UTM31
+   
+    fix 0 726651 5029755 1480
+    station 0 "S23" entrance
+    
+    date 2024.04.10 
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    0 1 23 300 -90
+    extend right
+    0 - 1.00 1 0.1
+    extend left
+    0 - 1.00 91 0.1
+    extend right
+    extend right
+    0 - 1.00 181 0.1
+    extend left
+    0 - 1.00 271 0.1
+    extend right
+endcenterline
+
+endsurvey
+

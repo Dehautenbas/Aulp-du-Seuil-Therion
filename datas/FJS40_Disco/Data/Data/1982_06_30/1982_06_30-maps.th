@@ -1,0 +1,105 @@
+encoding  utf-8
+
+map DISCO_1992_06_20_MP -title "FJS40 > 1982-06-30"
+  disco1982_SP1
+  disco1982_SP2
+  disco1982_SP3
+  disco1982_SP4
+  disco1982_SP5
+  disco1982_SP5bis
+  disco1982_SP6
+  disco1982_SP7
+  disco1982_SP8
+  disco1982_SP9
+  disco1982_SP10
+  disco1982_SP11
+  disco1982_SP12
+  disco1982_SP13
+  disco1982_SP14
+  break
+  disco1982_SP14bis
+  disco1982_SP15
+  disco1982_SP16
+  disco1982_SP17
+  disco1982_SP18
+  disco1982_SP19
+  disco1982_SP20
+  disco1982_SP20
+  disco1982_SP21
+  disco1982_SP22
+  disco1982_SP23
+  disco1982_SP24
+  #disco1982_SP25
+  disco1982_SP26
+endmap
+
+#input disco1982_coupe.th2
+#join disco1982SEE4 disco1982SEE5 
+
+#map disco1982coupedeveloppeeMP
+  #disco1982SEE10
+#endmap
+
+map DISCO_1992_06_20_ME -title "FJS40 > 1982-06-30"
+Disco1982-SE1
+Disco1982-SE2
+Disco1982-SE3
+Disco1982-SE4
+Disco1982-SE5
+Disco1982-SE6
+Disco1982-SE7
+Disco1982-SE8
+Disco1982-SE9
+Disco1982-SE10
+Disco1982-SE11
+Disco1982-SE12
+Disco1982-SE13
+Disco1982-SE14
+Disco1982-SE14b
+Disco1982-SE15
+Disco1982-SE16
+Disco1982-SE17
+
+Disco1982-SE19
+Disco1982-SE20
+Disco1982-SE21
+Disco1982-SE22
+Disco1982-SE23
+Disco1982-SE24
+Disco1982-SE25
+Disco1982-SE26
+Disco1982-SE27
+Disco1982-SE28
+Disco1982-SE29
+Disco1982-SE30
+Disco1982-SE31
+
+endmap
+
+map DISCO_1992_06_20_MELEVATION -title "FJS40 > 1982-06-30"
+  Disco1982-SEleva1
+  Disco1982-SEleva2
+  Disco1982-SEleva3
+  Disco1982-SEleva4
+  Disco1982-SEleva5
+  Disco1982-SEleva6
+  Disco1982-SEleva7
+  Disco1982-SEleva8
+Disco1982-SEleva9
+Disco1982-SEleva10
+Disco1982-SEleva11
+Disco1982-SEleva12
+Disco1982-SEleva13
+Disco1982-SEleva14
+Disco1982-SEleva15
+Disco1982-SEleva16
+Disco1982-SEleva16a
+Disco1982-SEleva17
+Disco1982-SEleva18
+Disco1982-SEleva18a
+Disco1982-SEleva19
+Disco1982-SEleva20
+Disco1982-SEleva21
+
+endmap
+

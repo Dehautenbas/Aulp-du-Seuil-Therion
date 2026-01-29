@@ -1,0 +1,725 @@
+encoding  utf-8
+survey Disco_1982_06_30 -title "Disco"
+
+centreline
+  date 1982.06.30
+  declination -2.43 degrees  #utilise donnee orienté sur nord mag 1982, corection negative car declinaison vers l'ouest
+  cs UTM31
+  fix Disco1 725835.000 5028050.000 1690.000
+  station Disco1 "(FJS40) Gouffre Disco" entrance
+ 
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    Disco1 - 1.00 8.7 0.0
+    Disco1 - 1.00 0.0 90.0
+    extend left
+    Disco1 Disco2 4.27 98.7 -82.6
+    extend right
+    Disco2 - 0.50 21.0 0.0
+    extend left
+    Disco2 - 0.50 201.0 0.0
+    extend vertical
+    Disco2 - 1.50 0.0 90.0
+    extend left
+    Disco2 Disco3 5.00 111.0 -39.3
+    extend right
+    Disco3 - 5.00 102.7 0.0
+    extend left
+    Disco3 - 3.00 282.7 0.0
+    extend vertical
+    Disco3 - 1.00 0.0 90.0
+    Disco3 - 1.00 0.0 -90.0
+    extend vertical
+    Disco3 Disco4 24.44 192.7 -84.6
+    extend right
+    Disco4 - 5.00 161.3 0.0
+    extend left
+    Disco4 - 2.00 341.3 0.0
+    extend vertical
+    Disco4 - 1.00 0.0 90.0
+    Disco4 - 2.00 0.0 -90.0
+    extend left
+    Disco4 Disco5 17.22 251.3 67.1
+    extend right
+    Disco4 - 1.00 26.6 0.0
+    extend left
+    Disco4 - 1.00 206.6 0.0
+    extend vertical
+    Disco4 - 7.00 0.0 90.0
+    extend right
+    Disco4 Disco6 12.10 116.6 -14.0
+    extend right
+    Disco6 - 0.50 20.6 0.0
+    extend left
+    Disco6 - 0.50 200.6 0.0
+    extend vertical
+    Disco6 - 2.00 0.0 90.0
+    extend right
+    Disco6 Disco7 6.21 110.6 -6.5
+    extend vertical
+    Disco7 - 0.50 358.0 0.0
+    Disco7 - 0.50 178.0 0.0
+    Disco7 - 2.00 0.0 90.0
+    extend right
+    Disco7 Disco8 4.19 88.0 -9.7
+    Disco8 - 0.50 19.4 0.0
+    extend left
+    Disco8 - 0.50 199.4 0.0
+    extend vertical
+    Disco8 - 3.00 0.0 90.0
+    extend right
+    Disco8 Disco9 5.36 109.4 28.9
+    Disco9 - 2.00 250.8 0.0
+    extend right
+    Disco9 - 2.00 70.8 0.0
+    extend vertical
+    Disco9 - 2.00 0.0 90.0
+    Disco9 - 2.00 0.0 -90.0
+    extend right
+    Disco9 Disco10 9.18 340.8 86.4
+    Disco9 - 2.00 29.0 0.0
+    extend left
+    Disco9 - 3.00 209.0 0.0
+    extend vertical
+    Disco9 - 3.00 0.0 90.0
+    Disco9 - 3.00 0.0 -90.0
+    extend right
+    Disco9 Disco11 7.91 119.0 -84.7
+    extend right
+    Disco11 - 3.00 20.1 0.0
+    extend left
+    Disco11 - 3.00 200.1 0.0
+    extend vertical
+    Disco11 - 3.00 0.0 90.0
+    Disco11 - 3.00 0.0 -90.0
+    extend right
+    Disco11 Disco12 3.10 110.1 -49.3
+    Disco12 - 0.50 348.7 0.0
+    extend right
+    Disco12 - 0.50 168.7 0.0
+    extend vertical
+    Disco12 - 3.00 0.0 90.0
+    extend right
+    Disco12 Disco13 6.90 78.7 -44.3
+    extend vertical
+    Disco13 - 0.50 4.7 0.0
+    Disco13 - 0.50 184.7 0.0
+    Disco13 - 1.00 0.0 90.0
+    extend right
+    Disco13 Disco14 6.15 94.7 -22.4
+    Disco14 - 0.50 271.2 0.0
+    extend right
+    Disco14 - 0.50 91.2 0.0
+    extend vertical
+    Disco14 - 1.00 0.0 90.0
+    extend right
+    Disco14 Disco15 10.67 1.2 -9.5
+    extend left
+    Disco15 - 0.50 330.8 0.0
+    extend right
+    Disco15 - 0.50 150.8 0.0
+    extend vertical
+    Disco15 - 1.00 0.0 90.0
+    extend right
+    Disco15 Disco16 3.16 60.8 -39.2
+    extend left
+    Disco16 - 0.50 239.9 0.0
+    extend right
+    Disco16 - 0.50 59.9 0.0
+    extend vertical
+    Disco16 - 1.00 0.0 90.0
+    extend right
+    Disco16 Disco17 4.25 329.9 -6.3
+    extend left
+    Disco17 - 0.50 315.6 0.0
+    extend right
+    Disco17 - 0.50 135.6 0.0
+    extend vertical
+    Disco17 - 1.00 0.0 90.0
+    extend right
+    Disco17 Disco18 3.61 45.6 -40.7
+    extend left
+    Disco18 - 0.50 263.5 0.0
+    extend right
+    Disco18 - 0.50 83.5 0.0
+    extend vertical
+    Disco18 - 1.00 0.0 90.0
+    extend right
+    Disco18 Disco19 5.43 353.5 -3.7
+    extend left
+    Disco19 - 0.50 221.9 0.0
+    extend right
+    Disco19 - 0.50 41.9 0.0
+    extend vertical
+    Disco19 - 1.00 0.0 90.0
+    extend right
+    Disco19 Disco20 1.98 311.9 -36.5
+    extend left
+    Disco20 - 0.50 288.1 0.0
+    extend right
+    Disco20 - 0.50 108.2 0.0
+    extend vertical
+    Disco20 - 1.00 0.0 90.0
+    extend right
+    Disco20 Disco21 3.34 18.1 -6.0
+    extend left
+    Disco21 - 0.50 297.3 0.0
+    extend right
+    Disco21 - 0.50 117.3 0.0
+    extend vertical
+    Disco21 - 1.00 0.0 90.0
+    extend right
+    Disco21 Disco22 3.14 27.3 -13.0
+    extend left
+    Disco22 - 0.50 271.8 0.0
+    extend right
+    Disco22 - 0.50 91.8 0.0
+    extend vertical
+    Disco22 - 1.00 0.0 90.0
+    extend right
+    Disco22 Disco23 1.98 1.8 0.0
+    Disco23 - 0.50 14.9 0.0
+    extend left
+    Disco23 - 0.50 194.9 0.0
+    extend vertical
+    Disco23 - 1.00 0.0 90.0
+    extend right
+    Disco23 Disco24 5.03 104.9 -22.0
+    Disco24 - 0.50 312.4 0.0
+    extend right
+    Disco24 - 0.50 132.4 0.0
+    extend vertical
+    Disco24 - 1.00 0.0 90.0
+    extend right
+    Disco24 Disco25 4.03 42.4 11.8
+    Disco25 - 2.00 75.2 0.0
+    extend left
+    Disco25 - 1.00 255.2 0.0
+    extend vertical
+    Disco25 - 2.00 0.0 90.0
+    Disco25 - 1.00 0.0 -90.0
+    extend left
+    Disco25 Disco26 4.77 165.2 45.6
+    Disco25 - 0.50 249.8 0.0
+    extend right
+    Disco25 - 0.50 69.8 0.0
+    extend vertical
+    Disco25 - 1.00 0.0 90.0
+    extend right
+    Disco25 Disco27 11.18 339.8 8.5
+    extend left
+    Disco27 - 0.50 342.7 0.0
+    extend right
+    Disco27 - 0.50 162.7 0.0
+    extend vertical
+    Disco27 - 1.00 0.0 90.0
+    extend right
+    Disco27 Disco28 3.08 72.7 -34.9
+    extend left
+    Disco28 - 0.50 267.8 0.0
+    extend right
+    Disco28 - 0.50 87.8 0.0
+    extend vertical
+    Disco28 - 1.00 0.0 90.0
+    extend right
+    Disco28 Disco29 3.55 357.8 -9.5
+    extend vertical
+    Disco29 - 0.50 183.0 0.0
+    Disco29 - 0.50 3.0 0.0
+    Disco29 - 1.00 0.0 90.0
+    extend right
+    Disco29 Disco30 1.35 273.0 0.0
+    extend left
+    Disco30 - 0.50 270.4 0.0
+    extend right
+    Disco30 - 0.50 90.4 0.0
+    extend vertical
+    Disco30 - 1.00 0.0 90.0
+    extend right
+    Disco30 Disco31 4.32 0.4 0.0
+    extend left
+    Disco31 - 0.50 299.5 0.0
+    extend right
+    Disco31 - 0.50 119.5 0.0
+    extend vertical
+    Disco31 - 1.00 0.0 90.0
+    extend right
+    Disco31 Disco32 1.38 29.5 -25.2
+    extend left
+    Disco32 - 0.50 192.0 0.0
+    extend right
+    Disco32 - 0.50 12.0 0.0
+    extend vertical
+    Disco32 - 1.00 0.0 90.0
+    extend right
+    Disco32 Disco33 2.03 282.0 3.3
+    extend left
+    Disco33 - 0.50 274.0 0.0
+    extend right
+    Disco33 - 0.50 94.0 0.0
+    extend vertical
+    Disco33 - 1.00 0.0 90.0
+    extend right
+    Disco33 Disco34 2.58 4.0 -33.1
+    extend left
+    Disco34 - 0.50 202.1 0.0
+    extend right
+    Disco34 - 0.50 22.1 0.0
+    extend vertical
+    Disco34 - 1.00 0.0 90.0
+    extend right
+    Disco34 Disco35 1.86 292.1 -3.6
+    extend left
+    Disco35 - 0.50 279.6 0.0
+    extend right
+    Disco35 - 0.50 99.6 0.0
+    extend vertical
+    Disco35 - 1.00 0.0 90.0
+    extend right
+    Disco35 Disco36 7.65 9.6 -11.5
+    extend left
+    Disco36 - 0.50 295.3 0.0
+    extend right
+    Disco36 - 0.50 115.3 0.0
+    extend vertical
+    Disco36 - 1.00 0.0 90.0
+    extend right
+    Disco36 Disco37 18.21 25.3 -0.7
+    extend left
+    Disco37 - 0.50 284.3 0.0
+    extend right
+    Disco37 - 0.50 104.3 0.0
+    extend vertical
+    Disco37 - 1.00 0.0 90.0
+    extend right
+    Disco37 Disco38 8.31 14.3 -4.1
+    extend left
+    Disco38 - 0.50 264.1 0.0
+    extend right
+    Disco38 - 0.50 84.1 0.0
+    extend vertical
+    Disco38 - 1.00 0.0 90.0
+    extend right
+    Disco38 Disco39 10.38 354.1 -13.1
+    extend left
+    Disco39 - 0.50 303.9 0.0
+    extend right
+    Disco39 - 0.50 123.9 0.0
+    extend vertical
+    Disco39 - 1.00 0.0 90.0
+    extend right
+    Disco39 Disco40 3.17 33.9 -26.4
+    extend vertical
+    Disco40 - 0.50 351.1 0.0
+    Disco40 - 0.50 171.1 0.0
+    Disco40 - 1.00 0.0 90.0
+    extend right
+    Disco40 Disco41 2.24 81.1 -31.6
+    extend left
+    Disco41 - 0.50 278.1 0.0
+    extend right
+    Disco41 - 0.50 98.1 0.0
+    extend vertical
+    Disco41 - 1.00 0.0 90.0
+    extend right
+    Disco41 Disco42 5.32 8.1 -39.8
+    extend left
+    Disco42 - 0.50 259.8 0.0
+    extend right
+    Disco42 - 0.50 79.8 0.0
+    extend vertical
+    Disco42 - 1.00 0.0 90.0
+    extend right
+    Disco42 Disco43 4.04 349.8 -18.7
+    extend left
+    Disco43 - 0.50 308.0 0.0
+    extend right
+    Disco43 - 0.50 128.0 0.0
+    extend vertical
+    Disco43 - 1.00 0.0 90.0
+    extend right
+    Disco43 Disco44 5.85 38.0 -24.9
+    extend left
+    Disco44 - 1.00 256.6 0.0
+    extend right
+    Disco44 - 2.00 76.6 0.0
+    extend vertical
+    Disco44 - 1.00 0.0 90.0
+    extend right
+    Disco44 Disco45 10.55 346.6 -12.2
+    extend left
+    Disco45 - 2.00 329.4 0.0
+    extend right
+    Disco45 - 1.00 149.4 0.0
+    extend vertical
+    Disco45 - 1.00 0.0 90.0
+    extend vertical
+    Disco45 Disco46 8.85 59.4 16.2
+    extend vertical
+    Disco46 - 0.50 357.4 0.0
+    Disco46 - 0.50 177.4 0.0
+    Disco46 - 1.00 0.0 90.0
+    extend left
+    Disco46 Disco47 2.94 87.4 18.6
+    extend left
+    Disco47 - 0.50 305.7 0.0
+    extend right
+    Disco47 - 0.50 125.7 0.0
+    extend vertical
+    Disco47 - 1.00 0.0 90.0
+    extend left
+    Disco47 Disco48 2.66 35.7 15.3
+    extend vertical
+    Disco48 - 0.50 1.7 0.0
+    Disco48 - 0.50 181.7 0.0
+    Disco48 - 1.00 0.0 90.0
+    extend left
+    Disco48 Disco49 4.20 91.7 9.7
+    extend right
+    Disco49 - 0.50 83.6 0.0
+    extend left
+    Disco49 - 0.50 263.6 0.0
+    extend vertical
+    Disco49 - 1.00 0.0 90.0
+    extend left
+    Disco49 Disco50 3.71 173.6 -3.6
+    extend right
+    Disco50 - 0.50 13.3 0.0
+    extend left
+    Disco50 - 0.50 193.3 0.0
+    extend vertical
+    Disco50 - 1.00 0.0 90.0
+    extend left
+    Disco50 Disco51 1.86 103.3 3.6
+    extend right
+    Disco51 - 0.50 96.5 0.0
+    extend left
+    Disco51 - 0.50 276.5 0.0
+    extend vertical
+    Disco51 - 1.00 0.0 90.0
+    extend left
+    Disco51 Disco52 4.26 186.5 0.0
+    extend right
+    Disco52 - 0.50 34.9 0.0
+    extend left
+    Disco52 - 0.50 214.9 0.0
+    extend vertical
+    Disco52 - 1.00 0.0 90.0
+    extend left
+    Disco52 Disco53 5.18 124.9 10.5
+    extend right
+    Disco53 - 2.00 54.1 0.0
+    extend left
+    Disco53 - 1.00 234.1 0.0
+    extend vertical
+    Disco53 - 2.00 0.0 90.0
+    Disco53 - 1.00 0.0 -90.0
+    extend left
+    Disco53 Disco54 5.78 144.1 45.3
+    extend right
+    Disco45 - 5.00 101.8 0.0
+    extend vertical
+    Disco45 - 3.00 0.0 90.0
+    Disco45 - 3.00 0.0 -90.0
+    extend right
+    Disco45 Disco55 12.02 11.8 -86.0
+    Disco55 - 5.00 81.1 0.0
+    extend vertical
+    Disco55 - 3.00 0.0 90.0
+    Disco55 - 3.00 0.0 -90.0
+    extend right
+    Disco55 Disco56 7.76 351.1 -75.8
+    extend vertical
+    Disco56 - 1.00 0.0 90.0
+    extend right
+    Disco56 Disco57 3.01 356.5 51.2
+    extend left
+    Disco57 - 0.20 252.3 0.0
+    extend right
+    Disco57 - 0.30 72.3 0.0
+    extend vertical
+    Disco57 - 2.00 0.0 90.0
+    extend right
+    Disco57 Disco58 2.65 342.3 -35.3
+    extend left
+    Disco58 - 1.00 269.2 0.0
+    extend right
+    Disco58 - 1.00 89.2 0.0
+    extend vertical
+    Disco58 - 1.00 0.0 90.0
+    Disco58 - 1.00 0.0 -90.0
+    extend right
+    Disco58 Disco59 5.02 359.2 -79.7
+    extend left
+    Disco59 - 0.50 270.2 0.0
+    extend right
+    Disco59 - 0.50 90.2 0.0
+    extend vertical
+    Disco59 - 3.00 0.0 90.0
+    extend right
+    Disco59 Disco60 5.61 0.2 -15.8
+    extend left
+    Disco60 - 0.50 204.6 0.0
+    extend right
+    Disco60 - 0.50 24.6 0.0
+    extend vertical
+    Disco60 - 3.00 0.0 90.0
+    extend right
+    Disco60 Disco61 2.11 294.6 -26.5
+    extend left
+    Disco61 - 0.50 287.0 0.0
+    extend right
+    Disco61 - 0.50 107.0 0.0
+    extend vertical
+    Disco61 - 3.00 0.0 90.0
+    extend right
+    Disco61 Disco62 5.02 17.0 -5.4
+    extend left
+    Disco62 - 0.50 268.3 0.0
+    extend right
+    Disco62 - 0.50 88.3 0.0
+    extend vertical
+    Disco62 - 3.00 0.0 90.0
+    extend right
+    Disco62 Disco63 5.90 358.3 -16.2
+    extend left
+    Disco63 - 0.50 334.1 0.0
+    extend right
+    Disco63 - 0.50 154.1 0.0
+    extend vertical
+    Disco63 - 3.00 0.0 90.0
+    extend right
+    Disco63 Disco64 4.95 64.1 -19.4
+    extend left
+    Disco64 - 0.50 259.6 0.0
+    extend right
+    Disco64 - 0.50 79.6 0.0
+    extend vertical
+    Disco64 - 3.00 0.0 90.0
+    extend right
+    Disco64 Disco65 4.34 349.6 -9.3
+    extend left
+    Disco65 - 0.50 284.3 0.0
+    extend right
+    Disco65 - 0.50 104.3 0.0
+    extend vertical
+    Disco65 - 3.00 0.0 90.0
+    extend right
+    Disco65 Disco66 3.29 14.3 -42.7
+    extend left
+    Disco66 - 0.50 227.0 0.0
+    extend right
+    Disco66 - 0.50 47.0 0.0
+    extend vertical
+    Disco66 - 3.00 0.0 90.0
+    extend right
+    Disco66 Disco67 5.28 317.0 -9.0
+    extend left
+    Disco67 - 0.50 294.1 0.0
+    extend right
+    Disco67 - 0.50 114.1 0.0
+    extend vertical
+    Disco67 - 3.00 0.0 90.0
+    extend right
+    Disco67 Disco68 4.82 24.1 -32.5
+    extend left
+    Disco68 - 0.50 274.7 0.0
+    extend right
+    Disco68 - 0.50 94.7 0.0
+    extend vertical
+    Disco68 - 3.00 0.0 90.0
+    extend right
+    Disco68 Disco69 4.79 4.7 -11.3
+    extend left
+    Disco69 - 0.50 314.2 0.0
+    extend right
+    Disco69 - 0.50 134.2 0.0
+    extend vertical
+    Disco69 - 3.00 0.0 90.0
+    extend right
+    Disco69 Disco70 2.46 44.2 -28.5
+    extend left
+    Disco70 - 0.50 257.1 0.0
+    extend right
+    Disco70 - 0.50 77.1 0.0
+    extend vertical
+    Disco70 - 3.00 0.0 90.0
+    extend right
+    Disco70 Disco71 2.58 347.1 -2.6
+    extend left
+    Disco71 - 2.00 237.2 0.0
+    extend right
+    Disco71 - 2.00 57.2 0.0
+    extend vertical
+    Disco71 - 5.00 0.0 90.0
+    extend right
+    Disco71 Disco72 15.54 327.2 -86.9
+    extend vertical
+    Disco72 - 0.50 186.8 0.0
+    Disco72 - 0.50 6.8 0.0
+    Disco72 - 3.00 0.0 90.0
+    extend right
+    Disco72 Disco73 3.24 276.8 -33.0
+    extend left
+    Disco73 - 0.50 238.8 0.0
+    extend right
+    Disco73 - 0.50 58.9 0.0
+    extend vertical
+    Disco73 - 3.00 0.0 90.0
+    extend right
+    Disco73 Disco74 3.03 328.9 -4.4
+    extend left
+    Disco74 - 0.50 205.8 0.0
+    extend right
+    Disco74 - 0.50 25.8 0.0
+    extend vertical
+    Disco74 - 3.00 0.0 90.0
+    extend right
+    Disco74 Disco75 5.04 295.8 -4.0
+    extend left
+    Disco75 - 0.50 207.9 0.0
+    extend right
+    Disco75 - 0.50 27.9 0.0
+    extend vertical
+    Disco75 - 3.00 0.0 90.0
+    extend right
+    Disco75 Disco76 5.43 297.9 0.0
+    extend left
+    Disco76 - 0.50 309.9 0.0
+    extend right
+    Disco76 - 0.50 129.9 0.0
+    extend vertical
+    Disco76 - 3.00 0.0 90.0
+    extend right
+    Disco76 Disco77 5.13 39.9 -6.6
+    extend left
+    Disco77 - 0.50 231.6 0.0
+    extend right
+    Disco77 - 0.50 51.6 0.0
+    extend vertical
+    Disco77 - 3.00 0.0 90.0
+    extend right
+    Disco77 Disco78 5.76 321.6 -19.0
+    extend left
+    Disco78 - 0.50 279.2 0.0
+    extend right
+    Disco78 - 0.50 99.2 0.0
+    extend vertical
+    Disco78 - 3.00 0.0 90.0
+    extend right
+    Disco78 Disco79 1.59 9.2 -12.8
+    extend left
+    Disco79 - 0.50 247.4 0.0
+    extend right
+    Disco79 - 0.50 67.4 0.0
+    extend vertical
+    Disco79 - 3.00 0.0 90.0
+    extend right
+    Disco79 Disco80 2.49 337.4 -13.6
+    extend left
+    Disco80 - 0.50 295.8 0.0
+    extend right
+    Disco80 - 0.50 115.8 0.0
+    extend vertical
+    Disco80 - 3.00 0.0 90.0
+    extend right
+    Disco80 Disco81 3.65 25.8 -7.4
+    Disco81 - 0.50 22.9 0.0
+    extend left
+    Disco81 - 0.50 202.9 0.0
+    extend vertical
+    Disco81 - 3.00 0.0 90.0
+    extend right
+    Disco81 Disco82 8.05 112.9 -1.7
+    Disco82 - 0.50 332.7 0.0
+    extend right
+    Disco82 - 0.50 152.7 0.0
+    extend vertical
+    Disco82 - 3.00 0.0 90.0
+    extend right
+    Disco82 Disco83 20.03 62.7 -78.4
+    extend vertical
+    Disco83 - 5.00 183.6 0.0
+    Disco83 - 2.00 0.0 90.0
+    Disco83 - 2.00 0.0 -90.0
+    extend right
+    Disco83 Disco84 5.96 93.6 -53.9
+    extend right
+    Disco84 - 0.50 59.9 0.0
+    extend left
+    Disco84 - 0.50 239.9 0.0
+    extend vertical
+    Disco84 - 3.00 0.0 90.0
+    extend right
+    Disco84 Disco85 4.34 149.9 -40.5
+    extend vertical
+    Disco85 - 0.50 8.7 0.0
+    Disco85 - 0.50 188.7 0.0
+    Disco85 - 3.00 0.0 90.0
+    extend right
+    Disco85 Disco86 2.89 98.7 -19.0
+    extend vertical
+    Disco86 - 5.00 184.4 0.0
+    Disco86 - 2.00 0.0 90.0
+    Disco86 - 2.00 0.0 -90.0
+    extend right
+    Disco86 Disco87 4.23 94.4 -76.4
+    extend vertical
+    Disco87 - 0.50 359.2 0.0
+    Disco87 - 0.50 179.2 0.0
+    Disco87 - 3.00 0.0 90.0
+    extend right
+    Disco87 Disco88 4.33 89.2 -24.0
+    extend left
+    Disco88 - 5.00 232.4 0.0
+    extend vertical
+    Disco88 - 2.00 0.0 90.0
+    Disco88 - 2.00 0.0 -90.0
+    extend right
+    Disco88 Disco89 3.15 142.4 -55.2
+    Disco89 - 5.00 194.5 0.0
+    extend vertical
+    Disco89 - 2.00 0.0 90.0
+    Disco89 - 2.00 0.0 -90.0
+    extend right
+    Disco89 Disco90 5.27 104.5 -78.8
+    extend vertical
+    Disco90 - 0.50 4.9 0.0
+    Disco90 - 0.50 184.9 0.0
+    Disco90 - 3.00 0.0 90.0
+    extend right
+    Disco90 Disco91 1.08 94.9 -33.0
+    Disco91 - 0.50 267.8 0.0
+    extend right
+    Disco91 - 0.50 87.8 0.0
+    extend vertical
+    Disco91 - 3.00 0.0 90.0
+    extend right
+    Disco91 Disco92 3.55 357.8 -9.5
+    Disco86 - 0.20 74.8 0.0
+    extend left
+    Disco86 - 0.50 254.8 0.0
+    extend vertical
+    Disco86 - 1.00 0.0 90.0
+    extend right
+    Disco86 Disco93 3.71 164.8 12.8
+    extend vertical
+    Disco93 - 0.20 9.4 0.0
+    Disco93 - 0.20 189.4 0.0
+    Disco93 - 0.50 0.0 90.0
+    extend right
+    Disco93 Disco94 2.58 99.3 -7.8
+    extend right
+    Disco94 - 0.20 60.5 0.0
+    extend left
+    Disco94 - 0.20 240.5 0.0
+    extend vertical
+    Disco94 - 0.50 0.0 90.0
+    extend right
+    Disco94 Disco95 3.23 150.5 10.5
+  endcenterline
+  
+
+endsurvey
+

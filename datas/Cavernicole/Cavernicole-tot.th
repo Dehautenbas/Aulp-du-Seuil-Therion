@@ -1,0 +1,77 @@
+encoding  utf-8
+
+survey Cavernicole -title "Gouffre du Cavernicole"
+
+    input Data/Data/2023_07_15/2023_07_15.th                                                    # 0-100
+    input Data/Data/2023_10_22_2/2023_10_22_2.th                                                # jonction-innapercue
+    input Data/Data/2023_10_22/2023_10_22.th                                                    # 100-130-normal
+    input Data/Data/2023_10_22_4/2023_10_22_4.th                                                # 100-130-escalade
+    input Data/Data/2023_06_10/2023_06_10.th                                                    # pull-over
+    input Data/Data/2023_10_22_3/2023_10_22_3.th                                                # pull-over-aval
+    input Data/Data/reseau_alain_robert/reseau_alain_robert-tot.th      
+    input Data/Data/2024_07_14/2024_07_14.th
+    
+      input Data/Data/1972_06_30/1972_06_30.th                                                  # vincent-for-equate
+      
+            # Seulement pour les stats :
+            # input Data/Data/1972_06_30/Data/vincent.th
+            # equate 0@vincent cavernicole@0-100.2023_07_15                                     # stat 0 topo vincent = O nouvelle topo
+    
+    equate 72@vincent-for-equate.1972_06_30 PTR1@alain-robert.2023_11_21_1.reseau_alain_robert  # equate ancienne topo avec terminus nouvelle topo
+    
+    equate 76@0-100.2023_07_15 76A@j-innapercue.2023_10_22_2
+    equate 82@0-100.2023_07_15 0@100-130-normal.2023_10_22
+    equate 82@0-100.2023_07_15 34@100-130-escalade.2023_10_22_4
+    equate 82@0-100.2023_07_15 0@pull-over.2023_06_10
+    
+    equate 65@pull-over.2023_06_10 76Q@j-innapercue.2023_10_22_2
+    equate 19@pull-over.2023_06_10 0@pull-over-aval.2023_10_22_3
+    equate 53@pull-over-aval.2023_10_22_3 9@100-130-normal.2023_10_22                           # PTR Jonction actif en bas du P7
+    
+    equate 16@100-130-normal.2023_10_22 16@100-130-escalade.2023_10_22_4
+    
+    equate 0@alain-robert.2023_11_21_1.reseau_alain_robert 16@100-130-normal.2023_10_22         #PTR actif bas escalade 100-130
+    
+    equate 163@vincent-for-equate.1972_06_30 65@fond_Cavernicole.2024_07_14
+
+    #-----------
+    ## Plan
+    #-----------
+      
+       # jonction des dessins 0-100 et 100-130-escalade
+        
+          join l2b_cav_entree@2023_07_15:end l100-130-escalade@2023_10_22_4:0
+          join l3h_cav_entree@2023_07_15:end l100-130-escalade@2023_10_22_4:end
+        
+       # jonction des dessins 0-100 et pull-over et jonction-innapercue
+       
+          join sp_cav_pullover_0@2023_06_10 0-100_sp4@2023_07_15
+          join sp_cav_pullover_2@2023_06_10 jonction-innapercue_SP1@2023_10_22_2
+       
+       # jonction des dessins pull-over-aval et 100-130-normal
+       
+          join pull-over-aval_sp1@2023_10_22_3 100-130-normal-sp2@2023_10_22
+          
+       # jonction des dessins 100-130-normal et reseau_alain_robert et vincent-for-equate
+       
+          join alain-robert_sp1@2023_11_21_1.reseau_alain_robert 100-130-normal-sp2@2023_10_22 
+          join alain-robert_sp1@2023_11_21_1.reseau_alain_robert Cavernicol_SP19@1972_06_30
+          
+         # jonction dessins fond
+         
+           join fond_Cavernicole_sp7@2024_07_14 Cavernicol_SP36@1972_06_30
+    
+    #-----------
+    ## Coupe
+    #-----------
+    
+    #   join ........
+
+    #-----------
+    ## Maps
+    #-----------
+    
+    input Cavernicole-tot-maps.th
+
+endsurvey
+

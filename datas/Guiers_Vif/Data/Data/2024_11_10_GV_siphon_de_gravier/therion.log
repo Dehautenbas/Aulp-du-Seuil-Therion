@@ -1,0 +1,111 @@
+therion 6.3.1 (2024-11-22)
+  - using Proj 9.4.1, compiled against 9.4.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: 2024_11_10-config.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.00%
+
+
+############### export maps & scraps selection #################
+M     2.59 GV_siphon_de_gravier-MP@2024_11_10 ()
+S     8.46 scrap1@2024_11_10 ()
+S     0.61 scrap2@2024_11_10 ()
+S     1.26 scrap3@2024_11_10 ()
+S     1.43 scrap4@2024_11_10 ()
+S     3.96 scrap5@2024_11_10 ()
+S    -0.21 scrap6@2024_11_10 ()
+########## end of export maps & scraps selection ###############
+writing Outputs/GV_2024_11_10-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  5 JAN 2025 09:41
+**data.mp
+(c:/Program Files/Therion/texmf/mpost/mpost.mp
+(c:/Program Files/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15]
+[Error: area borders l115-2154-572 and l107-1855-493 don't intersect in scrap s
+crap6@2024_11_10 (file Data/GV_siphon_de_gravier.th2 [416])]
+[Error: area borders l116-2216-590 and l115-2154-572 don't intersect in scrap s
+crap6@2024_11_10 (file Data/GV_siphon_de_gravier.th2 [416])] [1] [2] [3] [4]
+[5] [6] [7] [8]
+[Warning: scrap outline intersects itself in scrap scrap4@2024_11_10] [9] [10]
+[11] [12] [13] [14] [15] [16] [17] [18] [19] (./mptextmp.mp) [20]
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) [21] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) [22] )
+ 
+Here is how much of MetaPost's memory you used:
+ 5368 strings using 131713 characters
+ 3756176 bytes of node memory
+ 1735 symbolic tokens
+ 10i,82n,19p,458b,5f stack positions out of 16i,98n,20p,487b,6f
+37 output files written: data-patt.1 .. data.22
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  5 JAN 2025 09:41
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
+rogram Files/Therion/texmf/fonts/pdftex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aa
+aaaab.dat>><<th_gour_aaaaaac.dat>><<th_gour_aaaaaad.dat>><<th_gour_aaaaaae.dat>
+><<th_gour_aaaaaaf.dat>>)
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 93 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 353 strings out of 95671
+ 4621 string characters out of 1192323
+ 60029 words of memory out of 1545072
+ 1742 multiletter control sequences out of 15000+50000
+ 23531 words of font info for 72 fonts, out of 1000000 for 2000
+ 844 hyphenation exceptions out of 5000
+ 10i,6n,8p,712b,54s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files/Therion/texmf/fonts/type1/cmbx10.pfb><c:/Program Files/T
+herion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/Therion/texmf/fonts/type1
+/cmssi10.pfb><c:/Program Files/Therion/texmf/fonts/type1/cmti10.pfb><c:/Program
+ Files/Therion/texmf/fonts/type1/csss10.pfb><c:/Program Files/Therion/texmf/fon
+ts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 129102 bytes).
+PDF statistics:
+ 138 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing xtherion file ... done
+compilation time: 2 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.09%  scrap2@2024_11_10
+   0.00%    0.03%  scrap1@2024_11_10
+   0.00%    0.02%  scrap4@2024_11_10
+   0.00%    0.02%  scrap3@2024_11_10
+   0.00%    0.02%  scrap6@2024_11_10
+   0.00%    0.01%  scrap5@2024_11_10
+################### end of scrap distortions ###################

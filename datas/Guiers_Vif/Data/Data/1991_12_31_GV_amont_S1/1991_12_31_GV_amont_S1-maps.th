@@ -1,0 +1,89 @@
+encoding  utf-8
+
+map GV7amS1_MP-
+  GV7amS1_SP16
+  break
+  
+  GV7amS1_SP5
+  
+  GV7amS1_SP8
+  
+  break
+  
+  #GV7amS1_SP10
+  #GV7amS1_SP11
+  #GV7amS1_SP12
+  #GV7amS1_SP13
+  GV7amS1_SP14
+  #GV7amS1_SP15
+  GV7amS1_SP16
+  
+  GV7amS1_SP21
+  GV7amS1_SP22
+  GV7amS1_SP23
+  GV7amS1_SP24
+  GV7amS1_SP25
+  GV7amS1_SP26
+  GV7amS1_SP27
+  break
+  GV7amS1_SP28
+  GV7amS1_SP29_bis
+  GV7amS1_SP31
+  GV7amS1_SP32
+  
+  GV7amS1_SP33
+  GV7amS1_SP34
+  GV7amS1_SP35
+  
+  GV7amS1_SP36
+  GV7amS1_SP37
+  
+  GV7amS1_SP38
+  
+  GV7amS1_SP39
+  GV7amS1_SP40
+  GV7amS1_SP41
+  GV7amS1_SP42
+  GV7amS1_SP43
+  GV7amS1_SP44
+  GV7amS1_SP45
+  GV7amS1_SP46
+  GV7amS1_SP47
+  GV7amS1_SP48
+  GV7amS1_SP49
+  GV7amS1_SP50
+  GV7amS1_SP51
+  GV7amS1_SP52
+  GV7amS1_SP53
+  GV7amS1_SP54
+  
+endmap
+
+map GV7amS1_MP--
+  GV7amS1_SP6
+  GV7amS1_SP7
+  GV7amS1_SP9
+  GV7amS1_SP18
+  GV7amS1_SP17
+  GV7amS1_SP19
+  GV7amS1_SP20
+endmap  
+
+map GV7amS1_MP---
+  GV7amS1_SP29
+  GV7amS1_SP30
+endmap
+
+#map GV7amS1_MP----
+  #GV7amS1_SP36
+  #GV7amS1_SP37
+#endmap
+
+map gv_amontS1_1991_12_31_MP -title "Guiers Vif > 1991-12-31"
+  GV7amS1_MP-
+  break
+  GV7amS1_MP-- #[-150 150 m] below
+  GV7amS1_MP--- #[-75 0 m] below
+  #GV7amS1_MP---- [50 -50 m] above
+endmap
+

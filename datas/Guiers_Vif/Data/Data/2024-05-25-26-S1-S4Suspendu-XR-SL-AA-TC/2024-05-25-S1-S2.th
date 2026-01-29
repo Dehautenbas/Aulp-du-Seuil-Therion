@@ -1,0 +1,28 @@
+encoding  utf-8
+survey Intersiphon_S1_S2 -title "intersiphon S1 - S2 et réseau supérieur "
+
+    input Data/GV_S1-S2.th
+    
+    input Data/Guiersvif20240526.th
+    
+        equate 4@Guiersvif20240526 0@GV_S1-S2
+
+    ## Plan
+    
+    input Data/GV_S1-S2-plan.th2
+    
+    input Data/Guiersvif20240526.th2
+    
+       join GV_S1-S2-1p    SP-E3devantS4-1
+    #  join l1a:0 l2a:end
+     # join l1b:0 l2b:0
+    
+    ## Coupe
+    #input Data/GV_S1-S2-coupe.th2
+    #   join ?? SC-E3devantS4-1
+
+    ## Maps
+    input 2024-05-25-S1-S2-maps.th
+
+endsurvey
+

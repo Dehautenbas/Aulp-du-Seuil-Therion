@@ -1,0 +1,406 @@
+encoding  utf-8
+survey aah_1995_06_30 -title "Abreq_Ad_Habra"
+
+centerline
+    cs UTM31
+   
+    fix Abreq1 727447 5029703 1695
+    station Abreq1 "Gouffre Abreq Ad Habra" entrance
+    
+    date 1995.06.30
+    declination -1.01 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    extend right
+    Abreq1 - 1.00 98.2 0.0
+    extend left
+    Abreq1 - 1.00 278.2 0.0
+    extend vertical
+    Abreq1 - 2.00 0.0 90.0
+    Abreq1 - 3.00 0.0 -90.0
+    extend left
+    Abreq1 Abreq2 14.79 188.2 -67.0
+    extend right
+    Abreq2 - 1.00 105.7 0.0
+    extend left
+    Abreq2 - 1.00 285.7 0.0
+    extend vertical
+    Abreq2 - 2.00 0.0 90.0
+    Abreq2 - 3.00 0.0 -90.0
+    extend left
+    Abreq2 Abreq3 5.24 195.7 -80.9
+    extend right
+    Abreq3 - 1.00 132.8 0.0
+    extend left
+    Abreq3 - 1.00 312.8 0.0
+    extend vertical
+    Abreq3 - 2.00 0.0 90.0
+    Abreq3 - 3.00 0.0 -90.0
+    extend left
+    Abreq3 Abreq4 3.88 222.8 -71.9
+    extend right
+    Abreq4 - 1.00 144.0 0.0
+    extend vertical
+    Abreq4 - 3.00 0.0 90.0
+    extend left
+    Abreq4 Abreq5 2.29 234.0 -25.7
+    Abreq5 - 1.00 333.8 0.0
+    extend vertical
+    Abreq5 - 3.00 0.0 90.0
+    extend left
+    Abreq5 Abreq6 1.79 243.8 -36.4
+    extend right
+    Abreq6 - 1.00 156.6 0.0
+    extend left
+    Abreq6 - 1.00 336.6 0.0
+    extend vertical
+    Abreq6 - 3.00 0.0 90.0
+    Abreq6 - 3.00 0.0 -90.0
+    extend left
+    Abreq6 Abreq7 3.61 246.6 -79.1
+    extend right
+    Abreq7 - 1.00 152.2 0.0
+    extend vertical
+    Abreq7 - 3.00 0.0 90.0
+    extend left
+    Abreq7 Abreq8 1.93 242.2 -8.4
+    extend right
+    Abreq8 - 2.00 163.8 0.0
+    extend left
+    Abreq8 - 2.00 343.8 0.0
+    extend vertical
+    Abreq8 - 3.00 0.0 90.0
+    Abreq8 - 2.00 0.0 -90.0
+    extend left
+    Abreq8 Abreq9 15.69 253.8 -86.9
+    extend right
+    Abreq9 - 1.00 153.8 0.0
+    extend vertical
+    Abreq9 - 3.00 0.0 90.0
+    extend left
+    Abreq9 Abreq10 2.29 243.8 -1.8
+    extend right
+    Abreq10 - 1.00 86.3 0.0
+    extend vertical
+    Abreq10 - 3.00 0.0 90.0
+    extend left
+    Abreq10 Abreq11 1.14 176.3 -14.4
+    extend right
+    Abreq11 - 1.00 17.0 0.0
+    extend vertical
+    Abreq11 - 3.00 0.0 90.0
+    extend left
+    Abreq11 Abreq12 1.43 107.0 2.8
+    extend vertical
+    Abreq12 - 1.00 2.5 0.0
+    Abreq12 - 3.00 0.0 90.0
+    extend left
+    Abreq12 Abreq13 3.79 92.5 -2.1
+    extend vertical
+    Abreq13 - 2.00 4.5 0.0
+    Abreq13 - 3.00 0.0 90.0
+    extend left
+    Abreq13 Abreq14 3.33 94.5 -16.1
+    extend right
+    Abreq14 - 1.00 118.6 0.0
+    extend vertical
+    Abreq14 - 3.00 0.0 90.0
+    extend left
+    Abreq14 Abreq15 1.95 208.6 -33.1
+    extend right
+    Abreq15 - 2.00 154.2 0.0
+    extend left
+    Abreq15 - 2.00 334.2 0.0
+    extend vertical
+    Abreq15 - 3.00 0.0 90.0
+    Abreq15 - 2.00 0.0 -90.0
+    extend left
+    Abreq15 Abreq16 2.60 244.2 -52.3
+    extend right
+    Abreq16 - 3.00 131.3 0.0
+    extend left
+    Abreq16 - 2.00 311.3 0.0
+    extend vertical
+    Abreq16 - 3.00 0.0 90.0
+    Abreq16 - 2.00 0.0 -90.0
+    extend left
+    Abreq16 Abreq17 5.13 221.3 -84.2
+    Abreq17 - 1.00 297.5 0.0
+    extend vertical
+    Abreq17 - 3.00 0.0 90.0
+    extend left
+    Abreq17 Abreq18 1.80 207.5 -9.1
+    extend vertical
+    Abreq18 - 1.00 1.3 0.0
+    Abreq18 - 3.00 0.0 90.0
+    extend right
+    Abreq18 Abreq19 2.63 271.3 -3.1
+    extend left
+    Abreq19 - 2.00 193.0 0.0
+    extend right
+    Abreq19 - 3.00 13.0 0.0
+    extend vertical
+    Abreq19 - 3.00 0.0 90.0
+    Abreq19 - 2.00 0.0 -90.0
+    extend right
+    Abreq19 Abreq20 11.64 283.0 -87.6
+    Abreq20 - 1.00 149.1 0.0
+    extend vertical
+    Abreq20 - 3.00 0.0 90.0
+    extend left
+    Abreq20 Abreq21 1.83 239.1 -8.9
+    extend right
+    Abreq21 - 1.00 152.7 0.0
+    extend vertical
+    Abreq21 - 3.00 0.0 90.0
+    extend left
+    Abreq21 Abreq22 2.77 242.7 -5.9
+    Abreq22 - 1.00 190.3 0.0
+    extend vertical
+    Abreq22 - 3.00 0.0 90.0
+    extend right
+    Abreq22 Abreq23 1.17 280.3 -14.0
+    Abreq23 - 1.00 169.9 0.0
+    extend vertical
+    Abreq23 - 3.00 0.0 90.0
+    extend left
+    Abreq23 Abreq24 1.47 259.9 -32.0
+    Abreq24 - 1.00 230.1 0.0
+    extend vertical
+    Abreq24 - 3.00 0.0 90.0
+    extend right
+    Abreq24 Abreq25 2.42 320.1 -15.3
+    Abreq25 - 1.00 159.0 0.0
+    extend vertical
+    Abreq25 - 3.00 0.0 90.0
+    extend left
+    Abreq25 Abreq26 2.24 249.0 -14.7
+    extend right
+    Abreq26 - 3.00 123.1 0.0
+    extend left
+    Abreq26 - 3.00 303.1 0.0
+    extend vertical
+    Abreq26 - 2.00 0.0 90.0
+    Abreq26 - 2.00 0.0 -90.0
+    extend left
+    Abreq26 Abreq27 2.56 213.1 -84.9
+    Abreq26 - 1.00 199.7 0.0
+    extend vertical
+    Abreq26 - 3.00 0.0 90.0
+    extend right
+    Abreq26 Abreq28 2.67 289.7 -6.1
+    extend left
+    Abreq28 - 1.00 223.0 0.0
+    extend vertical
+    Abreq28 - 3.00 0.0 90.0
+    extend right
+    Abreq28 Abreq29 1.37 313.0 -38.4
+    extend left
+    Abreq29 - 2.00 243.1 0.0
+    extend right
+    Abreq29 - 2.00 63.1 0.0
+    extend vertical
+    Abreq29 - 3.00 0.0 90.0
+    Abreq29 - 2.00 0.0 -90.0
+    extend right
+    Abreq29 Abreq30 4.24 333.1 -80.5
+    extend vertical
+    Abreq30 - 1.00 358.6 0.0
+    Abreq30 - 3.00 0.0 90.0
+    extend right
+    Abreq30 Abreq31 2.32 88.6 7.0
+    extend left
+    Abreq30 - 2.00 252.2 0.0
+    extend right
+    Abreq30 - 2.00 72.2 0.0
+    extend vertical
+    Abreq30 - 3.00 0.0 90.0
+    Abreq30 - 2.00 0.0 -90.0
+    extend right
+    Abreq30 Abreq32 1.64 342.2 -83.4
+    extend left
+    Abreq32 - 1.00 192.2 0.0
+    extend vertical
+    Abreq32 - 3.00 0.0 90.0
+    extend right
+    Abreq32 Abreq33 1.43 282.2 -20.4
+    extend vertical
+    Abreq33 - 1.00 187.4 0.0
+    Abreq33 - 3.00 0.0 90.0
+    extend right
+    Abreq33 Abreq34 2.49 277.4 -16.5
+    extend vertical
+    Abreq34 - 1.00 178.0 0.0
+    Abreq34 - 3.00 0.0 90.0
+    extend left
+    Abreq34 Abreq35 3.23 268.0 -17.9
+    Abreq35 - 2.00 194.7 0.0
+    extend right
+    Abreq35 - 2.00 14.7 0.0
+    extend vertical
+    Abreq35 - 3.00 0.0 90.0
+    Abreq35 - 2.00 0.0 -90.0
+    extend right
+    Abreq35 Abreq36 2.10 284.7 -78.0
+    extend left
+    Abreq36 - 1.00 349.6 0.0
+    extend vertical
+    Abreq36 - 3.00 0.0 90.0
+    extend left
+    Abreq36 Abreq37 0.86 259.6 -24.3
+    extend right
+    Abreq37 - 1.00 51.9 0.0
+    extend vertical
+    Abreq37 - 3.00 0.0 90.0
+    extend right
+    Abreq37 Abreq38 1.23 321.9 -31.1
+    Abreq38 - 1.00 50.2 0.0
+    extend vertical
+    Abreq38 - 3.00 0.0 90.0
+    extend right
+    Abreq38 Abreq39 5.98 320.2 -48.3
+    Abreq39 - 1.00 51.6 0.0
+    extend vertical
+    Abreq39 - 3.00 0.0 90.0
+    extend right
+    Abreq39 Abreq40 5.58 321.6 -82.5
+    Abreq40 - 1.00 57.1 0.0
+    extend vertical
+    Abreq40 - 3.00 0.0 90.0
+    extend right
+    Abreq40 Abreq41 1.79 327.1 0.0
+    Abreq41 - 1.00 79.4 0.0
+    extend vertical
+    Abreq41 - 3.00 0.0 90.0
+    extend right
+    Abreq41 Abreq42 4.86 349.4 -19.6
+    Abreq42 - 1.00 27.4 0.0
+    extend vertical
+    Abreq42 - 3.00 0.0 90.0
+    extend right
+    Abreq42 Abreq43 3.26 297.4 -17.7
+    Abreq43 - 1.00 36.3 0.0
+    extend vertical
+    Abreq43 - 3.00 0.0 90.0
+    extend right
+    Abreq43 Abreq44 2.67 306.3 -9.1
+    Abreq44 - 1.00 49.9 0.0
+    extend vertical
+    Abreq44 - 3.00 0.0 90.0
+    extend right
+    Abreq44 Abreq45 4.18 319.9 -10.8
+    Abreq45 - 1.00 19.5 0.0
+    extend vertical
+    Abreq45 - 3.00 0.0 90.0
+    extend right
+    Abreq45 Abreq46 3.32 289.5 -18.7
+    Abreq46 - 1.00 48.1 0.0
+    extend vertical
+    Abreq46 - 3.00 0.0 90.0
+    extend right
+    Abreq46 Abreq47 4.16 318.1 -10.8
+    Abreq47 - 1.00 104.4 0.0
+    extend vertical
+    Abreq47 - 3.00 0.0 90.0
+    extend right
+    Abreq47 Abreq48 2.57 14.4 -22.7
+    Abreq48 - 1.00 33.6 0.0
+    extend vertical
+    Abreq48 - 3.00 0.0 90.0
+    extend right
+    Abreq48 Abreq49 2.57 303.6 -19.3
+    Abreq49 - 1.00 74.3 0.0
+    extend vertical
+    Abreq49 - 3.00 0.0 90.0
+    extend right
+    Abreq49 Abreq50 3.72 344.3 -33.6
+    Abreq50 - 1.00 60.9 0.0
+    extend vertical
+    Abreq50 - 3.00 0.0 90.0
+    extend right
+    Abreq50 Abreq51 4.15 330.9 -11.8
+    Abreq51 - 1.00 11.1 0.0
+    extend vertical
+    Abreq51 - 3.00 0.0 90.0
+    extend right
+    Abreq51 Abreq52 6.96 281.1 -17.2
+    Abreq52 - 1.00 42.7 0.0
+    extend vertical
+    Abreq52 - 3.00 0.0 90.0
+    extend right
+    Abreq52 Abreq53 4.05 312.7 -14.2
+    Abreq53 - 1.00 33.6 0.0
+    extend vertical
+    Abreq53 - 3.00 0.0 90.0
+    extend right
+    Abreq53 Abreq54 7.30 303.6 -15.2
+    Abreq54 - 0.50 35.5 0.0
+    extend vertical
+    Abreq54 - 0.50 0.0 90.0
+    extend right
+    Abreq54 Abreq55 3.62 305.5 -28.0
+    Abreq53 - 1.00 130.8 0.0
+    extend left
+    Abreq53 - 1.00 310.8 0.0
+    extend vertical
+    Abreq53 - 1.00 0.0 90.0
+    Abreq53 - 1.00 0.0 -90.0
+    extend left
+    Abreq53 Abreq56 6.75 220.8 51.0
+    extend right
+    Abreq37 - 1.00 157.8 0.0
+    extend vertical
+    Abreq37 - 3.00 0.0 90.0
+    extend left
+    Abreq37 Abreq57 1.16 247.9 -29.2
+    extend vertical
+    Abreq57 - 1.00 178.1 0.0
+    Abreq57 - 3.00 0.0 90.0
+    extend left
+    Abreq57 Abreq58 7.25 268.1 -12.4
+    extend vertical
+    Abreq58 - 1.00 181.9 0.0
+    Abreq58 - 3.00 0.0 90.0
+    extend right
+    Abreq58 Abreq59 5.47 271.9 -20.5
+    extend vertical
+    Abreq59 - 1.00 176.3 0.0
+    Abreq59 - 3.00 0.0 90.0
+    extend left
+    Abreq59 Abreq60 8.95 266.3 -87.1
+    extend vertical
+    Abreq60 - 1.00 179.9 0.0
+    Abreq60 - 3.00 0.0 90.0
+    extend left
+    Abreq60 Abreq61 5.16 269.9 -2.4
+    Abreq61 - 1.00 192.1 0.0
+    extend vertical
+    Abreq61 - 3.00 0.0 90.0
+    extend right
+    Abreq61 Abreq62 2.74 282.1 -22.8
+    extend vertical
+    Abreq62 - 1.00 172.8 0.0
+    Abreq62 - 3.00 0.0 90.0
+    extend left
+    Abreq62 Abreq63 3.10 262.8 -11.9
+    extend vertical
+    Abreq63 - 1.00 170.7 0.0
+    Abreq63 - 3.00 0.0 90.0
+    extend left
+    Abreq63 Abreq64 5.42 260.7 -29.8
+    extend vertical
+    Abreq64 - 1.00 173.8 0.0
+    Abreq64 - 3.00 0.0 90.0
+    extend left
+    Abreq64 Abreq65 4.31 263.8 -11.4
+    extend vertical
+    Abreq65 - 0.50 171.7 0.0
+    Abreq65 - 0.50 0.0 90.0
+    extend left
+    Abreq65 Abreq66 2.33 261.7 -8.7
+  endcenterline
+
+endsurvey
+

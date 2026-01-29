@@ -1,0 +1,33 @@
+encoding  utf-8
+survey FJS319_2024_10_13 -title "FJS319"
+
+centerline
+    cs UTM31
+    
+    #cs EPSG:2154
+   
+  # FJS319 : courant d'air soufflant le 13/10/2024
+  
+    fix 0 726296 5030170 1447
+    station 0 "FJS319" entrance
+  
+    date 2024.10.13
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    0 1 1 300 -90
+    extend right
+    0 - 1.00 1 0.1
+    extend left
+    0 - 1.00 91 0.1
+    extend right
+    extend right
+    0 - 1.00 181 0.1
+    extend left
+    0 - 1.00 271 0.1
+    extend right
+endcenterline
+
+endsurvey
+

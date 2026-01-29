@@ -1,0 +1,16 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 1820.27m (surface 0.00m, duplicated 0.00m)\nvertical range: 357.16m (from Tenebreux1@tene_1990_09_15.1990_09_15 at 1587.00m to Tenebreux77@tene_1990_09_15.1990_09_15 at 1229.84m)\nnorth-south range: 408.40m (from Tenebreux77@tene_1990_09_15.1990_09_15 at 5029288.54m to Tenebreux248@tene_1990_09_15.1990_09_15 at 5028880.14m)\neast-west range: 97.96m (from Tenebreux75@tene_1990_09_15.1990_09_15 at 726006.52m to Tenebreux236@tene_1990_09_15.1990_09_15 at 725908.56m)\nnumber of shots: 838\nnumber of stations: 839"
+xth_cp_data_tree_insert 43 1 1 1990_09_15 1990_09_15 "Ténébreux > 1990-09-15" "Tenebreux > 1990-09-15" "length: 1820.27m (surface 0.00m, duplicated 0.00m)\nvertical range: 357.16m (from Tenebreux1@tene_1990_09_15.1990_09_15 at 1587.00m to Tenebreux77@tene_1990_09_15.1990_09_15 at 1229.84m)\nnorth-south range: 408.40m (from Tenebreux77@tene_1990_09_15.1990_09_15 at 5029288.54m to Tenebreux248@tene_1990_09_15.1990_09_15 at 5028880.14m)\neast-west range: 97.96m (from Tenebreux75@tene_1990_09_15.1990_09_15 at 726006.52m to Tenebreux236@tene_1990_09_15.1990_09_15 at 725908.56m)\nnumber of shots: 838\nnumber of stations: 839"
+xth_cp_data_tree_insert 45 43 2 tene_1990_09_15 tene_1990_09_15.1990_09_15 "Gouffre du Ténébreux" "Gouffre du Tenebreux" "length: 1820.27m (surface 0.00m, duplicated 0.00m)\nvertical range: 357.16m (from Tenebreux1@tene_1990_09_15.1990_09_15 at 1587.00m to Tenebreux77@tene_1990_09_15.1990_09_15 at 1229.84m)\nnorth-south range: 408.40m (from Tenebreux77@tene_1990_09_15.1990_09_15 at 5029288.54m to Tenebreux248@tene_1990_09_15.1990_09_15 at 5028880.14m)\neast-west range: 97.96m (from Tenebreux75@tene_1990_09_15.1990_09_15 at 726006.52m to Tenebreux236@tene_1990_09_15.1990_09_15 at 725908.56m)\nnumber of shots: 838\nnumber of stations: 839"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 0 698X1 p1 1 Tenebreux_MP Tenebreux_MP@1990_09_15 "" ""
+xth_cp_map_tree_insert map 1 695X1 698X1 2 Tenebreux_MP- Tenebreux_MP-@1990_09_15 "" ""
+xth_cp_map_tree_insert map 1 696X1 698X1 2 Tenebreux_MP-- Tenebreux_MP--@1990_09_15 "" ""
+xth_cp_map_tree_insert map 1 697X1 698X1 2 Tenebreux_MP--- Tenebreux_MP---@1990_09_15 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 1820 52
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1728473198
+

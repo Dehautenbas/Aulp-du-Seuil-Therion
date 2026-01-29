@@ -1,0 +1,20 @@
+encoding  utf-8
+
+survey 2024_07_14 -title "Cavernicole > 2024_07_14"
+
+    input Data/fond_Cavernicole.th
+
+    ## Plan
+    input Data/fond_p.th2
+
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2024_07_14-maps.th
+
+endsurvey
+

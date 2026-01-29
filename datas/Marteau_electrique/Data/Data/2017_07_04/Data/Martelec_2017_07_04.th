@@ -1,0 +1,220 @@
+encoding  utf-8
+
+survey Martelec_2017_07_04 -title "Marteau électrique"
+
+centerline
+    explo-team "Julien Zimmer"
+    explo-team "Laura Durand"
+    explo-team "David Parrot"
+    explo-team "Thomas Rispal"
+    explo-team "Johanna Fleichaire"
+    explo-team "Théo Cailhol"
+    explo-team "Vincent Franzi"
+    explo-team "Jean-Christophe Blanchon"
+    explo-team "Charles Buttin"
+    explo-team "Vincent Franzi"
+    
+    team "Vincent Franzi"
+    team "Théo Cailhol"
+    
+    date 2017.07.04 
+    #declination 0.00 degrees
+    declination 1.62 degrees
+    cs UTM31
+    fix 0 726545.000 5027909.000 1625.000
+    station 0 "Gouffre du Marteau Electrique" entrance
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend right
+    0 - 0.81 130.0 -23.5
+    0 - 0.37 100.3 -7.0
+    extend left
+    0 - 0.61 292.9 -36.3
+    0 - 0.80 190.5 -50.1
+    extend right
+    0 - 1.01 153.3 -34.5
+    extend left
+    0 - 1.11 238.9 -47.4
+    extend vertical
+    0 1 5.46 141.1 -75.9
+    extend right
+    1 - 0.58 20.1 3.7
+    1 - 0.57 59.0 -0.7
+    1 - 0.66 77.4 -1.3
+    1 - 0.88 102.1 -3.4
+    1 - 0.64 77.6 -3.8
+    extend left
+    1 - 0.73 264.4 -2.2
+    1 - 1.74 280.5 -2.6
+    1 - 2.84 290.6 2.4
+    1 - 1.27 312.5 4.3
+    1 - 0.78 349.8 6.6
+    extend right
+    1 - 3.85 29.9 83.7
+    extend vertical
+    1 2 6.53 311.9 -81.5
+    extend right
+    2 - 0.71 116.8 4.6
+    2 - 2.34 126.4 0.9
+    2 - 1.12 155.9 4.6
+    2 - 1.25 147.5 8.2
+    extend left
+    2 - 0.38 272.2 4.7
+    2 - 1.09 263.5 5.5
+    2 - 0.95 224.4 12.5
+    2 - 0.82 198.4 14.3
+    2 - 0.93 196.9 -3.6
+    extend vertical
+    2 3 0.93 195.6 -4.7
+    extend right
+    3 - 1.54 82.5 7.1
+    extend left
+    3 - 0.87 339.8 -16.6
+    3 - 0.73 312.0 -6.9
+    3 - 0.78 359.9 -18.5
+    extend vertical
+    3 4 10.33 271.5 -80.0
+    extend left
+    4 - 1.33 241.3 3.7
+    4 - 1.02 207.0 8.5
+    4 - 1.50 253.5 4.4
+    extend right
+    4 - 1.91 118.9 -2.2
+    4 - 0.65 96.3 -0.4
+    4 - 3.03 130.8 -3.6
+    4 - 1.79 156.8 -1.7
+    extend left
+    4 - 1.20 180.9 3.4
+    extend vertical
+    4 5 6.57 179.4 -82.3
+    extend right
+    5 - 1.63 80.8 6.4
+    extend left
+    5 - 0.81 292.9 2.3
+    5 - 1.64 324.4 4.7
+    5 - 1.43 340.4 6.1
+    extend right
+    5 - 1.29 16.3 8.0
+    extend vertical
+    5 6 7.74 316.3 -82.6
+    extend left
+    6 - 1.13 209.2 -1.6
+    extend right
+    6 - 1.40 176.2 -1.9
+    6 - 2.09 145.6 -5.7
+    6 - 2.74 122.3 -2.0
+    6 - 1.84 92.4 -3.4
+    6 - 1.02 53.0 12.4
+    extend left
+    6 - 0.64 346.5 -15.2
+    extend vertical
+    6 7 2.03 157.0 -23.9
+    extend left
+    7 - 1.60 313.3 -5.4
+    7 - 1.38 292.6 -6.4
+    7 - 0.93 282.0 -5.9
+    7 - 2.29 343.9 -2.0
+    extend right
+    7 - 1.79 28.1 -3.0
+    7 - 2.20 59.6 3.4
+    7 - 0.58 119.9 0.3
+    7 - 1.23 91.6 1.9
+    extend left
+    7 - 13.00 243.8 -84.5
+    7 - 1.15 282.5 -4.4
+    7 - 1.74 309.2 -5.6
+     extend vertical
+    7 8 11.84 241.6 -83.7
+    extend left
+    8 - 0.33 278.1 7.5
+    8 - 1.78 299.7 9.4
+    8 - 1.17 358.0 5.2
+    extend right
+    8 - 2.15 86.9 -5.0
+    8 - 3.68 98.8 -3.9
+    8 - 2.29 106.8 0.2
+    8 - 1.05 111.3 -0.5
+    8 - 1.40 40.4 -5.0
+    extend left
+    8 - 1.32 343.6 3.1
+    8 - 1.06 297.2 -78.3
+   
+    8 9 6.34 282.1 23.0
+    extend right
+    9 - 4.70 75.5 83.4
+    9 - 1.60 17.6 -87.9
+    9 - 0.29 14.3 1.1
+    extend left
+    9 - 0.55 290.9 3.1
+    extend right
+    9 - 3.63 106.6 -7.7
+    9 - 2.73 103.0 -23.3
+    9 - 2.49 113.6 -23.5
+    9 - 1.19 65.5 -2.0
+    8 10 6.02 103.8 -27.7
+    extend left
+    10 - 0.22 198.8 -20.2
+    extend right
+    10 - 0.47 135.3 -11.9
+    10 - 0.75 106.3 -9.7
+    extend left
+    10 - 0.19 315.4 -8.9
+    10 - 0.33 242.2 -9.6
+    10 - 1.33 359.8 -87.8
+    extend right
+    10 - 0.78 114.7 -69.0
+    10 11 0.66 101.9 -28.4
+    extend left
+    11 - 0.25 199.6 -3.1
+    extend right
+    11 - 0.49 142.6 -3.5
+    11 - 0.44 119.1 -0.3
+    extend left
+    11 - 0.45 247.3 5.5
+    11 - 0.67 297.4 -1.8
+    11 - 0.47 252.8 4.9
+    extend right
+    11 - 0.38 111.9 -80.8
+    11 - 3.89 90.4 -70.4
+    extend left
+    11 - 0.26 192.1 -7.9
+    extend right
+    11 - 4.17 100.9 -59.3
+    #11 - 198.97 98.9 -59.9
+    11 12 4.15 99.2 -59.9
+    extend left
+    12 - 0.22 197.7 -0.6
+    12 - 0.35 232.7 10.3
+    12 - 0.99 338.4 -70.4
+    12 - 0.87 180.2 82.5
+    extend right
+    12 13 2.41 117.9 -36.1
+    13 - 2.06 82.8 -6.7
+    13 - 1.02 53.8 0.9
+    extend left
+    13 - 0.49 274.1 12.8
+    13 - 1.02 336.1 -4.3
+    13 - 2.21 311.0 -8.8
+    extend right
+    13 - 0.81 5.9 0.3
+    13 14 6.24 76.2 -73.1
+    extend left
+    14 - 0.96 254.7 -0.8
+    14 - 3.10 274.7 3.5
+    14 - 4.27 289.2 -6.2
+    14 - 2.65 303.0 -3.2
+    14 - 1.11 328.9 2.2
+    extend right
+    14 - 0.98 59.2 -3.8
+    14 - 0.73 24.4 -1.7
+    14 - 1.35 75.1 -2.0
+    14 - 1.06 168.4 -15.5
+    14 - 1.44 122.7 -17.8
+    14 15 3.57 112.1 -35.5
+    15 - 3.62 111.8 -35.3
+  endcenterline
+
+endsurvey
+

@@ -1,0 +1,31 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 7001.51m (surface 0.00m, duplicated 0.00m)\nvertical range: 296.39m (from 0@tdf_2006_08_29.2006_08_29.trou_des_flammes at 1539.00m to 175@tdf_2006_08_29.2006_08_29.trou_des_flammes at 1242.61m)\nnorth-south range: 1412.24m (from 213@tdf_2006_08_29.2006_08_29.trou_des_flammes at 5028877.77m to a240@tdf_2006_08_29.2006_08_29.trou_des_flammes at 5027465.54m)\neast-west range: 898.84m (from 30@tdf_2006_08_29.2006_08_29.trou_des_flammes at 726562.47m to a240@tdf_2006_08_29.2006_08_29.trou_des_flammes at 725663.63m)\nnumber of shots: 3909\nnumber of stations: 3910"
+xth_cp_data_tree_insert 43 1 1 trou_des_flammes trou_des_flammes "Trou des Flammes" "Trou des Flammes" "length: 7001.51m (surface 0.00m, duplicated 0.00m)\nvertical range: 296.39m (from 0@tdf_2006_08_29.2006_08_29.trou_des_flammes at 1539.00m to 175@tdf_2006_08_29.2006_08_29.trou_des_flammes at 1242.61m)\nnorth-south range: 1412.24m (from 213@tdf_2006_08_29.2006_08_29.trou_des_flammes at 5028877.77m to a240@tdf_2006_08_29.2006_08_29.trou_des_flammes at 5027465.54m)\neast-west range: 898.84m (from 30@tdf_2006_08_29.2006_08_29.trou_des_flammes at 726562.47m to a240@tdf_2006_08_29.2006_08_29.trou_des_flammes at 725663.63m)\nnumber of shots: 3909\nnumber of stations: 3910"
+xth_cp_data_tree_insert 45 43 2 2006_08_29 2006_08_29.trou_des_flammes "Trou des Flammes > 2006-08-29" "Trou des Flammes > 2006-08-29" "length: 7001.51m (surface 0.00m, duplicated 0.00m)\nvertical range: 296.39m (from 0@tdf_2006_08_29.2006_08_29.trou_des_flammes at 1539.00m to 175@tdf_2006_08_29.2006_08_29.trou_des_flammes at 1242.61m)\nnorth-south range: 1412.24m (from 213@tdf_2006_08_29.2006_08_29.trou_des_flammes at 5028877.77m to a240@tdf_2006_08_29.2006_08_29.trou_des_flammes at 5027465.54m)\neast-west range: 898.84m (from 30@tdf_2006_08_29.2006_08_29.trou_des_flammes at 726562.47m to a240@tdf_2006_08_29.2006_08_29.trou_des_flammes at 725663.63m)\nnumber of shots: 3909\nnumber of stations: 3910"
+xth_cp_data_tree_insert 47 45 3 tdf_2006_08_29 tdf_2006_08_29.2006_08_29.trou_des_flammes "Trou\_des\_Flammes" "Trou\_des\_Flammes" "length: 7001.51m (surface 0.00m, duplicated 0.00m)\nvertical range: 296.39m (from 0@tdf_2006_08_29.2006_08_29.trou_des_flammes at 1539.00m to 175@tdf_2006_08_29.2006_08_29.trou_des_flammes at 1242.61m)\nnorth-south range: 1412.24m (from 213@tdf_2006_08_29.2006_08_29.trou_des_flammes at 5028877.77m to a240@tdf_2006_08_29.2006_08_29.trou_des_flammes at 5027465.54m)\neast-west range: 898.84m (from 30@tdf_2006_08_29.2006_08_29.trou_des_flammes at 726562.47m to a240@tdf_2006_08_29.2006_08_29.trou_des_flammes at 725663.63m)\nnumber of shots: 3909\nnumber of stations: 3910"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 0 2655X1 p1 1 Trou_des_Flammes_MP-tot Trou_des_Flammes_MP-tot@trou_des_flammes "Trou des Flammes" "Trou des Flammes"
+xth_cp_map_tree_insert map 0 2637X1 2655X1 2 tdf-2006-08-29-tot_MP tdf-2006-08-29-tot_MP@2006_08_29.trou_des_flammes "Trou des Flammes" "Trou des Flammes"
+xth_cp_map_tree_insert map 1 2640X1 2637X1 3 puits_lionel_terray_MP puits_lionel_terray_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2638X1 2637X1 3 entree_tdf_fin_faille_holmes_MP entree_tdf_fin_faille_holmes_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2639X1 2637X1 3 salle_ben_puits_eologue_MP salle_ben_puits_eologue_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2641X1 2637X1 3 cascade_watson_conan_doyle_MP cascade_watson_conan_doyle_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2642X1 2637X1 3 aval_riviere_malissard_MP aval_riviere_malissard_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2647X1 2637X1 3 jonction_fossile_riviere_MP jonction_fossile_riviere_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2643X1 2637X1 3 amont_riviere_malissard_MP amont_riviere_malissard_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2644X1 2637X1 3 galerie_des_puits_remontant_MP galerie_des_puits_remontant_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2645X1 2637X1 3 meandre_des_phonolithes_MP meandre_des_phonolithes_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2646X1 2637X1 3 aval_riviere_malissard_suite_MP aval_riviere_malissard_suite_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2649X1 2637X1 3 galerie_fossile_sud_MP galerie_fossile_sud_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2652X1 2637X1 3 affluent_marteau_canne_MP affluent_marteau_canne_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2653X1 2637X1 3 affluent_sous_salle_face_ouest_MP affluent_sous_salle_face_ouest_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2648X1 2637X1 3 galerie_fossile_sud_114bis_MP galerie_fossile_sud_114bis_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2650X1 2637X1 3 siphon_pedale_douce_MP siphon_pedale_douce_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_insert map 1 2651X1 2637X1 3 affluent_pedale_douce_MP affluent_pedale_douce_MP@2006_08_29.trou_des_flammes "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 7002 113
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1735834166
+

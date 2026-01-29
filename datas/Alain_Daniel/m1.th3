@@ -1,0 +1,45 @@
+encoding  utf-8
+
+# 1-SOURCES 
+
+source AD-tot.th
+
+# Add entrances coordinates
+#input legendes/entrances_coordinates.th
+
+# Add config file
+input ../config3.th3 
+input ../config2.th3
+
+#DEM
+#source ../GIS/DEM.th
+
+# 3-EXPORTS
+
+#export map -fmt xvi -layout xviexport -o Exports/AD-plan.xvi
+#export map -proj extended -layout xviexport -fmt xvi -o Exports/AD-coupe.xvi
+#export map -proj [elevation 320] -layout xviexport -o Exports/AD-coupe_elevation.xvi 
+
+# Select maps
+#select MP-AD@AD-tot
+
+select MC-AD@AD-tot
+
+   
+export map -projection [elevation 320] -layout my_layout-coupe -o Exports/AD-coupe_elevation.pdf 
+#export map -projection extended -layout my_layout-coupe -o Exports/M1-coupe.pdf 
+
+#export map -projection plan -o Exports/AD-plan.pdf -layout my_layout
+ 
+#export model -o Exports/AD.lox
+
+
+# export continuation-list -o Exports/questions.html
+# export cave-list -o Exports/M1.html  
+
+# # Export des fichiers ESRI
+# export map -proj plan -fmt esri -o Exports/AD -layout my_layout
+
+# # Export des fichiers kml
+# export map -proj plan -fmt kml -o Exports/AD.kml -layout my_layout
+# export model -o Exports/AD.kml

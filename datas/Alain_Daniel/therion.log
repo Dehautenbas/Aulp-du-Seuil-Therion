@@ -1,0 +1,16 @@
+therion 6.2.1 (2024-03-20)
+  - using Proj 9.3.1, compiled against 9.3.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: m1.th3
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+C:\Program Files\Therion\therion.exe: error -- AD-maps.th [17] -- shift is not allowed for scrap -- SC_AD_3
+writing xtherion file ... done

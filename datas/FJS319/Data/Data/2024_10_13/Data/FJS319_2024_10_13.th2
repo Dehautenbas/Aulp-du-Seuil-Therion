@@ -1,0 +1,44 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -209.0 -260.0 677.0 431.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {78.7402 1 1.0} {78.7401 0} FJS319_2024_10_13-th_p.xvi 0 {}
+
+
+
+scrap FJS319_SP1 -projection plan -station-names "" "@FJS319_2024_10_13" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 14.0 368.0 remark -text [CA Soufflant 13/10/2024] -align top
+
+point -169.0 -202.0 air-draught -orientation 36.4
+
+point 625.0 362.0 label -text FJS319
+
+point 436.0 128.0 entrance -orientation 248.2 -scale xl
+
+point 78.7402 78.7401 station -name 0
+
+line wall
+  -19.0 13.0
+  -8.0 38.0 7.0 70.67 51.0 72.0
+  smooth off
+  59.67 66.67 77.83 56.26 88.0 56.0
+  105.94 55.54 126.47 76.99 142.0 68.0
+  160.11 57.52 137.3 15.98 148.0 -2.0
+  154.27 -12.53 153.0 -6.0 173.0 -9.0
+  smooth off
+  altitude .
+endline
+
+point -76.0 -58.0 narrow-end -orientation 33.0
+
+line wall
+  173.0 175.0
+  125.0 177.0 144.9 130.69 128.0 120.0
+  88.47 94.99 61.16 108.57 20.0 108.0
+  -9.4 107.59 -28.0 44.0 -46.0 26.0
+  smooth off
+endline
+
+endscrap
+
+

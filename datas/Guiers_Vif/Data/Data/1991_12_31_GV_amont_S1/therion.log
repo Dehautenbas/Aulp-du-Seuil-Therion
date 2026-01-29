@@ -1,0 +1,245 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.2.1, compiled against 9.2.1
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: 1991_12_31_GV_amont_S1-config.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM31
+meridian convergence (deg): -2.0579
+geomag declinations (deg):
+  1991.1.1  -1.4428
+  1992.1.1  -1.3393
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.03%
+
+
+############### export maps & scraps selection #################
+M  1154.02 GV7amS1_MP--@1991_12_31_GV_amont_S1 ()
+S  1155.68 GV7amS1_SP6@1991_12_31_GV_amont_S1 ()
+S  1161.97 GV7amS1_SP7@1991_12_31_GV_amont_S1 ()
+S  1161.97 GV7amS1_SP9@1991_12_31_GV_amont_S1 ()
+S  1156.97 GV7amS1_SP18@1991_12_31_GV_amont_S1 ()
+S  1148.97 GV7amS1_SP17@1991_12_31_GV_amont_S1 ()
+S  1135.54 GV7amS1_SP19@1991_12_31_GV_amont_S1 ()
+S  1157.05 GV7amS1_SP20@1991_12_31_GV_amont_S1 ()
+M  1176.76 GV7amS1_MP---@1991_12_31_GV_amont_S1 ()
+S  1184.26 GV7amS1_SP29@1991_12_31_GV_amont_S1 ()
+S  1169.26 GV7amS1_SP30@1991_12_31_GV_amont_S1 ()
+M  1205.64 GV7amS1_MP-@1991_12_31_GV_amont_S1 ()
+S  1195.25 GV7amS1_SP16@1991_12_31_GV_amont_S1 ()
+S  1146.50 GV7amS1_SP1@1991_12_31_GV_amont_S1 ()
+S  1139.49 GV7amS1_SP2@1991_12_31_GV_amont_S1 ()
+S  1134.49 GV7amS1_SP3@1991_12_31_GV_amont_S1 ()
+S  1130.00 GV7amS1_SP4@1991_12_31_GV_amont_S1 ()
+S  1128.90 GV7amS1_SP5@1991_12_31_GV_amont_S1 ()
+S  1218.77 GV7amS1_SP8@1991_12_31_GV_amont_S1 ()
+S  1165.57 GV7amS1_SP10@1991_12_31_GV_amont_S1 ()
+S  1170.93 GV7amS1_SP11@1991_12_31_GV_amont_S1 ()
+S  1174.17 GV7amS1_SP12@1991_12_31_GV_amont_S1 ()
+S  1178.89 GV7amS1_SP13@1991_12_31_GV_amont_S1 ()
+S  1192.00 GV7amS1_SP14@1991_12_31_GV_amont_S1 ()
+S  1201.24 GV7amS1_SP15@1991_12_31_GV_amont_S1 ()
+S  1195.25 GV7amS1_SP16@1991_12_31_GV_amont_S1 ()
+S  1191.76 GV7amS1_SP21@1991_12_31_GV_amont_S1 ()
+S  1199.76 GV7amS1_SP22@1991_12_31_GV_amont_S1 ()
+S  1198.78 GV7amS1_SP23@1991_12_31_GV_amont_S1 ()
+S  1207.30 GV7amS1_SP24@1991_12_31_GV_amont_S1 ()
+S  1209.73 GV7amS1_SP25@1991_12_31_GV_amont_S1 ()
+S  1215.22 GV7amS1_SP26@1991_12_31_GV_amont_S1 ()
+S  1225.58 GV7amS1_SP27@1991_12_31_GV_amont_S1 ()
+S  1193.86 GV7amS1_SP28@1991_12_31_GV_amont_S1 ()
+S  1186.26 GV7amS1_SP29_bis@1991_12_31_GV_amont_S1 ()
+S     -.-- GV7amS1_SP31@1991_12_31_GV_amont_S1 ()
+S  1196.27 GV7amS1_SP32@1991_12_31_GV_amont_S1 ()
+S  1194.12 GV7amS1_SP33@1991_12_31_GV_amont_S1 ()
+S  1192.01 GV7amS1_SP34@1991_12_31_GV_amont_S1 ()
+S  1184.76 GV7amS1_SP35@1991_12_31_GV_amont_S1 ()
+S  1197.61 GV7amS1_SP36@1991_12_31_GV_amont_S1 ()
+S  1207.84 GV7amS1_SP37@1991_12_31_GV_amont_S1 ()
+S  1201.01 GV7amS1_SP38@1991_12_31_GV_amont_S1 ()
+S  1207.72 GV7amS1_SP39@1991_12_31_GV_amont_S1 ()
+S  1213.14 GV7amS1_SP40@1991_12_31_GV_amont_S1 ()
+S  1217.59 GV7amS1_SP41@1991_12_31_GV_amont_S1 ()
+S  1228.62 GV7amS1_SP42@1991_12_31_GV_amont_S1 ()
+S  1224.18 GV7amS1_SP43@1991_12_31_GV_amont_S1 ()
+S  1236.00 GV7amS1_SP44@1991_12_31_GV_amont_S1 ()
+S  1245.17 GV7amS1_SP45@1991_12_31_GV_amont_S1 ()
+S  1227.16 GV7amS1_SP46@1991_12_31_GV_amont_S1 ()
+S  1251.17 GV7amS1_SP47@1991_12_31_GV_amont_S1 ()
+S  1259.35 GV7amS1_SP48@1991_12_31_GV_amont_S1 ()
+S  1267.89 GV7amS1_SP49@1991_12_31_GV_amont_S1 ()
+S  1271.63 GV7amS1_SP50@1991_12_31_GV_amont_S1 ()
+S  1277.13 GV7amS1_SP51@1991_12_31_GV_amont_S1 ()
+S  1267.64 GV7amS1_SP52@1991_12_31_GV_amont_S1 ()
+S  1253.64 GV7amS1_SP53@1991_12_31_GV_amont_S1 ()
+S  1238.14 GV7amS1_SP54@1991_12_31_GV_amont_S1 ()
+########## end of export maps & scraps selection ###############
+writing Outputs/1991_12_31_GV_amont_S1-planB.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  8 JAN 2024 21:33
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15]
+[Warning: obsolete transparent colour definition 'tr_lgrey']
+[Warning: obsolete transparent colour definition 'tr_lchamois']
+[Warning: obsolete transparent colour definition 'tr_lqueue']
+[Warning: obsolete transparent colour definition 'tr_largile']
+[Warning: obsolete transparent colour definition 'tr_ttg']
+[Warning: scrap outline intersects itself in scrap GV7amS1_SP20@1991_12_31_GV_a
+mont_S1] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
+[16] [17] [18] [19]
+[Error: area borders l188-20088-45964 and l181-19850-46504 don't intersect in s
+crap GV7amS1_SP6@1991_12_31_GV_amont_S1 (file Data/gv_amontS1_1991_12_31.th2 [3
+87])]
+[Error: area borders l181-19850-46504 and l188-20088-45964 don't intersect in s
+crap GV7amS1_SP6@1991_12_31_GV_amont_S1 (file Data/gv_amontS1_1991_12_31.th2 [3
+87])] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33]
+[34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48]
+[49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63]
+[64] [65] [66] [67] [68] [69] [70] [71] [72] [73] [74]
+[Warning: scrap outline intersects itself in scrap GV7amS1_SP38@1991_12_31_GV_a
+mont_S1] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87] [88]
+[89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102] [103]
+[104] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115] [116]
+[117] [118]
+[Warning: scrap outline intersects itself in scrap GV7amS1_SP21@1991_12_31_GV_a
+mont_S1] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128] [129]
+[130] [131] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141] [142]
+[143] [144] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154] [155]
+[156] [157] [158] [159] [160] [161] (./mptextmp.mp) [162] (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[163] )
+ 
+Here is how much of MetaPost's memory you used:
+ 47516 strings using 1143148 characters
+ 2959728 bytes of node memory
+ 1736 symbolic tokens
+ 10i,82n,16p,518b,5f stack positions out of 16i,98n,20p,608b,6f
+178 output files written: data-patt.1 .. data.163
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  8 JAN 2024 21:34
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex
+Normal \count register pool exhausted, switching to extended pool.)
+(./th_pagedef.tex) (./th_pages.tex)
+ 253 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 569 strings out of 94604
+ 7358 string characters out of 1142524
+ 65572 words of memory out of 5045300
+ 2220 multiletter control sequences out of 15000+50000
+ 22382 words of font info for 69 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,9p,652b,54s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmbx10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therio
+n/texmf/fonts/type1/cmssi10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/typ
+e1/cmti10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1/csss10.pfb><c:/
+Program Files (x86)/Therion/texmf/fonts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 287566 bytes).
+PDF statistics:
+ 611 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1719 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing xtherion file ... done
+compilation time: 3 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.28%    4.74%  GV7amS1_SP7@1991_12_31_GV_amont_S1
+   0.31%    3.03%  GV7amS1_SP29@1991_12_31_GV_amont_S1
+   0.06%    2.41%  GV7amS1_SP48@1991_12_31_GV_amont_S1
+   0.02%    2.03%  GV7amS1_SP21@1991_12_31_GV_amont_S1
+   0.59%    2.01%  GV7amS1_SP3@1991_12_31_GV_amont_S1
+   0.18%    1.90%  GV7amS1_SP4@1991_12_31_GV_amont_S1
+   0.29%    1.51%  GV7amS1_SP32@1991_12_31_GV_amont_S1
+   0.36%    1.43%  GV7amS1_SP2@1991_12_31_GV_amont_S1
+   0.14%    1.35%  GV7amS1_SP1@1991_12_31_GV_amont_S1
+   0.00%    1.29%  GV7amS1_SP28@1991_12_31_GV_amont_S1
+   0.07%    1.10%  GV7amS1_SP34@1991_12_31_GV_amont_S1
+   0.09%    0.93%  GV7amS1_SP18@1991_12_31_GV_amont_S1
+   0.22%    0.90%  GV7amS1_SP47@1991_12_31_GV_amont_S1
+   0.21%    0.86%  GV7amS1_SP30@1991_12_31_GV_amont_S1
+   0.07%    0.81%  GV7amS1_SP35@1991_12_31_GV_amont_S1
+   0.03%    0.76%  GV7amS1_SP16@1991_12_31_GV_amont_S1
+   0.25%    0.73%  GV7amS1_SP9@1991_12_31_GV_amont_S1
+   0.21%    0.72%  GV7amS1_SP29_bis@1991_12_31_GV_amont_S1
+   0.21%    0.70%  GV7amS1_SP8@1991_12_31_GV_amont_S1
+   0.05%    0.39%  GV7amS1_SP45@1991_12_31_GV_amont_S1
+   0.00%    0.01%  GV7amS1_SP40@1991_12_31_GV_amont_S1
+   0.00%    0.01%  GV7amS1_SP41@1991_12_31_GV_amont_S1
+   0.00%    0.01%  GV7amS1_SP53@1991_12_31_GV_amont_S1
+   0.00%    0.01%  GV7amS1_SP20@1991_12_31_GV_amont_S1
+   0.00%    0.01%  GV7amS1_SP17@1991_12_31_GV_amont_S1
+   0.00%    0.01%  GV7amS1_SP23@1991_12_31_GV_amont_S1
+   0.00%    0.01%  GV7amS1_SP52@1991_12_31_GV_amont_S1
+   0.00%    0.01%  GV7amS1_SP33@1991_12_31_GV_amont_S1
+   0.00%    0.01%  GV7amS1_SP10@1991_12_31_GV_amont_S1
+   0.00%    0.01%  GV7amS1_SP6@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP24@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP44@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP25@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP49@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP39@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP37@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP19@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP43@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP11@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP5@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP13@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP14@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP50@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP22@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP46@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP12@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP38@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP26@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP42@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP36@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP27@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP51@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP15@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP55@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP54@1991_12_31_GV_amont_S1
+   0.00%    0.00%  GV7amS1_SP31@1991_12_31_GV_amont_S1
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (5.890, 45.389) (5.890, 45.389)
+  [UTM31 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM31 → LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM31 → UTM31] AoU: [yes] transformation: [Inverse of UTM zone 31N + UTM zone 31N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM31 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 → UTM31] AoU: [yes] transformation: [axis order change (2D) + UTM zone 31N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=31 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

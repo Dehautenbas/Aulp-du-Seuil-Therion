@@ -1,0 +1,17 @@
+encoding  utf-8
+
+survey Poulpe -title "Gouffre du Poulpe Tentaculaire"
+
+    input Data/Data/2017_09_16/2017_09_16.th
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input Poulpe-tot-maps.th
+
+endsurvey
+

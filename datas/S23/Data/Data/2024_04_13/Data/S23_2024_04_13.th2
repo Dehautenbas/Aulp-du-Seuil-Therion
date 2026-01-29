@@ -1,0 +1,31 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -92.0 -1258.0 664.0 344.0
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {78.7402 1 1.0} {78.7401 0} S23_2024_04_13-th_p.xvi 0 {}
+
+
+
+scrap S23_SP1 -projection plan -station-names "" "@S23_2024_04_13" -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+point 184.0 -348.0 label -align bottom -text S23
+
+point 182.0 -196.0 entrance -orientation 0.0 -scale xl
+
+point 78.7402 78.7401 station -name 0
+
+line wall -close on -subtype pit
+  58.5 131.0
+  58.5 131.0 36.0 86.5 47.0 62.5
+  58.0 38.5 69.5 -7.5 92.0 -23.5
+  114.5 -39.5 209.5 -54.0 229.0 -36.5
+  248.5 -19.0 321.0 47.0 292.5 117.0
+  altitude .
+  264.0 187.0 247.0 196.5 215.5 205.0
+  184.0 213.5 154.0 212.0 123.5 191.5
+  93.0 171.0 58.5 131.0 58.5 131.0
+  smooth off
+endline
+
+endscrap
+
+

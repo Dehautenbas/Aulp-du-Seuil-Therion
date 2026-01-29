@@ -1,0 +1,12 @@
+encoding  utf-8
+
+
+map GV_siphon_de_gravier-MP
+  scrap1
+  scrap2
+  scrap3
+  scrap4
+  scrap5
+  scrap6
+endmap
+

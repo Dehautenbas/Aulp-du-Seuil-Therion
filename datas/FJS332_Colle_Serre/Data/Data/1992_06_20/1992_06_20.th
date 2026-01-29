@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey FJS332_1992_06_20 -title "FJS332 > 1992-06-20"
+
+    input Data/FJS332_1992_06_20.th
+
+    ## Plan
+    input Data/FJS332_1992_06_20.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 1992_06_20-maps.th
+
+endsurvey
+

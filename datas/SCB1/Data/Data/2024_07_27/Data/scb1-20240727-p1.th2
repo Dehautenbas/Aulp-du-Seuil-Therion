@@ -1,0 +1,54 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -228.0 -224.0 229.75 267.25
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {96.85 1 1.0} {100.85 0} 2024_07_27-th_p1.xvi 0 {}
+
+
+
+scrap scb1-20240727-p1 -projection plan -station-names "" "@SCB1-2024-07-27" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 324.85 -128.0 0.0 0.0 11.50239 0.0 m]
+
+point 39.07999999999999 92.17 station -name 2
+
+point 49.81999999999999 121.99 station -name 1
+
+point 96.85 100.85 station -name 0
+
+point 112.0 93.5 continuation
+
+line wall
+  107.5 99.0
+  altitude .
+  65.5 134.75 47.25 138.75 22.0 138.25
+  smooth off
+endline
+
+line wall -subtype pit
+  29.5 70.0
+  48.0 66.5 53.75 91.5 48.25 104.5
+  smooth off
+endline
+
+line wall
+  48.25 104.5
+  48.75 124.75 91.49 97.08 104.5 92.0
+  smooth off
+endline
+
+point 13.75 101.75 height -value [-7 m]
+
+line wall
+  21.5 128.75
+  41.51 124.75 51.4 115.5 39.0 104.75
+  smooth off
+endline
+
+line wall -subtype pit
+  39.0 104.75
+  30.25 99.0 26.75 89.25 31.75 83.5
+  36.27 78.3 23.0 74.25 29.5 70.0
+  smooth off
+endline
+
+endscrap
+
+

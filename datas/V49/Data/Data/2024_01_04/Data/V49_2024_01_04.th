@@ -1,0 +1,29 @@
+encoding  utf-8
+survey V49_2024_01_04 -title "V49"
+
+centerline
+    cs UTM31
+   
+    fix 0 726368 5030076 1472
+    station 0 "V49" entrance
+    
+    date 2024.01.5 
+
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    0 1 30 0 -90
+    extend right
+    0 - 2.00 1 0.1
+    extend left
+    0 - 2.00 91 0.1
+    extend right
+    extend right
+    0 - 1.00 181 0.1
+    extend left
+    0 - 1.00 271 0.1
+    extend right
+endcenterline
+
+endsurvey
+

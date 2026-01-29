@@ -1,0 +1,106 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 324.85 521.7
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {95.84599999999998 1 1.0} {108.851 5} 2024_07_27-th_p3.xvi 0 {}
+
+
+
+scrap scb1-20240727-p3 -projection plan -station-names "" "@SCB1-2024-07-27" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 324.85 -128.0 0.0 0.0 11.50239 0.0 m]
+
+point 200.05599999999998 356.501 station -name 13
+
+point 236.30599999999998 317.631 station -name 12
+
+point 232.45599999999996 279.131 station -name 11
+
+point 179.61599999999999 242.68099999999998 station -name 10
+
+point 204.06599999999997 175.49099999999999 station -name 9
+
+point 154.11599999999999 117.21099999999998 station -name 8
+
+point 106.69599999999998 107.05099999999999 station -name 7
+
+point 92.48599999999998 106.90099999999998 station -name 6
+
+point 131.75 240.75 height -value [-22 m]
+
+point 256.25 339.0 height -value [-5 m]
+
+line wall
+  185.25 357.5
+  185.25 357.5 192.66 354.59 197.0 351.25
+  206.75 343.75 212.02 336.87 217.0 332.25
+  220.5 329.0 230.5 317.5 230.5 317.5
+  smooth off
+endline
+
+line wall
+  230.5 317.5
+  231.75 292.25 216.5 325.0 196.0 313.75
+  smooth off
+endline
+
+line wall -subtype pit
+  196.0 313.75
+  altitude .
+  170.0 291.25 145.02 261.46 151.0 222.75
+  153.89 204.06 168.23 188.67 172.5 170.25
+  182.87 125.52 147.2 125.08 116.0 128.75
+  smooth off
+  altitude .
+endline
+
+line pit
+  230.5 317.5
+  230.5 317.5 229.08 330.32 242.25 326.0
+  smooth off
+endline
+
+line pit
+  157.25 269.0
+  157.25 269.0 190.0 260.0 196.25 235.75
+  smooth off
+endline
+
+line wall
+  116.0 128.75
+  103.34 134.06 83.87 114.34 89.5 105.25
+  92.19 100.91 97.0 96.0 103.0 98.0
+  smooth off
+endline
+
+line pit
+  116.0 128.75
+  123.0 104.5 103.0 98.0 103.0 98.0
+  smooth off
+endline
+
+line wall -subtype pit
+  103.0 98.0
+  110.09 110.22 156.76 77.21 172.5 94.25
+  178.36 100.59 174.91 111.54 178.25 119.5
+  189.2 145.59 202.13 143.19 206.5 175.25
+  209.41 196.56 183.48 237.08 205.5 253.0
+  209.83 256.13 216.46 252.22 221.5 254.0
+  231.83 257.65 243.0 262.25 247.5 270.5
+  smooth off
+endline
+
+line wall
+  247.5 270.5
+  251.75 299.25 247.5 317.25 242.25 326.0
+  smooth off
+endline
+
+line wall
+  242.25 326.0
+  225.66 341.37 208.72 355.96 189.25 367.5
+  smooth off
+endline
+
+point 95.84599999999998 108.851 station -name 5
+
+endscrap
+
+

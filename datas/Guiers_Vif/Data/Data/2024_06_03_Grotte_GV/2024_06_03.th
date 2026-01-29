@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 2024_06_03 -title "GV > 2024-06-03"
+
+    input Data/Grotte_du_Guiers_Vif.th
+
+    ## Plan
+    input Data/Grotte_du_Guiers_Vif.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2024_06_03-maps.th
+
+endsurvey
+

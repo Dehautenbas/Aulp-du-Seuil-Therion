@@ -1,0 +1,348 @@
+encoding  utf-8
+
+survey gv_12-03-2022_reseau_de_la_cascade -title "Réseau de la Cascade : 12-03-2022"
+
+  centerline
+    date 2022.03.12 
+    team "Léa Varnerot"
+    team "David Parrot"
+    explo-team "David Parrot"
+    explo-team "Léa Varnerot"
+    explo-team "Olivier Gente"
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    #station dp_stat_ "TOPO > sur la paroie" continuation attr "PTR" "point jaune"
+    #station dp_stat_1 "TOPO > sur la colonette" continuation attr "PTR" "point jaune"
+    #station dp_stat_16 "TOPO > sur la paroie" continuation attr "PTR" "point jaune"
+    #station dp_stat_25 "TOPO > sur la paroie" continuation attr "PTR" "point jaune"
+    #station dp_stat_27 "TOPO > sur la paroie" continuation attr "PTR" "point jaune"
+    #station dp_stat_37 "TOPO > au sol" continuation attr "PTR" "point jaune"
+    
+    # extend auto
+    dp_stat_ . 0.83 41.2 -1.0
+    dp_stat_ . 0.26 278.7 87.9
+    dp_stat_ . 0.68 116.6 -85.9
+    extend right
+    dp_stat_ dp_stat_1 3.13 345.2 -17.6
+    # extend auto
+    dp_stat_1 . 1.54 198.4 -2.5
+    dp_stat_1 . 0.58 14.9 -4.1
+    dp_stat_1 . 0.19 197.7 57.9
+    dp_stat_1 . 0.65 184.3 -82.7
+    extend right
+    dp_stat_1 dp_stat_2 3.43 269.2 -16.3
+    # extend auto
+    dp_stat_2 . 1.14 150.5 10.9
+    dp_stat_2 . 0.30 350.6 11.7
+    dp_stat_2 . 0.39 172.5 83.7
+    dp_stat_2 . 0.92 139.1 -57.6
+    extend right
+    dp_stat_2 dp_stat_3 1.30 205.1 6.2
+    # extend auto
+    dp_stat_3 . 0.73 196.1 8.6
+    dp_stat_3 . 1.19 359.5 1.4
+    dp_stat_3 . 0.67 17.7 77.0
+    dp_stat_3 . 0.58 28.2 -63.5
+    extend right
+    dp_stat_3 dp_stat_4 4.85 328.6 -13.0
+    # extend auto
+    dp_stat_4 . 0.95 186.2 8.4
+    dp_stat_4 . 0.39 7.7 11.5
+    dp_stat_4 . 1.14 275.5 81.4
+    dp_stat_4 . 0.20 75.0 -75.8
+    extend right
+    dp_stat_4 dp_stat_5 4.02 250.6 -23.5
+    # extend auto
+    dp_stat_5 . 0.41 202.4 10.4
+    dp_stat_5 . 1.00 17.2 -5.9
+    dp_stat_5 . 0.83 294.9 82.6
+    dp_stat_5 . 1.44 37.9 -83.5
+    extend right
+    dp_stat_5 dp_stat_6 2.08 281.4 -25.4
+    # extend auto
+    dp_stat_6 . 0.42 177.3 13.6
+    dp_stat_6 . 0.88 3.8 -2.4
+    dp_stat_6 . 0.28 325.2 77.0
+    dp_stat_6 . 0.25 89.6 -67.7
+    extend right
+    dp_stat_6 dp_stat_8 5.11 260.8 -7.4
+    # extend auto
+    dp_stat_8 . 0.28 215.9 16.6
+    dp_stat_8 . 0.62 44.6 -5.0
+    dp_stat_8 . 0.22 81.6 77.5
+    dp_stat_8 . 0.67 69.8 -67.5
+    extend right
+    dp_stat_8 dp_stat_9 1.33 329.9 -11.7
+    # extend auto
+    dp_stat_9 . 0.26 183.2 9.1
+    dp_stat_9 . 0.27 9.9 -6.7
+    dp_stat_9 . 0.35 304.0 75.6
+    dp_stat_9 . 1.65 179.4 -84.1
+    dp_stat_9 . 0.28 282.8 -69.5
+    extend right
+    dp_stat_9 dp_stat_10 3.41 282.6 -70.0
+    # extend auto
+    dp_stat_10 . 0.98 160.2 -0.0
+    dp_stat_10 . 2.98 247.5 -7.2
+    dp_stat_10 . 1.25 89.4 -1.6
+    dp_stat_10 . 1.85 221.6 -7.1
+    dp_stat_10 . 2.79 148.5 76.3
+    dp_stat_10 . 2.96 224.0 60.0
+    dp_stat_10 . 2.58 233.7 41.6
+    dp_stat_10 . 3.97 256.1 -33.3
+    dp_stat_10 . 4.26 254.6 -55.6
+    extend right
+    dp_stat_10 . 10.79 225.1 -76.9
+    extend vertical
+    dp_stat_10 dp_stat_11 11.28 226.8 -77.4
+    # extend auto
+    dp_stat_11 . 2.52 20.2 4.8
+    dp_stat_11 . 1.05 52.6 -0.4
+    dp_stat_11 . 2.84 339.8 4.8
+    dp_stat_11 . 4.14 310.9 2.5
+    dp_stat_11 . 4.02 303.8 2.7
+    dp_stat_11 . 3.65 321.7 5.0
+    extend right
+    dp_stat_11 dp_stat_12 3.21 315.6 6.9
+    # extend auto
+    dp_stat_12 . 2.51 159.4 -3.0
+    dp_stat_12 . 1.50 194.8 1.0
+    dp_stat_12 . 1.02 237.5 -88.1
+    dp_stat_12 . 13.08 172.7 84.3
+    extend right
+    dp_stat_12 dp_stat_13 2.77 164.1 -5.4
+    # extend auto
+    dp_stat_13 . 0.19 58.7 5.9
+    dp_stat_13 . 0.40 248.2 12.6
+    dp_stat_13 . 0.31 218.2 85.1
+    dp_stat_13 . 0.99 281.9 -86.0
+    extend right
+    dp_stat_13 dp_stat_14 2.26 143.7 0.5
+    # extend auto
+    dp_stat_14 . 0.52 29.8 8.0
+    dp_stat_14 . 1.27 212.4 0.2
+    dp_stat_14 . 0.36 188.8 85.6
+    dp_stat_14 . 0.26 37.8 -65.9
+    extend right
+    dp_stat_14 dp_stat_15 1.83 122.5 0.6
+    # extend auto
+    dp_stat_15 . 0.80 39.3 3.4
+    dp_stat_15 . 0.45 217.8 2.1
+    dp_stat_15 . 0.30 237.2 79.1
+    dp_stat_15 . 13.16 315.4 -86.7
+    extend right
+    dp_stat_15 dp_stat_16 12.01 353.1 -82.5
+    # extend auto
+    dp_stat_16 . 2.61 285.0 4.0
+    dp_stat_16 . 2.88 256.9 -0.8
+    dp_stat_16 . 2.36 212.7 -2.8
+    dp_stat_16 . 1.79 136.8 0.4
+    dp_stat_16 . 0.38 100.6 1.7
+    extend right
+    dp_stat_16 dp_stat_17 4.11 249.9 -10.6
+    # extend auto
+    dp_stat_17 . 0.74 150.4 -4.0
+    dp_stat_17 . 0.18 354.6 -9.3
+    dp_stat_17 . 0.79 170.7 81.0
+    dp_stat_17 . 1.70 237.5 -85.8
+    extend right
+    dp_stat_17 dp_stat_18 4.39 251.7 -64.1
+    # extend auto
+    dp_stat_18 . 0.60 194.6 1.2
+    dp_stat_18 . 0.46 14.9 -0.9
+    dp_stat_18 . 1.80 274.2 78.4
+    dp_stat_18 . 0.85 351.7 -73.0
+    extend right
+    dp_stat_18 dp_stat_19 4.69 263.3 -29.3
+    # extend auto
+    dp_stat_19 . 1.05 158.3 -2.0
+    dp_stat_19 . 0.24 335.3 10.6
+    dp_stat_19 . 0.33 338.8 86.2
+    dp_stat_19 . 0.91 28.8 -89.1
+    dp_stat_19 . 1.79 246.1 -54.7
+    extend vertical
+    dp_stat_19 dp_stat_21 8.19 246.2 -54.7
+    # extend auto
+    dp_stat_21 . 3.20 106.8 -2.0
+    dp_stat_21 . 2.88 59.3 -0.9
+    dp_stat_21 . 2.18 200.5 5.1
+    dp_stat_21 . 2.39 144.7 2.4
+    dp_stat_21 . 8.25 78.2 68.9
+    dp_stat_21 . 2.48 159.8 49.8
+    dp_stat_21 . 1.73 125.1 -85.4
+    extend right
+    dp_stat_21 dp_stat_23 8.80 167.7 -67.9
+    extend left
+    dp_stat_23 dp_stat_25 0.78 209.8 23.1
+    # extend auto
+    dp_stat_25 . 1.61 308.6 -1.8
+    dp_stat_25 . 1.33 24.2 3.6
+    dp_stat_25 . 2.58 85.0 2.7
+    dp_stat_25 . 2.82 118.0 2.5
+    dp_stat_25 . 2.52 198.6 -87.1
+    dp_stat_25 . 3.49 108.7 63.8
+    extend left
+    dp_stat_25 dp_stat_27 4.99 139.8 -0.2
+    # extend auto
+    dp_stat_27 . 1.58 22.2 -0.5
+    dp_stat_27 . 0.51 183.9 -2.8
+    extend left
+    dp_stat_27 . 3.09 61.6 -2.9
+    # extend auto
+    dp_stat_27 . 0.79 228.5 -82.5
+    extend left
+    dp_stat_27 . 13.63 18.2 66.2
+    extend right
+    dp_stat_25 dp_stat_29 3.44 286.1 -46.4
+    # extend auto
+    dp_stat_29 . 0.32 198.2 0.6
+    dp_stat_29 . 0.15 16.1 0.3
+    dp_stat_29 . 1.65 262.9 76.9
+    dp_stat_29 . 1.66 199.0 -84.4
+    extend right
+    dp_stat_29 dp_stat_31 1.91 265.1 -28.9
+    # extend auto
+    dp_stat_31 . 0.45 198.4 13.3
+    dp_stat_31 . 0.37 2.7 3.9
+    dp_stat_31 . 2.37 307.8 75.8
+    dp_stat_31 . 14.91 324.2 -76.7
+    dp_stat_31 . 2.42 341.8 -44.0
+    dp_stat_31 . 2.42 340.5 -41.8
+    extend right
+    dp_stat_31 dp_stat_33 2.40 342.2 -43.1
+    dp_stat_33 dp_stat_35 11.33 316.5 -79.5
+    extend left
+    dp_stat_35 . 1.47 76.9 -7.0
+    dp_stat_35 . 2.95 91.4 -8.7
+    dp_stat_35 . 4.18 103.7 -7.8
+    dp_stat_35 . 3.95 126.2 -9.8
+    dp_stat_35 . 3.68 154.6 -10.8
+    dp_stat_35 . 2.91 178.8 -9.6
+    dp_stat_35 . 1.66 198.0 -10.4
+    extend vertical
+    dp_stat_35 dp_stat_37 15.81 151.0 -85
+    
+    # Topographie du pied de la Salle de la Cascade, vers le siphon 1 du guiers vif
+  
+    # extend left
+    # dp_stat_37 dp_stat_38 11.93 278.7 8.7
+    # extend auto
+    # dp_stat_38 . 5.89 171.1 -4.3
+    # dp_stat_38 . 1.34 331.2 9.6
+    # dp_stat_38 . 5.32 203.1 86.3
+    # dp_stat_38 . 0.90 133.4 -74.8
+    # extend left
+    # dp_stat_38 dp_stat_40 16.98 244.6 0.4
+    # extend auto
+    # dp_stat_40 . 5.45 152.4 -7.1
+    # dp_stat_40 . 3.39 332.7 13.5
+    # dp_stat_40 . 6.31 192.1 84.6
+    # dp_stat_40 . 0.79 156.4 -65.0
+    # extend left
+    # dp_stat_40 dp_stat_42 7.40 277.0 -12.6
+    # extend auto
+    # dp_stat_42 . 4.03 185.6 -2.9
+    # dp_stat_42 . 3.75 198.7 76.0
+    # dp_stat_42 . 2.26 248.4 -86.7
+    # extend left
+    # dp_stat_42 dp_stat_44 13.40 256.1 -41.6
+    # extend auto
+    # dp_stat_44 . 3.35 174.7 -3.6
+    # dp_stat_44 . 2.13 345.0 5.9
+    # dp_stat_44 . 6.88 287.4 80.4
+    # dp_stat_44 . 0.96 41.4 -70.4
+    # extend left
+    # dp_stat_44 dp_stat_46 12.10 261.8 -27.5
+    # extend auto
+    # dp_stat_46 . 5.27 163.1 -8.1
+    # dp_stat_46 . 4.66 327.6 -0.4
+    # dp_stat_46 . 1.09 2.2 85.6
+    # dp_stat_46 . 12.61 120.9 78.6
+    # extend left
+    # dp_stat_46 dp_stat_48 7.42 204.3 -36.2
+    
+    
+    # Topographie du pied de la Salle de la Cascade, vers l'entrée de la grotte guiers vif
+    
+    # extend right
+    # dp_stat_37 dp_stat_50 16.92 329.2 -7.1
+    # extend auto
+    # dp_stat_48 . 4.31 19.8 86.7
+    # dp_stat_48 . 0.90 69.6 -82.0
+    # dp_stat_48 . 3.91 117.6 -3.5
+    # extend right
+    # dp_stat_50 dp_stat_52 9.96 36.6 -14.2
+    # extend auto
+    # dp_stat_52 . 2.42 345.9 1.2
+    # dp_stat_52 . 2.17 165.7 -6.5
+    # dp_stat_52 . 5.36 26.3 84.1
+    # dp_stat_52 . 0.43 71.4 -87.0
+    # extend right
+    # dp_stat_52 dp_stat_54 20.81 58.9 2.3
+    # extend auto
+    # dp_stat_54 . 2.87 153.7 -1.2
+    # dp_stat_54 . 12.89 27.9 86.7
+    # dp_stat_54 . 1.19 317.2 -86.3
+    # extend right
+    # dp_stat_54 dp_stat_56 32.98 50.9 -5.5
+    # dp_stat_56 dp_stat_58 2.62 318.7 5.7
+    # extend auto
+    # dp_stat_58 . 1.39 288.6 3.6
+    # dp_stat_58 . 1.35 97.3 3.6
+    # dp_stat_58 . 4.34 67.9 76.9
+    # dp_stat_58 . 0.88 262.1 -81.2
+    # extend right
+    # dp_stat_58 dp_stat_60 13.08 16.4 4.1
+    # extend auto
+    # dp_stat_60 . 2.29 252.9 1.5
+    # dp_stat_60 . 3.26 267.2 66.2
+    # dp_stat_60 . 1.71 330.3 81.9
+    # dp_stat_60 . 1.16 235.6 -77.2
+    # extend right
+    # dp_stat_60 dp_stat_62 10.12 314.7 -7.1
+    # extend auto
+    # dp_stat_62 . 1.96 260.5 1.9
+    # dp_stat_62 . 2.05 78.0 -5.4
+    # dp_stat_62 . 3.90 10.1 79.4
+    # dp_stat_62 . 0.91 107.7 -86.2
+    # extend right
+    # dp_stat_62 dp_stat_64 16.67 7.4 -13.6
+    # extend auto
+    # dp_stat_64 . 5.56 309.3 24.2
+    # dp_stat_64 . 7.01 136.3 16.3
+    # dp_stat_64 . 5.64 13.8 86.8
+    # dp_stat_64 . 0.96 99.9 -74.3
+    # extend right
+    # dp_stat_64 dp_stat_66 2.75 34.2 -4.0
+    # dp_stat_66 dp_stat_68 23.25 38.0 -9.9
+    # extend auto
+    # dp_stat_68 . 8.91 289.4 12.3
+    # dp_stat_68 . 2.43 104.2 2.2
+    # dp_stat_68 . 8.99 10.0 82.0
+    # dp_stat_68 . 0.90 357.0 -77.4
+    # extend right
+    # dp_stat_68 dp_stat_70 27.28 21.0 2.3
+    # extend auto
+    # dp_stat_70 . 10.35 300.9 -2.7
+    # dp_stat_70 . 5.89 112.2 20.4
+    # dp_stat_70 . 8.06 18.1 81.8
+    # dp_stat_70 . 0.77 90.5 -76.0
+    # extend right
+    # dp_stat_70 dp_stat_72 14.23 34.9 -9.5
+    # extend auto
+    # dp_stat_72 . 11.52 290.5 -3.8
+    # dp_stat_72 . 8.56 112.4 24.6
+    # dp_stat_72 . 12.95 0.9 79.7
+    # dp_stat_72 . 0.73 187.0 -89.4
+    
+    
+    
+  endcenterline
+
+
+
+endsurvey
+

@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey FJS319_2024_10_13 -title "FJS319_2024_10_13"
+
+    input Data/FJS319_2024_10_13.th
+
+    ## Plan
+    input Data/FJS319_2024_10_13.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2024_10_13-maps.th
+
+endsurvey
+

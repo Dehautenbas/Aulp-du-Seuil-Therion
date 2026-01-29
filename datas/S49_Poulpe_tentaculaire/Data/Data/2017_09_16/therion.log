@@ -1,0 +1,114 @@
+therion 6.2.1 (2024-03-20)
+  - using Proj 9.3.1, compiled against 9.3.1
+initialization file: C:\Program Files\Therion/therion.ini
+reading ... done
+configuration file: 2017_09_16-config.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM31
+meridian convergence (deg): -2.0618
+geomag declinations (deg):
+  2017.1.1  1.6349
+  2018.1.1  1.7864
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.06%
+
+
+############### export maps & scraps selection #################
+M  1637.30 S49_2017_09_16_MP@2017_09_16 (Poulpe > 2017-09-16)
+S  1660.83 S49_20170916_SP1@2017_09_16 ()
+S  1635.77 S49_20170916_SP2@2017_09_16 ()
+S     -.-- S49_20170916_SP3@2017_09_16 ()
+S  1615.30 S49_20170916_SP4@2017_09_16 ()
+########## end of export maps & scraps selection ###############
+writing Outputs/2017_09_16-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  9 OCT 2024 14:42
+**data.mp
+(c:/Program Files/Therion/texmf/mpost/mpost.mp
+(c:/Program Files/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] [5] [6]
+[Warning: scrap outline intersects itself in scrap S49_20170916_SP1@2017_09_16]
+[7] [8] [9] (./mptextmp.mp) [10] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp
+) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [11] (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [12] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3129 strings using 81590 characters
+ 3634296 bytes of node memory
+ 1737 symbolic tokens
+ 10i,82n,19p,577b,5f stack positions out of 16i,98n,20p,608b,6f
+27 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdfetex 2023.12.2)  9 OCT 2024 14:42
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files/Therion/texmf/tex/glyphtounicode.tex)) (./th_fontdef.tex{c:/P
+rogram Files/Therion/texmf/fonts/pdftex.map}<<th_gour_aaaaaaa.dat>><<th_gour_aa
+aaaab.dat>><<th_gour_aaaaaac.dat>>)
+(./th_formdef.tex) (./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 74 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 326 strings out of 95671
+ 4317 string characters out of 1192323
+ 29506 words of memory out of 1516549
+ 1715 multiletter control sequences out of 15000+50000
+ 23531 words of font info for 72 fonts, out of 1000000 for 2000
+ 844 hyphenation exceptions out of 5000
+ 10i,6n,8p,560b,54s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files/Therion/texmf/fonts/type1/cmbx10.pfb><c:/Program Files/T
+herion/texmf/fonts/type1/cmss10.pfb><c:/Program Files/Therion/texmf/fonts/type1
+/cmssi10.pfb><c:/Program Files/Therion/texmf/fonts/type1/cmti10.pfb><c:/Program
+ Files/Therion/texmf/fonts/type1/csss10.pfb><c:/Program Files/Therion/texmf/fon
+ts/type1/csssi10.pfb>
+Output written on data.pdf (1 page, 72217 bytes).
+PDF statistics:
+ 100 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing xtherion file ... done
+compilation time: 1 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.06%    1.96%  S49_20170916_SP2@2017_09_16
+   0.11%    0.49%  S49_20170916_SP1@2017_09_16
+   0.02%    0.13%  S49_20170916_SP4@2017_09_16
+   0.00%    0.00%  S49_20170916_SP3@2017_09_16
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (5.896, 45.370) (5.896, 45.370)
+  [UTM31 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM31 → LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM31 → UTM31] AoU: [yes] transformation: [Inverse of UTM zone 31N + UTM zone 31N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM31 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 31N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=31 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 → UTM31] AoU: [yes] transformation: [axis order change (2D) + UTM zone 31N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=31 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

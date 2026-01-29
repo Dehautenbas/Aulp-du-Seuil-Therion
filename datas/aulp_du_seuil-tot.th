@@ -1,0 +1,82 @@
+encoding  utf-8
+
+survey Aulp_du_seuil -title "Aulp du seuil Souterrain"
+
+
+
+    #--------------------------------
+    # ** Jonction Guiers-Vif - TDF **
+    #--------------------------------
+    
+    input "Guiers_Vif/Guiers_Vif-tot.th"
+    input "Trou_des_flammes/Trou_des_falmmes-tot.th"
+      
+      equate b6@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1.Guiers_Vif pointjonction@tdf_2006_08_29.2006_08_29.trou_des_flammes
+
+    #---------------------------------------
+    # ** Jonction Guiers-Vif - Tasurinchi **
+    #---------------------------------------
+    
+    input "Tasurinchi/Tasurinchi-tot.th"
+    
+      equate TASU1@tasu_1992_06_30.1992_06_30.Tasurinchi GV_FJS_radio26@gv_meora_1994_06_30.1994_06_30_GV_MEORA.Guiers_Vif
+    
+    #-------------------------------------
+    # ** Les autres gouffres du plâteau **
+    #-------------------------------------
+    
+    input "Cavernicole/Cavernicole-tot.th"
+    input "Turbine_BL30/Turbine-tot.th"
+    input "Abreq_Ad_Habra/Abreq_Ad_Habra-tot.th"
+    
+    #input "Alain_Daniel/Alain_Daniel-tot.th"
+    #input "Alain_Daniel/AD-tot.th"
+    
+    input "S21/S21-tot.th"
+    input "S23/S23-tot.th"
+    input "BL42/BL42-tot.th"
+    input "Tropiques_FJS305/FJS305-tot.th"
+    input "FJS319/FJS319-tot.th"
+    input "FJS332_Colle_Serre/FJS332-tot.th"
+    input "FJS510_BL72/FJS510_BL72-tot.th"
+    input "FJS556/FJS556-tot.th"
+    input "RocknRoll/RocknRoll-tot.th"
+    
+    input "Tenebreux/Tenebreux-tot.th"
+    
+    input "SCBB1/scbb1-tot.th"  # ancien
+    input "SCB1/scb1-tot.th"    # nouveau
+    
+    input "Chainon_FJS300/Chainon-tot.th"
+    input "Clochette/Clochette-tot.th"
+    input "FJS41_Aulp_du_Seuil/FJS41-tot.th"
+    input "FJS40_Disco/Disco-tot.th"
+    input "Marteau_electrique/Marteauelectrique-tot.th"
+    input "S49_Poulpe_tentaculaire/Poulpe-tot.th"
+    input "V49/V49-tot.th"
+    
+    input "Troupointage/troupointage-tot.th"
+
+    #----------
+    ## Plan
+    #----------
+
+      # jonction dessin Réseau du Radiésthésiste et Gouffre du Tasurinchi
+          
+          join GV_R_stA_SP41@1994_06_30_GV_MEORA.Guiers_Vif TasurinchiSP1@1992_06_30.Tasurinchi
+          
+      # jonction dessin Réseau du Radiésthésiste et Gouffre du Tasurinchi
+      
+          join SP-tdfsuite107@2006_08_29.trou_des_flammes GV7amS1_SP53@1991_12_31_GV_amont_S1.Guiers_Vif
+          
+    ## Coupe
+    #   join ........
+
+    #----------
+    ## Maps
+    #----------
+    
+    input aulp_du_seuil-tot-maps.th
+
+endsurvey
+

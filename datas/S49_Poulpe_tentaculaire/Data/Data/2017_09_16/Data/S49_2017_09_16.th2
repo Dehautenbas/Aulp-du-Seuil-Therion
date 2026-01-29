@@ -1,0 +1,144 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -173.0 -518.0 1511.0 773.0
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {511.81100000000004 1 1.0} {275.594 0} S49-th_p.xvi 0 {}
+
+
+
+scrap S49_20170916_SP1 -projection plan -station-names "" "@S49_2017_09_16" -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+endline
+
+point 788.0 276.0 label -align top-right -text [Entrée S49 ou Gouffre du Poulpe] -scale xl
+
+line wall -subtype invisible
+  452.0 241.0
+  518.0 217.0
+endline
+
+line wall -subtype pit
+  545.0 274.0
+  545.0 274.0 540.0 312.0 506.0 283.0
+  smooth off
+endline
+
+point 632.0 264.0 entrance -orientation 264.0 -scale xl
+
+line wall -subtype pit
+  518.0 217.0
+  518.0 217.0 522.0 215.0 530.0 232.0
+  537.85 248.68 549.0 257.0 545.0 274.0
+  smooth off
+  altitude .
+endline
+
+line wall -reverse on -subtype pit
+  452.0 241.0
+  452.0 241.0 482.0 236.0 486.0 255.0
+  490.0 274.0 502.0 279.0 506.0 283.0
+  smooth off
+endline
+
+point 518.111 262.594 station -name 1
+
+point 511.81100000000004 275.594 station -name 0
+
+endscrap
+
+
+
+scrap S49_20170916_SP2 -projection plan -station-names "" "@S49_2017_09_16" -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+point 254.721 235.43399999999997 station -name 6
+
+point 685.831 114.56399999999996 station -name 4
+
+point 559.451 156.694 station -name 3
+
+line wall
+  433.0 252.0
+  433.0 252.0 419.0 231.0 428.0 236.0
+  437.0 241.0 441.0 244.0 452.0 241.0
+  smooth off
+endline
+
+point 908.0 49.0 label -align bottom-right -text [Puits Borgne]
+
+line wall -reverse on -subtype pit
+  698.0 129.0
+  698.0 129.0 707.0 121.0 735.0 127.0
+  763.0 133.0 844.0 158.0 865.0 140.0
+  886.0 122.0 896.0 119.0 885.0 102.0
+  874.0 85.0 826.0 80.0 814.0 76.0
+  802.0 72.0 774.0 76.0 761.0 80.0
+  748.0 84.0 697.0 106.0 697.0 106.0
+  smooth off
+endline
+
+line wall
+  698.0 129.0
+  698.0 129.0 676.0 151.0 631.0 156.0
+  586.0 161.0 597.0 171.0 586.0 176.0
+  575.0 181.0 547.0 190.0 536.0 198.0
+  525.0 206.0 511.0 203.0 518.0 217.0
+  smooth off
+endline
+
+line wall
+  351.0 195.0
+  351.0 195.0 373.0 198.0 404.0 173.0
+  435.0 148.0 446.0 171.0 482.0 164.0
+  518.0 157.0 571.0 151.0 589.0 142.0
+  607.0 133.0 650.0 118.0 667.0 113.0
+  684.0 108.0 697.0 106.0 697.0 106.0
+  smooth off
+endline
+
+point 466.531 173.62399999999997 station -name 2
+
+endscrap
+
+
+
+scrap S49_20170916_SP3 -projection plan -station-names "" "@S49_2017_09_16" -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+endscrap
+
+
+
+scrap S49_20170916_SP4 -projection plan -station-names "" "@S49_2017_09_16" -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall -reverse on
+  78.0 212.0
+  107.0 218.0
+  107.0 218.0 111.0 214.0 110.0 235.0
+  109.0 256.0 82.0 304.0 131.0 361.0
+  altitude .
+  180.0 418.0 267.0 434.0 330.0 445.0
+  393.0 456.0 516.0 458.0 570.0 444.0
+  624.0 430.0 700.0 411.0 703.0 402.0
+  706.0 393.0 711.0 364.0 601.0 325.0
+  491.0 286.0 437.0 255.0 433.0 252.0
+  smooth off
+endline
+
+point -34.0 94.0 label -orientation 235.3 -align bottom -text [Courant d'air du 01/07/2018 15:00 et 13/11/2018 12:00]
+
+point 30.0 192.0 air-draught -orientation 257.5 -subtype summer
+
+line wall -reverse on
+  351.0 195.0
+  334.0 195.0 296.0 184.0 267.0 188.0
+  238.0 192.0 181.0 207.0 156.0 205.0
+  131.0 203.0 86.0 195.0 83.0 193.0
+  smooth off
+endline
+
+point 117.32100000000003 214.17399999999998 station -name 8
+
+point 283.071 250.00399999999996 station -name 7
+
+endscrap
+
+

@@ -1,0 +1,16 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 4321.61m (surface 0.00m, duplicated 0.00m)\nvertical range: 153.64m (from b10@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 1278.14m to b211@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 1124.50m)\nnorth-south range: 1405.29m (from 2@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 5030186.67m to b5@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 5028781.39m)\neast-west range: 514.80m (from 2@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 726210.79m to b5@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 725695.98m)\nnumber of shots: 1485\nnumber of stations: 1486"
+xth_cp_data_tree_insert 43 1 1 1991_12_31_GV_amont_S1 1991_12_31_GV_amont_S1 "Guiers Vif > 1991-12-31" "Guiers Vif > 1991-12-31" "length: 4321.61m (surface 0.00m, duplicated 0.00m)\nvertical range: 153.64m (from b10@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 1278.14m to b211@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 1124.50m)\nnorth-south range: 1405.29m (from 2@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 5030186.67m to b5@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 5028781.39m)\neast-west range: 514.80m (from 2@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 726210.79m to b5@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 725695.98m)\nnumber of shots: 1485\nnumber of stations: 1486"
+xth_cp_data_tree_insert 45 43 2 gv_amontS1_1991_12_31 gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 "Guiers Vif amont S1" "Guiers Vif amont S1" "length: 4321.61m (surface 0.00m, duplicated 0.00m)\nvertical range: 153.64m (from b10@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 1278.14m to b211@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 1124.50m)\nnorth-south range: 1405.29m (from 2@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 5030186.67m to b5@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 5028781.39m)\neast-west range: 514.80m (from 2@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 726210.79m to b5@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 at 725695.98m)\nnumber of shots: 1485\nnumber of stations: 1486"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 0 848X1 p1 1 gv_amontS1_1991_12_31_MP gv_amontS1_1991_12_31_MP@1991_12_31_GV_amont_S1 "Guiers Vif > 1991-12-31" "Guiers Vif > 1991-12-31"
+xth_cp_map_tree_insert map 1 845X1 848X1 2 GV7amS1_MP- GV7amS1_MP-@1991_12_31_GV_amont_S1 "" ""
+xth_cp_map_tree_insert map 1 846X1 848X1 2 GV7amS1_MP-- GV7amS1_MP--@1991_12_31_GV_amont_S1 "" ""
+xth_cp_map_tree_insert map 1 847X1 848X1 2 GV7amS1_MP--- GV7amS1_MP---@1991_12_31_GV_amont_S1 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 4322 56
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1704746040
+

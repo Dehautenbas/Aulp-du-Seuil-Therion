@@ -1,0 +1,148 @@
+encoding  utf-8
+survey Guiers_Vif -title "Grotte du Guiers Vif"
+
+    #--------------------------------------------------------------------
+    # ** Emergence Grotte du Guiers-Vif **
+    #--------------------------------------------------------------------
+
+    input Data/Data/GV_porche_emergence/GV_Porche-emergence-tot.th
+    
+      equate 0@GV_Porche-emergence.GV_Porche-emergence-tot 0@Grotte_GV.2024_06_03
+
+    #--------------------------------------------------------------------
+    # ** Visée de calage entrée Grotte du GV (temporaire) **
+    #--------------------------------------------------------------------
+
+    input Data/Data/2024_01_03_visee_calage_GV/03-01-2024_GV-calage.th
+    
+      equate cal_0@gv-calage.03-01-2024_GV-calage 0@Grotte_GV.2024_06_03
+
+    #--------------------------------------------------------------------
+    # ** Nouvelle topo Grotte du Guiers-Vif **
+    #--------------------------------------------------------------------
+
+    input Data/Data/2024_06_01_Les_catacombes/2024_06_01.th
+    input Data/Data/2024_06_03_Grotte_GV/2024_06_03.th
+    
+      equate 0@GV_Catacombes.2024_06_01 0@Grotte_GV.2024_06_03
+      
+      equate 27@GV_Catacombes.2024_06_01 83@Grotte_GV.2024_06_03
+
+    #--------------------------------------------------------------------
+    # ** Nouvelle topo Galerie des Marmites **
+    #--------------------------------------------------------------------
+    
+    input Data/Data/2024_10_05_Galerie_des_Marmites_1/2024_10_06_GM.th
+    
+      equate 95@Grotte_GV.2024_06_03 0@GV_Galerie_des_marmites_1.2024_10_06_GM
+      
+    #--------------------------------------------------------------------
+    # ** Galerie des Marmites OUEST > Siphon de Gravier **
+    #--------------------------------------------------------------------
+    
+    input Data/Data/2024_11_10_GV_siphon_de_gravier/2024_11_10.th
+    
+      equate 49@Guiers_Vif_siphon_de_gravier.2024_11_10 36@GV_Galerie_des_marmites_1.2024_10_06_GM
+      
+    #--------------------------------------------------------------------
+    # ** Galerie des Marmites EST, Radiesthesiste, Saint Antoine **
+    #--------------------------------------------------------------------    
+    
+    input Data/Data/GV_meora_Lower_Chevalier_Series/upper_chevalier_series/upcs.th
+    
+      # Pour connecter les Upper Chevalier Series avec la nouvelle topo des Marmites OUEST.
+    
+      equate 36@GV_Galerie_des_marmites_1.2024_10_06_GM GV_FJS_stantoine32@upper_chevalier_series.upcs
+          
+    
+    input Data/Data/GV_meora_Lower_Chevalier_Series/1994_06_30_GV_MEORA/1994_06_30_GV_MEORA.th
+
+      # Pour connecter l'ancienne topo des Marmites EST avec la nouvelle topo des Marmites
+
+      equate 14@GV_Galerie_des_marmites_1.2024_10_06_GM GV_FJS_stantoine15@gv_meora_1994_06_30.1994_06_30_GV_MEORA
+    
+    
+      # Pour connecter l'ancienne topo Radiesthesiste avec la nouvelle topo de la grotte du GV
+      
+      equate 20@Grotte_GV.2024_06_03 GV_FJS_radio5@gv_meora_1994_06_30.1994_06_30_GV_MEORA
+
+    #------------------------------
+    # ** Galeries amont siphon 1 **
+    #------------------------------
+
+    input Data/Data/1991_12_31_GV_amont_S1/1991_12_31_GV_amont_S1.th
+      
+      equate b216@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 89@Grotte_GV.2024_06_03
+      
+          # Pour forcer le léger bouclage au niveau de la vasque amont du S3
+          
+          equate b237@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 b164@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1
+      
+    #---------------------------
+    # ** INTERSIPHON S1-S4 Suspendu **
+    #---------------------------
+            
+    input Data/Data/2024-05-25-26-S1-S4Suspendu-XR-SL-AA-TC/2024-05-25-S1-S2.th
+    
+    equate 43@GV_S1-S2.Intersiphon_S1_S2 b206@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1
+    equate 41@GV_S1-S2.Intersiphon_S1_S2 b204@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1
+    
+    equate 0@GV_S1-S2.Intersiphon_S1_S2 b189@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1
+    
+    #---------------------------
+    # ** Réseau de la Cascade **
+    #---------------------------
+    
+    input Data/Data/GV_reseau_de_la_Cascade/gv_reseau_de_la_cascade-tot.th
+    
+      equate dp_stat_37@gv_12-03-2022_reseau_de_la_cascade.12_03_2022_GV_Cascade.reseau_de_la_cascade 83@Grotte_GV.2024_06_03
+                        
+    #----------
+    ## Plan
+    #----------
+    
+      # jonction emergence et porche de la Grotte
+      
+        join SP-ext1@GV_Porche-emergence-tot GV_030624-p1@2024_06_03
+    
+    
+      # jonction Grotte avec Galerie des Marmites
+      
+        join GV_030624-p13@2024_06_03 GV_061024-p1@2024_10_06_GM
+        
+    
+      # jonction dessin sortie du siphon amont n°1 du GV
+          
+            join GV_S1-S2-1p@Intersiphon_S1_S2 GV7amS1_SP14@1991_12_31_GV_amont_S1
+            
+            join GV_S1-S2-1p@Intersiphon_S1_S2 GV7amS1_SP6@1991_12_31_GV_amont_S1
+            
+            join GV_S1-S2-1p@Intersiphon_S1_S2 GV7amS1_SP5@1991_12_31_GV_amont_S1
+
+
+      # jonction dessin sortie du siphon aval n°1 du GV avec La grotte du Guiers-Vif
+      
+          join GV7amS1_SP5@1991_12_31_GV_amont_S1 GV_030624-p12@2024_06_03
+
+
+
+      # jonction dessin Radiesthesiste, Tasu avec grotte du Guiers-Vif 2024
+      
+          join GV_030624-p3@2024_06_03 GV_R_stA_SP37@1994_06_30_GV_MEORA
+      
+      # jonction dessin Nouvelle galerie des marmittes OUEST et Ancienne topo marmites EST
+          
+          join GV_061024-p2@2024_10_06_GM GV_R_stA_SP2@1994_06_30_GV_MEORA
+      
+      # jonction dessin salle de la cascade et le réseau supérieur des catacombes (GUIERS-VIF)
+      
+          join GV_030624-p11@2024_06_03 cata-010624-p4@2024_06_01
+      
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input Guiers_Vif-tot-maps.th
+
+endsurvey
+

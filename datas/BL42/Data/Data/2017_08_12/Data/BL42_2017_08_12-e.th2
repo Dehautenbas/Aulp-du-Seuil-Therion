@@ -1,0 +1,19 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -130.0 846.0 664.5
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {78.7402 1 1.0} {39.3744 0} BL42-th_e.xvi 0 {}
+
+
+
+scrap BL42_SE1 -projection extended -scale [0 0 393.7 393.7 0 0 10 10 m]
+
+
+
+point 715.25 381.0 label -text [BL 42] -align right
+
+
+point 78.7402 39.3744 station -name 0
+
+endscrap
+
+

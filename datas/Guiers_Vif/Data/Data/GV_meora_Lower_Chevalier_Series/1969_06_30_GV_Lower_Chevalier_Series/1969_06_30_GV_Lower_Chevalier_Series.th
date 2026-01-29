@@ -1,0 +1,18 @@
+encoding  utf-8
+
+survey 1969_06_30_GV_Lower_Chevalier_Series -title "Guiers Vif > 1969_06_30"
+
+    input Data/gv_1969_06_30.th
+
+    ## Plan
+    input Data/gv_1969_06_30.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 1969_06_30_GV_Lower_Chevalier_Series-maps.th
+
+endsurvey

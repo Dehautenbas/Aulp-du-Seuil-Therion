@@ -1,0 +1,43 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1212.0 -1576.0 1851.0 1200.0
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {8.19415e-5 1 1.0} {39.3699 0} Rocknroll-th_p.xvi 0 {}
+
+
+
+scrap RocknrollSP1 -projection plan -station-names "" "@Rocknroll_2016_09_12" -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall -reverse on
+  -76.0 67.0
+  -76.0 67.0 70.0 69.0 85.0 67.0
+  smooth off
+endline
+
+point 68.0 -91.0 entrance -orientation 330.2 -scale xl
+
+point 135.0 -201.0 label -scale xl -align bottom -text [Gouffre Rock'n roll]
+
+point -127.5 149.0 label -scale xl -text [Arrêt sur trémie importante et ventilé à -10m] -align top-left
+
+point -125.5 31.5 air-draught -orientation 275.3 -subtype summer
+
+line floor-step
+  -60.0 49.0
+  -60.0 49.0 -63.0 8.0 -47.0 -3.0
+  -31.0 -14.0 2.5 -13.5 61.0 48.5
+  smooth off
+endline
+
+line wall -reverse on
+  85.0 67.0
+  altitude .
+  100.0 65.0 -40.0 -97.0 -68.0 1.0
+  -85.98 63.94 -76.0 67.0 -76.0 67.0
+  smooth off
+endline
+
+point 8.19415e-5 39.3699 station -name 1
+
+endscrap
+
+

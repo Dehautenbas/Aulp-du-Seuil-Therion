@@ -1,0 +1,17 @@
+encoding  utf-8
+
+survey FJS510_BL72 -title "Gouffre FJS510 ou BL72"
+
+    input Data/Data/2016_09_04/2016_09_04.th
+    
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input FJS510_BL72-tot-maps.th
+
+endsurvey
+

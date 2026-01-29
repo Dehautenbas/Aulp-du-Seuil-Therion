@@ -1,0 +1,29 @@
+encoding  utf-8
+
+survey Turbine -title "Trou de la Turbine"
+
+    input Data/Data/1992_06_30/1992_06_30.th
+    input Data/Data/2023_10_07/2023_10_07.th
+    input Data/Data/2023_10_28/2023_10_28.th
+    
+    equate Turbi18@bl30_1992_06_30.1992_06_30 dp_stat_@bl30_2023_10_07.2023_10_07
+    equate dp_stat_a5@bl30_2023_10_07.2023_10_07 dp_stat_@bl30_2023_10_28.2023_10_28
+    
+    #bouclage
+    equate dp_stat_a15@bl30_2023_10_07.2023_10_07 dp_stat_16@bl30_2023_10_28.2023_10_28
+    
+    #equate dp_stat_2@bl30_2023_10_28.2023_10_28 dp_stat_a7@bl30_2023_10_07.2023_10_07
+
+    ## Plan
+        join scrap3@1992_06_30 scrap1@2023_10_07
+        
+        join scrap6@2023_10_07 scrap4@2023_10_28
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input Turbine-tot-maps.th
+
+endsurvey
+

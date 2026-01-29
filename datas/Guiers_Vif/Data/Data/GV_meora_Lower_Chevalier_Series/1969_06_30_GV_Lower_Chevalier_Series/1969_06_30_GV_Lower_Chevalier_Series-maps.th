@@ -1,0 +1,21 @@
+encoding  utf-8
+
+map GMO_MP-
+  GMO_SP1
+  break
+  GMO_SP2
+  
+endmap
+
+map GMO_MP--
+  GMO_SP3
+  GMO_SP4
+  GMO_SP5
+endmap
+
+map gv_1969_06_30_MP -title "Guiers Vif > 1969_06_30"
+  GMO_MP-
+  break
+  GMO_MP-- #[75 -75 m] below
+endmap
+

@@ -1,0 +1,28 @@
+encoding  utf-8
+
+map bl30_2023_10_28_MP -title "Turbine > 2023_10_28"
+scrap1
+scrap2
+scrap3
+scrap4
+scrap5
+scrap6
+scrap7
+scrap8
+endmap
+
+
+
+map bl30_2023_10_28_MP-
+  scrap2
+endmap
+
+map bl30_2023_10_28_MP--
+  scrap1
+  scrap3
+  scrap4
+  scrap5
+  scrap6
+  scrap7
+  scrap8
+endmap

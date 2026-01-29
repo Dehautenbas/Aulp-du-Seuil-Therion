@@ -1,0 +1,315 @@
+encoding  utf-8
+
+survey gv_2022-07-09_cascade -title "Réseau de la Cascade : 2022-07-09"
+
+  centerline
+    date 2022.07.09 
+    team "Léa Varnerot"
+    team "David Parrot"
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    #station dp_stat_46 "TOPO > sur la paroie" continuation attr "PTR" "point jaune"
+    
+    extend left
+    dp_stat_ dp_stat_1 1.76 245.0 -43.2
+    # extend auto
+    dp_stat_1 . 0.42 15.8 -1.0
+    dp_stat_1 . 0.30 176.0 -1.8
+    dp_stat_1 . 1.04 237.5 84.0
+    dp_stat_1 . 1.27 277.6 -86.4
+    extend left
+    dp_stat_1 dp_stat_2 1.82 82.6 -20.3
+    # extend auto
+    dp_stat_2 . 0.74 9.6 17.4
+    dp_stat_2 . 0.71 211.6 2.8
+    dp_stat_2 . 0.56 0.3 89.7
+    dp_stat_2 . 0.54 157.9 -79.1
+    dp_stat_2 . 5.01 185.8 13.7
+    dp_stat_2 . 4.47 185.5 14.0
+    extend left
+    dp_stat_2 dp_stat_3 4.47 185.8 13.9
+    # extend auto
+    dp_stat_3 . 0.46 77.5 0.7
+    dp_stat_3 . 0.63 97.8 84.7
+    dp_stat_3 . 1.26 293.2 -88.0
+    extend left
+    dp_stat_3 dp_stat_4 1.76 160.2 10.8
+    # extend auto
+    dp_stat_4 . 0.30 288.6 5.9
+    dp_stat_4 . 0.46 302.5 66.2
+    dp_stat_4 . 1.23 184.9 -85.3
+    extend left
+    dp_stat_4 dp_stat_5 1.54 218.0 9.5
+    # extend auto
+    dp_stat_5 . 0.31 91.9 -4.3
+    dp_stat_5 . 0.25 71.0 72.0
+    dp_stat_5 . 1.47 147.5 -82.7
+    extend left
+    dp_stat_5 dp_stat_6 1.64 186.1 -2.7
+    # extend auto
+    dp_stat_6 . 0.77 63.3 -5.5
+    dp_stat_6 . 0.47 65.0 74.5
+    dp_stat_6 . 1.07 96.1 -79.3
+    extend left
+    dp_stat_6 dp_stat_7 1.43 129.0 0.3
+    # extend auto
+    dp_stat_7 . 0.63 41.7 -2.2
+    dp_stat_7 . 1.27 338.9 80.3
+    dp_stat_7 . 1.13 51.9 -80.0
+    dp_stat_7 . 2.67 151.9 24.2
+    dp_stat_7 . 3.60 151.7 24.3
+    extend left
+    dp_stat_7 dp_stat_8 3.60 151.7 24.3
+    # extend auto
+    dp_stat_8 . 0.38 280.5 -1.7
+    dp_stat_8 . 0.21 302.0 67.2
+    dp_stat_8 . 1.71 213.8 -80.5
+    extend left
+    dp_stat_8 dp_stat_9 2.78 224.0 0.7
+    # extend auto
+    dp_stat_9 . 0.33 144.9 3.9
+    dp_stat_9 . 0.57 161.4 80.8
+    dp_stat_9 . 0.98 95.4 -84.3
+    dp_stat_9 . 2.39 199.0 5.0
+    extend left
+    dp_stat_9 dp_stat_10 2.56 196.6 4.8
+    # extend auto
+    dp_stat_10 . 0.25 103.4 4.6
+    dp_stat_10 . 0.16 264.4 16.5
+    dp_stat_10 . 0.35 260.7 73.3
+    dp_stat_10 . 0.78 350.9 -64.4
+    extend left
+    dp_stat_10 dp_stat_12 3.50 213.1 2.6
+    # extend auto
+    dp_stat_12 . 0.27 114.3 3.0
+    dp_stat_12 . 0.18 289.2 2.6
+    dp_stat_12 . 0.29 306.7 77.3
+    dp_stat_12 . 0.97 165.8 -83.9
+    extend left
+    dp_stat_12 dp_stat_13 4.22 203.6 5.3
+    # extend auto
+    dp_stat_13 . 0.63 117.3 7.2
+    dp_stat_13 . 0.15 308.4 8.6
+    dp_stat_13 . 0.22 28.3 60.3
+    dp_stat_13 . 1.20 187.4 -80.6
+    extend left
+    dp_stat_13 dp_stat_14 1.80 203.4 0.3
+    # extend auto
+    dp_stat_14 . 0.48 80.7 -6.9
+    dp_stat_14 . 0.43 91.8 53.6
+    dp_stat_14 . 0.75 67.7 -44.5
+    extend left
+    dp_stat_14 dp_stat_15 1.66 144.2 9.2
+    # extend auto
+    dp_stat_15 . 0.44 254.4 2.3
+    dp_stat_15 . 0.33 237.6 73.8
+    dp_stat_15 . 1.14 218.9 -85.0
+    extend left
+    dp_stat_15 dp_stat_16 1.51 183.4 -3.1
+    # extend auto
+    dp_stat_16 . 0.39 68.6 4.2
+    dp_stat_16 . 0.30 239.3 0.8
+    dp_stat_16 . 0.48 249.6 74.5
+    dp_stat_16 . 0.41 14.2 -82.3
+    extend left
+    dp_stat_16 dp_stat_17 2.55 113.9 8.7
+    # extend auto
+    dp_stat_17 . 0.45 349.0 6.1
+    dp_stat_17 . 1.00 328.3 79.8
+    dp_stat_17 . 1.19 324.2 -85.2
+    dp_stat_17 . 1.07 73.7 11.3
+    extend left
+    dp_stat_17 dp_stat_18 1.07 72.9 10.9
+    # extend auto
+    dp_stat_17 . 1.07 71.8 10.5
+    dp_stat_18 . 0.31 359.3 6.2
+    dp_stat_18 . 0.25 184.4 8.0
+    dp_stat_18 . 1.11 223.4 78.0
+    dp_stat_18 . 1.34 187.2 -81.8
+    extend left
+    dp_stat_18 dp_stat_19 1.58 130.2 18.0
+    # extend auto
+    dp_stat_19 . 0.45 244.3 0.4
+    dp_stat_19 . 0.97 229.5 75.3
+    dp_stat_19 . 3.63 338.3 -77.3
+    dp_stat_19 . 0.81 209.3 -31.6
+    dp_stat_19 . 1.78 186.3 -70.9
+    extend left
+    dp_stat_19 dp_stat_20 3.35 190.9 12.6
+    # extend auto
+    dp_stat_20 . 0.34 33.6 -10.2
+    dp_stat_20 . 1.50 73.6 83.4
+    dp_stat_20 . 2.06 48.3 -83.0
+    extend left
+    dp_stat_20 dp_stat_21 1.83 101.3 40.6
+    # extend auto
+    dp_stat_21 . 0.49 245.0 1.7
+    dp_stat_21 . 0.37 254.1 47.4
+    dp_stat_21 . 1.19 190.8 -64.2
+    dp_stat_21 . 3.15 189.7 -61.1
+    extend left
+    dp_stat_21 dp_stat_22 2.65 186.1 6.3
+    # extend auto
+    dp_stat_22 . 0.93 285.4 1.2
+    dp_stat_22 . 2.14 224.9 82.6
+    dp_stat_22 . 1.05 212.3 -88.2
+    extend left
+    dp_stat_22 dp_stat_23 2.68 208.8 -10.3
+    # extend auto
+    dp_stat_23 . 0.79 137.4 0.0
+    dp_stat_23 . 1.02 297.9 -5.9
+    dp_stat_23 . 4.45 247.7 85.0
+    dp_stat_23 . 1.05 72.2 -88.0
+    extend left
+    dp_stat_23 dp_stat_24 2.70 236.4 -5.2
+    # extend auto
+    dp_stat_24 . 0.48 129.0 5.6
+    dp_stat_24 . 0.48 306.3 -2.6
+    dp_stat_24 . 9.01 184.7 77.5
+    dp_stat_24 . 0.92 304.4 -75.4
+    extend left
+    dp_stat_24 dp_stat_25 2.23 212.6 56.9
+    # extend auto
+    dp_stat_25 . 0.55 139.5 2.4
+    dp_stat_25 . 0.29 297.5 -5.3
+    dp_stat_25 . 2.38 246.1 81.9
+    dp_stat_25 . 7.05 138.3 81.9
+    dp_stat_25 . 0.96 11.8 -86.7
+    extend left
+    dp_stat_25 dp_stat_26 2.79 217.9 26.7
+    # extend auto
+    dp_stat_26 . 1.09 147.3 2.5
+    dp_stat_26 . 0.44 322.4 1.9
+    dp_stat_26 . 6.88 163.2 86.5
+    dp_stat_26 . 8.65 64.4 84.5
+    dp_stat_26 . 0.82 231.0 -84.5
+    extend right
+    dp_stat_26 dp_stat_27 8.01 271.9 67.9
+    extend left
+    dp_stat_26 dp_stat_28 8.05 150.9 83.3
+    # extend auto
+    dp_stat_28 . 1.28 222.3 5.4
+    dp_stat_28 . 0.89 82.6 5.8
+    extend left
+    dp_stat_28 dp_stat_29 8.37 148.4 59.9
+    # extend auto
+    dp_stat_29 . 0.88 326.7 4.2
+    dp_stat_29 . 1.63 133.7 -0.1
+    dp_stat_29 . 5.30 120.6 76.9
+    dp_stat_29 . 3.96 35.1 -85.5
+    extend left
+    dp_stat_29 dp_stat_30 5.27 121.6 76.7
+    # extend auto
+    dp_stat_27 . 0.19 266.7 1.0
+    dp_stat_27 . 2.30 52.5 6.9
+    dp_stat_27 . 9.06 110.7 79.4
+    dp_stat_27 . 2.72 36.6 -61.1
+    extend vertical
+    dp_stat_27 dp_stat_31 11.13 89.0 83.0
+    # extend auto
+    dp_stat_31 . 0.15 353.5 4.1
+    dp_stat_31 . 0.31 186.8 5.1
+    dp_stat_31 . 0.44 227.7 54.7
+    dp_stat_31 . 1.25 101.3 -78.3
+    extend left
+    dp_stat_31 dp_stat_32 1.87 169.8 9.8
+    # extend auto
+    dp_stat_32 . 0.52 91.9 1.0
+    dp_stat_32 . 0.69 111.0 79.4
+    dp_stat_32 . 2.44 134.1 -83.5
+    extend left
+    dp_stat_32 dp_stat_33 2.12 183.7 20.3
+    # extend auto
+    dp_stat_33 . 0.35 68.8 0.0
+    dp_stat_33 . 0.24 24.7 70.8
+    dp_stat_33 . 1.44 114.2 -72.0
+    extend left
+    dp_stat_33 dp_stat_34 1.50 122.6 3.8
+    # extend auto
+    dp_stat_34 . 0.34 345.7 4.0
+    dp_stat_34 . 0.39 33.1 83.5
+    dp_stat_34 . 1.33 350.3 -79.1
+    extend left
+    dp_stat_34 dp_stat_35 0.90 68.8 2.4
+    # extend auto
+    dp_stat_35 . 0.36 319.8 85.9
+    dp_stat_35 . 0.33 168.2 6.3
+    dp_stat_35 . 1.17 134.1 -83.7
+    extend left
+    dp_stat_35 dp_stat_36 1.61 75.2 -5.6
+    # extend auto
+    dp_stat_36 . 0.30 200.6 -4.8
+    dp_stat_36 . 0.63 102.4 85.6
+    dp_stat_36 . 0.71 203.9 -84.9
+    extend left
+    dp_stat_36 dp_stat_37 2.28 140.1 6.2
+    # extend auto
+    dp_stat_37 . 0.38 245.3 0.2
+    dp_stat_37 . 0.43 252.8 83.5
+    extend left
+    dp_stat_37 dp_stat_38 1.64 183.8 1.5
+    # extend auto
+    dp_stat_38 . 0.37 305.2 1.9
+    dp_stat_38 . 0.41 302.7 76.3
+    dp_stat_38 . 1.04 286.3 -87.1
+    extend left
+    dp_stat_38 dp_stat_39 1.28 227.5 8.1
+    # extend auto
+    dp_stat_39 . 0.50 100.5 1.5
+    dp_stat_39 . 0.25 117.1 66.4
+    dp_stat_39 . 1.25 100.0 -78.4
+    extend left
+    dp_stat_39 dp_stat_40 2.06 164.9 2.3
+    # extend auto
+    dp_stat_40 . 0.40 54.6 3.0
+    dp_stat_40 . 0.45 89.9 84.3
+    dp_stat_40 . 1.72 70.0 -78.1
+    extend left
+    dp_stat_40 dp_stat_41 0.91 145.2 0.6
+    # extend auto
+    dp_stat_41 . 0.36 279.5 4.9
+    dp_stat_41 . 0.51 275.6 78.1
+    dp_stat_41 . 1.57 278.8 -81.5
+    extend left
+    dp_stat_41 dp_stat_42 1.38 225.3 -44.5
+    # extend auto
+    dp_stat_42 . 0.86 264.6 -2.0
+    dp_stat_42 . 0.42 237.7 80.0
+    dp_stat_42 . 0.67 258.1 -73.1
+    extend left
+    dp_stat_42 dp_stat_43 1.91 216.5 17.9
+    # extend auto
+    dp_stat_43 . 0.35 107.8 -10.9
+    dp_stat_43 . 0.88 106.5 80.6
+    dp_stat_43 . 1.29 242.8 -71.3
+    extend left
+    dp_stat_43 dp_stat_44 3.37 153.7 1.9
+    # extend auto
+    dp_stat_44 . 0.68 36.4 -1.4
+    dp_stat_44 . 0.70 210.0 -8.1
+    dp_stat_44 . 1.71 53.9 84.3
+    dp_stat_44 . 7.68 136.1 85.8
+    dp_stat_44 . 0.97 78.2 -87.9
+    extend left
+    dp_stat_44 dp_stat_45 1.82 130.9 20.9
+    # extend auto
+    dp_stat_45 . 0.40 27.9 3.9
+    dp_stat_45 . 0.78 315.1 85.6
+    dp_stat_45 . 1.60 13.3 -60.8
+    extend left
+    dp_stat_45 dp_stat_46 5.35 70.8 8.6
+    # extend auto
+    dp_stat_46 . 1.27 333.3 0.6
+    dp_stat_46 . 0.57 188.4 4.7
+    dp_stat_46 . 1.37 229.7 1.9
+    dp_stat_46 . 1.64 270.8 2.2
+    dp_stat_46 . 1.26 179.9 -85.2
+    dp_stat_46 . 5.74 269.4 85.5
+  endcenterline
+
+
+
+endsurvey
+

@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey S23_2024_04_13 -title "S23 > 2023-04-13"
+
+    input Data/S23_2024_04_13.th
+
+    ## Plan
+    input Data/S23_2024_04_13.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2024_04_13-maps.th
+
+endsurvey
+

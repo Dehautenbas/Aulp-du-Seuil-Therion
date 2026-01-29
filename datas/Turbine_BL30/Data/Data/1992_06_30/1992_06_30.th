@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 1992_06_30 -title "Turbine > 1992-06-30"
+
+    input Data/bl30_1992_06_30.th
+
+    ## Plan
+    input Data/bl30_1992_06_30.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 1992_06_30-maps.th
+
+endsurvey
+

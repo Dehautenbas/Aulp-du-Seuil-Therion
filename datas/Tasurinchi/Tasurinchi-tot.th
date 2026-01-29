@@ -1,0 +1,17 @@
+encoding  utf-8
+
+survey Tasurinchi -title "Gouffre Tasurinchi"
+
+    input Data/Data/1992_06_30/1992_06_30.th
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input Tasurinchi-tot-maps.th
+
+endsurvey
+

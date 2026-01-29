@@ -1,0 +1,11 @@
+encoding  utf-8
+map MP-2024-05-25-S1-S2 -title "Intersiphon S1 - S2 - S4 supendu"
+    SP-E3devantS4-1
+    break
+    GV_S1-S2-1p
+endmap
+
+map MC-2024-05-25-S1-S2 -title "Intersiphon S1 - S2 - S4 supendu"
+    SP-E3devantS4-1
+endmap
+

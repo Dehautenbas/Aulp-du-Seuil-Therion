@@ -1,0 +1,21 @@
+encoding  utf-8
+
+survey 1982_06_30 -title "DISCO > 1982_06_30"
+
+    input Data/disco_1982_06_30.th
+
+    ## Plan
+    input Data/disco_1982_06_30.th2
+    #    join .......
+    
+    ## Coupe
+    input Data/disco_1982_06_30-e.th2
+    
+    ## Elevation
+    input Data/disco_1982_06_30-elevation.th2
+
+    ## Maps
+    input 1982_06_30-maps.th
+
+endsurvey
+

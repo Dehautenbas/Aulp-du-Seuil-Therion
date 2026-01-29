@@ -1,0 +1,25 @@
+encoding  utf-8
+map MP-AD
+SP_AD_4
+break
+SP_AD_3
+break
+SP_AD_2
+break
+SP_AD_1
+endmap
+
+map MC-AD
+SC_AD_1 
+break
+SC_AD_2
+break
+SC_AD_3 #[0 -2 m] below
+break
+SC_AD_3a
+break
+SC_AD_1a 
+break
+SC_AD_4
+endmap
+

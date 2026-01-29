@@ -1,0 +1,417 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128 -475 3868.15 1537.95
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {372.76 1 1.0} {1132.472 SCB1-1} 2002_05_06-th_p.xvi 0 {}
+
+
+
+scrap scb1_2022_p1 -projection plan -station-names "" "@scb1_2002_05_06" -scale [-128 -475 3868.15 -475 0.0 0.0 101.50221 0.0 m]
+
+point 455.03 1084.162 station -name SCB1-5
+
+line pit
+  438.0 1108.0
+  438.0 1108.0 442.0 1096.0 431.5 1090.0
+  smooth off
+endline
+
+line wall
+  353.5 1104.5
+  395.0 1114.5 397.7 1091.85 431.5 1090.0
+  smooth off
+endline
+
+line gradient
+  371.5 1127.0
+  410.0 1111.5
+endline
+
+line border
+  378.5 1093.5
+  378.5 1093.5 406.05 1116.0 405.5 1156.0
+endline
+
+line border
+  370.0 1097.5
+  370.0 1097.5 394.76 1117.6 398.0 1157.5
+endline
+
+line border
+  388.0 1160.0
+  388.0 1160.0 391.34 1126.93 360.5 1101.5
+endline
+
+point 204.0 1183.0 label -text [Gouffre SCB1] -scale xl -align left
+
+point 289.0 1169.0 entrance -orientation 118.3 -scale xl
+
+line wall
+  438.0 1108.0
+  428.58 1115.65 423.3 1120.56 413.5 1127.5
+  410.61 1129.55 402.69 1131.96 399.5 1133.5
+  385.0 1140.5 389.0 1146.5 382.0 1159.0
+  smooth off
+  altitude .
+endline
+
+line wall -subtype pit
+  431.5 1090.0
+  446.64 1076.49 439.5 1066.5 449.0 1053.0
+  smooth off
+endline
+
+line wall -subtype pit
+  475.0 1100.0
+  464.0 1098.0 454.5 1098.5 438.0 1108.0
+  smooth off
+endline
+
+line wall
+endline
+
+point 433.8899999999999 1094.6219999999998 station -name SCB1-4
+
+point 404.31999999999994 1113.552 station -name SCB1-3
+
+point 394.03999999999996 1121.242 station -name SCB1-2
+
+point 372.76 1132.472 station -name SCB1-1
+
+endscrap
+
+
+
+scrap scb1_2022_p2 -projection plan -station-names "" "@scb1_2002_05_06" -scale [-128 -475 3868.15 -475 0.0 0.0 101.50221 0.0 m]
+
+point 644.1399999999999 985.0219999999999 station -name SCB1-10
+
+point 586.4300000000001 1010.3820000000001 station -name SCB1-9
+
+point 562.99 1016.102 station -name SCB1-8
+
+point 514.2 1040.022 station -name SCB1-7
+
+line wall
+endline
+
+line wall -reverse on -subtype pit
+  475.0 1100.0
+  475.33 1099.93 504.81 1102.61 522.0 1089.0
+  534.0 1079.5 509.0 1065.5 531.0 1053.5
+endline
+
+line overhang
+  557.25 1000.25
+  557.25 1000.25 550.0 1025.25 571.25 1037.75
+endline
+
+line wall -reverse on
+  531.0 1053.5
+  532.62 1051.48 579.5 1028.0 589.0 1028.0
+  smooth off
+endline
+
+line pit
+  589.0 1028.0
+  589.0 1028.0 604.5 1012.0 585.5 990.0
+endline
+
+line wall -reverse on -subtype pit
+  589.0 1028.0
+  597.0 1026.5 603.67 1032.03 611.0 1031.0
+  625.42 1028.97 638.87 1022.53 653.0 1019.0
+  677.75 1012.81 718.28 1010.89 734.0 985.0
+  740.18 974.83 757.92 893.0 712.0 893.0
+  683.33 893.0 656.02 909.91 633.0 927.0
+  621.75 935.35 623.44 953.81 615.0 965.0
+  607.24 975.29 595.33 981.67 585.5 990.0
+  smooth off
+endline
+
+line wall -reverse on
+  585.5 990.0
+  563.5 1006.0 561.5 1006.0 521.5 1025.5
+endline
+
+point 588.5 813.5 label -text P30 -scale l
+
+point 511.0 1158.5 label -text P29 -scale l
+
+line wall -reverse on -subtype pit -outline none
+  531.0 1053.5
+  531.0 1053.5 545.5 1036.5 521.5 1025.5
+endline
+
+line wall -reverse on -subtype pit
+  521.5 1025.5
+  513.58 1030.39 502.87 1035.71 497.0 1037.0
+  469.88 1042.96 472.0 1025.0 449.0 1053.0
+  smooth off
+endline
+
+point 495.03999999999996 1060.952 station -name SCB1-6
+
+endscrap
+
+
+
+scrap scb1_2022_p3 -projection plan -station-names "" "@scb1_2002_05_06" -scale [-128 -475 3868.15 -475 0.0 0.0 101.50221 0.0 m]
+
+point 1379.15 706.762 station -name SCB1-15
+
+point 1055.6399999999999 876.042 station -name SCB1-14
+
+line wall -outline in
+  1421.0 759.0
+  1404.67 749.33 1390.41 725.37 1372.0 730.0
+  1248.81 760.98 1160.68 948.4 1034.0 918.0
+  1000.03 909.85 971.0 886.89 943.0 866.0
+  928.39 855.1 924.59 831.54 908.0 824.0
+  897.91 819.41 878.62 825.04 877.0 836.0
+  874.39 853.71 903.0 867.55 899.0 885.0
+  869.17 1015.05 827.64 1015.74 719.0 1067.0
+  642.74 1102.98 667.18 1106.06 622.0 1091.0
+  smooth off
+endline
+
+area blocks
+  l101-836-991
+endarea
+
+area water
+endarea
+
+line border -id l101-836-991 -close on -reverse on -subtype invisible -visibility off
+  646.5 1086.0
+  842.0 988.5
+  888.5 878.5
+  859.5 826.5
+  882.5 814.0
+  855.0 774.0
+  686.0 845.0
+  585.5 944.5
+  602.0 1061.5
+  646.5 1086.0
+endline
+
+line chimney -close on
+  1043.5 902.5
+  1020.5 897.0 931.16 828.12 998.5 809.0
+  1019.03 803.17 1042.71 822.08 1064.0 820.5
+  1081.25 819.22 1097.73 810.04 1115.0 811.0
+  1179.51 814.58 1113.69 888.54 1113.0 889.0
+  1095.34 900.84 1064.18 907.44 1043.5 902.5
+endline
+
+line gradient
+  1412.5 717.5
+  1370.5 696.5
+endline
+
+line border
+  1400.0 744.5
+  1400.0 744.5 1391.0 699.0 1422.5 685.5
+endline
+
+line border
+  1393.5 741.0
+  1393.5 741.0 1378.18 694.85 1415.5 680.5
+endline
+
+line border
+  1385.0 737.5
+  1385.0 737.5 1371.02 695.41 1404.5 673.5
+endline
+
+line wall -outline in
+  622.0 1091.0
+  587.0 1073.0 582.91 1016.61 577.5 976.5
+  558.0 832.0 760.5 799.86 859.0 762.0
+  altitude .
+  920.58 738.33 1003.42 797.43 1070.0 789.0
+  1271.31 763.5 1026.53 732.85 1350.0 667.0
+  1381.57 660.57 1408.67 693.67 1438.0 707.0
+  smooth off
+endline
+
+point 905.03 784.182 station -name SCB1-13
+
+point 716.53 916.2819999999999 station -name SCB1-11
+
+point 626.19 1082.1019999999999 station -name SCB1-12
+
+endscrap
+
+
+
+scrap scb1_2022_p4 -projection plan -station-names "" "@scb1_2002_05_06" -scale [-128 -475 3868.15 -475 0.0 0.0 101.50221 0.0 m]
+
+point 1920.32 851.502 station -name SCB1-18
+
+point 1668.3 845.002 station -name SCB1-17
+
+point 1506.1599999999999 772.542 station -name SCB1-16
+
+endscrap
+
+
+
+scrap scb1_2022_p5 -projection plan -station-names "" "@scb1_2002_05_06" -scale [-128 -475 3868.15 -475 0.0 0.0 101.50221 0.0 m]
+
+point 2335.75 851.7819999999999 station -name SCB1-20
+
+point 2152.3199999999997 787.362 station -name SCB1-33
+
+point 2077.64 850.072 station -name SCB1-19
+
+endscrap
+
+
+
+scrap scb1_2022_p6 -projection plan -station-names "" "@scb1_2002_05_06" -scale [-128 -475 3868.15 -475 0.0 0.0 101.50221 0.0 m]
+
+point 2640.06 369.212 station -name SCB1-38
+
+point 2654.44 433.962 station -name SCB1-37
+
+point 2610.72 478.49199999999996 station -name SCB1-36
+
+point 2496.13 554.682 station -name SCB1-35
+
+point 2336.24 665.072 station -name SCB1-34
+
+endscrap
+
+
+
+scrap scb1_2022_p7 -projection plan -station-names "" "@scb1_2002_05_06" -scale [-128 -475 3868.15 -475 0.0 0.0 101.50221 0.0 m]
+
+area blocks
+  l129-3252-1018
+endarea
+
+line border -id l129-3252-1018 -close on -visibility off
+  3384.0 956.0
+  3188.0 1052.0
+  3090.0 1038.0
+  3082.0 974.0
+  3266.0 964.0
+  3372.0 926.0
+  3384.0 956.0
+endline
+
+line wall -reverse on -outline none -subtype pit
+  2656.0 844.0
+  2628.0 858.0 2639.46 888.99 2646.0 900.0
+  2676.71 951.65 2720.75 941.3 2760.0 932.0
+  2777.71 927.81 2777.33 900.0 2786.0 884.0
+  smooth off
+endline
+
+line wall
+endline
+
+area blocks
+  l137-2792-966
+endarea
+
+line border -id l137-2792-966 -close on -subtype invisible
+  2528.0 924.0
+  2554.0 868.0
+  2604.0 900.0
+  2718.0 960.0
+  2784.0 952.0
+  2800.0 990.0
+  2708.0 998.0
+  2528.0 924.0
+endline
+
+point 2507.5 783.0 narrow-end -orientation 340.2
+
+line wall
+  2509.0 801.0
+  2479.89 862.85 2551.52 834.91 2656.0 844.0
+  smooth off
+endline
+
+line wall -subtype pit
+  2656.0 844.0
+  2718.0 826.0 2727.91 851.78 2740.0 856.0
+  2756.95 861.91 2770.67 874.67 2786.0 884.0
+  smooth off
+endline
+
+line wall
+  2786.0 884.0
+  2824.67 892.0 2863.37 899.83 2902.0 908.0
+  2980.04 924.5 3056.25 956.73 3136.0 958.0
+  3388.0 962.0 3422.0 848.0 3426.0 926.0
+  smooth off
+endline
+
+line wall
+  2386.0 834.0
+  2458.0 830.0 2465.0 850.5 2494.5 798.0
+  smooth off
+endline
+
+point 2862.0 910.0 blocks -orientation 24.8
+
+point 2846.0 982.0 blocks -orientation 79.1
+
+point 2512.0 868.0 blocks -orientation 321.2
+
+point 2966.0 968.0 blocks
+
+point 2460.0 886.0 blocks
+
+line wall
+  3426.0 926.0
+  altitude .
+  3428.0 966.0 3251.67 1065.3 3180.0 1074.0
+  3118.02 1081.53 2987.83 1024.33 2920.0 1018.0
+  2860.92 1012.49 2801.04 1021.9 2742.0 1016.0
+  2609.15 1002.71 2583.18 973.67 2456.0 934.0
+  2431.91 926.49 2406.67 923.33 2382.0 918.0
+  smooth off
+endline
+
+point 3390.84 933.192 station -name SCB1-25
+
+point 3184.62 1000.682 station -name SCB1-24
+
+point 2896.22 944.732 station -name SCB1-23
+
+point 2726.0 897.2719999999999 station -name SCB1-22
+
+point 2618.19 871.432 station -name SCB1-21
+
+endscrap
+
+
+
+scrap scb1_2022_p8 -projection plan -station-names "" "@scb1_2002_05_06" -scale [-128 -475 3868.15 -475 0.0 0.0 101.50221 0.0 m]
+
+point 2718.23 878.662 station -name SCB1-28
+
+point 2723.75 879.982 station -name SCB1-27
+
+point 2730.76 887.552 station -name SCB1-26
+
+endscrap
+
+
+
+scrap scb1_2022_p9 -projection plan -station-names "" "@scb1_2002_05_06" -scale [-128 -475 3868.15 -475 0.0 0.0 101.50221 0.0 m]
+
+point 2622.06 863.742 station -name SCB1-32
+
+point 2648.45 886.912 station -name SCB1-31
+
+point 2686.3199999999997 872.742 station -name SCB1-30
+
+point 2694.6099999999997 876.102 station -name SCB1-29
+
+endscrap
+
+

@@ -1,0 +1,18 @@
+encoding  utf-8
+
+survey 2017_08_12 -title "BL42 > 2017_08_12"
+
+    input Data/BL42_2017_08_12.th
+
+    ## Plan
+    input Data/BL42_2017_08_12.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2017_08_12-maps.th
+
+endsurvey
