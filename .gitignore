@@ -18,12 +18,10 @@ Thumbs.db
 **.vtk
 **.db
 **.sql
-**.xvi
-#.log
-.dat
-.xtherion.dat
-#therion.log
-.svg
+#**.xvi
+**.log
+**.dat
+**.svg
 
 # Therion shp outputs
 **.dbf
@@ -33,4 +31,3 @@ Thumbs.db
 **.sbx
 **.sbn
 **.cpg
-
