@@ -4,7 +4,7 @@ select Cavernicole-tot-MP@Cavernicole
 
 source Cavernicole-tot.th
 
-input "../../_config/config.thc"
+#input "../../_config/config.thc"
 
 layout xviexport
 	scale 1 1000
@@ -147,7 +147,7 @@ layout my_layout
  #export map -projection plan -fmt xvi -layout xviexport -o Data/cavernicole-tot-th_p.xvi
  #export map -projection extended -fmt xvi -layout xviexport -o Data/cavernicole-tot-th_e.xvi
   
- #export map -projection plan -o Outputs/cavernicole-tot-plan-color.pdf -layout my_layout
+ export map -projection plan -o exports/cavernicole-tot-plan.pdf -layout my_layout
  
  #export map -projection plan -o C:\Users\David\Desktop\cavernicole-tot-plan-color.pdf -layout my_layout
  

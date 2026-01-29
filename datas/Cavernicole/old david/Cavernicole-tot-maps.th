@@ -1,0 +1,45 @@
+encoding  utf-8
+
+map Cavernicole-tot-MP
+  jonction-innapercue_MP@2023_10_22_2
+  break
+  0-100_MP@2023_07_15
+  break
+  100-130-escalade_MP@2023_10_22_4
+  break
+  100-130-normal_MP@2023_10_22
+  break
+  pullover_MP@2023_06_10
+  break
+  pull-over-aval_MP@2023_10_22_3
+  break
+  reseau_alain_robert-tot-MP@reseau_alain_robert
+  break
+  vincent_MP@1972_06_30
+  break
+  fond_Cavernicole_MP@2024_07_14
+  break
+endmap
+
+map Cavernicole-tot-massif-MP
+  jonction-innapercue_MP@2023_10_22_2
+  break
+  0-100_MP@2023_07_15
+  break
+  100-130-escalade_MP@2023_10_22_4
+  break
+  100-130-normal_MP@2023_10_22
+  break
+  pullover_MP-massif@2023_06_10
+  break
+  pull-over-aval_MP@2023_10_22_3
+  break
+  reseau_alain_robert-tot-massif-MP@reseau_alain_robert
+  break
+  vincent_MP@1972_06_30
+  break
+  fond_Cavernicole_MP@2024_07_14
+  break
+endmap
+
+

@@ -1,44 +1,71 @@
 encoding  utf-8
 
 map Cavernicole-tot-MP
-  jonction-innapercue_MP@2023_10_22_2
+  jonction-innapercue_MP@jonction-innapercue_tot
   break
-  0-100_MP@2023_07_15
+  0-100_MP@0-100_tot
   break
-  100-130-escalade_MP@2023_10_22_4
+  100-130-escalade_MP@100-130-escalade_tot
   break
-  100-130-normal_MP@2023_10_22
+  100-130-normal_MP@100-130-normal_tot
   break
-  pullover_MP@2023_06_10
+  pullover_MP@pull-over-amont_tot
   break
-  pull-over-aval_MP@2023_10_22_3
+  pull-over-aval_MP@pull-over-aval_tot
   break
-  reseau_alain_robert-tot-MP@reseau_alain_robert
+  reseau-alain-robert_tot_MP@reseau-alain-robert_tot [0 -100 m] below
   break
-  vincent_MP@1972_06_30
+  old_MP@old_tot
   break
-  fond_Cavernicole_MP@2024_07_14
+  siphon-vers-amont_tot_MP@siphon-vers-amont_tot
   break
 endmap
 
 map Cavernicole-tot-massif-MP
-  jonction-innapercue_MP@2023_10_22_2
+  jonction-innapercue_MP@jonction-innapercue_tot
   break
-  0-100_MP@2023_07_15
+  0-100_MP@0-100_tot
   break
-  100-130-escalade_MP@2023_10_22_4
+  100-130-escalade_MP@100-130-escalade_tot
   break
-  100-130-normal_MP@2023_10_22
+  100-130-normal_MP@100-130-normal_tot
   break
-  pullover_MP-massif@2023_06_10
+  pullover_MP@pull-over-amont_tot
   break
-  pull-over-aval_MP@2023_10_22_3
+  pull-over-aval_MP@pull-over-aval_tot
   break
-  reseau_alain_robert-tot-massif-MP@reseau_alain_robert
+  reseau-alain-robert_tot_massif_MP@reseau-alain-robert_tot
   break
-  vincent_MP@1972_06_30
+  old_MP@old_tot
   break
-  fond_Cavernicole_MP@2024_07_14
+  siphon-vers-amont_tot_MP@siphon-vers-amont_tot
   break
 endmap
+
+
+ ### MAP Explo date    ##################################################################
+ map MP_explodate
+  mp_newexplo
+  mp_oldexplo
+  mp_oldexplo-unsurveyed
+ endmap
+
+    map mp_newexplo
+      reseau-alain-robert_tot_MP@reseau-alain-robert_tot [0 -100 m] below
+      jonction-innapercue_MP@jonction-innapercue_tot
+      100-130-escalade_MP@100-130-escalade_tot
+      pullover_MP@pull-over-amont_tot
+      pull-over-aval_MP@pull-over-aval_tot
+      reseau-alain-robert_tot_MP@reseau-alain-robert_tot
+      siphon-vers-amont_tot_MP@siphon-vers-amont_tot
+    endmap
+
+    map mp_oldexplo 
+      0-100_MP@0-100_tot
+      100-130-normal_MP@100-130-normal_tot
+    endmap
+
+    map mp_oldexplo-unsurveyed
+      old_MP@old_tot
+    endmap
 
