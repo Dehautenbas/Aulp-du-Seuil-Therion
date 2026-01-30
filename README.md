@@ -5,7 +5,7 @@ Overview
 --------
 
 Ce dépôt contient les données topographiques et les dessins associés des cavités du massif karstique de l'Aulp du Seuil (Isère, 38, France). 
-Elles ont été majoritairement produites par les spéléologues du Spéléo club de Vienne, du Spéléo club de Savoie, du Groupe Catamaran et des Furets Jaunes de Seyssins.
+Elles ont été majoritairement produites par les spéléologues du Spéléo club de Vienne, du Spéléo club de Savoie, du Groupe Catamaran, des Furets Jaunes de Seyssins, du Cave diving group et University of Leeds Speleological Association (Guiers vif 91/92) et du Spéléo club des Comminges (Trou des flammes 2004/2006).
 
 Aujourd'hui ces différents explorateurs se rassembent sous le nom de _Collectif de l'Aulp du Seuil_ afin de mutualiser l'energie et les explorations.
 
