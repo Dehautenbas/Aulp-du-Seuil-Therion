@@ -1,0 +1,22 @@
+encoding  utf-8
+
+survey eagle-fort_tot -title "eagle-fort"
+
+input eagle-fort_map.th
+
+
+    input datas/eagle-fort.th    
+
+    
+
+
+#####   PLAN    #####
+    input datas/eagle-fort_P.th2
+
+
+##### COUPE EXTENTED #####   
+    input datas/eagle-fort_C.th2
+
+
+
+endsurvey
