@@ -14,7 +14,7 @@
                 "label": "compile-th-tot",
                 "type": "shell",
                 
-                    "command": "therion ${workspaceFolder}/EXPORTS.thconfig" // \u000Dexit\u000D run and close this new terminal  -> Only for keybindings.json
+                    "command": "therion ${workspaceFolder}/datas/Cavernicole/EXPORTS.thconfig" // \u000Dexit\u000D run and close this new terminal  -> Only for keybindings.json
                     
                 
             }

@@ -1,11 +1,24 @@
 layout custom_lines
     code metapost
 
-    ### redefinitions of existing points
+# Modifier la ligne floorstep (escarpement) par la ligne pit mais avec le trait plus clair
 
-         # initialise the symbols here
-
-         # redefine the symbols here
+          def l_floorstep (expr P) =
+            T:=identity;
+            drawoptions(withcolor (0.5, 0.5, 0.5));  % modif pour couleur
+            cas := 0;
+            dlzka := arclength P;
+            mojkrok:=adjust_step(dlzka, 0.25u);
+            pickup PenD;
+            forever:
+              t := arctime cas of P;
+              mark_ (P,t,0.2u);
+              cas := cas + mojkrok;
+              exitif cas > dlzka + (mojkrok / 3); % for rounding errors
+            endfor;
+            pickup PenC;
+            thdraw P;
+          enddef;
 
                # Modifier la ligne wall_pit par la ligne pit mais avec le trait ext épais comme celui des walls
                def l_wall_pit (expr P) =
@@ -158,6 +171,33 @@ layout custom_lines
                     %pickup pencircle scaled 3pt;
                     %for i=0 upto li: draw point i of P; endfor;
                enddef; 
+
+
+
+               #Ligne avec subtype coulée de calcite (Flowstone)
+               def l_wall_flowstone (expr P) =
+               T:=identity;
+               cas := 0;
+               dlzka := arclength P;
+               mojkrok:=adjust_step(dlzka, .7u);
+               if (cycle P) and (dlzka < 3.5u):   % make at least 5 curls on a cyclic path
+               mojkrok := dlzka/5;
+               fi;
+
+               pickup PenC;
+               #drawoptions(withcolor black);   % ajoute la couleur noire
+
+               t1:=0;
+               forever:
+               t2 := arctime (cas + mojkrok) of P;
+               thdraw (point t1 of P){dir (angle(thdir(P,t1)) + 60)} ..
+                         {dir (angle(thdir(P,t2)) - 60)}(point t2 of P);
+               cas := cas + mojkrok;
+               exitif cas > dlzka + (mojkrok / 3); % for rounding errors
+               t1:=t2;
+               endfor;
+               enddef;
+
 
     ### new definitions
 

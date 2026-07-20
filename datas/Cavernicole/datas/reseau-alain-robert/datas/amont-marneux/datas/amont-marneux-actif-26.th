@@ -5,7 +5,9 @@ survey amont-marneux-actif-26 -title "amont-marneux-actif-26"
 
   centerline
     date 2026.07.11 
-    team "Oliv\ Théo Martin"
+    team "Martin Kern"
+    team "Théophile Cailhol"
+    team "Olivier Gente"
     units length meter
     units compass clino degree
     data normal from to length compass clino

@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.0 -130.0 2637.5 2805.16
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {295.2700000000001 1 1.0} {669.2900000000001 0} alain-robert_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {1779.701 1 1.0} {2106.942 PTR7} ../salle-mimine-sup/salle-mimine-sup_p.xvi 0 {}
 
@@ -319,11 +319,12 @@ endline
 line label -scale L -text "<it>Branche Alain-Robert"
   442.0 755.0
   442.0 755.0 848.0 1045.0 1015.0 1193.0
+  smooth off
 endline
 
 line pit -id robert4o
-  737.0 348.0
-  737.5 358.0 747.21 379.56 755.5 381.5
+  741.0 350.0
+  741.5 360.0 747.21 379.56 755.5 381.5
   817.5 396.0 860.5 422.5 861.0 433.0
   smooth off
 endline
@@ -862,11 +863,21 @@ line wall
   smooth off
 endline
 
-line pit -reverse on
-  808.5 463.0
-  808.5 463.0 826.5 447.0 831.5 451.0
-  836.5 455.0 850.0 461.5 852.5 453.5
-  855.0 445.5 839.0 415.0 847.5 412.5
+line pit -id l214-814-394 -close on
+  843.0 408.5
+  843.0 408.5 845.0 439.0 846.5 446.0
+  848.0 453.0 847.5 451.5 836.5 449.5
+  825.5 447.5 813.5 455.0 805.0 460.5
+  796.5 466.0 632.0 459.5 632.0 459.5
+  smooth off
+  632.0 459.5 627.5 443.5 617.5 437.0
+  607.5 430.5 569.0 424.5 571.5 419.0
+  574.0 413.5 561.0 407.5 585.0 406.5
+  609.0 405.5 683.0 375.0 684.5 370.5
+  686.0 366.0 682.0 357.0 682.0 357.0
+  smooth off
+  682.0 357.0 741.0 356.0 749.5 362.0
+  758.0 368.0 843.0 408.5 843.0 408.5
   smooth off
 endline
 
@@ -927,13 +938,9 @@ line floor-meander
   smooth off
 endline
 
-line pit
-  626.0 460.0
-  627.5 431.0 589.0 434.0 577.0 427.0
-  565.0 420.0 558.26 415.31 569.5 410.0
-  634.0 379.5 677.5 380.5 684.0 365.0
-  smooth off
-endline
+area u:galerie
+  l214-814-394
+endarea
 
 line wall -id alain-robert_2_sp2_l1d
   453.5 395.0
