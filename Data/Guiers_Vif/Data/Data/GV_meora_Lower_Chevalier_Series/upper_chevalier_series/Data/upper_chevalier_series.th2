@@ -1,0 +1,169 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 364.2206 285.48040000000003
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {236.224 1 1.0} {78.7359 GV_FJS_stantoine29} upper_chevalier_series-th_p.xvi 0 {}
+
+
+
+scrap upperseries-p1 -projection plan -station-names "" "@upper_chevalier_series" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+point 147.79399999999998 71.4459 station -name GV_FJS_stantoine38
+
+point 151.464 83.1259 station -name GV_FJS_stantoine48
+
+point 158.034 75.8259 station -name GV_FJS_stantoine37
+
+point 179.194 76.5659 station -name GV_FJS_stantoine36
+
+point 180.634 76.5659 station -name GV_FJS_stantoine35
+
+point 190.144 75.83590000000001 station -name GV_FJS_stantoine34
+
+point 204.754 72.9159 station -name GV_FJS_stantoine33
+
+point 182.5 93.75 height -value [+20]
+
+line wall -reverse on
+  156.5 91.0
+  166.49 66.49 176.83 88.3 189.5 84.5
+  192.63 83.56 192.41 77.8 195.5 76.75
+endline
+
+line wall -reverse on -subtype pit
+  195.5 76.75
+  200.51 75.05 206.5 84.25 211.5 77.5
+  smooth off
+endline
+
+line wall -reverse on
+  137.75 72.5
+  146.25 73.5
+  146.25 78.75
+  144.0 82.75
+  141.25 87.0
+endline
+
+line wall -subtype pit
+  202.5 69.0
+  209.0 60.0 217.25 70.0 211.5 77.5
+  smooth off
+endline
+
+line wall -reverse on
+  202.5 69.0
+  194.5 69.0 173.39 75.72 166.0 73.75
+  157.61 71.51 156.97 61.44 145.25 64.5
+  143.84 64.87 144.08 67.17 143.5 68.5
+  smooth off
+  142.0 68.5 140.5 68.5 139.0 68.5
+  smooth off
+endline
+
+point 208.444 72.1759 station -name GV_FJS_stantoine32
+
+point 236.224 78.7359 station -name GV_FJS_stantoine29
+
+endscrap
+
+
+
+scrap upperseries-p2 -projection plan -station-names "" "@upper_chevalier_series" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+point 62.36399999999999 78.02590000000001 station -name GV_FJS_stantoine47
+
+point 51.42399999999999 67.08590000000001 station -name GV_FJS_stantoine46
+
+point 46.30399999999999 61.9559 station -name GV_FJS_stantoine45
+
+point 52.153999999999996 54.6659 station -name GV_FJS_stantoine44
+
+point 57.97399999999999 56.1259 station -name GV_FJS_stantoine43
+
+point 85.744 59.785900000000005 station -name GV_FJS_stantoine42
+
+point 98.154 62.715900000000005 station -name GV_FJS_stantoine41
+
+point 114.214 64.8859 station -name GV_FJS_stantoine40
+
+point 39.25 58.5 continuation
+
+point 86.25 74.5 air-draught -orientation 79.3 -subtype summer
+
+line wall
+  137.75 72.5
+  117.55 72.76 97.31 67.88 77.25 65.0
+  70.48 64.03 63.79 60.98 57.0 61.75
+endline
+
+line wall -subtype pit
+  57.0 61.75
+  52.33 62.28 71.72 74.47 69.75 81.0
+  altitude .
+  66.38 92.15 49.79 72.48 45.5 71.0
+  42.25 69.88 37.42 72.66 35.25 70.0
+  29.38 62.79 34.97 50.49 43.25 46.75
+  61.5 38.5 46.67 51.26 61.5 55.0
+endline
+
+line wall
+  61.5 55.0
+  69.58 57.04 78.23 54.71 86.5 55.75
+  90.92 56.31 94.9 58.78 99.25 59.75
+  112.56 62.73 125.7 65.31 139.0 68.5
+  smooth off
+endline
+
+point 126.624 68.5459 station -name GV_FJS_stantoine39
+
+endscrap
+
+
+
+scrap upperseries-p3 -projection plan -station-names "" "@upper_chevalier_series" -scale [-128.0 -128.0 364.2206 -128.0 0.0 0.0 12.50240324 0.0 m]
+
+point 120.804 134.3159 station -name GV_FJS_stantoine55
+
+point 124.42399999999999 134.3159 station -name GV_FJS_stantoine54
+
+point 130.994 129.9359 station -name GV_FJS_stantoine53
+
+point 157.75 109.25 height -value [+6 m]
+
+point 148.75 133.0 air-draught -orientation 135.6 -subtype summer
+
+point 122.5 153.25 height -value [+15?]
+
+line wall
+  156.5 91.0
+  154.5 93.5 152.12 95.74 150.5 98.5
+  148.24 102.34 150.25 107.55 148.75 111.75
+  141.84 131.11 144.22 116.67 134.5 131.5
+endline
+
+line wall -subtype pit
+  134.5 131.5
+  133.27 133.38 134.09 136.2 132.75 138.0
+  124.85 148.61 112.57 142.15 114.75 129.75
+  altitude .
+endline
+
+line wall
+  114.75 129.75
+  altitude .
+  116.81 118.01 126.48 132.59 136.5 120.25
+  146.41 108.04 142.51 112.06 138.75 101.25
+  137.39 97.35 140.87 88.47 141.25 87.0
+  smooth off
+endline
+
+point 139.034 123.3559 station -name GV_FJS_stantoine52
+
+point 146.344 111.6559 station -name GV_FJS_stantoine51
+
+point 146.0 101.5 station -name GV_FJS_stantoine50
+
+point 145.60399999999998 98.4759 station -name GV_FJS_stantoine49
+
+endscrap
+
+

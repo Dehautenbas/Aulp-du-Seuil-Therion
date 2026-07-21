@@ -1,0 +1,17 @@
+encoding  utf-8
+
+survey FJS41 -title "(FJS41) Gouffre de l'Aulp du Seuil"
+
+    input Data/Data/1986_10_04/1986_10_04.th
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input FJS41-tot-maps.th
+
+endsurvey
+

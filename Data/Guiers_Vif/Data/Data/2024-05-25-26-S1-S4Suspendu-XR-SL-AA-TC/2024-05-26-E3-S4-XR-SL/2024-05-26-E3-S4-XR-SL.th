@@ -1,0 +1,18 @@
+encoding  utf-8
+
+survey 2009_02_21_GV_entre_S1_S4 -title "E3 devant S4"
+
+    input Data/Guiersvif20240526.th
+
+    ## Plan
+    input Data/Guiersvif20240526.th2
+    #    join .......
+    
+    ## Coupe
+    input Data/Guiersvif20240526-coupe.th2
+    #   join ........
+
+    ## Maps
+    input 2024-05-26-E3-S4-XR-SL-maps.th
+
+endsurvey

@@ -1,0 +1,55 @@
+encoding  utf-8
+
+#### PLAN ####
+
+map Guiers-Vif-tot-MP
+  MP-2024-05-25-S1-S2@Intersiphon_S1_S2
+  break
+  gv_amontS1_1991_12_31_MP@1991_12_31_GV_amont_S1
+  break
+ # gv_1969_06_30_MP@1969_06_30_GV_Lower_Chevalier_Series
+  break
+  #gv_reseau_de_la_cascade-tot-MP@reseau_de_la_cascade
+  break
+    #gv_catacombe-MP@2024_06_01
+    break
+    gv_2024-MP@2024_06_03
+    break
+  gv_1994_06_30_MP@1994_06_30_GV_MEORA
+  break
+  MP-ext@GV_Porche-emergence-tot
+  break
+  MP-3ecascade@GV_3eme_cascade-tot
+  break
+  MP-3cascade@GV_3eme_cascade-tot
+endmap
+
+map Guiers-Vif-tot-2024-MP
+  #gv_catacombe-MP@2024_06_01
+  break
+  gv_2024-MP@2024_06_03
+  break
+   MP-ext@GV_Porche-emergence-tot
+endmap
+
+
+#### COUPE ELEVATION 120 ####
+
+map Guiers-Vif-tot-2024-CP
+
+MC-3ecascade@GV_3eme_cascade-tot
+break
+MC-ext@GV_Porche-emergence-tot
+break
+gv_2024-MCproj@2024_06_03
+break
+MC_GV_Amont91-Coupe-proj@1991_12_31_GV_amont_S1
+break
+MC-2024-05-25-S1S2-proj@Intersiphon_S1_S2
+break
+gv_reseau_de_la_cascade-tot-MC@reseau_de_la_cascade
+
+
+
+endmap
+

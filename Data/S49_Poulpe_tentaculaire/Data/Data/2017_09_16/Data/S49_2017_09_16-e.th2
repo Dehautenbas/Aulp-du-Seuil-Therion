@@ -1,0 +1,802 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -449.0 -471.0 1623.0 2608.3163
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {710.973 1 1.0} {2283.46 0} S49-th_e.xvi 0 {}
+
+
+
+scrap S49_20170916_SE1 -projection extended -station-names "" "@S49_2017_09_16" -scale [0.0 0.0 393.7 393.7 0.0 0.0 10 10 m]
+
+point 1254.0 1852.0 label -text P30
+
+line rock-edge -clip off
+  826.0 1770.0
+  906.0 1848.0
+  1186.0 1848.0
+endline
+
+line rock-edge -clip off
+  690.0 1626.0
+  742.0 1639.0
+  756.5 1642.5
+endline
+
+line rock-edge -clip off
+  666.0 1618.0
+  669.0 1606.5
+  746.5 1627.5
+  742.0 1639.0
+endline
+
+line rock-edge -clip off
+  638.0 1620.5
+  688.0 1634.0
+  690.0 1626.0
+  666.0 1618.0
+endline
+
+line wall
+  544.0 2028.0
+  544.0 2028.0 522.0 1754.0 518.0 1724.0
+  514.0 1694.0 506.0 1538.0 506.0 1524.0
+  506.0 1510.0 492.0 1390.0 474.0 1344.0
+endline
+
+line rock-edge -clip off
+  606.0 1766.0
+  606.0 1204.0
+endline
+
+line rock-edge -clip off
+  590.0 1808.0
+  606.0 1766.0
+  624.0 1814.0
+endline
+
+line wall -reverse on
+  758.0 2024.0
+  758.0 2024.0 772.0 1746.0 772.0 1694.0
+  772.0 1642.0 762.0 1370.0 764.0 1342.0
+endline
+
+point 725.3829999999999 1797.85 station -name 1
+
+endscrap
+
+
+
+scrap S49_20170916_SE2 -projection extended -station-names "" "@S49_2017_09_16" -scale [0.0 0.0 393.7 393.7 0.0 0.0 10 10 m]
+
+point 401.61299999999994 935.03 station -name 6
+
+line rock-edge -clip off
+  380.0 1006.0
+  406.0 952.0
+  428.0 1022.0
+endline
+
+line rock-edge -clip off
+  528.0 1124.0
+  528.0 1124.0 456.0 768.0 406.0 952.0
+endline
+
+line rock-edge -clip off
+  520.0 1168.0
+  528.0 1124.0
+  564.0 1160.0
+endline
+
+line rock-edge -clip off
+  606.0 1204.0
+  606.0 1204.0 610.0 982.0 528.0 1124.0
+endline
+
+line rock-edge -clip off
+  648.0 1193.5
+  647.0 1201.0
+  674.5 1206.5
+  673.5 1214.5
+  709.5 1222.5
+endline
+
+line rock-edge -clip off
+  721.0 1207.5
+  648.0 1193.5
+  633.5 1189.5
+endline
+
+line wall -reverse on
+  764.0 1342.0
+  764.0 1342.0 767.0 1277.0 768.0 1263.0
+  769.0 1249.0 803.0 1091.0 849.0 1237.0
+  863.13 1281.84 862.0 1280.0 862.0 1280.0
+  smooth off
+endline
+
+point 850.163 1066.51 station -name 4
+
+point 716.8629999999999 1122.27 station -name 3
+
+line wall -subtype invisible
+  651.0 1042.0
+  651.0 1042.0 697.0 1064.0 717.0 1067.0
+endline
+
+line wall
+  717.0 1067.0
+  737.0 1070.0 744.0 1069.0 768.0 1048.0
+  792.0 1027.0 796.0 1023.0 799.0 1002.0
+  802.0 981.0 835.0 986.0 846.0 985.0
+  857.0 984.0 876.0 969.0 877.0 944.0
+  878.0 919.0 877.0 889.0 877.0 889.0
+  smooth off
+endline
+
+line rock-border -clip off
+endline
+
+line rock-border -close on -clip off
+  701.0 1054.0
+  683.0 1074.0
+  683.0 1074.0 703.0 1068.0 705.0 1064.0
+  707.0 1060.0 701.0 1054.0 701.0 1054.0
+  smooth off
+endline
+
+line rock-border -close on -clip off
+  674.0 1045.0
+  668.0 1065.0
+  679.0 1068.0
+  691.0 1051.0
+  674.0 1045.0
+endline
+
+line rock-border -close on -clip off
+  635.0 1053.0
+  632.0 1021.0
+  663.0 1042.0
+  660.0 1065.0
+  635.0 1053.0
+endline
+
+line rock-border -close on -clip off
+  608.0 1036.0
+  609.0 1019.0
+  616.0 1003.0
+  629.0 1014.0
+  623.0 1046.0
+  608.0 1036.0
+endline
+
+line rock-border -close on -clip off
+  568.0 1019.0
+  570.0 1001.0
+  591.0 997.0
+  610.0 994.0
+  603.0 1008.0
+  597.0 1026.0
+  568.0 1019.0
+endline
+
+line rock-border -close on -clip off
+  499.0 924.0
+  512.0 896.0
+  544.0 896.0
+  592.0 965.0
+  592.0 990.0
+  554.0 995.0
+  499.0 924.0
+endline
+
+line wall
+  516.0 802.0
+  516.0 802.0 513.38 847.92 537.0 892.0
+endline
+
+line wall -subtype invisible
+  537.0 892.0
+  552.0 920.0 574.27 967.49 582.0 972.0
+  606.0 986.0 614.0 1022.0 651.0 1042.0
+endline
+
+point -26.0 1258.0 label -align left -text R3
+
+line rock-edge -clip off
+  358.0 1140.0
+  238.0 1258.0
+  62.0 1258.0
+endline
+
+line rock-edge -clip off
+  487.0 1105.5
+  509.0 1110.0
+endline
+
+line rock-edge -clip off
+  442.0 1078.0
+  470.5 1082.5
+endline
+
+line rock-edge -clip off
+  442.0 1078.0
+  440.5 1088.0
+  488.0 1099.0
+  487.0 1105.5
+  457.0 1099.0
+endline
+
+line rock-edge -clip off
+  373.5 1060.5
+  378.5 1062.5 442.0 1078.0 442.0 1078.0
+  smooth off
+endline
+
+line wall
+  474.0 1344.0
+  474.0 1344.0 434.0 1186.0 392.0 1128.0
+  350.0 1070.0 334.0 1008.0 324.0 970.0
+  314.0 932.0 306.0 840.0 308.0 818.0
+endline
+
+point 1490.0 1144.0 label -align right -text [P9: Puits Borgne]
+
+line rock-edge -clip off
+  1064.0 1022.0
+  1184.0 1140.0
+  1422.0 1140.0
+endline
+
+line wall
+  1039.0 887.0
+  1039.0 887.0 1015.0 1000.0 1008.0 1028.0
+  1001.0 1056.0 986.0 1075.0 973.0 1092.0
+  960.0 1109.0 960.0 1116.0 950.0 1154.0
+  940.0 1192.0 930.0 1243.0 928.0 1250.0
+  926.0 1257.0 882.0 1374.0 862.0 1280.0
+endline
+
+point 622.4029999999999 1091.94 station -name 2
+
+endscrap
+
+
+
+scrap S49_20170916_SE0 -projection extended -station-names "" "@S49_2017_09_16" -scale [0.0 0.0 393.7 393.7 0.0 0.0 10 10 m]
+
+line wall
+endline
+
+line border -clip off
+  316.0 2207.0
+  316.0 2207.0 369.0 2222.0 409.0 2232.0
+endline
+
+line wall -reverse on -subtype invisible
+  409.0 2232.0
+  433.0 2251.0
+endline
+
+line wall -reverse on -subtype invisible
+  433.0 2251.0
+  473.0 2261.0 517.0 2273.0 538.0 2280.0
+endline
+
+line border -clip off
+  770.0 2286.0
+  940.0 2304.0
+endline
+
+line wall -subtype invisible
+  770.0 2286.0
+  770.0 2286.0 682.0 2340.0 538.0 2280.0
+endline
+
+line wall
+  770.0 2286.0
+  770.0 2286.0 746.0 2280.0 746.0 2266.0
+  746.0 2252.0 754.0 2060.0 758.0 2024.0
+endline
+
+point 748.5 2314.5 altitude -align top-right
+
+line rock-edge -clip off
+  707.0 2107.5
+  723.0 2111.5
+endline
+
+line rock-edge -clip off
+  707.0 2107.5
+  682.5 2099.0
+endline
+
+line rock-edge -clip off
+  707.0 2107.5
+  706.0 2112.5
+  732.0 2123.5
+endline
+
+line rock-edge -clip off
+  597.5 2149.0
+  566.0 2140.5
+endline
+
+line rock-edge -clip off
+  590.0 2156.0
+  632.0 2166.5
+  632.5 2159.0
+  597.5 2149.0
+  599.0 2140.0
+  575.5 2134.0
+endline
+
+line rock-border -close on -clip off
+  500.0 2227.0
+  491.0 2260.0
+  491.0 2260.0 502.0 2274.0 510.0 2275.0
+  518.0 2276.0 549.0 2270.0 549.0 2270.0
+  smooth off
+  563.0 2255.0
+  550.0 2251.0
+  523.0 2249.0
+  500.0 2227.0
+endline
+
+line rock-border -close on -clip off
+  492.0 2186.0
+  509.0 2177.0
+  497.0 2152.0
+  452.0 2169.0
+  445.0 2186.0
+  458.0 2196.0
+  492.0 2186.0
+endline
+
+line rock-border -close on -clip off
+  535.0 2142.0
+  556.0 2148.0
+  543.0 2168.0
+  518.0 2174.0
+  512.0 2154.0
+  535.0 2142.0
+endline
+
+line rock-border -close on -clip off
+  455.0 2233.0
+  471.0 2218.0
+  484.0 2209.0
+  484.0 2209.0 489.0 2224.0 490.0 2232.0
+  491.0 2240.0 491.0 2252.0 487.0 2253.0
+  483.0 2254.0 473.0 2263.0 473.0 2263.0
+  smooth off
+  459.0 2264.0
+  455.0 2233.0
+endline
+
+line rock-border -close on -clip off
+  539.0 2244.0
+  565.0 2242.0
+  560.0 2179.0
+  495.0 2205.0
+  516.0 2218.0
+  539.0 2244.0
+endline
+
+line wall
+endline
+
+point 426.0 2215.0 sand -orientation 208.0 -clip off
+
+point 408.0 2217.0 sand -orientation 155.4 -clip off
+
+point 435.0 2192.0 sand -orientation 54.5 -clip off
+
+line wall -reverse on -subtype invisible
+  537.0 2165.0
+  496.0 2175.0
+  465.0 2190.0
+  429.0 2206.0
+  429.0 2206.0 413.0 2225.0 409.0 2232.0
+endline
+
+line wall -reverse on
+  551.0 2153.0
+  551.0 2153.0 544.0 2165.0 537.0 2165.0
+endline
+
+line wall
+  551.0 2153.0
+  551.0 2153.0 546.0 2048.0 544.0 2028.0
+endline
+
+line wall
+endline
+
+line rock-edge -clip off
+  660.0 1770.0
+  660.0 1770.0 668.0 1648.0 606.0 1766.0
+endline
+
+line rock-edge -clip off
+  659.0 2273.0
+  660.0 1770.0
+endline
+
+line rock-edge -clip off
+  620.0 2294.0
+  659.0 2273.0
+  676.0 2300.0
+endline
+
+point 710.973 2283.46 station -name 0
+
+endscrap
+
+
+
+scrap S49_20170916_SE3 -projection extended -station-names "" "@S49_2017_09_16" -scale [0.0 0.0 393.7 393.7 0.0 0.0 10 10 m]
+
+line rock-border -close on -clip off
+  947.0 737.0
+  944.0 718.0
+  972.0 711.0
+  972.0 711.0 977.0 719.0 975.0 723.0
+  973.0 727.0 968.0 736.0 968.0 736.0
+  smooth off
+  947.0 737.0
+endline
+
+line rock-border -close on -clip off
+  1030.0 719.0
+  1026.0 705.0
+  1021.0 697.0
+  1052.0 710.0
+  1045.0 721.0
+  1030.0 719.0
+endline
+
+line rock-border -close on -clip off
+  983.0 727.0
+  983.0 727.0 976.0 711.0 981.0 709.0
+  986.0 707.0 1008.0 701.0 1008.0 701.0
+  smooth off
+  1022.0 709.0
+  1019.0 720.0
+  983.0 727.0
+endline
+
+line rock-border -close on -clip off
+  909.0 741.0
+  906.0 730.0
+  930.0 721.0
+  934.0 738.0
+  909.0 741.0
+endline
+
+line wall -subtype invisible
+  897.0 737.0
+  897.0 737.0 985.0 713.0 1011.0 710.0
+  1037.0 707.0 1049.0 708.0 1053.0 719.0
+endline
+
+point 1076.0 721.0 altitude -align right
+
+line wall
+  1053.0 719.0
+  1057.0 730.0 1052.0 758.0 1050.0 776.0
+  1048.0 794.0 1039.0 887.0 1039.0 887.0
+  smooth off
+endline
+
+line wall
+  877.0 889.0
+  877.0 889.0 878.0 768.0 878.0 760.0
+  878.0 752.0 878.0 737.0 897.0 737.0
+endline
+
+point 1035.1329999999998 753.7299999999999 station -name 5
+
+endscrap
+
+
+
+scrap S49_20170916_SE4 -projection extended -station-names "" "@S49_2017_09_16" -scale [0.0 0.0 393.7 393.7 0.0 0.0 10 10 m]
+
+point 200.53299999999996 234.1199999999999 station -name 8
+
+point -316.0 352.0 label -align left -text [Gros bloc (roche mère), obstruant le passage]
+
+line rock-edge -clip off
+  110.0 283.0
+  42.0 352.0
+  -274.0 352.0
+endline
+
+point 235.0 168.0 air-draught -orientation 253.9
+
+point 209.0 -338.0 label -text [2017/09/16 15:30]
+
+line rock-edge -clip off
+  207.0 96.0
+  207.0 -289.0
+endline
+
+point -180.0 554.0 label -text P17 -align left
+
+line rock-edge -clip off
+  198.0 552.0
+  -100.0 552.0
+endline
+
+line rock-edge -clip off
+  453.0 581.5
+  449.5 589.5
+  483.0 600.5
+endline
+
+line rock-edge -clip off
+endline
+
+line rock-edge -clip off
+  563.0 611.5
+  453.0 581.5
+  421.0 574.5
+endline
+
+line rock-edge -clip off
+  599.0 514.0
+  557.5 505.0
+  628.0 522.0
+endline
+
+line rock-edge -clip off
+  603.0 500.0
+  599.0 514.0
+endline
+
+line rock-edge -clip off
+  676.5 519.0
+  680.0 507.0
+  777.0 533.5
+endline
+
+line rock-edge -clip off
+  529.5 482.5
+  603.0 500.0
+  676.5 519.0
+  732.0 535.0
+endline
+
+line rock-edge -clip off
+  340.0 451.5
+  336.5 461.5
+  308.0 457.0
+endline
+
+line rock-edge -clip off
+  292.0 440.5
+  297.0 429.5
+endline
+
+line rock-edge -clip off
+  373.5 457.5
+  340.0 451.5
+  257.0 433.0
+endline
+
+line rock-edge -clip off
+  223.5 409.5
+  297.0 429.5
+  377.0 447.5
+  373.5 457.5
+endline
+
+line rock-edge -close off -clip off
+  225.0 395.0
+endline
+
+line rock-edge -clip off
+endline
+
+line rock-edge -clip off
+  274.0 325.0
+  365.0 345.5
+endline
+
+line rock-edge -clip off
+  270.5 334.5
+  325.5 347.0
+endline
+
+line rock-edge -close on -clip off
+  270.5 334.5
+  274.0 325.0
+  270.5 334.5
+endline
+
+line rock-edge -clip off
+  230.0 315.0
+  274.0 325.0
+endline
+
+line rock-edge -clip off
+  406.0 952.0
+  406.0 286.0
+endline
+
+line wall
+  792.0 362.0
+  799.0 367.0 808.0 375.0 807.0 393.0
+  806.0 411.0 794.0 485.0 794.0 496.0
+  794.0 507.0 778.0 645.0 775.0 669.0
+  772.0 693.0 769.0 714.0 734.0 696.0
+  699.0 678.0 626.0 673.0 616.0 670.0
+  606.0 667.0 574.0 660.0 559.0 677.0
+  544.0 694.0 513.0 717.0 516.0 802.0
+endline
+
+line wall
+endline
+
+point 51.0 201.0 altitude -align top-left
+
+point 234.0 216.0 sand -orientation 131.1 -clip off
+
+point 248.0 228.0 sand -orientation 89.6 -clip off
+
+point 273.0 226.0 sand -orientation 54.5 -clip off
+
+point 292.0 243.0 sand -clip off
+
+line rock-border -close on -clip off
+  314.0 235.0
+  317.0 247.0
+  326.0 252.0
+  331.0 236.0
+  314.0 235.0
+endline
+
+line rock-border -close on -clip off
+  357.0 253.0
+  344.0 243.0
+  361.0 238.0
+  357.0 253.0
+endline
+
+line rock-border -close on -clip off
+  395.0 259.0
+  380.0 259.0
+  375.0 246.0
+  395.0 242.0
+  395.0 259.0
+endline
+
+line rock-border -close on -clip off
+  452.0 273.0
+  424.0 271.0
+  411.0 260.0
+  417.0 248.0
+  452.0 253.0
+  452.0 273.0
+endline
+
+line rock-border -close on -clip off
+  525.0 289.0
+  494.0 292.0
+  486.0 282.0
+  472.0 275.0
+  477.0 263.0
+  495.0 264.0
+  521.0 267.0
+  525.0 289.0
+endline
+
+line rock-border -close on -clip off
+  581.0 288.0
+  574.0 306.0
+  548.0 305.0
+  537.0 297.0
+  534.0 286.0
+  545.0 276.0
+  581.0 288.0
+endline
+
+line rock-border -close on -clip off
+  631.0 319.0
+  611.0 321.0
+  590.0 313.0
+  593.0 292.0
+  627.0 299.0
+  631.0 319.0
+endline
+
+line rock-border -close on -clip off
+  675.0 339.0
+  681.0 315.0
+  649.0 309.0
+  645.0 323.0
+  675.0 339.0
+endline
+
+line rock-border -close on -clip off
+  731.0 336.0
+  726.0 354.0
+  715.0 348.0
+  702.0 347.0
+  689.0 349.0
+  686.0 339.0
+  686.0 339.0 691.0 319.0 695.0 320.0
+  699.0 321.0 731.0 336.0 731.0 336.0
+  smooth off
+endline
+
+line rock-border -close on -clip off
+  778.0 351.0
+  776.0 362.0
+  750.0 361.0
+  738.0 352.0
+  742.0 340.0
+  778.0 351.0
+endline
+
+line wall -subtype invisible
+  206.0 224.0
+  232.0 226.0 362.0 249.0 394.0 252.0
+  426.0 255.0 554.0 285.0 573.0 292.0
+  592.0 299.0 689.0 326.0 689.0 326.0
+  smooth off
+  689.0 326.0 715.0 341.0 745.0 348.0
+  775.0 355.0 792.0 362.0 792.0 362.0
+  smooth off
+endline
+
+point 95.0 172.0 continuation
+
+line wall -reverse on
+  206.0 224.0
+  151.0 210.0
+  151.0 210.0 135.0 210.0 137.0 199.0
+endline
+
+line wall
+  194.0 308.0
+  194.0 308.0 191.0 303.0 178.0 302.0
+  165.0 301.0 149.0 291.0 149.0 291.0
+  smooth off
+  134.0 288.0
+  134.0 288.0 125.0 287.0 124.0 257.0
+  123.0 227.0 137.0 223.0 112.0 216.0
+  87.0 209.0 79.0 199.0 79.0 199.0
+  smooth off
+endline
+
+line wall -close on
+  194.0 292.0
+  194.0 292.0 208.0 291.0 210.0 282.0
+  212.0 273.0 215.0 249.0 215.0 243.0
+  215.0 237.0 204.07 233.24 200.53299999999996 234.1199999999999
+  197.0 235.0 181.0 228.0 181.0 228.0
+  smooth off
+  155.0 221.0
+  155.0 221.0 134.0 216.0 141.0 237.0
+  148.0 258.0 139.0 275.0 148.0 279.0
+  157.0 283.0 194.0 292.0 194.0 292.0
+  smooth off
+endline
+
+line rock-border -clip off
+endline
+
+line wall
+  308.0 818.0
+  308.0 818.0 280.0 677.0 253.0 589.0
+  226.0 501.0 206.0 420.0 205.0 411.0
+  204.0 402.0 197.0 364.0 197.0 364.0
+  smooth off
+  197.0 364.0 194.0 314.0 194.0 308.0
+endline
+
+point 369.87299999999993 262.15999999999997 station -name 7
+
+endscrap
+
+

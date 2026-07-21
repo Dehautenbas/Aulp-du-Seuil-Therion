@@ -1,0 +1,30 @@
+encoding  utf-8
+survey S21_2023_10_1 -title "S21"
+
+centerline
+    cs UTM31
+   
+    fix 0 726127 5029865 1508
+    station 0 "S21" entrance
+    
+    date 2023.10.1 
+    #declination 1.627 degrees
+    declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    0 1 60 300 -90
+    extend right
+    0 - 1.00 1 0.1
+    extend left
+    0 - 1.00 91 0.1
+    extend right
+    extend right
+    0 - 1.00 181 0.1
+    extend left
+    0 - 1.00 271 0.1
+    extend right
+endcenterline
+
+endsurvey
+

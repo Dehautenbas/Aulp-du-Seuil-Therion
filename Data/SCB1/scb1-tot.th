@@ -1,0 +1,24 @@
+encoding  utf-8
+
+survey SCB1 -title "Gouffre du SCB1"
+
+    input Data/Data/2024_03_23/2024_03_23.th
+    
+    input Data/Data/2024_07_27/2024_07_27.th
+
+    equate 59@SCB1-2024-03-31.2024_03_23 0@SCB1-2024-07-27.2024_07_27
+
+    ## Plan
+    #    join .......
+    
+    join scb1-032324-p11@2024_03_23 scb1-20240727-p1@2024_07_27
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    
+    input scb1-tot-maps.th
+
+endsurvey
+

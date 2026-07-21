@@ -1,0 +1,18 @@
+encoding  utf-8
+
+survey Marteauelectrique -title "Gouffre du Marteau Electrique"
+
+    input Data/Data/2017_07_04/2017_07_04.th
+
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input Marteauelectrique-tot-maps.th
+
+endsurvey
+

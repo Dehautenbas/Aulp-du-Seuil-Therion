@@ -1,0 +1,75 @@
+encoding  utf-8
+map Tenebreux_MP-
+Tenebreux_SP1
+Tenebreux_SP2
+Tenebreux_SP3
+Tenebreux_SP4
+Tenebreux_SP5
+Tenebreux_SP6
+
+Tenebreux_SP7
+Tenebreux_SP8
+Tenebreux_SP9
+Tenebreux_SP10
+Tenebreux_SP11
+Tenebreux_SP12
+Tenebreux_SP13
+Tenebreux_SP14
+Tenebreux_SP15
+Tenebreux_SP16
+Tenebreux_SP17
+Tenebreux_SP18
+Tenebreux_SP19
+Tenebreux_SP20
+Tenebreux_SP21
+break
+Tenebreux_SP22
+Tenebreux_SP23
+Tenebreux_SP24
+Tenebreux_SP24bis
+Tenebreux_SP25
+Tenebreux_SP26
+Tenebreux_SP27
+Tenebreux_SP28
+Tenebreux_SP28bis
+Tenebreux_SP29
+Tenebreux_SP30
+Tenebreux_SP33
+break
+Tenebreux_SP31
+Tenebreux_SP32
+
+Tenebreux_SP34
+Tenebreux_SP35
+Tenebreux_SP36
+Tenebreux_SP37
+Tenebreux_SP38
+Tenebreux_SP39
+Tenebreux_SP40
+break
+
+Tenebreux_SP43
+Tenebreux_SP44
+Tenebreux_SP45
+Tenebreux_SP46
+Tenebreux_SP46bis
+Tenebreux_SP47
+endmap
+
+map Tenebreux_MP--
+  Tenebreux_SP6bis
+endmap
+
+map Tenebreux_MP---
+  Tenebreux_SP41
+  Tenebreux_SP42
+endmap
+
+map Tenebreux_MP
+  Tenebreux_MP-
+  break
+  Tenebreux_MP--
+  break
+  Tenebreux_MP---
+endmap
+

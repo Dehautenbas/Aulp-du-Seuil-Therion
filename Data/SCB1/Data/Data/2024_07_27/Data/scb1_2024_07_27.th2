@@ -1,0 +1,108 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 915.4 521.7
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {298.70500000000004 1 1.0} {117.85200000000003 0} 2024_07_27-th_p.xvi 0 {}
+
+
+
+scrap scb1-20240727-p1 -projection plan -station-names "" "@SCB1-2024-07-27" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 915.4 -128.0 0.0 0.0 26.50236 0.0 m]
+
+point 240.93500000000003 109.17200000000003 station -name 2
+
+line wall
+  227.0 144.25
+  240.25 139.0
+  234.25 110.0
+  223.75 97.25
+endline
+
+line wall -reverse on
+  301.5 109.0
+  271.25 120.25
+  260.0 127.25
+  239.25 91.25
+endline
+
+line wall -reverse on
+  231.0 158.5
+  276.0 139.25
+  305.25 126.25
+endline
+
+point 251.66500000000002 138.99200000000002 station -name 1
+
+point 298.70500000000004 117.85200000000003 station -name 0
+
+endscrap
+
+
+
+scrap scb1-20240727-p2 -projection plan -station-names "" "@SCB1-2024-07-27" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 915.4 -128.0 0.0 0.0 26.50236 0.0 m]
+
+point 203.85500000000002 83.51200000000003 station -name 5
+
+point 260.45500000000004 124.74200000000002 station -name 4
+
+point 220.735 76.73200000000003 station -name 3
+
+endscrap
+
+
+
+scrap scb1-20240727-p3 -projection plan -station-names "" "@SCB1-2024-07-27" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 915.4 -128.0 0.0 0.0 26.50236 0.0 m]
+
+point 308.06500000000005 331.16200000000003 station -name 13
+
+point 344.305 292.29200000000003 station -name 12
+
+point 340.46500000000003 253.80200000000002 station -name 11
+
+point 287.615 217.342 station -name 10
+
+point 312.06500000000005 150.16200000000003 station -name 9
+
+point 262.115 91.88200000000002 station -name 8
+
+point 214.69500000000002 81.71200000000002 station -name 7
+
+point 200.485 81.56200000000001 station -name 6
+
+endscrap
+
+
+
+scrap scb1-20240727-p4 -projection plan -station-names "" "@SCB1-2024-07-27" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 915.4 -128.0 0.0 0.0 26.50236 0.0 m]
+
+point 306.77500000000003 57.97200000000004 station -name 19
+
+point 315.355 116.05200000000002 station -name 18
+
+point 328.31500000000005 182.14200000000002 station -name 17
+
+point 301.46500000000003 244.18200000000002 station -name 16
+
+point 234.19500000000002 305.612 station -name 15
+
+point 286.33500000000004 341.85200000000003 station -name 14
+
+endscrap
+
+
+
+scrap scb1-20240727-p5 -projection plan -station-names "" "@SCB1-2024-07-27" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 915.4 -128.0 0.0 0.0 26.50236 0.0 m]
+
+point 762.565 151.33200000000002 station -name 25
+
+point 704.1850000000001 145.60200000000003 station -name 24
+
+point 644.6850000000001 123.83200000000002 station -name 23
+
+point 532.765 82.43200000000002 station -name 22
+
+point 467.305 93.26200000000003 station -name 21
+
+point 389.685 76.20200000000003 station -name 20
+
+endscrap
+
+

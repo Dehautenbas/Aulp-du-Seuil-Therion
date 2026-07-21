@@ -1,0 +1,17 @@
+encoding  utf-8
+
+survey S23 -title "Gouffre S23"
+
+    input Data/Data/2024_04_13/2024_04_13.th
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input S23-tot-maps.th
+
+endsurvey
+

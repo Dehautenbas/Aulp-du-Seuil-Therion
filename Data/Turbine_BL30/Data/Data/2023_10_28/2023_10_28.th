@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 2023_10_28 -title "Turbine > 2023-10-28"
+
+    input Data/bl30_2023_10_28.th
+
+    ## Plan
+    input Data/bl30_2023_10_28.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2023_10_28-maps.th
+
+endsurvey
+

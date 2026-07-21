@@ -1,0 +1,17 @@
+encoding  utf-8
+
+survey Chainon -title "Gouffre du Chainon"
+
+    input Data/Data/1990_06_30/1990_06_30.th
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input Chainon-tot-maps.th
+
+endsurvey
+

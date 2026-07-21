@@ -1,0 +1,17 @@
+encoding  utf-8
+
+survey FJS319 -title "Gouffre FJS319"
+
+    input Data/Data/2024_10_13/2024_10_13.th
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input FJS319-tot-maps.th
+
+endsurvey
+

@@ -1,0 +1,121 @@
+encoding  utf-8
+survey Guiers_Vif -title "Grotte du Guiers Vif"
+
+    #--------------------------------------------------------------------
+    # ** Porche-emergence**
+    #--------------------------------------------------------------------
+    
+     input Data/Data/GV_porche_emergence/GV_Porche-emergence-tot.th 
+     input Data/Data/GV_3eme_cascade/GV_3eme_cascade-tot.th
+     
+     equate 0@GV_3eme_cascade.GV_3eme_cascade-tot 12@GV_Porche-emergence.GV_Porche-emergence-tot
+     
+     equate 0@GV_Porche-emergence.GV_Porche-emergence-tot 0@Grotte_GV.2024_06_03
+    
+    #--------------------------------------------------------------------
+    # ** Nouvelle topo Grotte du Guiers-Vif **
+    #--------------------------------------------------------------------
+
+    input Data/Data/2024_06_01_Les_catacombes/2024_06_01.th
+    input Data/Data/2024_06_03_Grotte_GV/2024_06_03.th
+    
+      equate 0@GV_Catacombes.2024_06_01 0@Grotte_GV.2024_06_03
+      equate 27@GV_Catacombes.2024_06_01 83@Grotte_GV.2024_06_03
+      
+     equate GV_FJS_radio5@gv_meora_1994_06_30.1994_06_30_GV_MEORA 19@Grotte_GV.2024_06_03
+     equate GV_FJS_stantoine3@gv_meora_1994_06_30.1994_06_30_GV_MEORA 95@Grotte_GV.2024_06_03
+  
+  ##RACCORD S1
+      equate b216@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 89a@Grotte_GV.2024_06_03
+      equate b217@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 41@GV_S1-S2.Intersiphon_S1_S2
+
+    #--------------------------------------------------------------------
+    # ** Galerie des marmites est/ouest, Radiesthesiste, Saint Antoine **
+    #--------------------------------------------------------------------
+    
+    input Data/Data/GV_meora_Lower_Chevalier_Series/1994_06_30_GV_MEORA/1994_06_30_GV_MEORA.th
+    #input Data/Data/GV_meora_Lower_Chevalier_Series/1994_06_30_GV_MEORA/Data/GV_1994_Chevalier.th
+    
+
+
+    #------------------------------
+    # ** Galeries amont siphon 1 **
+    #------------------------------
+
+    input Data/Data/1991_12_31_GV_amont_S1/1991_12_31_GV_amont_S1.th
+    
+      ######equate b216@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 Guiersvif 14@gv_meora_1994_06_30.1994_06_30_GV_MEORA
+      
+          # Pour forcer le léger bouclage au niveau de la vasque amont du S3
+          
+          equate b237@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 b164@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1
+    
+    #-----------------------------------------
+    # ** Galerie entre siphon 1 et siphon 4 **
+    #-----------------------------------------
+    
+    input Data/Data/2024-05-25-26-S1-S4Suspendu-XR-SL-AA-TC/2024-05-25-S1-S2.th
+    
+      equate b206@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1 43@GV_S1-S2.Intersiphon_S1_S2
+      
+      equate 0a@GV_S1-S2.Intersiphon_S1_S2 b188@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1
+      
+      equate 41@GV_S1-S2.Intersiphon_S1_S2 b217@gv_amontS1_1991_12_31.1991_12_31_GV_amont_S1
+    
+    #-------------------------------------
+    # ** Galerie Lower Chevalier Series **
+    #-------------------------------------
+    
+    #input Data/Data/GV_meora_Lower_Chevalier_Series/1969_06_30_GV_Lower_Chevalier_Series/1969_06_30_GV_Lower_Chevalier_Series.th
+    
+     # equate GMO1@gv_lower_chevalier_1969_06_30.1969_06_30_GV_Lower_Chevalier_Series GV_FJS_stantoine29@gv_meora_1994_06_30.1994_06_30_GV_MEORA
+
+    #---------------------------
+    # ** Réseau de la Cascade **
+    #---------------------------
+    
+    input Data/Data/GV_reseau_de_la_Cascade/gv_reseau_de_la_cascade-tot.th
+    
+      # Commenter equate ci-dessous pour caller avec la nouvelle topo du GV.
+    
+         equate dp_stat_37@gv_12-03-2022_reseau_de_la_cascade.12_03_2022_GV_Cascade.reseau_de_la_cascade Guiersvif #12@gv_meora_1994_06_30.1994_06_30_GV_MEORA
+
+
+      equate 0@Grotte_GV.2024_06_03 dp_stat_72@gv_12-03-2022_reseau_de_la_cascade-calage.12_03_2022_GV_Cascade-calage.reseau_de_la_cascade
+
+    #----------
+    ## Plan
+    #----------
+    
+      # jonction dessin sortie du siphon amont n°1 du GV
+        
+         # join G_S1S4_SP2@2009_02_21_GV_entre_S1_S4 GV7amS1_SP5@1991_12_31_GV_amont_S1
+    
+         # join G_S1S4_SP3@2009_02_21_GV_entre_S1_S4 GV7amS1_SP6@1991_12_31_GV_amont_S1
+        
+         # join G_S1S4_SP11@2009_02_21_GV_entre_S1_S4 GV7amS1_SP14@1991_12_31_GV_amont_S1
+      
+      # jonction dessin sortie du siphon aval n°1 du GV avec MEORA
+      
+         #join GV7amS1_SP1@1991_12_31_GV_amont_S1 GV_R_stA_SP2@1994_06_30_GV_MEORA
+      
+      # jonction dessin salle de la cascade et le réseau supérieur des catacombes (GUIERS-VIF)
+      
+        #  join GV_030624-p11@2024_06_03 cata-010624-p4@2024_06_01
+      
+    ## Coupe
+       # jonction dessin sortie du siphon amont n°1 du GV
+       
+      join SC_GVS1S2_1@Intersiphon_S1_S2 SC_GV91_1@1991_12_31_GV_amont_S1
+      join SC_GV91_1@1991_12_31_GV_amont_S1 SC_GV2@2024_06_03
+      join SC_GV1@2024_06_03 SC-ext2@GV_Porche-emergence-tot
+      join SC_GVS1S2_1@Intersiphon_S1_S2 SC_GV91_2@1991_12_31_GV_amont_S1
+      join SC_GVS1S2_2@Intersiphon_S1_S2 SC_GV91_2@1991_12_31_GV_amont_S1
+      join SC_GV91_3@1991_12_31_GV_amont_S1 SC_GVS1S2_3@Intersiphon_S1_S2
+      join SC_GV2@2024_06_03 sc1@12_03_2022_GV_Cascade.reseau_de_la_cascade
+
+    ## Maps
+    input Guiers_Vif-tot-maps.th
+
+endsurvey
+

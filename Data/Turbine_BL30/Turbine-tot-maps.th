@@ -1,0 +1,23 @@
+encoding  utf-8
+
+map Turbine-tot-MP
+  bl30_2023_10_07_MP-@2023_10_07
+  break
+  bl30_2023_10_07_MP--@2023_10_07
+  break
+  #bl30_2023_10_28_MP-@2023_10_28
+  #break
+  #bl30_2023_10_07_MP---@2023_10_07
+  break
+  scrap26 [0.55 -15 m] below
+  break
+  bl30_1992_06_30_MP@1992_06_30
+  break
+  bl30_2023_10_28_MP--@2023_10_28
+
+endmap
+
+map scrap26
+  bl30_2023_10_28_MP-@2023_10_28
+  bl30_2023_10_07_MP---@2023_10_07 [0.15 -4 m] below
+endmap

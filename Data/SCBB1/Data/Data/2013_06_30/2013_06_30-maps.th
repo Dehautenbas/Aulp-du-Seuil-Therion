@@ -1,0 +1,48 @@
+encoding  utf-8
+map SCB1scialet45_MP-
+
+  SCB1scialet45_SP1
+  SCB1scialet45_SP2
+  SCB1scialet45_SP3
+  SCB1scialet45_SP4
+  SCB1scialet45_SP5
+  SCB1scialet45_SP6
+  SCB1scialet45_SP7
+  SCB1scialet45_SP8
+  SCB1scialet45_SP9
+  SCB1scialet45_SP10
+  SCB1scialet45_SP11
+  SCB1scialet45_SP12
+
+endmap
+
+map SCB1scialet45_MP--
+  
+  SCB1scialet45_SP13
+  SCB1scialet45_SP14
+  
+endmap
+
+map SCB1scialet45_MP---
+
+  SCB1scialet45_SP14bis
+  SCB1scialet45_SP15
+  break
+  SCB1scialet45_SP16
+  
+endmap
+
+map SCB1scialet45_MP----
+
+  SCB1scialet45_MP--
+  break
+  SCB1scialet45_MP--- [25 0 m] below
+
+endmap
+
+
+map SCB1scialet45_MP
+  SCB1scialet45_MP-
+  break
+  SCB1scialet45_MP---- [25 0 m] below
+endmap

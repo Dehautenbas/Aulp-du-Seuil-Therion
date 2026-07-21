@@ -1,0 +1,18 @@
+encoding  utf-8
+
+survey 2017_09_16 -title "Poulpe > 2017-09-16"
+
+    input Data/S49_2017_09_16.th
+
+    ## Plan
+    input Data/S49_2017_09_16.th2
+    #    join .......
+    
+    ## Coupe
+    input Data/S49_2017_09_16-e.th2
+
+    ## Maps
+    input 2017_09_16-maps.th
+
+endsurvey
+

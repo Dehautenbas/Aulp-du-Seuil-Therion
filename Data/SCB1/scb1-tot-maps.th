@@ -1,0 +1,8 @@
+encoding  utf-8
+
+map SCB1-tot_MP
+  SCB1_2024_03_23_MP@2024_03_23
+  break
+  SCB1_2024_07_27_MP@2024_07_27
+endmap
+

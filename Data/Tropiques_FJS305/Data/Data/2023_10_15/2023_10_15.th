@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 2023_10_15 -title "FJS305 > 2023_10_15"
+
+    input Data/FJS305_2023_10_15.th
+
+    ## Plan
+    input Data/FJS305_2023_10_15.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2023_10_15-maps.th
+
+endsurvey
+

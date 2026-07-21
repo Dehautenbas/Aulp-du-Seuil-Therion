@@ -1,0 +1,17 @@
+encoding  utf-8
+
+survey FJS556 -title "Gouffre FJS556"
+
+    input Data/Data/2017_08_12/2017_08_12.th
+   
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input FJS556-tot-maps.th
+
+endsurvey
+

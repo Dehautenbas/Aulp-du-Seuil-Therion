@@ -200,14 +200,12 @@ layout my_layout
  #export map -projection plan -fmt xvi -layout xviexport -o Data/Aulp_du_Seuil_Souterrain-th_p.xvi
  #export map -projection extended -fmt xvi -layout xviexport -o Data/Aulp_du_Seuil_Souterrain-th_e.xvi
   
- #export map -projection plan -o Outputs/ADS24DEC24-plan.pdf -layout my_layout
- #export map -projection plan -o "C:\Users\David\Desktop\ADS24DEC24-plan1000.pdf" -layout my_layout
+ export map -projection plan -o outputs/ADS21.07.26-plan.pdf -layout my_layout
+  
+ #export map -projection extended -layout my_layout-coupe -o outputs/Aulp_du_Seuil_Souterrain-coupe.pdf
+
+ #export model -o outputs/13septembre25.lox
  
- #export map -projection extended -layout my_layout-coupe -o Outputs/Aulp_du_Seuil_Souterrain-coupe.pdf
- 
- #export model -o Outputs/7OCT24.lox
- export model -o "C:\Users\David\Desktop\02_01_2025.lox"
- 
- #export model -fmt kml -o Outputs/kml/ADS2024.kml
- #export map -projection plan -fmt esri -o Outputs/AulpSeuil
- #export model -fmt esri -o Outputs/AulpSeuil
+ #export model -fmt kml -o outputs/kml/ADS2024.kml
+ #export map -projection plan -fmt esri -o outputs/AulpSeuil
+ #export model -fmt esri -o outputs/AulpSeuil

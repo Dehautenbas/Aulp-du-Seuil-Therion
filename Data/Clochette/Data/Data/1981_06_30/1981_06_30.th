@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 1981_06_30 -title "Clochette > 1981_06_30"
+
+    input Data/clo_1981_06_30.th
+
+    ## Plan
+    input Data/clo_1981_06_30.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 1981_06_30-maps.th
+
+endsurvey
+

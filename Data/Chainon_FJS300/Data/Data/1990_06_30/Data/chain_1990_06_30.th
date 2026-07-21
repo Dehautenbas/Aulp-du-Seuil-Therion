@@ -1,0 +1,402 @@
+encoding  utf-8
+
+survey chain_1990_06_30 -title "Chainons"
+
+  centerline
+    cs UTM31
+    fix Chainons1 726050 5029317 1580
+    station Chainons1 "Gouffre du Chainons" entrance
+    date 1990.06.30 
+    declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    extend left
+    Chainons1 - 1.00 323.3 0.0
+    extend right
+    Chainons1 - 1.00 143.3 0.0
+    extend vertical
+    Chainons1 - 1.00 0.0 90.0
+    Chainons1 - 1.00 0.0 -90.0
+    extend right
+    Chainons1 Chainons2 5.93 53.3 -80.6
+    extend vertical
+    Chainons2 - 4.00 187.1 0.0
+    Chainons2 - 1.00 0.0 90.0
+    Chainons2 - 1.00 0.0 -90.0
+    extend left
+    Chainons2 Chainons3 3.55 97.1 -52.8
+    Chainons3 - 4.00 218.1 0.0
+    extend vertical
+    Chainons3 - 1.00 0.0 90.0
+    Chainons3 - 1.00 0.0 -90.0
+    extend left
+    Chainons3 Chainons4 24.02 128.1 -86.5
+    extend vertical
+    Chainons4 - 3.00 359.0 0.0
+    Chainons4 - 3.00 179.0 0.0
+    Chainons4 - 16.00 0.0 90.0
+    Chainons4 - 1.00 0.0 -90.0
+    extend right
+    Chainons4 Chainons5 9.06 89.0 -10.4
+    extend left
+    Chainons5 - 0.40 264.5 0.0
+    extend right
+    Chainons5 - 0.40 84.5 0.0
+    extend vertical
+    Chainons5 - 5.00 0.0 90.0
+    Chainons5 - 1.00 0.0 -90.0
+    extend right
+    Chainons5 Chainons6 6.63 354.5 60.7
+    extend left
+    Chainons6 - 0.20 232.6 0.0
+    extend right
+    Chainons6 - 0.20 52.6 0.0
+    extend vertical
+    Chainons6 - 3.00 0.0 90.0
+    Chainons6 - 3.00 0.0 -90.0
+    extend right
+    Chainons6 Chainons7 2.96 322.6 -15.4
+    extend left
+    Chainons7 - 0.20 304.5 0.0
+    extend right
+    Chainons7 - 0.20 124.5 0.0
+    extend vertical
+    Chainons7 - 3.00 0.0 90.0
+    Chainons7 - 3.00 0.0 -90.0
+    extend right
+    Chainons7 Chainons8 2.09 34.5 -34.5
+    extend left
+    Chainons8 - 0.20 201.7 0.0
+    extend right
+    Chainons8 - 0.20 21.7 0.0
+    extend vertical
+    Chainons8 - 3.00 0.0 90.0
+    Chainons8 - 3.00 0.0 -90.0
+    extend right
+    Chainons8 Chainons9 2.18 291.7 -26.9
+    extend left
+    Chainons9 - 0.20 284.2 0.0
+    extend right
+    Chainons9 - 0.20 104.2 0.0
+    extend vertical
+    Chainons9 - 3.00 0.0 90.0
+    Chainons9 - 3.00 0.0 -90.0
+    extend right
+    Chainons9 Chainons10 2.57 14.3 -21.0
+    extend left
+    Chainons10 - 0.20 215.6 0.0
+    extend right
+    Chainons10 - 0.20 35.6 0.0
+    extend vertical
+    Chainons10 - 3.00 0.0 90.0
+    Chainons10 - 3.00 0.0 -90.0
+    extend right
+    Chainons10 Chainons11 3.10 305.6 -13.5
+    Chainons11 - 0.20 150.3 0.0
+    extend left
+    Chainons11 - 0.20 330.3 0.0
+    extend vertical
+    Chainons11 - 3.00 0.0 90.0
+    Chainons11 - 3.00 0.0 -90.0
+    extend left
+    Chainons11 Chainons12 4.43 240.3 -6.8
+    Chainons12 - 0.20 199.5 0.0
+    extend right
+    Chainons12 - 0.20 19.5 0.0
+    extend vertical
+    Chainons12 - 3.00 0.0 90.0
+    Chainons12 - 3.00 0.0 -90.0
+    extend right
+    Chainons12 Chainons13 1.44 289.5 -18.6
+    extend left
+    Chainons13 - 0.20 275.2 0.0
+    extend right
+    Chainons13 - 0.20 95.2 0.0
+    extend vertical
+    Chainons13 - 3.00 0.0 90.0
+    Chainons13 - 3.00 0.0 -90.0
+    extend right
+    Chainons13 Chainons14 1.69 5.2 -27.9
+    Chainons14 - 0.20 151.2 0.0
+    extend left
+    Chainons14 - 0.20 331.2 0.0
+    extend vertical
+    Chainons14 - 3.00 0.0 90.0
+    Chainons14 - 3.00 0.0 -90.0
+    extend left
+    Chainons14 Chainons15 1.45 241.2 -24.0
+    Chainons15 - 0.20 261.6 0.0
+    extend right
+    Chainons15 - 0.20 81.6 0.0
+    extend vertical
+    Chainons15 - 3.00 0.0 90.0
+    Chainons15 - 3.00 0.0 -90.0
+    extend right
+    Chainons15 Chainons16 2.23 351.6 -15.3
+    extend left
+    Chainons16 - 0.20 316.3 0.0
+    extend right
+    Chainons16 - 0.20 136.3 0.0
+    extend vertical
+    Chainons16 - 3.00 0.0 90.0
+    Chainons16 - 3.00 0.0 -90.0
+    extend right
+    Chainons16 Chainons17 2.52 46.3 -4.5
+    extend left
+    Chainons17 - 0.20 227.2 0.0
+    extend right
+    Chainons17 - 0.20 47.2 0.0
+    extend vertical
+    Chainons17 - 3.00 0.0 -90.0
+    extend right
+    Chainons17 Chainons18 3.99 317.2 -5.7
+    extend left
+    Chainons18 - 0.20 261.8 0.0
+    extend right
+    Chainons18 - 0.20 81.8 0.0
+    extend vertical
+    Chainons18 - 3.00 0.0 90.0
+    Chainons18 - 3.00 0.0 -90.0
+    extend right
+    Chainons18 Chainons19 1.76 351.8 0.0
+    extend left
+    Chainons19 - 0.20 225.2 0.0
+    extend right
+    Chainons19 - 0.20 45.2 0.0
+    extend vertical
+    Chainons19 - 3.00 0.0 90.0
+    Chainons19 - 3.00 0.0 -90.0
+    extend right
+    Chainons19 Chainons20 3.32 315.2 -8.0
+    extend left
+    Chainons20 - 2.00 270.2 0.0
+    extend right
+    Chainons20 - 2.00 90.2 0.0
+    extend vertical
+    Chainons20 - 2.00 0.0 90.0
+    Chainons20 - 2.00 0.0 -90.0
+    extend right
+    Chainons20 Chainons21 2.70 0.2 -17.0
+    extend left
+    Chainons21 - 0.20 226.8 0.0
+    extend right
+    Chainons21 - 0.20 46.8 0.0
+    extend vertical
+    Chainons21 - 3.00 0.0 90.0
+    Chainons21 - 3.00 0.0 -90.0
+    extend right
+    Chainons21 Chainons22 2.23 316.8 -40.5
+    extend left
+    Chainons22 - 2.00 312.7 0.0
+    extend right
+    Chainons22 - 2.00 132.7 0.0
+    extend vertical
+    Chainons22 - 2.00 0.0 90.0
+    Chainons22 - 2.00 0.0 -90.0
+    extend right
+    Chainons22 Chainons23 19.89 42.7 -83.9
+    extend left
+    Chainons22 - 2.00 286.8 0.0
+    extend right
+    Chainons22 - 2.00 106.8 0.0
+    extend vertical
+    Chainons22 - 2.00 0.0 90.0
+    Chainons22 - 2.00 0.0 -90.0
+    extend right
+    Chainons22 Chainons24 3.67 16.8 47.2
+    extend left
+    Chainons24 - 0.20 223.4 0.0
+    extend right
+    Chainons24 - 0.20 43.4 0.0
+    extend vertical
+    Chainons24 - 3.00 0.0 90.0
+    Chainons24 - 3.00 0.0 -90.0
+    extend right
+    Chainons24 Chainons25 2.94 313.4 5.1
+    extend left
+    Chainons25 - 0.20 226.8 0.0
+    extend right
+    Chainons25 - 0.20 46.8 0.0
+    extend vertical
+    Chainons25 - 3.00 0.0 90.0
+    Chainons25 - 3.00 0.0 -90.0
+    extend right
+    Chainons25 Chainons26 1.70 316.8 6.7
+    Chainons26 - 2.00 96.5 0.0
+    extend left
+    Chainons26 - 2.00 276.5 0.0
+    extend vertical
+    Chainons26 - 2.00 0.0 90.0
+    Chainons26 - 2.00 0.0 -90.0
+    extend left
+    Chainons26 Chainons27 4.25 186.6 82.1
+    extend right
+    Chainons27 - 2.00 96.5 0.0
+    extend left
+    Chainons27 - 2.00 276.5 0.0
+    extend vertical
+    Chainons27 - 2.00 0.0 90.0
+    Chainons27 - 2.00 0.0 -90.0
+    extend left
+    Chainons27 Chainons28 5.92 186.6 72.7
+    extend right
+    Chainons28 - 2.00 112.8 0.0
+    extend left
+    Chainons28 - 2.00 292.8 0.0
+    extend vertical
+    Chainons28 - 2.00 0.0 90.0
+    Chainons28 - 2.00 0.0 -90.0
+    extend left
+    Chainons28 Chainons29 13.05 202.8 82.6
+    Chainons26 - 2.00 262.1 0.0
+    extend right
+    Chainons26 - 2.00 82.1 0.0
+    extend vertical
+    Chainons26 - 2.00 0.0 90.0
+    Chainons26 - 2.00 0.0 -90.0
+    extend right
+    Chainons26 Chainons30 8.07 352.1 -83.5
+    Chainons5 - 2.00 37.8 0.0
+    extend left
+    Chainons5 - 2.00 217.8 0.0
+    extend vertical
+    Chainons5 - 2.00 0.0 90.0
+    Chainons5 - 2.00 0.0 -90.0
+    extend left
+    Chainons5 Chainons31 4.57 127.8 -46.0
+    extend right
+    Chainons31 - 3.00 55.2 0.0
+    extend left
+    Chainons31 - 3.00 235.2 0.0
+    extend vertical
+    Chainons31 - 3.00 0.0 90.0
+    Chainons31 - 3.00 0.0 -90.0
+    extend left
+    Chainons31 Chainons32 13.09 145.2 -79.6
+    extend right
+    Chainons32 - 3.00 53.6 0.0
+    extend left
+    Chainons32 - 3.00 233.6 0.0
+    extend vertical
+    Chainons32 - 3.00 0.0 90.0
+    Chainons32 - 3.00 0.0 -90.0
+    extend left
+    Chainons32 Chainons33 4.02 143.6 -51.7
+    extend right
+    Chainons33 - 0.50 52.8 0.0
+    extend left
+    Chainons33 - 0.50 232.8 0.0
+    extend vertical
+    Chainons33 - 2.00 0.0 90.0
+    Chainons33 - 1.00 0.0 -90.0
+    extend left
+    Chainons33 Chainons34 3.68 142.8 -41.3
+    extend right
+    Chainons34 - 3.00 70.6 0.0
+    extend left
+    Chainons34 - 2.00 250.6 0.0
+    extend vertical
+    Chainons34 - 2.00 0.0 90.0
+    Chainons34 - 2.00 0.0 -90.0
+    extend left
+    Chainons34 Chainons35 12.32 160.6 -85.5
+    extend right
+    Chainons35 - 0.50 138.6 0.0
+    extend left
+    Chainons35 - 0.50 318.6 0.0
+    extend vertical
+    Chainons35 - 2.00 0.0 90.0
+    Chainons35 - 1.00 0.0 -90.0
+    extend left
+    Chainons35 Chainons36 2.35 228.6 6.4
+    extend right
+    Chainons36 - 0.50 164.4 0.0
+    extend left
+    Chainons36 - 0.50 344.4 0.0
+    extend vertical
+    Chainons36 - 2.00 0.0 90.0
+    Chainons36 - 1.00 0.0 -90.0
+    extend left
+    Chainons36 Chainons37 3.56 254.4 0.0
+    extend right
+    Chainons37 - 0.50 48.4 0.0
+    extend left
+    Chainons37 - 0.50 228.4 0.0
+    extend vertical
+    Chainons37 - 2.00 0.0 90.0
+    Chainons37 - 1.00 0.0 -90.0
+    extend left
+    Chainons37 Chainons38 1.65 138.4 -4.6
+    extend right
+    Chainons38 - 0.50 92.1 0.0
+    extend left
+    Chainons38 - 0.50 272.1 0.0
+    extend vertical
+    Chainons38 - 2.00 0.0 90.0
+    Chainons38 - 1.00 0.0 -90.0
+    extend left
+    Chainons38 Chainons39 1.94 182.1 3.9
+    extend right
+    Chainons39 - 0.50 61.2 0.0
+    extend left
+    Chainons39 - 0.50 241.2 0.0
+    extend vertical
+    Chainons39 - 2.00 0.0 90.0
+    Chainons39 - 1.00 0.0 -90.0
+    extend left
+    Chainons39 Chainons40 2.67 151.2 -5.6
+    Chainons40 - 0.50 323.3 0.0
+    extend right
+    Chainons40 - 0.50 143.3 0.0
+    extend vertical
+    Chainons40 - 2.00 0.0 90.0
+    Chainons40 - 1.00 0.0 -90.0
+    extend right
+    Chainons40 Chainons41 0.97 53.3 -3.9
+    extend vertical
+    Chainons5 - 0.50 354.7 0.0
+    Chainons5 - 0.50 174.7 0.0
+    Chainons5 - 2.00 0.0 90.0
+    Chainons5 - 1.00 0.0 -90.0
+    extend right
+    Chainons5 Chainons42 8.54 84.7 44.4
+    extend left
+    Chainons42 - 2.00 332.5 0.0
+    extend right
+    Chainons42 - 2.00 152.5 0.0
+    extend vertical
+    Chainons42 - 2.00 0.0 90.0
+    Chainons42 - 2.00 0.0 -90.0
+    extend right
+    Chainons42 Chainons43 4.54 62.5 50.0
+    extend left
+    Chainons43 - 2.00 328.9 0.0
+    extend right
+    Chainons43 - 2.00 148.9 0.0
+    extend vertical
+    Chainons43 - 2.00 0.0 90.0
+    Chainons43 - 2.00 0.0 -90.0
+    extend right
+    Chainons43 Chainons44 8.92 58.9 48.0
+    extend left
+    Chainons44 - 0.50 338.4 0.0
+    extend right
+    Chainons44 - 0.50 158.4 0.0
+    extend vertical
+    Chainons44 - 2.00 0.0 90.0
+    Chainons44 - 1.00 0.0 -90.0
+    extend right
+    Chainons44 Chainons45 4.75 68.4 36.4
+    extend vertical
+    Chainons45 - 0.50 2.7 0.0
+    Chainons45 - 0.50 182.7 0.0
+    Chainons45 - 2.00 0.0 90.0
+    Chainons45 - 1.00 0.0 -90.0
+    extend left
+    Chainons45 Chainons46 9.31 92.7 36.4
+  endcenterline
+
+endsurvey
+

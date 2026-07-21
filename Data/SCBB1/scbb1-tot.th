@@ -1,0 +1,20 @@
+encoding  utf-8
+
+survey SCBB1 -title "Gouffre des Viennois"
+
+    input Data/Data/2002_05_06/2002_05_06.th
+    input Data/Data/2013_06_30/2013_06_30.th
+    
+    equate SCB1-19@scb1_2002_05_06.2002_05_06 SCB1100@scb1_2013_06_30.2013_06_30
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input scbb1-tot-maps.th
+
+endsurvey
+

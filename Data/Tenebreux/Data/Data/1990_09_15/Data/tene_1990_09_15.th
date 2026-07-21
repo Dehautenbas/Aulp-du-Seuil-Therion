@@ -1,0 +1,1552 @@
+encoding  utf-8
+
+survey tene_1990_09_15 -title "Gouffre du Ténébreux"
+
+  centerline
+    cs UTM31
+    fix Tenebreux1 725944 5029072 1587
+    station Tenebreux1 "Gouffre du Ténébreux" entrance
+    
+    date 1990.09.15 
+    #declination -1.513 degrees
+    #declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    extend left
+    Tenebreux1 - 2.00 286.9 0.0
+    extend right
+    Tenebreux1 - 2.00 106.9 0.0
+    extend vertical
+    Tenebreux1 - 3.00 0.0 90.0
+    Tenebreux1 - 3.00 0.0 -90.0
+    extend right
+    Tenebreux1 Tenebreux2 33.01 16.9 -88.5
+    Tenebreux2 - 4.00 16.9 0.0
+    extend left
+    Tenebreux2 - 4.00 196.9 0.0
+    extend vertical
+    Tenebreux2 - 4.00 0.0 90.0
+    Tenebreux2 - 4.00 0.0 -90.0
+    extend left
+    Tenebreux2 Tenebreux3 17.67 106.9 -88.6
+    Tenebreux2 - 1.00 257.2 0.0
+    extend vertical
+    Tenebreux2 - 5.00 0.0 90.0
+    extend right
+    Tenebreux2 Tenebreux4 1.52 347.2 -27.3
+    extend left
+    Tenebreux4 - 1.00 270.8 0.0
+    extend vertical
+    Tenebreux4 - 5.00 0.0 90.0
+    extend right
+    Tenebreux4 Tenebreux5 4.33 0.8 -40.1
+    extend left
+    Tenebreux5 - 4.00 333.9 0.0
+    extend right
+    Tenebreux5 - 4.00 153.9 0.0
+    extend vertical
+    Tenebreux5 - 4.00 0.0 90.0
+    Tenebreux5 - 4.00 0.0 -90.0
+    extend right
+    Tenebreux5 Tenebreux6 36.42 63.9 -84.5
+    extend left
+    Tenebreux6 - 1.00 315.4 0.0
+    extend vertical
+    Tenebreux6 - 5.00 0.0 90.0
+    extend right
+    Tenebreux6 Tenebreux7 5.63 45.4 -2.4
+    extend left
+    Tenebreux7 - 1.00 293.8 0.0
+    extend vertical
+    Tenebreux7 - 5.00 0.0 90.0
+    extend right
+    Tenebreux7 Tenebreux8 5.97 23.8 -27.8
+    extend left
+    Tenebreux8 - 4.00 225.5 0.0
+    extend right
+    Tenebreux8 - 4.00 45.5 0.0
+    extend vertical
+    Tenebreux8 - 5.00 0.0 90.0
+    Tenebreux8 - 4.00 0.0 -90.0
+    extend right
+    Tenebreux8 Tenebreux9 5.39 315.5 -59.7
+    extend left
+    Tenebreux9 - 1.00 196.4 0.0
+    extend vertical
+    Tenebreux9 - 5.00 0.0 90.0
+    extend right
+    Tenebreux9 Tenebreux10 5.85 286.4 -42.5
+    extend left
+    Tenebreux10 - 1.00 199.9 0.0
+    extend vertical
+    Tenebreux10 - 5.00 0.0 90.0
+    extend right
+    Tenebreux10 Tenebreux11 13.84 289.9 -3.8
+    extend left
+    Tenebreux11 - 1.00 270.6 0.0
+    extend vertical
+    Tenebreux11 - 5.00 0.0 90.0
+    extend right
+    Tenebreux11 Tenebreux12 14.59 0.6 -0.9
+    extend left
+    Tenebreux12 - 1.00 247.4 0.0
+    extend vertical
+    Tenebreux12 - 5.00 0.0 90.0
+    extend right
+    Tenebreux12 Tenebreux13 15.48 337.4 -0.9
+    extend left
+    Tenebreux13 - 1.00 318.7 0.0
+    extend vertical
+    Tenebreux13 - 5.00 0.0 90.0
+    extend right
+    Tenebreux13 Tenebreux14 6.25 48.7 -6.4
+    extend vertical
+    Tenebreux14 - 5.00 0.0 90.0
+    extend right
+    Tenebreux14 Tenebreux15 14.47 64.5 -84.8
+    extend left
+    Tenebreux15 - 1.00 243.5 0.0
+    extend vertical
+    Tenebreux15 - 5.00 0.0 90.0
+    extend right
+    Tenebreux15 Tenebreux16 8.53 333.5 -6.3
+    extend left
+    Tenebreux16 - 1.00 290.2 0.0
+    extend vertical
+    Tenebreux16 - 5.00 0.0 90.0
+    extend right
+    Tenebreux16 Tenebreux17 9.72 20.2 -4.1
+    extend left
+    Tenebreux17 - 1.00 345.4 0.0
+    extend vertical
+    Tenebreux17 - 5.00 0.0 90.0
+    extend right
+    Tenebreux17 Tenebreux18 4.19 75.4 -12.8
+    extend vertical
+    Tenebreux18 - 4.00 3.3 0.0
+    Tenebreux18 - 4.00 183.3 0.0
+    Tenebreux18 - 4.00 0.0 90.0
+    Tenebreux18 - 4.00 0.0 -90.0
+    extend left
+    Tenebreux18 Tenebreux19 6.25 93.3 -75.2
+    Tenebreux19 - 1.00 195.9 0.0
+    extend vertical
+    Tenebreux19 - 5.00 0.0 90.0
+    extend left
+    Tenebreux19 Tenebreux20 5.65 105.9 -38.1
+    extend right
+    Tenebreux20 - 1.00 131.2 0.0
+    extend vertical
+    Tenebreux20 - 5.00 0.0 90.0
+    extend right
+    Tenebreux20 Tenebreux21 5.34 41.2 -28.6
+    Tenebreux21 - 1.00 92.2 0.0
+    extend vertical
+    Tenebreux21 - 5.00 0.0 90.0
+    extend right
+    Tenebreux21 Tenebreux22 6.51 2.2 -16.6
+    extend left
+    Tenebreux22 - 4.00 208.2 0.0
+    extend right
+    Tenebreux22 - 4.00 28.2 0.0
+    extend vertical
+    Tenebreux22 - 4.00 0.0 90.0
+    Tenebreux22 - 4.00 0.0 -90.0
+    extend right
+    Tenebreux22 Tenebreux23 7.67 298.2 -65.3
+    Tenebreux23 - 1.00 64.5 0.0
+    extend vertical
+    Tenebreux23 - 5.00 0.0 90.0
+    extend right
+    Tenebreux23 Tenebreux24 7.96 334.5 -10.1
+    Tenebreux24 - 1.00 148.1 0.0
+    extend vertical
+    Tenebreux24 - 5.00 0.0 90.0
+    extend right
+    Tenebreux24 Tenebreux25 4.55 58.1 -11.8
+    extend left
+    Tenebreux25 - 1.00 209.9 0.0
+    extend vertical
+    Tenebreux25 - 5.00 0.0 90.0
+    extend left
+    Tenebreux25 Tenebreux26 2.80 119.9 0.0
+    extend vertical
+    Tenebreux26 - 1.00 176.1 0.0
+    Tenebreux26 - 5.00 0.0 90.0
+    extend right
+    Tenebreux26 Tenebreux27 3.32 86.1 -16.3
+    Tenebreux27 - 1.00 144.8 0.0
+    extend vertical
+    Tenebreux27 - 5.00 0.0 90.0
+    extend right
+    Tenebreux27 Tenebreux28 3.01 54.8 -18.0
+    extend vertical
+    Tenebreux28 - 1.00 182.7 0.0
+    Tenebreux28 - 5.00 0.0 90.0
+    extend left
+    Tenebreux28 Tenebreux29 13.73 92.7 -57.8
+    Tenebreux29 - 3.00 342.6 0.0
+    extend right
+    Tenebreux29 - 3.00 162.6 0.0
+    extend vertical
+    Tenebreux29 - 3.00 0.0 90.0
+    Tenebreux29 - 3.00 0.0 -90.0
+    extend right
+    Tenebreux29 Tenebreux30 1.69 72.6 -55.3
+    Tenebreux29 - 1.00 99.8 0.0
+    extend vertical
+    Tenebreux29 - 5.00 0.0 90.0
+    extend right
+    Tenebreux29 Tenebreux31 5.61 9.8 32.6
+    Tenebreux31 - 1.00 95.9 0.0
+    extend vertical
+    Tenebreux31 - 5.00 0.0 90.0
+    extend right
+    Tenebreux31 Tenebreux32 6.17 5.9 4.3
+    Tenebreux32 - 1.00 136.4 0.0
+    extend vertical
+    Tenebreux32 - 5.00 0.0 90.0
+    extend right
+    Tenebreux32 Tenebreux33 5.54 46.4 -2.4
+    Tenebreux33 - 1.00 116.9 0.0
+    extend vertical
+    Tenebreux33 - 5.00 0.0 90.0
+    extend right
+    Tenebreux33 Tenebreux34 3.80 26.9 -17.8
+    Tenebreux34 - 1.00 95.6 0.0
+    extend vertical
+    Tenebreux34 - 5.00 0.0 90.0
+    extend right
+    Tenebreux34 Tenebreux35 6.43 5.6 -4.1
+    Tenebreux35 - 1.00 135.8 0.0
+    extend vertical
+    Tenebreux35 - 5.00 0.0 90.0
+    extend right
+    Tenebreux35 Tenebreux36 4.70 45.8 -2.8
+    extend left
+    Tenebreux36 - 1.00 292.5 0.0
+    extend vertical
+    Tenebreux36 - 5.00 0.0 90.0
+    extend right
+    Tenebreux36 Tenebreux37 6.68 22.5 -12.1
+    extend left
+    Tenebreux37 - 1.00 327.1 0.0
+    extend vertical
+    Tenebreux37 - 5.00 0.0 90.0
+    extend right
+    Tenebreux37 Tenebreux38 4.47 57.1 -51.3
+    extend left
+    Tenebreux38 - 1.00 288.9 0.0
+    extend vertical
+    Tenebreux38 - 5.00 0.0 90.0
+    extend right
+    Tenebreux38 Tenebreux39 4.97 18.9 5.4
+    extend left
+    Tenebreux39 - 1.00 333.5 0.0
+    extend vertical
+    Tenebreux39 - 5.00 0.0 90.0
+    extend right
+    Tenebreux39 Tenebreux40 2.21 63.5 -6.0
+    extend left
+    Tenebreux40 - 1.00 301.5 0.0
+    extend vertical
+    Tenebreux40 - 5.00 0.0 90.0
+    extend right
+    Tenebreux40 Tenebreux41 3.19 31.5 -8.4
+    extend left
+    Tenebreux41 - 1.00 263.3 0.0
+    extend vertical
+    Tenebreux41 - 5.00 0.0 90.0
+    extend right
+    Tenebreux41 Tenebreux42 4.39 353.3 0.0
+    Tenebreux42 - 1.00 13.8 0.0
+    extend vertical
+    Tenebreux42 - 5.00 0.0 90.0
+    extend left
+    Tenebreux42 Tenebreux43 4.59 103.8 -8.7
+    extend right
+    Tenebreux43 - 1.00 88.5 0.0
+    extend vertical
+    Tenebreux43 - 5.00 0.0 90.0
+    extend left
+    Tenebreux43 Tenebreux44 1.19 178.5 -77.1
+    Tenebreux44 - 1.00 277.5 0.0
+    extend vertical
+    Tenebreux44 - 5.00 0.0 90.0
+    extend right
+    Tenebreux44 Tenebreux45 5.23 7.5 -12.8
+    extend left
+    Tenebreux45 - 1.00 271.4 0.0
+    extend vertical
+    Tenebreux45 - 5.00 0.0 90.0
+    extend right
+    Tenebreux45 Tenebreux46 5.50 1.4 -19.8
+    extend left
+    Tenebreux46 - 1.00 261.9 0.0
+    extend vertical
+    Tenebreux46 - 5.00 0.0 90.0
+    extend right
+    Tenebreux46 Tenebreux47 4.31 351.9 -36.4
+    extend left
+    Tenebreux47 - 3.00 260.4 0.0
+    extend right
+    Tenebreux47 - 3.00 80.4 0.0
+    extend vertical
+    Tenebreux47 - 3.00 0.0 90.0
+    Tenebreux47 - 3.00 0.0 -90.0
+    extend right
+    Tenebreux47 Tenebreux48 7.26 350.4 -82.6
+    Tenebreux48 - 1.00 129.0 0.0
+    extend vertical
+    Tenebreux48 - 5.00 0.0 90.0
+    extend right
+    Tenebreux48 Tenebreux49 5.96 39.0 6.7
+    extend vertical
+    Tenebreux49 - 1.00 174.1 0.0
+    Tenebreux49 - 5.00 0.0 90.0
+    extend right
+    Tenebreux49 Tenebreux50 3.53 84.1 11.4
+    Tenebreux50 - 1.00 126.9 0.0
+    extend vertical
+    Tenebreux50 - 5.00 0.0 90.0
+    extend right
+    Tenebreux50 Tenebreux51 4.08 36.9 -6.5
+    Tenebreux51 - 1.00 105.9 0.0
+    extend vertical
+    Tenebreux51 - 5.00 0.0 90.0
+    extend right
+    Tenebreux51 Tenebreux52 4.47 15.9 -6.0
+    extend left
+    Tenebreux52 - 3.00 244.5 0.0
+    extend right
+    Tenebreux52 - 3.00 64.5 0.0
+    extend vertical
+    Tenebreux52 - 3.00 0.0 90.0
+    Tenebreux52 - 3.00 0.0 -90.0
+    extend right
+    Tenebreux52 Tenebreux53 1.91 334.5 -46.9
+    extend vertical
+    Tenebreux53 - 5.00 0.0 90.0
+    extend right
+    Tenebreux53 Tenebreux54 3.12 24.0 -8.6
+    Tenebreux54 - 1.00 15.2 0.0
+    extend vertical
+    Tenebreux54 - 5.00 0.0 90.0
+    extend left
+    Tenebreux54 Tenebreux55 2.78 105.2 4.8
+    Tenebreux55 - 1.00 311.0 0.0
+    extend vertical
+    Tenebreux55 - 5.00 0.0 90.0
+    extend right
+    Tenebreux55 Tenebreux56 2.16 41.0 0.0
+    extend left
+    Tenebreux56 - 1.00 236.0 0.0
+    extend vertical
+    Tenebreux56 - 5.00 0.0 90.0
+    extend right
+    Tenebreux56 Tenebreux57 3.47 326.0 3.9
+    extend left
+    Tenebreux57 - 1.00 319.2 0.0
+    extend vertical
+    Tenebreux57 - 5.00 0.0 90.0
+    extend right
+    Tenebreux57 Tenebreux58 5.69 49.2 -7.0
+    Tenebreux58 - 1.00 16.9 0.0
+    extend vertical
+    Tenebreux58 - 5.00 0.0 90.0
+    extend left
+    Tenebreux58 Tenebreux59 2.11 106.9 6.3
+    Tenebreux59 - 1.00 331.9 0.0
+    extend vertical
+    Tenebreux59 - 5.00 0.0 90.0
+    extend right
+    Tenebreux59 Tenebreux60 3.29 61.9 -8.1
+    extend left
+    Tenebreux60 - 1.00 270.6 0.0
+    extend vertical
+    Tenebreux60 - 5.00 0.0 90.0
+    extend right
+    Tenebreux60 Tenebreux61 3.59 0.6 3.7
+    extend left
+    Tenebreux61 - 1.00 333.0 0.0
+    extend vertical
+    Tenebreux61 - 5.00 0.0 90.0
+    extend right
+    Tenebreux61 Tenebreux62 3.29 63.0 -20.6
+    extend left
+    Tenebreux62 - 1.00 256.6 0.0
+    extend vertical
+    Tenebreux62 - 5.00 0.0 90.0
+    extend right
+    Tenebreux62 Tenebreux63 2.57 346.6 0.0
+    extend left
+    Tenebreux63 - 1.00 304.0 0.0
+    extend vertical
+    Tenebreux63 - 5.00 0.0 90.0
+    extend right
+    Tenebreux63 Tenebreux64 2.38 34.0 -17.0
+    extend left
+    Tenebreux64 - 1.00 234.3 0.0
+    extend vertical
+    Tenebreux64 - 5.00 0.0 90.0
+    extend right
+    Tenebreux64 Tenebreux65 4.01 324.3 0.0
+    extend left
+    Tenebreux65 - 1.00 307.4 0.0
+    extend vertical
+    Tenebreux65 - 5.00 0.0 90.0
+    extend right
+    Tenebreux65 Tenebreux66 5.29 37.4 -2.5
+    extend vertical
+    Tenebreux66 - 1.00 5.6 0.0
+    Tenebreux66 - 5.00 0.0 90.0
+    extend left
+    Tenebreux66 Tenebreux67 2.15 95.6 -6.2
+    Tenebreux67 - 1.00 282.5 0.0
+    extend vertical
+    Tenebreux67 - 5.00 0.0 90.0
+    extend right
+    Tenebreux67 Tenebreux68 2.23 12.5 -12.0
+    extend left
+    Tenebreux68 - 1.00 309.7 0.0
+    extend vertical
+    Tenebreux68 - 5.00 0.0 90.0
+    extend right
+    Tenebreux68 Tenebreux69 2.86 39.7 -9.4
+    extend left
+    Tenebreux69 - 11.00 234.8 0.0
+    extend vertical
+    Tenebreux69 - 5.00 0.0 90.0
+    extend right
+    Tenebreux69 Tenebreux70 2.44 324.8 -11.0
+    extend vertical
+    Tenebreux70 - 1.00 183.3 0.0
+    Tenebreux70 - 5.00 0.0 90.0
+    extend right
+    Tenebreux70 Tenebreux71 1.85 273.3 -30.2
+    Tenebreux71 - 1.00 136.2 0.0
+    extend vertical
+    Tenebreux71 - 5.00 0.0 90.0
+    extend left
+    Tenebreux71 Tenebreux72 2.29 226.2 -30.5
+    Tenebreux72 - 1.00 254.0 0.0
+    extend vertical
+    Tenebreux72 - 5.00 0.0 90.0
+    extend right
+    Tenebreux72 Tenebreux73 4.30 344.0 -9.3
+    extend left
+    Tenebreux73 - 1.00 320.4 0.0
+    extend vertical
+    Tenebreux73 - 5.00 0.0 90.0
+    extend right
+    Tenebreux73 Tenebreux74 3.15 50.3 -41.5
+    Tenebreux74 - 5.00 22.1 0.0
+    extend left
+    Tenebreux74 - 5.00 202.1 0.0
+    extend vertical
+    Tenebreux74 - 10.00 0.0 90.0
+    Tenebreux74 - 5.00 0.0 -90.0
+    extend left
+    Tenebreux74 Tenebreux75 113.85 112.1 -86.5
+    Tenebreux75 - 2.00 254.5 0.0
+    extend right
+    Tenebreux75 - 3.00 74.5 0.0
+    extend vertical
+    Tenebreux75 - 5.00 0.0 90.0
+    extend right
+    Tenebreux75 Tenebreux76 5.18 344.5 -32.5
+    extend left
+    Tenebreux76 - 5.00 255.5 0.0
+    extend right
+    Tenebreux76 - 5.00 75.5 0.0
+    extend vertical
+    Tenebreux76 - 10.00 0.0 90.0
+    Tenebreux76 - 5.00 0.0 -90.0
+    extend right
+    Tenebreux76 Tenebreux77 72.13 345.5 -87.2
+    Tenebreux45 - 2.00 16.9 0.0
+    extend left
+    Tenebreux45 - 6.00 196.9 0.0
+    extend vertical
+    Tenebreux45 - 4.00 0.0 90.0
+    Tenebreux45 - 4.00 0.0 -90.0
+    extend left
+    Tenebreux45 Tenebreux78 26.27 106.9 -88.2
+    Tenebreux78 - 2.00 331.9 0.0
+    extend right
+    Tenebreux78 - 8.00 151.9 0.0
+    extend vertical
+    Tenebreux78 - 4.00 0.0 90.0
+    Tenebreux78 - 4.00 0.0 -90.0
+    extend right
+    Tenebreux78 Tenebreux79 15.36 61.9 -86.7
+    extend vertical
+    Tenebreux79 - 2.00 2.2 0.0
+    Tenebreux79 - 5.00 0.0 90.0
+    extend left
+    Tenebreux79 Tenebreux80 4.97 92.2 -34.1
+    Tenebreux80 - 1.00 331.9 0.0
+    extend right
+    Tenebreux80 - 1.00 151.9 0.0
+    extend vertical
+    Tenebreux80 - 5.00 0.0 90.0
+    extend right
+    Tenebreux80 Tenebreux81 3.00 61.9 8.9
+    Tenebreux81 - 1.00 16.9 0.0
+    extend vertical
+    Tenebreux81 - 5.00 0.0 90.0
+    extend left
+    Tenebreux81 Tenebreux82 5.16 106.9 -26.8
+    Tenebreux82 - 1.00 293.3 0.0
+    extend vertical
+    Tenebreux82 - 5.00 0.0 90.0
+    extend right
+    Tenebreux82 Tenebreux83 10.24 23.3 -17.2
+    extend left
+    Tenebreux83 - 5.00 279.1 0.0
+    extend right
+    Tenebreux83 - 5.00 99.1 0.0
+    extend vertical
+    Tenebreux83 - 5.00 0.0 90.0
+    Tenebreux83 - 5.00 0.0 -90.0
+    extend right
+    Tenebreux83 Tenebreux84 31.45 9.1 -86.1
+    Tenebreux84 - 1.00 109.1 0.0
+    extend vertical
+    Tenebreux84 - 5.00 0.0 90.0
+    extend left
+    Tenebreux84 Tenebreux85 3.40 199.1 -3.9
+    extend vertical
+    Tenebreux85 - 1.00 174.1 0.0
+    Tenebreux85 - 5.00 0.0 90.0
+    extend left
+    Tenebreux85 Tenebreux86 5.23 264.1 -7.7
+    Tenebreux86 - 1.00 273.7 0.0
+    extend vertical
+    Tenebreux86 - 5.00 0.0 90.0
+    extend right
+    Tenebreux86 Tenebreux87 1.48 3.7 -9.0
+    extend vertical
+    Tenebreux87 - 1.00 188.8 0.0
+    Tenebreux87 - 5.00 0.0 90.0
+    extend right
+    Tenebreux87 Tenebreux88 3.04 278.8 -13.2
+    extend left
+    Tenebreux88 - 1.00 213.5 0.0
+    extend vertical
+    Tenebreux88 - 5.00 0.0 90.0
+    extend right
+    Tenebreux88 Tenebreux89 1.63 303.5 -8.2
+    extend left
+    Tenebreux89 - 1.00 192.5 0.0
+    extend vertical
+    Tenebreux89 - 5.00 0.0 90.0
+    extend right
+    Tenebreux89 Tenebreux90 4.40 282.5 -6.1
+    extend left
+    Tenebreux90 - 1.00 241.9 0.0
+    extend vertical
+    Tenebreux90 - 5.00 0.0 90.0
+    extend right
+    Tenebreux90 Tenebreux91 2.71 331.9 -9.9
+    extend vertical
+    Tenebreux91 - 1.00 184.8 0.0
+    Tenebreux91 - 5.00 0.0 90.0
+    extend right
+    Tenebreux91 Tenebreux92 1.29 274.8 -21.2
+    Tenebreux92 - 1.00 104.5 0.0
+    extend vertical
+    Tenebreux92 - 5.00 0.0 90.0
+    extend left
+    Tenebreux92 Tenebreux93 2.98 194.4 -13.5
+    Tenebreux93 - 1.00 223.5 0.0
+    extend vertical
+    Tenebreux93 - 5.00 0.0 90.0
+    extend right
+    Tenebreux93 Tenebreux94 1.52 313.5 -8.8
+    extend left
+    Tenebreux94 - 1.00 260.4 0.0
+    extend vertical
+    Tenebreux94 - 5.00 0.0 90.0
+    extend right
+    Tenebreux94 Tenebreux95 2.09 350.4 -26.4
+    extend left
+    Tenebreux95 - 1.00 235.8 0.0
+    extend vertical
+    Tenebreux95 - 5.00 0.0 90.0
+    extend right
+    Tenebreux95 Tenebreux96 2.31 325.8 -17.5
+    Tenebreux96 - 1.00 113.5 0.0
+    extend vertical
+    Tenebreux96 - 5.00 0.0 90.0
+    extend left
+    Tenebreux96 Tenebreux97 2.19 203.5 0.0
+    Tenebreux97 - 1.00 226.9 0.0
+    extend vertical
+    Tenebreux97 - 5.00 0.0 90.0
+    extend right
+    Tenebreux97 Tenebreux98 1.98 316.9 -36.0
+    extend left
+    Tenebreux98 - 1.00 270.4 0.0
+    extend vertical
+    Tenebreux98 - 5.00 0.0 90.0
+    extend right
+    Tenebreux98 Tenebreux99 4.17 0.3 -9.6
+    extend left
+    Tenebreux99 - 1.00 245.3 0.0
+    extend vertical
+    Tenebreux99 - 5.00 0.0 90.0
+    extend right
+    Tenebreux99 Tenebreux100 2.02 335.3 0.0
+    extend left
+    Tenebreux100 - 1.00 299.5 0.0
+    extend vertical
+    Tenebreux100 - 5.00 0.0 90.0
+    extend right
+    Tenebreux100 Tenebreux101 1.56 29.5 8.5
+    extend vertical
+    Tenebreux101 - 5.00 0.0 90.0
+    extend right
+    Tenebreux101 Tenebreux102 2.08 354.4 -26.5
+    extend left
+    Tenebreux102 - 2.00 299.5 0.0
+    extend right
+    Tenebreux102 - 7.00 119.5 0.0
+    extend vertical
+    Tenebreux102 - 3.00 0.0 90.0
+    Tenebreux102 - 4.00 0.0 -90.0
+    extend right
+    Tenebreux102 Tenebreux103 1.80 29.5 -64.6
+    extend left
+    Tenebreux103 - 2.00 295.1 0.0
+    extend right
+    Tenebreux103 - 7.00 115.1 0.0
+    extend vertical
+    Tenebreux103 - 3.00 0.0 90.0
+    Tenebreux103 - 3.00 0.0 -90.0
+    extend right
+    Tenebreux103 Tenebreux104 10.96 25.1 -85.3
+    extend vertical
+    Tenebreux104 - 5.00 0.0 90.0
+    extend right
+    Tenebreux104 Tenebreux105 3.86 354.6 -3.4
+    extend vertical
+    Tenebreux105 - 5.00 0.0 90.0
+    extend right
+    Tenebreux105 Tenebreux106 2.85 71.8 -14.1
+    Tenebreux106 - 1.00 11.5 0.0
+    extend left
+    Tenebreux106 - 8.00 191.5 0.0
+    extend vertical
+    Tenebreux106 - 4.00 0.0 90.0
+    Tenebreux106 - 4.00 0.0 -90.0
+    extend left
+    Tenebreux106 Tenebreux107 4.12 101.5 -64.6
+    extend vertical
+    Tenebreux107 - 1.00 3.8 0.0
+    Tenebreux107 - 5.00 0.0 90.0
+    extend left
+    Tenebreux107 Tenebreux108 8.66 93.8 -1.5
+    extend right
+    Tenebreux108 - 1.00 39.7 0.0
+    extend left
+    Tenebreux108 - 8.00 219.7 0.0
+    extend vertical
+    Tenebreux108 - 5.00 0.0 90.0
+    Tenebreux108 - 4.00 0.0 -90.0
+    extend left
+    Tenebreux108 Tenebreux109 30.71 129.7 -87.4
+    extend right
+    Tenebreux109 - 2.00 53.3 0.0
+    extend left
+    Tenebreux109 - 8.00 233.3 0.0
+    extend vertical
+    Tenebreux109 - 4.00 0.0 90.0
+    Tenebreux109 - 4.00 0.0 -90.0
+    extend left
+    Tenebreux109 Tenebreux110 4.44 143.3 -51.6
+    extend vertical
+    Tenebreux110 - 4.00 0.0 90.0
+    extend left
+    Tenebreux110 Tenebreux111 6.13 111.7 -8.7
+    extend vertical
+    Tenebreux111 - 4.00 0.0 90.0
+    extend right
+    Tenebreux111 Tenebreux112 6.09 82.0 -15.5
+    extend left
+    Tenebreux112 - 1.00 346.6 0.0
+    extend right
+    Tenebreux112 - 10.00 166.6 0.0
+    extend vertical
+    Tenebreux112 - 4.00 0.0 90.0
+    Tenebreux112 - 3.00 0.0 -90.0
+    extend right
+    Tenebreux112 Tenebreux113 43.30 76.6 -86.6
+    extend vertical
+    Tenebreux113 - 4.00 0.0 90.0
+    extend right
+    Tenebreux113 Tenebreux114 4.65 41.1 -14.5
+    extend left
+    Tenebreux114 - 3.00 288.5 0.0
+    extend right
+    Tenebreux114 - 3.00 108.5 0.0
+    extend vertical
+    Tenebreux114 - 8.00 0.0 90.0
+    Tenebreux114 - 2.00 0.0 -90.0
+    extend right
+    Tenebreux114 Tenebreux115 21.44 18.5 -85.8
+    Tenebreux115 - 1.00 78.7 0.0
+    extend vertical
+    Tenebreux115 - 3.00 0.0 90.0
+    extend left
+    Tenebreux115 Tenebreux116 3.93 168.7 -6.8
+    extend right
+    Tenebreux38 - 1.00 88.5 0.0
+    extend vertical
+    Tenebreux38 - 3.00 0.0 90.0
+    extend left
+    Tenebreux38 Tenebreux117 6.10 178.5 0.0
+    extend right
+    Tenebreux117 - 1.00 81.6 0.0
+    extend vertical
+    Tenebreux117 - 3.00 0.0 90.0
+    extend left
+    Tenebreux117 Tenebreux118 4.46 171.6 9.0
+    extend right
+    Tenebreux118 - 1.00 117.9 0.0
+    extend vertical
+    Tenebreux118 - 3.00 0.0 90.0
+    extend left
+    Tenebreux118 Tenebreux119 2.43 207.9 0.0
+    extend vertical
+    Tenebreux119 - 1.00 9.8 0.0
+    Tenebreux119 - 3.00 0.0 90.0
+    extend left
+    Tenebreux119 Tenebreux120 4.73 99.8 0.0
+    extend right
+    Tenebreux120 - 1.00 52.0 0.0
+    extend vertical
+    Tenebreux120 - 3.00 0.0 90.0
+    extend left
+    Tenebreux120 Tenebreux121 3.79 142.0 0.0
+    Tenebreux121 - 1.00 333.5 0.0
+    extend vertical
+    Tenebreux121 - 3.00 0.0 90.0
+    extend right
+    Tenebreux121 Tenebreux122 2.21 63.5 -6.0
+    extend vertical
+    Tenebreux122 - 3.00 0.0 90.0
+    extend left
+    Tenebreux122 Tenebreux123 2.79 129.4 -19.5
+    Tenebreux123 - 1.00 289.1 0.0
+    extend right
+    Tenebreux123 - 1.00 109.1 0.0
+    extend vertical
+    Tenebreux123 - 1.00 0.0 90.0
+    Tenebreux123 - 1.00 0.0 -90.0
+    extend right
+    Tenebreux123 Tenebreux124 2.18 19.1 -58.6
+    extend left
+    Tenebreux124 - 1.00 245.8 0.0
+    extend right
+    Tenebreux124 - 1.00 65.8 0.0
+    extend vertical
+    Tenebreux124 - 1.00 0.0 90.0
+    Tenebreux124 - 1.00 0.0 -90.0
+    extend right
+    Tenebreux124 Tenebreux125 9.07 335.8 -60.6
+    extend left
+    Tenebreux125 - 1.00 237.1 0.0
+    extend vertical
+    Tenebreux125 - 3.00 0.0 90.0
+    extend right
+    Tenebreux125 Tenebreux126 10.97 327.1 -33.4
+    extend left
+    Tenebreux126 - 1.00 289.1 0.0
+    extend vertical
+    Tenebreux126 - 3.00 0.0 90.0
+    extend right
+    Tenebreux126 Tenebreux127 9.72 19.1 -54.4
+    extend left
+    Tenebreux127 - 1.00 287.4 0.0
+    extend vertical
+    Tenebreux127 - 3.00 0.0 90.0
+    extend right
+    Tenebreux127 Tenebreux128 11.43 17.4 -26.6
+    Tenebreux123 - 1.00 93.9 0.0
+    extend vertical
+    Tenebreux123 - 3.00 0.0 90.0
+    extend left
+    Tenebreux123 Tenebreux129 8.47 183.9 -7.9
+    extend right
+    Tenebreux129 - 1.00 120.5 0.0
+    extend vertical
+    Tenebreux129 - 3.00 0.0 90.0
+    extend left
+    Tenebreux129 Tenebreux130 2.76 210.5 24.9
+    extend right
+    Tenebreux130 - 1.00 67.5 0.0
+    extend vertical
+    Tenebreux130 - 3.00 0.0 90.0
+    extend left
+    Tenebreux130 Tenebreux131 1.90 157.5 14.1
+    extend right
+    Tenebreux131 - 1.00 124.5 0.0
+    extend vertical
+    Tenebreux131 - 3.00 0.0 90.0
+    extend left
+    Tenebreux131 Tenebreux132 1.86 214.5 14.5
+    extend right
+    Tenebreux132 - 1.00 85.1 0.0
+    extend vertical
+    Tenebreux132 - 3.00 0.0 90.0
+    extend left
+    Tenebreux132 Tenebreux133 2.36 175.1 17.2
+    extend right
+    Tenebreux133 - 1.00 122.2 0.0
+    extend vertical
+    Tenebreux133 - 3.00 0.0 90.0
+    extend left
+    Tenebreux133 Tenebreux134 2.44 212.2 11.0
+    extend right
+    Tenebreux134 - 1.00 87.1 0.0
+    extend vertical
+    Tenebreux134 - 3.00 0.0 90.0
+    extend left
+    Tenebreux134 Tenebreux135 5.48 177.1 14.7
+    Tenebreux135 - 1.00 280.3 0.0
+    extend vertical
+    Tenebreux135 - 3.00 0.0 90.0
+    extend left
+    Tenebreux135 Tenebreux136 3.26 190.3 4.1
+    Tenebreux136 - 1.00 213.3 0.0
+    extend vertical
+    Tenebreux136 - 3.00 0.0 90.0
+    extend left
+    Tenebreux136 Tenebreux137 3.72 123.3 3.6
+    Tenebreux137 - 1.00 193.8 0.0
+    extend vertical
+    Tenebreux137 - 3.00 0.0 90.0
+    extend left
+    Tenebreux137 Tenebreux138 1.90 103.8 37.6
+    Tenebreux138 - 1.00 262.8 0.0
+    extend vertical
+    Tenebreux138 - 33.00 0.0 90.0
+    extend left
+    Tenebreux138 Tenebreux139 6.68 172.8 4.0
+    Tenebreux139 - 1.00 253.7 0.0
+    extend vertical
+    Tenebreux139 - 3.00 0.0 90.0
+    extend left
+    Tenebreux139 Tenebreux140 4.68 163.7 5.7
+    Tenebreux140 - 1.00 293.5 0.0
+    extend vertical
+    Tenebreux140 - 3.00 0.0 90.0
+    extend left
+    Tenebreux140 Tenebreux141 2.30 203.5 17.6
+    Tenebreux141 - 1.00 254.9 0.0
+    extend vertical
+    Tenebreux141 - 3.00 0.0 90.0
+    extend left
+    Tenebreux141 Tenebreux142 3.95 164.9 0.0
+    Tenebreux142 - 1.00 201.1 0.0
+    extend vertical
+    Tenebreux142 - 3.00 0.0 90.0
+    extend left
+    Tenebreux142 Tenebreux143 1.86 111.1 22.0
+    Tenebreux143 - 1.00 247.6 0.0
+    extend vertical
+    Tenebreux143 - 3.00 0.0 90.0
+    extend left
+    Tenebreux143 Tenebreux144 3.51 157.6 32.0
+    extend right
+    Tenebreux144 - 1.00 152.9 0.0
+    extend vertical
+    Tenebreux144 - 3.00 0.0 90.0
+    extend right
+    Tenebreux144 Tenebreux145 3.86 62.9 28.8
+    extend left
+    Tenebreux145 - 1.00 246.7 0.0
+    extend vertical
+    Tenebreux145 - 3.00 0.0 90.0
+    extend left
+    Tenebreux145 Tenebreux146 3.60 156.7 7.4
+    Tenebreux146 - 1.00 283.7 0.0
+    extend vertical
+    Tenebreux146 - 3.00 0.0 90.0
+    extend left
+    Tenebreux146 Tenebreux147 6.63 193.7 6.0
+    Tenebreux147 - 1.00 271.7 0.0
+    extend vertical
+    Tenebreux147 - 3.00 0.0 90.0
+    extend left
+    Tenebreux147 Tenebreux148 4.80 181.7 5.5
+    Tenebreux148 - 1.00 317.3 0.0
+    extend vertical
+    Tenebreux148 - 3.00 0.0 90.0
+    extend left
+    Tenebreux148 Tenebreux149 4.25 227.3 6.3
+    Tenebreux149 - 1.00 301.8 0.0
+    extend vertical
+    Tenebreux149 - 3.00 0.0 90.0
+    extend left
+    Tenebreux149 Tenebreux150 6.10 211.8 8.8
+    Tenebreux150 - 1.00 254.1 0.0
+    extend vertical
+    Tenebreux150 - 3.00 0.0 90.0
+    extend left
+    Tenebreux150 Tenebreux151 19.79 164.1 5.4
+    extend right
+    Tenebreux151 - 1.00 151.5 0.0
+    extend left
+    Tenebreux151 - 1.00 331.5 0.0
+    extend vertical
+    Tenebreux151 - 1.00 0.0 90.0
+    Tenebreux151 - 1.00 0.0 -90.0
+    extend left
+    Tenebreux151 Tenebreux152 7.06 241.5 7.6
+    Tenebreux152 - 1.00 232.0 0.0
+    extend vertical
+    Tenebreux152 - 3.00 0.0 90.0
+    extend right
+    Tenebreux152 Tenebreux153 10.10 322.0 63.8
+    extend left
+    Tenebreux153 - 1.00 203.8 0.0
+    extend vertical
+    Tenebreux153 - 3.00 0.0 90.0
+    extend right
+    Tenebreux153 Tenebreux154 2.94 293.9 18.5
+    Tenebreux154 - 1.00 108.0 0.0
+    extend vertical
+    Tenebreux154 - 3.00 0.0 90.0
+    extend left
+    Tenebreux154 Tenebreux155 7.22 198.0 20.7
+    extend right
+    Tenebreux155 - 1.00 81.9 0.0
+    extend vertical
+    Tenebreux155 - 3.00 0.0 90.0
+    extend left
+    Tenebreux155 Tenebreux156 24.17 171.9 2.2
+    extend right
+    Tenebreux156 - 1.00 125.7 0.0
+    extend vertical
+    Tenebreux156 - 3.00 0.0 90.0
+    extend left
+    Tenebreux156 Tenebreux157 4.17 215.7 3.2
+    extend right
+    Tenebreux157 - 1.00 103.2 0.0
+    extend vertical
+    Tenebreux157 - 3.00 0.0 90.0
+    extend left
+    Tenebreux157 Tenebreux158 8.98 193.2 7.4
+    extend right
+    Tenebreux158 - 1.00 160.8 0.0
+    extend vertical
+    Tenebreux158 - 3.00 0.0 90.0
+    extend left
+    Tenebreux158 Tenebreux159 6.28 250.9 12.8
+    extend right
+    Tenebreux159 - 1.00 80.8 0.0
+    extend vertical
+    Tenebreux159 - 3.00 0.0 90.0
+    extend left
+    Tenebreux159 Tenebreux160 5.21 170.8 18.2
+    extend right
+    Tenebreux160 - 1.00 119.8 0.0
+    extend vertical
+    Tenebreux160 - 3.00 0.0 90.0
+    extend left
+    Tenebreux160 Tenebreux161 3.64 209.8 11.1
+    extend right
+    Tenebreux161 - 1.00 91.2 0.0
+    extend vertical
+    Tenebreux161 - 3.00 0.0 90.0
+    extend left
+    Tenebreux161 Tenebreux162 5.75 181.2 14.1
+    extend right
+    Tenebreux162 - 1.00 124.5 0.0
+    extend vertical
+    Tenebreux162 - 3.00 0.0 90.0
+    extend left
+    Tenebreux162 Tenebreux163 3.64 214.5 7.3
+    extend right
+    Tenebreux163 - 1.00 38.5 0.0
+    extend vertical
+    Tenebreux163 - 3.00 0.0 90.0
+    extend left
+    Tenebreux163 Tenebreux164 4.48 128.5 15.0
+    extend right
+    Tenebreux164 - 1.00 15.2 0.0
+    extend vertical
+    Tenebreux164 - 3.00 0.0 90.0
+    extend left
+    Tenebreux164 Tenebreux165 4.15 105.2 0.0
+    extend right
+    Tenebreux165 - 1.00 52.6 0.0
+    extend vertical
+    Tenebreux165 - 3.00 0.0 90.0
+    extend left
+    Tenebreux165 Tenebreux166 6.55 142.6 2.0
+    extend right
+    Tenebreux166 - 1.00 80.7 0.0
+    extend vertical
+    Tenebreux166 - 3.00 0.0 90.0
+    extend left
+    Tenebreux166 Tenebreux167 6.86 170.7 5.8
+    extend right
+    Tenebreux167 - 1.00 99.1 0.0
+    extend vertical
+    Tenebreux167 - 3.00 0.0 90.0
+    extend left
+    Tenebreux167 Tenebreux168 6.48 189.1 2.1
+    extend right
+    Tenebreux168 - 1.00 119.1 0.0
+    extend vertical
+    Tenebreux168 - 3.00 0.0 90.0
+    extend left
+    Tenebreux168 Tenebreux169 6.79 209.1 3.9
+    extend right
+    Tenebreux169 - 1.00 160.8 0.0
+    extend vertical
+    Tenebreux169 - 3.00 0.0 90.0
+    extend left
+    Tenebreux169 Tenebreux170 9.60 250.8 1.4
+    extend right
+    Tenebreux170 - 1.00 94.0 0.0
+    extend vertical
+    Tenebreux170 - 3.00 0.0 90.0
+    extend left
+    Tenebreux170 Tenebreux171 4.14 184.0 3.2
+    extend right
+    Tenebreux171 - 1.00 162.6 0.0
+    extend vertical
+    Tenebreux171 - 3.00 0.0 90.0
+    extend left
+    Tenebreux171 Tenebreux172 1.93 252.6 0.0
+    extend right
+    Tenebreux172 - 1.00 105.3 0.0
+    extend vertical
+    Tenebreux172 - 3.00 0.0 90.0
+    extend left
+    Tenebreux172 Tenebreux173 13.31 195.3 3.0
+    extend right
+    Tenebreux173 - 1.00 160.1 0.0
+    extend vertical
+    Tenebreux173 - 3.00 0.0 90.0
+    extend left
+    Tenebreux173 Tenebreux174 6.36 250.1 -8.4
+    Tenebreux174 - 1.00 254.2 0.0
+    extend vertical
+    Tenebreux174 - 3.00 0.0 90.0
+    extend right
+    Tenebreux174 Tenebreux175 7.58 344.2 -7.0
+    extend left
+    Tenebreux175 - 1.00 196.9 0.0
+    extend vertical
+    Tenebreux175 - 3.00 0.0 90.0
+    extend right
+    Tenebreux175 Tenebreux176 3.95 286.9 -17.1
+    extend left
+    Tenebreux176 - 1.00 258.2 0.0
+    extend vertical
+    Tenebreux176 - 3.00 0.0 90.0
+    extend right
+    Tenebreux176 Tenebreux177 5.93 348.2 -2.3
+    extend left
+    Tenebreux177 - 1.00 191.0 0.0
+    extend vertical
+    Tenebreux177 - 3.00 0.0 90.0
+    extend right
+    Tenebreux177 Tenebreux178 7.33 281.0 0.0
+    extend left
+    Tenebreux178 - 1.00 231.3 0.0
+    extend vertical
+    Tenebreux178 - 3.00 0.0 90.0
+    extend right
+    Tenebreux178 Tenebreux179 4.19 321.3 -6.4
+    extend vertical
+    Tenebreux179 - 1.00 173.5 0.0
+    Tenebreux179 - 3.00 0.0 90.0
+    extend left
+    Tenebreux179 Tenebreux180 4.52 263.5 0.0
+    Tenebreux180 - 1.00 258.3 0.0
+    extend vertical
+    Tenebreux180 - 3.00 0.0 90.0
+    extend right
+    Tenebreux180 Tenebreux181 6.80 348.3 -7.9
+    extend left
+    Tenebreux181 - 1.00 235.2 0.0
+    extend vertical
+    Tenebreux181 - 3.00 0.0 90.0
+    extend right
+    Tenebreux181 Tenebreux182 10.63 325.2 -2.5
+    Tenebreux182 - 1.00 146.2 0.0
+    extend vertical
+    Tenebreux182 - 3.00 0.0 90.0
+    extend left
+    Tenebreux182 Tenebreux183 5.96 236.2 0.0
+    Tenebreux183 - 1.00 245.5 0.0
+    extend vertical
+    Tenebreux183 - 3.00 0.0 90.0
+    extend right
+    Tenebreux183 Tenebreux184 4.75 335.5 0.0
+    extend left
+    Tenebreux184 - 1.00 286.4 0.0
+    extend vertical
+    Tenebreux184 - 3.00 0.0 90.0
+    extend right
+    Tenebreux184 Tenebreux185 4.32 16.4 0.0
+    extend left
+    Tenebreux185 - 1.00 263.9 0.0
+    extend vertical
+    Tenebreux185 - 3.00 0.0 90.0
+    extend right
+    Tenebreux185 Tenebreux186 3.33 353.9 0.0
+    extend left
+    Tenebreux186 - 1.00 323.0 0.0
+    extend vertical
+    Tenebreux186 - 3.00 0.0 90.0
+    extend right
+    Tenebreux186 Tenebreux187 5.71 53.0 -2.3
+    extend left
+    Tenebreux187 - 1.00 283.8 0.0
+    extend vertical
+    Tenebreux187 - 3.00 0.0 90.0
+    extend right
+    Tenebreux187 Tenebreux188 4.53 13.8 0.0
+    extend left
+    Tenebreux188 - 1.00 210.5 0.0
+    extend vertical
+    Tenebreux188 - 3.00 0.0 90.0
+    extend right
+    Tenebreux188 Tenebreux189 2.55 300.5 -10.5
+    extend left
+    Tenebreux189 - 1.00 262.4 0.0
+    extend vertical
+    Tenebreux189 - 3.00 0.0 90.0
+    extend right
+    Tenebreux189 Tenebreux190 3.80 352.4 -10.6
+    extend left
+    Tenebreux190 - 1.00 313.5 0.0
+    extend vertical
+    Tenebreux190 - 3.00 0.0 90.0
+    extend right
+    Tenebreux190 Tenebreux191 1.87 43.5 0.0
+    extend left
+    Tenebreux191 - 1.00 237.5 0.0
+    extend vertical
+    Tenebreux191 - 3.00 0.0 90.0
+    extend right
+    Tenebreux191 Tenebreux192 3.09 327.5 0.0
+    extend left
+    Tenebreux192 - 1.00 293.6 0.0
+    extend vertical
+    Tenebreux192 - 3.00 0.0 90.0
+    extend right
+    Tenebreux192 Tenebreux193 4.78 23.6 -11.2
+    extend left
+    Tenebreux193 - 1.00 198.2 0.0
+    extend vertical
+    Tenebreux193 - 3.00 0.0 90.0
+    extend right
+    Tenebreux193 Tenebreux194 1.98 288.2 -6.7
+    extend left
+    Tenebreux194 - 1.00 252.1 0.0
+    extend vertical
+    Tenebreux194 - 3.00 0.0 90.0
+    extend right
+    Tenebreux194 Tenebreux195 4.75 342.1 -8.4
+    extend left
+    Tenebreux195 - 1.00 334.0 0.0
+    extend vertical
+    Tenebreux195 - 3.00 0.0 90.0
+    extend right
+    Tenebreux195 Tenebreux196 18.21 64.0 0.0
+    extend vertical
+    Tenebreux196 - 1.00 5.8 0.0
+    Tenebreux196 - 3.00 0.0 90.0
+    extend left
+    Tenebreux196 Tenebreux197 5.29 95.8 -10.1
+    Tenebreux197 - 1.00 302.9 0.0
+    extend vertical
+    Tenebreux197 - 3.00 0.0 90.0
+    extend right
+    Tenebreux197 Tenebreux198 3.13 32.9 -12.9
+    extend vertical
+    Tenebreux198 - 1.00 354.3 0.0
+    Tenebreux198 - 3.00 0.0 90.0
+    extend right
+    Tenebreux198 Tenebreux199 3.65 84.3 -11.0
+    extend left
+    Tenebreux199 - 1.00 291.7 0.0
+    extend right
+    Tenebreux199 - 1.00 111.7 0.0
+    extend vertical
+    Tenebreux199 - 3.00 0.0 90.0
+    extend right
+    Tenebreux199 Tenebreux200 3.03 21.7 0.0
+    extend left
+    Tenebreux200 - 1.00 303.9 0.0
+    extend right
+    Tenebreux200 - 1.00 123.9 0.0
+    extend vertical
+    Tenebreux200 - 1.00 0.0 90.0
+    Tenebreux200 - 1.00 0.0 -90.0
+    extend right
+    Tenebreux200 Tenebreux201 8.79 33.9 -55.0
+    Tenebreux201 - 1.00 86.7 0.0
+    extend vertical
+    Tenebreux201 - 3.00 0.0 90.0
+    extend right
+    Tenebreux201 Tenebreux202 8.69 356.7 -12.4
+    extend vertical
+    Tenebreux202 - 1.00 175.4 0.0
+    Tenebreux202 - 3.00 0.0 90.0
+    extend right
+    Tenebreux202 Tenebreux203 5.00 85.4 -10.7
+    Tenebreux203 - 1.00 104.8 0.0
+    extend vertical
+    Tenebreux203 - 3.00 0.0 90.0
+    extend right
+    Tenebreux203 Tenebreux204 5.68 14.8 -4.7
+    extend vertical
+    Tenebreux204 - 1.00 175.7 0.0
+    Tenebreux204 - 3.00 0.0 90.0
+    extend right
+    Tenebreux204 Tenebreux205 5.46 85.7 -4.9
+    Tenebreux205 - 1.00 134.8 0.0
+    extend vertical
+    Tenebreux205 - 3.00 0.0 90.0
+    extend right
+    Tenebreux205 Tenebreux206 4.28 44.8 -9.4
+    extend left
+    Tenebreux206 - 1.00 194.4 0.0
+    extend vertical
+    Tenebreux206 - 3.00 0.0 90.0
+    extend left
+    Tenebreux206 Tenebreux207 6.79 104.4 -5.9
+    extend right
+    Tenebreux207 - 1.00 160.8 0.0
+    extend vertical
+    Tenebreux207 - 3.00 0.0 90.0
+    extend right
+    Tenebreux207 Tenebreux208 6.58 70.8 -6.1
+    extend left
+    Tenebreux208 - 1.00 330.9 0.0
+    extend vertical
+    Tenebreux208 - 3.00 0.0 90.0
+    extend right
+    Tenebreux208 Tenebreux209 6.35 60.9 -8.4
+    Tenebreux180 - 1.00 115.1 0.0
+    extend vertical
+    Tenebreux180 - 3.00 0.0 90.0
+    extend left
+    Tenebreux180 Tenebreux210 6.24 205.1 4.3
+    extend right
+    Tenebreux210 - 1.00 61.1 0.0
+    extend vertical
+    Tenebreux210 - 3.00 0.0 90.0
+    extend left
+    Tenebreux210 Tenebreux211 4.33 151.1 -3.1
+    extend right
+    Tenebreux211 - 1.00 112.0 0.0
+    extend vertical
+    Tenebreux211 - 3.00 0.0 90.0
+    extend left
+    Tenebreux211 Tenebreux212 3.33 202.0 -4.0
+    extend right
+    Tenebreux212 - 1.00 122.2 0.0
+    extend vertical
+    Tenebreux212 - 3.00 0.0 90.0
+    extend left
+    Tenebreux212 Tenebreux213 7.66 212.2 3.5
+    extend right
+    Tenebreux213 - 1.00 161.6 0.0
+    extend vertical
+    Tenebreux213 - 3.00 0.0 90.0
+    extend left
+    Tenebreux213 Tenebreux214 3.19 251.6 0.0
+    extend right
+    Tenebreux214 - 1.00 126.7 0.0
+    extend vertical
+    Tenebreux214 - 3.00 0.0 90.0
+    extend left
+    Tenebreux214 Tenebreux215 7.21 216.7 11.1
+    extend right
+    Tenebreux215 - 1.00 39.0 0.0
+    extend vertical
+    Tenebreux215 - 3.00 0.0 90.0
+    extend left
+    Tenebreux215 Tenebreux216 6.21 129.0 17.4
+    extend right
+    Tenebreux216 - 1.00 82.2 0.0
+    extend vertical
+    Tenebreux216 - 3.00 0.0 90.0
+    extend left
+    Tenebreux216 Tenebreux217 3.78 172.2 17.9
+    extend vertical
+    Tenebreux217 - 1.00 1.8 0.0
+    Tenebreux217 - 3.00 0.0 90.0
+    extend left
+    Tenebreux217 Tenebreux218 4.74 91.8 11.3
+    extend right
+    Tenebreux218 - 1.00 38.6 0.0
+    extend vertical
+    Tenebreux218 - 3.00 0.0 90.0
+    extend left
+    Tenebreux218 Tenebreux219 6.91 128.6 17.6
+    extend right
+    Tenebreux219 - 1.00 98.3 0.0
+    extend vertical
+    Tenebreux219 - 3.00 0.0 90.0
+    extend left
+    Tenebreux219 Tenebreux220 10.31 188.3 11.7
+    extend right
+    Tenebreux215 - 1.00 164.5 0.0
+    extend vertical
+    Tenebreux215 - 3.00 0.0 90.0
+    extend left
+    Tenebreux215 Tenebreux221 3.83 254.5 -3.5
+    extend right
+    Tenebreux221 - 1.00 107.5 0.0
+    extend vertical
+    Tenebreux221 - 3.00 0.0 90.0
+    extend left
+    Tenebreux221 Tenebreux222 4.86 197.5 22.5
+    extend right
+    Tenebreux222 - 1.00 143.8 0.0
+    extend vertical
+    Tenebreux222 - 3.00 0.0 90.0
+    extend left
+    Tenebreux222 Tenebreux223 2.11 233.8 -6.3
+    extend right
+    Tenebreux223 - 1.00 69.2 0.0
+    extend vertical
+    Tenebreux223 - 3.00 0.0 90.0
+    extend left
+    Tenebreux223 Tenebreux224 2.81 159.2 0.0
+    Tenebreux224 - 1.00 288.5 0.0
+    extend vertical
+    Tenebreux224 - 3.00 0.0 90.0
+    extend left
+    Tenebreux224 Tenebreux225 3.18 198.5 12.7
+    Tenebreux225 - 1.00 346.2 0.0
+    extend vertical
+    Tenebreux225 - 3.00 0.0 90.0
+    extend left
+    Tenebreux225 Tenebreux226 3.13 256.2 4.3
+    Tenebreux226 - 1.00 273.8 0.0
+    extend vertical
+    Tenebreux226 - 3.00 0.0 90.0
+    extend left
+    Tenebreux226 Tenebreux227 5.74 183.8 4.6
+    Tenebreux227 - 1.00 330.2 0.0
+    extend vertical
+    Tenebreux227 - 3.00 0.0 90.0
+    extend left
+    Tenebreux227 Tenebreux228 3.94 240.2 -6.8
+    Tenebreux228 - 1.00 279.5 0.0
+    extend vertical
+    Tenebreux228 - 3.00 0.0 90.0
+    extend left
+    Tenebreux228 Tenebreux229 4.21 189.5 6.3
+    Tenebreux229 - 1.00 251.8 0.0
+    extend vertical
+    Tenebreux229 - 3.00 0.0 90.0
+    extend left
+    Tenebreux229 Tenebreux230 4.18 161.8 -6.4
+    Tenebreux230 - 1.00 196.9 0.0
+    extend vertical
+    Tenebreux230 - 3.00 0.0 90.0
+    extend left
+    Tenebreux230 Tenebreux231 2.61 106.9 15.5
+    Tenebreux231 - 1.00 245.9 0.0
+    extend vertical
+    Tenebreux231 - 3.00 0.0 90.0
+    extend left
+    Tenebreux231 Tenebreux232 1.74 155.9 7.7
+    Tenebreux232 - 1.00 308.3 0.0
+    extend vertical
+    Tenebreux232 - 3.00 0.0 90.0
+    extend left
+    Tenebreux232 Tenebreux233 2.08 218.3 -6.4
+    Tenebreux233 - 1.00 291.6 0.0
+    extend vertical
+    Tenebreux233 - 3.00 0.0 90.0
+    extend left
+    Tenebreux233 Tenebreux234 14.58 201.6 3.7
+    Tenebreux234 - 1.00 295.8 0.0
+    extend vertical
+    Tenebreux234 - 3.00 0.0 90.0
+    extend left
+    Tenebreux234 Tenebreux235 9.88 205.8 5.4
+    Tenebreux235 - 1.00 349.3 0.0
+    extend vertical
+    Tenebreux235 - 3.00 0.0 90.0
+    extend left
+    Tenebreux235 Tenebreux236 4.56 259.3 24.1
+    Tenebreux235 - 1.00 253.2 0.0
+    extend vertical
+    Tenebreux235 - 3.00 0.0 90.0
+    extend left
+    Tenebreux235 Tenebreux237 2.06 163.2 42.7
+    Tenebreux237 - 1.00 250.1 0.0
+    extend vertical
+    Tenebreux237 - 3.00 0.0 90.0
+    extend left
+    Tenebreux237 Tenebreux238 1.34 160.1 20.3
+    Tenebreux238 - 1.00 308.9 0.0
+    extend vertical
+    Tenebreux238 - 3.00 0.0 90.0
+    extend left
+    Tenebreux238 Tenebreux239 4.90 218.9 16.5
+    Tenebreux239 - 1.00 275.1 0.0
+    extend vertical
+    Tenebreux239 - 3.00 0.0 90.0
+    extend left
+    Tenebreux239 Tenebreux240 3.54 185.1 11.4
+    Tenebreux240 - 1.00 218.3 0.0
+    extend vertical
+    Tenebreux240 - 3.00 0.0 90.0
+    extend left
+    Tenebreux240 Tenebreux241 2.08 128.3 6.4
+    Tenebreux241 - 1.00 244.8 0.0
+    extend vertical
+    Tenebreux241 - 3.00 0.0 90.0
+    extend left
+    Tenebreux241 Tenebreux242 3.63 154.7 3.7
+    Tenebreux242 - 1.00 205.1 0.0
+    extend vertical
+    Tenebreux242 - 3.00 0.0 90.0
+    extend left
+    Tenebreux242 Tenebreux243 2.08 115.1 0.0
+    Tenebreux243 - 1.00 252.3 0.0
+    extend vertical
+    Tenebreux243 - 3.00 0.0 90.0
+    extend left
+    Tenebreux243 Tenebreux244 7.60 162.3 1.8
+    Tenebreux244 - 1.00 295.8 0.0
+    extend vertical
+    Tenebreux244 - 3.00 0.0 90.0
+    extend left
+    Tenebreux244 Tenebreux245 4.93 205.8 2.7
+    Tenebreux245 - 1.00 270.4 0.0
+    extend vertical
+    Tenebreux245 - 3.00 0.0 90.0
+    extend left
+    Tenebreux245 Tenebreux246 8.24 180.4 -3.2
+    Tenebreux246 - 1.00 245.0 0.0
+    extend vertical
+    Tenebreux246 - 3.00 0.0 90.0
+    extend left
+    Tenebreux246 Tenebreux247 3.40 155.0 11.8
+    extend right
+    Tenebreux247 - 2.00 71.0 0.0
+    extend left
+    Tenebreux247 - 10.00 251.0 0.0
+    extend vertical
+    Tenebreux247 - 3.00 0.0 90.0
+    Tenebreux247 - 3.00 0.0 -90.0
+    extend left
+    Tenebreux247 Tenebreux248 42.61 161.0 -86.4
+    Tenebreux248 - 2.00 342.0 0.0
+    extend right
+    Tenebreux248 - 10.00 162.1 0.0
+    extend vertical
+    Tenebreux248 - 3.00 0.0 90.0
+    Tenebreux248 - 3.00 0.0 -90.0
+    extend right
+    Tenebreux248 Tenebreux249 26.42 72.1 -56.7
+    extend left
+    Tenebreux249 - 3.00 341.1 0.0
+    extend right
+    Tenebreux249 - 3.00 161.1 0.0
+    extend vertical
+    Tenebreux249 - 5.00 0.0 90.0
+    extend right
+    Tenebreux249 Tenebreux250 17.12 71.1 -10.9
+    extend vertical
+    Tenebreux250 - 3.00 176.9 0.0
+    Tenebreux250 - 3.00 356.9 0.0
+    Tenebreux250 - 5.00 0.0 90.0
+    extend left
+    Tenebreux250 Tenebreux251 19.10 266.9 -42.0
+    extend right
+    Tenebreux251 - 2.00 159.3 0.0
+    extend left
+    Tenebreux251 - 10.00 339.3 0.0
+    extend vertical
+    Tenebreux251 - 3.00 0.0 90.0
+    Tenebreux251 - 3.00 0.0 -90.0
+    extend left
+    Tenebreux251 Tenebreux252 10.95 249.3 -72.8
+    Tenebreux252 - 3.00 199.7 0.0
+    extend right
+    Tenebreux252 - 3.00 19.7 0.0
+    extend vertical
+    Tenebreux252 - 5.00 0.0 90.0
+    extend right
+    Tenebreux252 Tenebreux253 5.34 289.7 -34.4
+    extend vertical
+    Tenebreux173 - 3.00 0.0 90.0
+    extend left
+    Tenebreux173 Tenebreux254 10.09 156.7 7.9
+    extend right
+    Tenebreux254 - 1.00 30.1 0.0
+    extend vertical
+    Tenebreux254 - 3.00 0.0 90.0
+    extend left
+    Tenebreux254 Tenebreux255 4.05 120.1 3.3
+    extend right
+    Tenebreux255 - 1.00 101.8 0.0
+    extend vertical
+    Tenebreux255 - 3.00 0.0 90.0
+    extend left
+    Tenebreux255 Tenebreux256 5.20 191.8 5.1
+    extend right
+    Tenebreux256 - 1.00 71.1 0.0
+    extend vertical
+    Tenebreux256 - 3.00 0.0 90.0
+    extend left
+    Tenebreux256 Tenebreux257 4.45 161.1 3.0
+    extend right
+    Tenebreux257 - 1.00 109.9 0.0
+    extend vertical
+    Tenebreux257 - 3.00 0.0 90.0
+    extend left
+    Tenebreux257 Tenebreux258 3.35 199.9 12.0
+    extend vertical
+    Tenebreux258 - 1.00 4.0 0.0
+    Tenebreux258 - 3.00 0.0 90.0
+    extend left
+    Tenebreux258 Tenebreux259 6.96 94.0 5.7
+    extend right
+    Tenebreux259 - 1.00 51.6 0.0
+    extend vertical
+    Tenebreux259 - 3.00 0.0 90.0
+    extend left
+    Tenebreux259 Tenebreux260 2.66 141.6 5.0
+    extend right
+    Tenebreux260 - 1.00 37.7 0.0
+    extend vertical
+    Tenebreux260 - 3.00 0.0 90.0
+    extend left
+    Tenebreux260 Tenebreux261 6.52 127.7 4.1
+    extend right
+    Tenebreux261 - 1.00 122.2 0.0
+    extend vertical
+    Tenebreux261 - 3.00 0.0 90.0
+    extend left
+    Tenebreux261 Tenebreux262 7.77 212.2 10.3
+    extend right
+    Tenebreux262 - 1.00 76.0 0.0
+    extend vertical
+    Tenebreux262 - 3.00 0.0 90.0
+    extend left
+    Tenebreux262 Tenebreux263 8.22 166.0 81.5
+  endcenterline
+
+endsurvey
+

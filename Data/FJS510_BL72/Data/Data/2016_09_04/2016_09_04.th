@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 2016_09_04 -title "FJS510 > 2016-09-04"
+
+    input Data/FJS510_2016_09_04.th
+
+    ## Plan
+    input Data/FJS510_2016_09_04.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2016_09_04-maps.th
+
+endsurvey
+

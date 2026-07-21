@@ -1,0 +1,52 @@
+encoding  utf-8
+
+survey gv_lower_chevalier_1969_06_30 -title "Guiers Vif / Lower Chevalier Series"
+
+  centerline
+    date 1969.06.30
+    declination -3.873 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    station GMO16 "Lower Chevalier Series"
+    
+    extend left
+    GMO1 GMO2 9.49 266.9 0.0
+    GMO2 GMO3 9.24 254.8 -5.9
+    GMO3 GMO4 6.21 246.8 0.0
+    extend right
+    GMO4 GMO5 9.49 274.5 0.0
+    extend left
+    GMO5 GMO6 6.21 246.8 0.0
+    GMO6 GMO7 4.69 196.7 11.8
+    GMO7 GMO8 6.31 143.8 0.0
+    GMO8 GMO9 3.96 171.3 -14.0
+    GMO9 GMO10 5.44 225.7 10.1
+    GMO10 GMO11 15.83 185.3 0.0
+    GMO11 GMO12 8.23 176.3 0.0
+    GMO12 GMO13 3.15 143.8 0.0
+    GMO13 GMO14 4.15 219.4 13.3
+    GMO1 GMO15 14.93 253.4 -44.9
+    GMO15 GMO16 22.18 256.7 -20.2
+    GMO16 GMO17 10.45 166.7 5.3
+    GMO17 GMO18 8.52 207.3 6.5
+    GMO18 GMO19 20.93 185.9 -2.6
+    GMO16 GMO20 14.03 268.1 -7.8
+    GMO20 GMO21 8.86 266.6 0.0
+    extend right
+    GMO21 GMO22 11.29 27.3 0.0
+    GMO22 GMO23 21.08 355.4 -15.8
+    GMO23 GMO24 7.05 79.4 24.1
+    extend left
+    GMO24 GMO25 6.88 135.7 24.7
+    extend right
+    GMO25 GMO26 10.89 68.9 20.6
+    extend left
+    GMO22 GMO27 11.38 267.5 0.0
+    extend right
+    GMO27 GMO28 8.10 277.1 -45.2
+  endcenterline
+
+endsurvey
+

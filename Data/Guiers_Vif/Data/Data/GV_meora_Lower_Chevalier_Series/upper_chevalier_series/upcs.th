@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey upcs -title "Guiers Vif > upcs"
+
+    input Data/upper_chevalier_series.th
+
+    ## Plan
+    input Data/upper_chevalier_series.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input upcs-maps.th
+
+endsurvey
+

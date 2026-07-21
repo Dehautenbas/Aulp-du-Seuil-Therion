@@ -1,0 +1,83 @@
+encoding  utf-8
+
+survey scb1_2002_05_06 -title "SCB1"
+
+  centerline
+    date 2002.05.06 
+    
+    declination -0.214 degrees
+    cs UTM31
+    fix SCB1-1 727033.000 5029502.000 1604.000
+    station SCB1-1 "Gouffre des Viennois" entrance
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    extend left
+    SCB1-1 SCB1-2 1.76 120.1 -46.0
+    SCB1-2 SCB1-3 2.11 129.1 -72.0
+    SCB1-3 SCB1-4 1.86 124.9 -16.5
+    SCB1-4 SCB1-5 20.82 118.6 -86.7
+    SCB1-5 SCB1-6 13.27 122.4 -79.8
+    SCB1-6 SCB1-7 2.47 139.8 -54.3
+    SCB1-7 SCB1-8 5.73 118.4 61.2
+    SCB1-8 SCB1-9 2.56 106.0 -61.4
+    SCB1-9 SCB1-10 14.68 116.0 -77.4
+    SCB1-10 SCB1-11 18.51 135.8 -74.1
+    extend right
+    SCB1-11 SCB1-12 9.80 333.7 -11.8
+    extend left
+    SCB1-11 SCB1-13 11.82 127.3 8.4
+    extend right
+    SCB1-13 SCB1-14 9.05 60.9 8.0
+    extend left
+    SCB1-14 SCB1-15 18.84 119.9 10.1
+    extend right
+    SCB1-15 SCB1-16 8.26 64.9 28.4
+    SCB1-16 SCB1-17 9.47 68.2 17.7
+    extend left
+    SCB1-17 SCB1-18 12.85 90.8 4.7
+    SCB1-18 SCB1-19 8.34 92.8 16.6
+    SCB1-19 SCB1-20 13.91 91.9 19.5
+    extend right
+    SCB1-20 SCB1-21 14.97 88.3 -16.1
+    SCB1-21 SCB1-22 6.16 78.8 23.9
+    SCB1-22 SCB1-23 9.01 76.7 4.9
+    SCB1-23 SCB1-24 15.14 81.3 9.7
+    extend left
+    SCB1-24 SCB1-25 12.69 110.4 29.7
+    SCB1-22 SCB1-26 11.67 156.2 -87.3
+    SCB1-26 SCB1-27 3.72 225.1 -81.9
+    SCB1-27 SCB1-28 1.47 258.8 -78.7
+    SCB1-28 SCB1-29 28.82 266.1 -87.6
+    SCB1-29 SCB1-30 1.44 250.2 -71.6
+    extend right
+    SCB1-30 SCB1-31 2.87 292.8 -44.3
+    extend left
+    SCB1-31 SCB1-32 1.86 231.0 -16.4
+    SCB1-19 SCB1-33 5.58 132.3 27.4
+    SCB1-33 SCB1-34 11.33 125.9 8.0
+    SCB1-34 SCB1-35 9.97 126.9 8.1
+    SCB1-35 SCB1-36 7.07 125.9 8.6
+    SCB1-36 SCB1-37 3.40 137.8 21.2
+    SCB1-37 SCB1-38 3.65 194.8 22.6
+  
+  
+    # SCB1-19 SCB1-39 4.09 173.9 -73.9
+    # extend right
+    # SCB1-39 SCB1-40 3.23 309.0 -78.3
+    # extend left
+    # SCB1-40 SCB1-41 10.89 262.5 -87.9
+    # SCB1-41 SCB1-42 1.38 264.9 -22.5
+    # SCB1-42 SCB1-43 15.80 249.6 -89.0
+    # extend right
+    # SCB1-43 SCB1-44 2.17 272.8 -9.3
+    # extend left
+    # SCB1-44 SCB1-45 9.66 266.5 -88.1
+    # extend right
+    # SCB1-45 SCB1-46 3.00 272.8 -24.2
+    # SCB1-46 SCB1-47 4.78 272.8 -82.8
+  endcenterline
+
+endsurvey
+

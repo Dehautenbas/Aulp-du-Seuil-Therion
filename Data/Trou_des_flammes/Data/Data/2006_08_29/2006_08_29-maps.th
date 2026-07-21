@@ -1,0 +1,232 @@
+encoding  utf-8
+#*****************************************************
+# MAP PLAN TOTAL DU TDF
+# (tdf_2006_08_29.th2) + (tdf_2006_08_29-suite.th2)
+# squelette identique sur 2 fichiers différents
+#*****************************************************
+
+map tdf-2006-08-29-tot_MP -title "Trou des Flammes"
+  puits_lionel_terray_MP
+  entree_tdf_fin_faille_holmes_MP
+  salle_ben_puits_eologue_MP
+  cascade_watson_conan_doyle_MP
+  aval_riviere_malissard_MP
+  jonction_fossile_riviere_MP
+  amont_riviere_malissard_MP
+  galerie_des_puits_remontant_MP
+  meandre_des_phonolithes_MP
+  aval_riviere_malissard_suite_MP
+  galerie_fossile_sud_MP
+  affluent_marteau_canne_MP
+  affluent_sous_salle_face_ouest_MP
+  galerie_fossile_sud_114bis_MP
+  siphon_pedale_douce_MP
+  affluent_pedale_douce_MP
+endmap
+
+#*****************************************************
+# MAP PLAN 1ère PARTIE DU TDF
+# (tdf_2006_08_29.th2)
+#*****************************************************
+
+#---------------------------------
+# ENTREE TDF -> FIN FAILLE HOLMES
+#---------------------------------
+
+map entree_tdf_fin_faille_holmes_MP
+  SP-tdf1
+  SP-tdf2
+  SP-tdf3
+  SP-tdf4
+  
+  SP-tdf9
+  SP-tdf10
+  SP-tdf11
+  SP-tdf12
+  SP-tdf13
+  
+    SP-tdf15
+    break
+    SP-tdf14
+  
+  SP-tdf16
+  SP-tdf17
+  SP-tdf18
+  
+  SP-tdf21
+  SP-tdf22
+  SP-tdf23
+  SP-tdf24
+  SP-tdf25
+  SP-tdf26
+  SP-tdf27
+  SP-tdf28
+  SP-tdf29
+endmap
+
+# SALLE BEN -> PUITS DE L'EOLOGUE
+
+map salle_ben_puits_eologue_MP
+  SP-tdf5
+  SP-tdf6
+  SP-tdf7
+  SP-tdf8
+endmap
+
+# PUITS LIONEL TERRAY
+
+map puits_lionel_terray_MP
+  SP-tdf20
+  SP-tdf19
+endmap
+
+#-------------------------------------------
+# FIN FAILLE HOLMES ET AVAL RIVIERE DE MALISSARD
+#-------------------------------------------
+
+map cascade_watson_conan_doyle_MP
+  SP-tdf33
+  SP-tdf34
+  SP-tdf74
+  SP-tdf73
+  SP-tdf72
+endmap
+
+map aval_riviere_malissard_MP
+  SP-tdf32
+  SP-tdf70
+  SP-tdf71
+  SP-tdf75  # SCRAP DE JONCTION ENTRE PARTIE 1&2
+endmap
+
+#-------------------------------------------
+# FIN FAILLE HOLMES VERS SHUNT ET AMONT RIVIERE DE MALISSARD
+#-------------------------------------------
+
+map amont_riviere_malissard_MP
+  SP-tdf30
+  break
+  SP-tdf31
+  SP-tdf35
+  SP-tdf36
+  
+  SP-tdf37
+  SP-tdf38
+  SP-tdf39
+  SP-tdf42
+  SP-tdf41
+  SP-tdf40
+  
+  SP-tdf44
+  break
+  SP-tdf43
+  
+  SP-tdf45
+  break
+  SP-tdf47
+  SP-tdf48
+  SP-tdf49
+  SP-tdf50
+  SP-tdf51
+endmap
+
+map galerie_des_puits_remontant_MP
+  SP-tdf60
+  SP-tdf61
+  SP-tdf62
+  SP-tdf63
+endmap
+
+map meandre_des_phonolithes_MP
+  SP-tdf52
+  SP-tdf53
+  SP-tdf54
+  SP-tdf55
+  SP-tdf56
+  SP-tdf57
+endmap
+
+#*****************************************************
+# MAP PLAN 2ème PARTIE DU TDF
+# (tdf_2006_08_29-suite.th2)
+#*****************************************************
+
+map aval_riviere_malissard_suite_MP
+  SP-tdfsuite100 # SCRAP DE JONCTION ENTRE PARTIE 1&2 | 2 jonctions de scrape = SP-tdfsuite101 SP-tdfsuite106 
+  SP-tdfsuite101
+  SP-tdfsuite102
+  SP-tdfsuite103
+  SP-tdfsuite104
+  SP-tdfsuite105
+endmap
+
+map jonction_fossile_riviere_MP
+  SP-tdfsuite106
+  
+    # NORD
+    SP-tdfsuite107 # SCRAP DE JONCTION GUIERS VIF - TDF
+    SP-tdfsuite108
+    SP-tdfsuite109 # RETOUR SIPHON AVAL RIVIERE DE MALISSARD
+endmap
+
+map galerie_fossile_sud_114bis_MP
+  SP-tdfsuite114bis
+endmap
+
+map galerie_fossile_sud_MP
+  SP-tdfsuite110
+  SP-tdfsuite111
+  SP-tdfsuite112
+  SP-tdfsuite113
+  SP-tdfsuite114
+  SP-tdfsuite115 # SCRAP DE JONCTION SALLE DES SOULAGES SP-tdfsuite115bis
+  SP-tdfsuite115bis
+  SP-tdfsuite116
+  SP-tdfsuite117
+  SP-tdfsuite118
+  SP-tdfsuite119
+  SP-tdfsuite120
+  SP-tdfsuite121
+  SP-tdfsuite122
+  SP-tdfsuite123 # PUITS DU RINCE DOIGTS
+  break
+  SP-tdfsuite140
+  break
+  SP-tdfsuite124 # SALLE DE LA FACE OUEST | SCRAP JONCTION MARTEAU CANNE SP-tdfsuite127
+  break
+    SP-tdfsuite125 # SALLE DE LA FACE OUEST - PLAQUETTE PERDUE
+  
+  
+  SP-tdfsuite141
+  SP-tdfsuite142 # BIFURCATION SIPHON PEDALE DOUCE / AFFLUENT PEDALE DOUCE
+endmap
+
+map siphon_pedale_douce_MP
+  SP-tdfsuite143
+  SP-tdfsuite144
+endmap
+
+map affluent_pedale_douce_MP
+  SP-tdfsuite145
+  SP-tdfsuite146
+  SP-tdfsuite147
+  SP-tdfsuite148
+endmap
+
+map affluent_marteau_canne_MP
+  SP-tdfsuite127 # SCRAP JONCTION SALLE DE LA FACE OUEST SP-tdfsuite124
+  SP-tdfsuite130
+  SP-tdfsuite131
+  SP-tdfsuite132
+  SP-tdfsuite133
+  SP-tdfsuite134
+  SP-tdfsuite135
+  
+  SP-tdfsuite128
+  SP-tdfsuite129
+endmap
+
+map affluent_sous_salle_face_ouest_MP
+  SP-tdfsuite126
+endmap
+

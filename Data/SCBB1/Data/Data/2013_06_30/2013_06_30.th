@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 2013_06_30 -title "SCB1 > 2013_06_30"
+
+    input Data/scb1_2013_06_30.th
+
+    ## Plan
+    input Data/scb1_2013_06_30.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2013_06_30-maps.th
+
+endsurvey
+

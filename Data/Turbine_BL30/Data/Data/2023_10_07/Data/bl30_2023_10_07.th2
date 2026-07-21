@@ -1,0 +1,610 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -130.0 -130.0 1934.5 919.0
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {590.547 1 1.0} {787.398 dp_stat_} 2023-10-07-th_p.xvi 0 {}
+
+
+
+scrap scrap1 -projection plan -station-names "" "@bl30_2023_10_07" -author 2023 "David Parrot" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1899.6499999999999 -128.0 0.0 0.0 51.502309999999994 0.0 m]
+
+point 411.0 609.25 height -value -6
+
+line pit -reverse on
+  442.5 605.0
+  442.5 605.0 435.0 586.0 460.75 583.25
+  smooth off
+endline
+
+line wall
+  407.0 555.0
+  425.5 562.5
+  439.75 574.75
+  455.5 584.75
+  468.0 588.0
+endline
+
+line wall -reverse on
+  401.5 574.5
+  416.25 584.75
+  434.5 595.75
+  447.75 604.0
+endline
+
+point 484.547 607.528 station -name dp_stat_9
+
+point 466.297 594.9380000000001 station -name dp_stat_8
+
+point 485.437 634.1880000000001 station -name dp_stat_7
+
+point 477.357 638.148 station -name dp_stat_6
+
+point 488.827 624.4780000000001 station -name dp_stat_5
+
+point 477.497 690.048 station -name dp_stat_4
+
+point 437.51700000000005 739.9580000000001 station -name dp_stat_3
+
+point 474.947 773.538 station -name dp_stat_2
+
+point 512.427 789.4480000000001 station -name dp_stat_1
+
+point 590.547 787.398 station -name dp_stat_
+
+endscrap
+
+
+
+scrap scrap2 -projection plan -station-names "" "@bl30_2023_10_07" -author 2023 "David Parrot" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1899.6499999999999 -128.0 0.0 0.0 51.502309999999994 0.0 m]
+
+point 294.547 451.55800000000005 station -name dp_stat_14
+
+point 329.197 497.708 station -name dp_stat_13
+
+point 340.927 490.17800000000005 station -name dp_stat_12
+
+line pit -reverse on
+  330.0 480.0
+  308.36 487.46 318.0 510.5 318.0 510.5
+  smooth off
+endline
+
+point 343.5 583.75 height -value [+4]
+
+point 314.0 524.25 height -value [+6]
+
+line pit
+  355.0 572.5
+  355.0 572.5 344.48 545.17 380.0 546.0
+  smooth off
+endline
+
+point 382.0 557.75 water-flow -orientation 78.0
+
+point 352.5 529.75 water-flow -orientation 18.6
+
+point 307.0 479.5 water-flow -orientation 40.2
+
+line wall
+  401.5 574.5
+  395.33 571.33 389.76 566.52 383.0 565.0
+  374.06 562.98 360.46 572.71 355.5 565.0
+  351.94 559.47 354.16 551.86 352.5 545.5
+  351.11 540.2 338.16 509.71 334.0 507.5
+  313.02 496.36 311.0 514.0 300.0 497.0
+  294.33 488.23 294.06 476.98 291.0 467.0
+  287.78 456.49 274.2 441.53 289.5 431.5
+  295.91 427.29 307.37 427.31 315.0 426.5
+  338.14 424.03 331.5 412.5 358.0 436.5
+  smooth off
+endline
+
+line wall
+  360.0 459.0
+  333.0 460.0 316.41 468.29 323.5 486.0
+  326.72 494.05 345.43 478.84 349.5 486.5
+  354.6 496.1 350.59 507.4 353.0 518.0
+  354.82 526.0 358.55 534.05 362.0 541.5
+  363.88 545.56 363.64 552.52 368.0 553.5
+  374.38 554.93 380.33 549.17 386.5 547.0
+  smooth off
+  393.33 549.67 400.17 552.33 407.0 555.0
+  smooth off
+endline
+
+point 362.51700000000005 562.138 station -name dp_stat_11
+
+point 386.78700000000003 551.988 station -name dp_stat_10
+
+endscrap
+
+
+
+scrap scrap3 -projection plan -station-names "" "@bl30_2023_10_07" -author 2023 "David Parrot" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1899.6499999999999 -128.0 0.0 0.0 51.502309999999994 0.0 m]
+
+point 541.2170000000001 371.75800000000004 station -name dp_stat_19
+
+point 551.617 462.98800000000006 station -name dp_stat_18
+
+point 477.697 495.12800000000004 station -name dp_stat_17
+
+line wall
+  358.0 436.5
+  362.17 437.83 366.16 441.06 370.5 440.5
+  378.45 439.48 388.0 443.15 396.0 443.5
+  407.5 444.0 411.71 448.57 421.5 449.5
+  smooth off
+  452.0 458.5 458.43 467.16 482.5 471.0
+  490.68 472.31 500.5 448.18 508.5 446.0
+  515.17 444.18 525.07 446.5 528.5 440.5
+  555.45 393.34 518.9 411.88 537.0 370.5
+  539.41 364.99 547.0 363.83 552.0 360.5
+  smooth off
+endline
+
+line pit
+endline
+
+line pit -reverse on
+  534.0 495.5
+  533.32 479.18 529.03 481.48 537.5 462.0
+  540.75 454.51 550.0 445.81 541.0 436.0
+  535.66 430.17 533.0 429.5 526.5 425.0
+  smooth off
+endline
+
+line pit
+  530.0 364.5
+  530.0 364.5 560.5 360.5 564.0 391.5
+  smooth off
+endline
+
+point 559.5 503.25 height -value [+7]
+
+point 364.25 399.75 height -value [+14]
+
+line pit -reverse on -clip off
+  332.0 461.0
+  338.0 459.5 343.9 457.5 350.0 456.5
+  352.41 456.1 385.46 459.16 380.0 445.5
+  379.38 443.95 362.58 441.55 359.5 440.5
+  344.58 435.41 348.49 424.5 328.5 427.0
+  smooth off
+endline
+
+line wall -reverse on
+  360.0 459.0
+  369.61 459.37 379.83 456.72 388.83 460.12
+  395.9 462.79 401.01 465.9 407.0 470.5
+  414.48 476.25 422.19 481.21 430.0 486.5
+  436.7 491.05 441.18 490.53 448.5 494.0
+  457.93 498.48 466.49 501.02 476.5 504.0
+  482.16 505.69 489.67 520.43 495.5 519.5
+  501.3 518.58 505.05 512.66 510.0 509.5
+  519.39 503.49 525.42 493.26 535.5 488.5
+  543.56 484.7 556.15 487.22 562.0 480.5
+  578.93 461.07 558.5 406.32 558.5 385.5
+  558.5 382.19 563.5 381.17 566.0 379.0
+  smooth off
+endline
+
+point 388.827 460.11800000000005 station -name dp_stat_16
+
+point 366.447 444.38800000000003 station -name dp_stat_15
+
+endscrap
+
+
+
+scrap scrap4 -projection plan -station-names "" "@bl30_2023_10_07" -author 2023 "David Parrot" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1899.6499999999999 -128.0 0.0 0.0 51.502309999999994 0.0 m]
+
+point 979.417 358.7080000000001 station -name dp_stat_a22
+
+point 850.927 340.658 station -name dp_stat_a23
+
+point 782.357 338.13800000000003 station -name dp_stat_a24
+
+point 661.187 327.74800000000005 station -name dp_stat_23
+
+point 601.447 337.42800000000005 station -name dp_stat_22
+
+point 602.037 334.93800000000005 station -name dp_stat_21
+
+line pit
+  568.75 358.5
+  582.0 356.5 583.25 362.75 575.75 370.25
+  smooth off
+endline
+
+line pit -reverse on
+  596.0 347.0
+  602.75 345.75 615.22 328.94 602.75 330.0
+  597.1 330.48 592.92 335.67 588.0 338.5
+  smooth off
+endline
+
+point 603.75 382.25 height -value [+22]
+
+line wall
+  663.5 375.5
+  684.5 356.0 673.51 340.95 645.0 342.5
+  637.98 342.88 608.13 342.05 602.0 345.5
+  595.29 349.28 593.14 358.25 587.5 363.5
+  581.03 369.52 573.17 373.83 566.0 379.0
+  smooth off
+endline
+
+line wall
+  978.5 374.5
+  935.0 367.5 972.36 375.07 895.0 358.0
+  839.94 345.85 847.08 342.78 781.5 348.5
+  775.56 349.02 768.55 352.32 763.0 354.5
+  750.68 359.33 740.35 355.34 727.5 358.5
+  693.42 366.87 691.0 360.0 669.0 381.0
+  smooth off
+endline
+
+line border
+endline
+
+line gradient
+  809.0 336.0
+  761.0 334.5
+endline
+
+line border
+  813.0 356.5
+  813.0 356.5 790.67 341.01 812.5 307.5
+  smooth off
+endline
+
+line border
+  800.5 359.0
+  800.5 359.0 775.7 340.88 798.5 308.0
+  smooth off
+endline
+
+line border
+  788.0 358.5
+  788.0 358.5 760.51 339.95 782.5 306.5
+  smooth off
+endline
+
+line pit
+endline
+
+line pit -close on -reverse on
+  762.5 323.0
+  750.17 315.02 733.18 325.01 718.5 325.5
+  708.17 325.84 697.82 325.03 687.5 325.5
+  683.28 325.69 678.11 324.65 675.0 327.5
+  665.83 335.91 667.6 344.37 676.5 349.5
+  701.41 363.87 719.39 349.41 746.5 348.0
+  752.84 347.67 759.51 351.63 765.5 349.5
+  773.88 346.52 769.96 327.83 762.5 323.0
+endline
+
+point 672.5 371.5 water-flow -orientation 131.4
+
+point 644.0 396.5 narrow-end -orientation 311.9
+
+point 717.5 303.5 height -value -7
+
+line wall
+  552.0 360.5
+  574.43 363.76 578.77 338.6 594.5 332.0
+  altitude .
+  627.46 318.17 694.57 322.33 730.5 321.0
+  748.84 320.32 767.15 318.05 785.5 318.5
+  825.93 319.49 866.14 324.83 906.5 327.5
+  974.07 331.96 947.02 327.26 989.5 336.5
+  smooth off
+endline
+
+point 569.447 364.0880000000001 station -name dp_stat_20
+
+endscrap
+
+
+
+scrap scrap5 -projection plan -station-names "" "@bl30_2023_10_07" -author 2023 "David Parrot" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1899.6499999999999 -128.0 0.0 0.0 51.502309999999994 0.0 m]
+
+point 1607.377 479.3380000000001 station -name dp_stat_a
+
+point 1567.797 465.158 station -name dp_stat_a1
+
+point 1535.217 479.12800000000004 station -name dp_stat_a2
+
+point 1440.967 461.658 station -name dp_stat_a3
+
+point 1206.037 438.23800000000006 station -name dp_stat_a7
+
+point 1261.887 396.12800000000004 station -name dp_stat_a4
+
+point 1113.687 404.43800000000005 station -name dp_stat_a6
+
+line pit
+endline
+
+line pit -close on -reverse on
+  1162.5 426.25
+  1168.27 431.86 1177.43 432.28 1185.0 435.0
+  1216.28 446.24 1207.85 436.6 1236.0 429.0
+  1241.23 427.59 1247.76 431.29 1252.25 428.25
+  1264.1 420.24 1242.42 400.99 1241.5 400.0
+  1227.9 385.41 1225.83 389.25 1202.25 386.75
+  1196.69 386.16 1190.97 384.58 1185.5 385.75
+  1180.79 386.76 1177.09 390.46 1173.0 393.0
+  1157.5 402.64 1140.92 405.27 1162.5 426.25
+endline
+
+line pit
+endline
+
+line pit
+endline
+
+point 1136.75 422.5 blocks
+
+line pit
+  1166.75 447.25
+  1163.25 442.25 1155.75 435.25 1162.5 426.25
+  smooth off
+endline
+
+line pit
+  1110.0 437.0
+  1110.83 429.42 1108.36 420.66 1112.5 414.25
+  1120.17 402.4 1149.82 396.16 1161.75 399.0
+  smooth off
+endline
+
+line pit -close on
+  1082.25 411.0
+  1077.18 412.37 1072.25 406.75 1078.5 402.5
+  1083.62 399.02 1090.82 408.69 1082.25 411.0
+endline
+
+point 1204.75 346.5 height -value -12
+
+point 1321.5 414.5 water-flow -orientation 263.8
+
+line water-flow
+endline
+
+point 1280.5 415.0 water-flow -orientation 263.8
+
+point 1690.0 476.5 water-flow -orientation 263.8
+
+point 1563.5 473.5 water-flow -orientation 263.8
+
+area blocks
+  l123-1432-495
+endarea
+
+line border -id l123-1432-495 -close on -visibility off
+  1304.0 454.5
+  1309.5 439.5
+  1335.5 442.0
+  1343.5 429.0
+  1330.5 415.5
+  1330.5 405.0
+  1341.5 380.5
+  1539.0 442.5
+  1539.5 507.5
+  1305.5 480.5
+  1304.0 454.5
+endline
+
+line rock-border -close on
+  1320.5 433.5
+  1318.5 425.0
+  1330.0 421.0
+  1338.0 432.0
+  1331.0 440.5
+  1320.5 433.5
+endline
+
+line rock-border -close on
+  1306.5 408.0
+  1303.5 400.5
+  1311.0 395.5
+  1324.5 403.5
+  1322.0 407.0
+  1311.5 402.5
+  1306.5 408.0
+endline
+
+line rock-border -close on
+  1283.0 403.5
+  1272.0 390.5
+  1275.0 387.5
+  1285.5 387.5
+  1292.0 402.0
+  1283.0 403.5
+endline
+
+line rock-border -close on
+  1276.0 448.0
+  1285.5 437.5
+  1294.5 442.0
+  1289.0 448.5
+  1276.0 448.0
+endline
+
+line rock-border -close off
+  1304.0 437.0
+  1280.5 429.0
+  1290.5 412.5
+  1306.0 420.5
+  1304.0 437.0
+endline
+
+line overhang
+  1128.0 354.0
+  1134.33 358.33 1139.87 364.16 1147.0 367.0
+  1185.15 382.18 1245.04 361.08 1267.5 406.0
+  1270.43 411.86 1271.45 419.11 1270.0 425.5
+  1268.76 430.96 1262.54 434.01 1260.0 439.0
+  1257.14 444.64 1256.0 451.0 1254.0 457.0
+  smooth off
+endline
+
+line wall
+  989.5 336.5
+  996.83 339.17 1003.72 344.24 1011.5 344.5
+  1057.0 346.0 1024.11 331.52 1088.0 340.5
+  1152.0 349.5 1091.49 356.62 1192.0 364.0
+  1220.45 366.09 1248.68 360.08 1277.0 363.5
+  1295.19 365.7 1310.84 377.58 1328.0 384.0
+  1409.5 414.5 1348.5 392.0 1436.0 435.0
+  1440.95 437.43 1446.67 437.64 1452.0 439.0
+  1467.51 442.97 1483.03 446.9 1498.5 451.0
+  1512.55 454.72 1522.0 460.5 1535.5 456.0
+  1543.11 453.46 1560.6 460.49 1566.0 459.5
+  1572.12 458.38 1624.99 460.33 1631.5 462.5
+  smooth off
+endline
+
+line wall -subtype presumed
+  1631.5 462.5
+  1638.7 464.9 1680.91 463.8 1688.5 464.0
+  1728.49 465.07 1703.5 464.91 1743.5 465.5
+  1751.09 465.61 1783.5 464.33 1791.0 465.5
+  smooth off
+endline
+
+line wall -reverse on
+  978.5 374.5
+  1046.19 391.42 1018.36 378.94 1079.5 417.5
+  1089.47 423.79 1111.61 433.45 1123.0 436.5
+  1213.27 460.65 1169.63 441.86 1237.5 448.5
+  1269.85 451.66 1339.23 464.97 1371.5 471.5
+  1391.72 475.59 1411.49 482.28 1432.0 484.5
+  1454.87 486.97 1478.0 485.27 1501.0 485.5
+  1511.67 485.61 1526.86 493.3 1537.5 492.5
+  1549.14 491.62 1559.9 487.77 1570.5 488.0
+  1593.5 488.5 1620.5 492.5 1630.0 491.5
+  smooth off
+  altitude .
+endline
+
+line pit
+  1566.0 450.5
+  1566.0 450.5 1605.0 469.5 1565.5 498.0
+  smooth off
+endline
+
+point 1739.0 447.0 label -orientation 0.1 -text Etr.
+
+point 1656.5 447.0 label -orientation 0.1 -text Etr.
+
+point 1574.5 432.0 height -value [+4]
+
+point 1818.0 478.0 height -value [+4?]
+
+point 1719.5 528.0 label -orientation 0.1 -text [méandre actif exploré sur 40 m] -scale s
+
+line wall -reverse on -subtype presumed
+  1630.0 491.5
+  1637.29 490.73 1718.0 490.5 1718.0 490.5
+  smooth off
+  1718.0 490.5 1782.67 489.83 1790.0 489.5
+  smooth off
+endline
+
+point 1035.987 378.74800000000005 station -name dp_stat_a5
+
+endscrap
+
+
+
+scrap scrap6 -projection plan -station-names "" "@bl30_2023_10_07" -author 2023 "David Parrot" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 1899.6499999999999 -128.0 0.0 0.0 51.502309999999994 0.0 m]
+
+point 1006.487 376.43800000000005 station -name dp_stat_a15
+
+point 1039.477 344.908 station -name dp_stat_a14
+
+point 1052.707 359.648 station -name dp_stat_a13
+
+point 1075.937 357.3380000000001 station -name dp_stat_a12
+
+point 1091.9470000000001 373.288 station -name dp_stat_a11
+
+point 1158.9270000000001 395.9580000000001 station -name dp_stat_a10
+
+point 1221.5 406.25 blocks -orientation 4.0
+
+point 1234.75 415.0 blocks -orientation 270.0
+
+point 1021.0 350.5 water-flow -orientation 313.1
+
+point 1127.25 384.0 water-flow -orientation 264.6
+
+point 1201.75 412.0 water-flow -orientation 264.6
+
+point 1217.25 423.25 blocks -orientation 0.0
+
+line wall
+  1215.0 401.0
+  1220.33 399.67 1225.66 395.71 1231.0 397.0
+  1271.66 406.82 1203.17 459.22 1205.5 422.0
+  smooth off
+endline
+
+line pit -reverse on
+  1153.0 419.0
+  1153.0 419.0 1183.03 428.23 1178.5 392.0
+  smooth off
+endline
+
+point 1028.0 320.75 height -value -15
+
+line pit -reverse on
+  1005.5 366.5
+  1013.25 368.25 1020.98 373.61 1023.25 369.5
+  1025.29 365.81 1022.25 362.4 1023.0 358.25
+  1024.17 351.79 1038.49 345.77 1033.5 341.5
+  1030.33 338.79 1025.09 340.21 1021.0 341.0
+  996.1 345.79 1009.75 350.75 998.5 356.75
+  smooth off
+endline
+
+point 1183.5 374.5 label -text R3
+
+line wall
+  1205.5 422.0
+  1204.74 411.22 1178.41 419.13 1173.0 418.0
+  1146.94 412.56 1165.0 407.5 1154.0 402.0
+  1133.75 391.88 1109.9 390.44 1090.5 378.5
+  1074.47 368.63 1066.5 367.5 1052.5 363.5
+  1046.37 361.75 1041.65 351.21 1035.5 353.0
+  1023.5 356.5 1038.0 367.0 1030.0 375.5
+  1024.94 380.87 1001.75 388.25 996.0 381.5
+  smooth off
+endline
+
+point 1244.0 411.5 map-connection
+
+point 996.0 381.5 map-connection
+
+line wall
+  995.25 352.25
+  1000.5 351.0 1000.32 348.98 1005.5 342.25
+  1008.0 339.0 1027.54 334.24 1043.0 341.5
+  1047.8 343.76 1048.97 351.32 1054.0 353.0
+  1061.43 355.48 1070.18 350.2 1077.5 353.0
+  1084.66 355.74 1087.62 365.12 1094.5 368.5
+  1115.34 378.73 1140.69 377.22 1161.5 387.5
+  1166.89 390.16 1168.73 397.62 1174.0 400.5
+  1176.68 401.96 1200.57 407.1 1206.5 406.0
+  1209.73 405.4 1212.17 402.67 1215.0 401.0
+  smooth off
+endline
+
+point 1170.917 408.59800000000007 station -name dp_stat_a9
+
+point 1209.717 409.13800000000003 station -name dp_stat_a8
+
+endscrap
+
+

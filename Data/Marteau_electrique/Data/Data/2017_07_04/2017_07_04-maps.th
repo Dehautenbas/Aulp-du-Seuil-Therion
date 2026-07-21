@@ -1,0 +1,21 @@
+encoding  utf-8
+
+map Martelec_2017_07_04_ME -title "Marteau Electrique > 2017-07-04"
+  MarteauElecSE1
+  MarteauElecSE2
+  MarteauElecSE3
+  MarteauElecSE4
+  MarteauElecSE5
+  MarteauElecSE6
+endmap
+
+map Martelec_2017_07_04_MP -title "Marteau Electrique > 2017-07-04"
+    MarteauElecSP1
+    MarteauElecSP2
+    MarteauElecSP3
+    MarteauElecSP4
+    MarteauElecSP5
+    MarteauElecSP6
+    MarteauElecSP7
+endmap
+

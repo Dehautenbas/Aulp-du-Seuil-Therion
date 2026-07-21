@@ -1,0 +1,29 @@
+encoding  utf-8
+survey FJS305_2023_10_15 -title "FJS305"
+
+centerline
+    cs UTM31
+   
+    fix 0 725999 5029408 1547
+    station 0 "Gouffre des Tropiques" entrance
+    
+    date 2023.10.15 
+    #declination 1.627 degrees
+    declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend right
+    0 - 1.00 1 0.1
+    extend left
+    0 - 1.00 91 0.1
+    extend right
+    extend right
+    0 - 1.00 181 0.1
+    extend left
+    0 - 1.00 271 0.1
+    extend right
+endcenterline
+
+endsurvey
+

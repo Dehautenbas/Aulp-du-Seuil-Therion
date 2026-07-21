@@ -1,0 +1,17 @@
+encoding  utf-8
+
+survey FJS332 -title "(FJS332) Gouffre Collé Serré"
+
+    input Data/Data/1992_06_20/1992_06_20.th
+
+    ## Plan
+    #    join .......
+    
+    ## Coupe
+    #   join ........
+
+    ## Maps
+    input FJS332-tot-maps.th
+
+endsurvey
+

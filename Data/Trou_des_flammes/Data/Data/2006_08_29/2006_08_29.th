@@ -1,0 +1,24 @@
+encoding  utf-8
+
+survey 2006_08_29 -title "Trou des Flammes > 2006-08-29"
+
+    input Data/tdf_2006_08_29.th
+
+    ## Plan
+    input Data/tdf_2006_08_29.th2
+    input Data/tdf_2006_08_29-suite.th2
+    
+    # Bouclage forcé à la sortie de la faille holmes et le P12 direction Bivouac JLR
+    equate 135g@tdf_2006_08_29 199c@tdf_2006_08_29
+    
+    join SP-tdf75 SP-tdfsuite100
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2006_08_29-maps.th
+
+endsurvey
+

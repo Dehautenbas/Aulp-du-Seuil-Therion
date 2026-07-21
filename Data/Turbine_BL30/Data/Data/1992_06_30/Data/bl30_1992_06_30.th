@@ -1,0 +1,447 @@
+encoding  utf-8
+survey bl30_1992_06_30 -title "Turbine_bl30"
+
+  centerline
+    date 1992.06.30 
+    #declination 0.00 degrees
+    declination -1.327 degrees
+    cs UTM31
+    #fix Turbi1 726467.000 5028544.000 1573.000
+    fix Turbi1 726464 5028540 1542
+    
+    team "Bernard Loiseleur"
+    team "Pierre Garcin"
+    
+    explo-team "Bernard Loiseleur"
+    explo-team "Thierry Millet"
+    explo-team "Maixent Lacas"
+    explo-team "M. Echevin"
+    explo-team "Philippe Quincieux"
+    explo-team "Pierre Garcin"
+    explo-team "Pascal Groseil"
+ 
+    station Turbi1 "Gouffre de la Turbine" entrance
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend left
+    Turbi1 - 1.00 348.8 0.0
+    extend right
+    Turbi1 - 1.00 168.8 0.0
+    extend vertical
+    Turbi1 - 1.00 0.0 90.0
+    Turbi1 - 1.00 0.0 -90.0
+    extend right
+    Turbi1 Turbi2 3.41 78.7 -56.8
+    extend left
+    Turbi2 - 1.00 251.5 0.0
+    extend right
+    Turbi2 - 1.00 71.5 0.0
+    extend vertical
+    Turbi2 - 1.00 0.0 90.0
+    Turbi2 - 1.00 0.0 -90.0
+    extend right
+    Turbi2 Turbi3 3.32 341.5 -73.2
+    extend left
+    Turbi3 - 0.50 338.2 0.0
+    extend right
+    Turbi3 - 0.50 158.2 0.0
+    extend vertical
+    Turbi3 - 1.00 0.0 90.0
+    Turbi3 - 1.00 0.0 -90.0
+    extend right
+    Turbi3 Turbi4 2.45 68.2 -25.7
+    extend left
+    Turbi4 - 0.50 342.9 0.0
+    extend right
+    Turbi4 - 0.50 162.9 0.0
+    extend vertical
+    Turbi4 - 1.00 0.0 90.0
+    Turbi4 - 1.00 0.0 -90.0
+    extend right
+    Turbi4 Turbi5 8.12 72.9 -8.7
+    extend left
+    Turbi5 - 0.50 332.4 0.0
+    extend right
+    Turbi5 - 0.50 152.4 0.0
+    extend vertical
+    Turbi5 - 1.00 0.0 90.0
+    Turbi5 - 1.00 0.0 -90.0
+    extend right
+    Turbi5 Turbi6 2.60 62.4 -28.1
+    extend left
+    Turbi6 - 2.00 225.0 0.0
+    extend right
+    Turbi6 - 2.00 45.0 0.0
+    extend vertical
+    Turbi6 - 2.00 0.0 90.0
+    Turbi6 - 2.00 0.0 -90.0
+    extend right
+    Turbi6 Turbi7 25.35 315.0 -84.0
+    extend left
+    Turbi7 - 0.50 190.6 0.0
+    extend right
+    Turbi7 - 0.50 10.6 0.0
+    extend vertical
+    Turbi7 - 3.00 0.0 90.0
+    Turbi7 - 1.00 0.0 -90.0
+    extend right
+    Turbi7 Turbi8 6.10 280.6 0.0
+    extend vertical
+    Turbi8 - 0.50 177.6 0.0
+    Turbi8 - 0.50 357.6 0.0
+    Turbi8 - 3.00 0.0 90.0
+    Turbi8 - 1.00 0.0 -90.0
+    extend left
+    Turbi8 Turbi9 4.21 267.6 -4.4
+    Turbi9 - 2.00 228.0 0.0
+    extend right
+    Turbi9 - 2.00 48.0 0.0
+    extend vertical
+    Turbi9 - 2.00 0.0 90.0
+    Turbi9 - 2.00 0.0 -90.0
+    extend right
+    Turbi9 Turbi10 6.47 318.0 -79.5
+    extend left
+    Turbi10 - 2.00 256.5 0.0
+    extend right
+    Turbi10 - 2.00 76.5 0.0
+    extend vertical
+    Turbi10 - 2.00 0.0 90.0
+    Turbi10 - 2.00 0.0 -90.0
+    extend right
+    Turbi10 Turbi11 4.79 346.5 -48.6
+    extend vertical
+    Turbi11 - 2.00 176.2 0.0
+    Turbi11 - 2.00 356.2 0.0
+    Turbi11 - 2.00 0.0 90.0
+    Turbi11 - 2.00 0.0 -90.0
+    extend left
+    Turbi11 Turbi12 15.62 266.2 -79.2
+    extend right
+    Turbi12 - 2.00 169.9 0.0
+    extend left
+    Turbi12 - 2.00 349.9 0.0
+    extend vertical
+    Turbi12 - 2.00 0.0 90.0
+    Turbi12 - 2.00 0.0 -90.0
+    extend left
+    Turbi12 Turbi13 18.53 259.9 -84.5
+    extend vertical
+    Turbi13 - 0.50 179.8 0.0
+    Turbi13 - 0.50 359.8 0.0
+    Turbi13 - 3.00 0.0 90.0
+    Turbi13 - 1.00 0.0 -90.0
+    extend left
+    Turbi13 Turbi14 3.15 269.8 -5.9
+    extend vertical
+    Turbi14 - 0.50 186.6 0.0
+    Turbi14 - 0.50 6.6 0.0
+    Turbi14 - 2.00 0.0 90.0
+    Turbi14 - 1.00 0.0 -90.0
+    extend right
+    Turbi14 Turbi15 5.80 276.6 -37.2
+    Turbi15 - 0.50 168.1 0.0
+    extend left
+    Turbi15 - 0.50 348.1 0.0
+    extend vertical
+    Turbi15 - 4.00 0.0 90.0
+    Turbi15 - 1.00 0.0 -90.0
+    extend left
+    Turbi15 Turbi16 12.42 258.1 -19.2
+    extend right
+    Turbi16 - 0.50 150.7 0.0
+    extend left
+    Turbi16 - 0.50 330.7 0.0
+    extend vertical
+    Turbi16 - 6.00 0.0 90.0
+    Turbi16 - 1.00 0.0 -90.0
+    extend left
+    Turbi16 Turbi17 3.88 240.7 -71.3
+    extend vertical
+    Turbi17 - 0.50 183.8 0.0
+    Turbi17 - 0.50 3.8 0.0
+    Turbi17 - 6.00 0.0 90.0
+    Turbi17 - 1.00 0.0 -90.0
+    extend right
+    Turbi17 Turbi18 13.08 273.8 -8.2
+    extend vertical
+    Turbi18 - 0.50 183.5 0.0
+    Turbi18 - 0.50 3.5 0.0
+    Turbi18 - 2.00 0.0 90.0
+    Turbi18 - 1.00 0.0 -90.0
+    extend right
+    Turbi18 Turbi19 7.95 273.5 -13.7
+    Turbi19 - 3.00 72.1 0.0
+    extend left
+    Turbi19 - 3.00 252.1 0.0
+    extend vertical
+    Turbi19 - 4.00 0.0 90.0
+    Turbi19 - 3.00 0.0 -90.0
+    extend left
+    Turbi19 Turbi20 92.08 162.1 -85.5
+    extend right
+    Turbi20 - 2.00 37.1 0.0
+    extend left
+    Turbi20 - 2.00 217.1 0.0
+    extend vertical
+    Turbi20 - 3.00 0.0 90.0
+    Turbi20 - 1.00 0.0 -90.0
+    extend left
+    Turbi20 Turbi21 3.47 127.1 -15.0
+    extend right
+    Turbi21 - 0.50 131.8 0.0
+    extend left
+    Turbi21 - 0.50 311.8 0.0
+    extend vertical
+    Turbi21 - 2.00 0.0 90.0
+    Turbi21 - 1.00 0.0 -90.0
+    extend left
+    Turbi21 Turbi22 3.91 221.8 -3.6
+    extend right
+    Turbi22 - 0.50 163.4 0.0
+    extend left
+    Turbi22 - 0.50 343.4 0.0
+    extend vertical
+    Turbi22 - 2.00 0.0 90.0
+    Turbi22 - 1.00 0.0 -90.0
+    extend left
+    Turbi22 Turbi23 7.71 253.4 0.0
+    extend right
+    Turbi23 - 0.50 100.6 0.0
+    extend left
+    Turbi23 - 0.50 280.6 0.0
+    extend vertical
+    Turbi23 - 1.00 0.0 90.0
+    Turbi23 - 1.00 0.0 -90.0
+    extend left
+    Turbi23 Turbi24 3.74 190.6 3.8
+    extend vertical
+    Turbi24 - 0.50 175.5 0.0
+    Turbi24 - 0.50 355.5 0.0
+    Turbi24 - 1.00 0.0 90.0
+    Turbi24 - 1.00 0.0 -90.0
+    extend left
+    Turbi24 Turbi25 7.72 265.5 2.4
+    extend right
+    Turbi25 - 0.50 160.7 0.0
+    extend left
+    Turbi25 - 0.50 340.7 0.0
+    extend vertical
+    Turbi25 - 1.00 0.0 90.0
+    Turbi25 - 1.00 0.0 -90.0
+    extend left
+    Turbi25 Turbi26 10.39 250.7 -1.8
+    extend right
+    Turbi26 - 2.00 168.8 0.0
+    extend left
+    Turbi26 - 2.00 348.8 0.0
+    extend vertical
+    Turbi26 - 2.00 0.0 90.0
+    Turbi26 - 2.00 0.0 -90.0
+    extend left
+    Turbi26 Turbi27 19.02 258.8 -84.4
+    extend vertical
+    Turbi27 - 0.50 173.3 0.0
+    Turbi27 - 0.50 353.3 0.0
+    Turbi27 - 1.00 0.0 90.0
+    Turbi27 - 1.00 0.0 -90.0
+    extend left
+    Turbi27 Turbi28 6.77 263.3 -4.8
+    extend vertical
+    Turbi28 - 0.50 178.4 0.0
+    Turbi28 - 0.50 358.4 0.0
+    Turbi28 - 2.00 0.0 90.0
+    Turbi28 - 1.00 0.0 -90.0
+    extend left
+    Turbi28 Turbi29 3.97 268.4 10.6
+    extend vertical
+    Turbi29 - 0.50 185.4 0.0
+    Turbi29 - 0.50 5.4 0.0
+    Turbi29 - 4.00 0.0 90.0
+    Turbi29 - 1.00 0.0 -90.0
+    extend right
+    Turbi29 Turbi30 14.48 275.4 6.5
+    extend vertical
+    Turbi30 - 0.50 173.7 0.0
+    Turbi30 - 0.50 353.7 0.0
+    Turbi30 - 5.00 0.0 90.0
+    Turbi30 - 1.00 0.0 -90.0
+    extend left
+    Turbi30 Turbi31 8.95 263.7 -2.1
+    extend vertical
+    Turbi31 - 0.50 172.8 0.0
+    Turbi31 - 0.50 352.8 0.0
+    Turbi31 - 5.00 0.0 90.0
+    Turbi31 - 1.00 0.0 -90.0
+    extend left
+    Turbi31 Turbi32 9.11 262.8 -9.3
+    extend right
+    Turbi32 - 0.50 56.8 0.0
+    extend left
+    Turbi32 - 0.60 236.8 0.0
+    extend vertical
+    Turbi32 - 5.00 0.0 90.0
+    Turbi32 - 1.00 0.0 -90.0
+    extend left
+    Turbi32 Turbi33 3.88 146.8 3.6
+    extend right
+    Turbi33 - 0.50 157.3 0.0
+    extend left
+    Turbi33 - 0.50 337.3 0.0
+    extend vertical
+    Turbi33 - 2.00 0.0 90.0
+    Turbi33 - 1.00 0.0 -90.0
+    extend left
+    Turbi33 Turbi34 8.97 247.3 -13.7
+    extend right
+    Turbi34 - 0.50 168.2 0.0
+    extend left
+    Turbi34 - 0.50 348.2 0.0
+    extend vertical
+    Turbi34 - 2.00 0.0 90.0
+    Turbi34 - 1.00 0.0 -90.0
+    extend left
+    Turbi34 Turbi35 7.02 258.2 -19.7
+    extend right
+    Turbi35 - 0.50 157.3 0.0
+    extend left
+    Turbi35 - 0.50 337.3 0.0
+    extend vertical
+    Turbi35 - 2.00 0.0 90.0
+    Turbi35 - 1.00 0.0 -90.0
+    extend left
+    Turbi35 Turbi36 9.34 247.3 -10.6
+    Turbi33 - 2.00 213.0 0.0
+    extend right
+    Turbi33 - 2.00 33.0 0.0
+    extend vertical
+    Turbi33 - 2.00 0.0 90.0
+    Turbi33 - 2.00 0.0 -90.0
+    extend right
+    Turbi33 Turbi37 8.45 303.0 59.2
+    Turbi26 - 2.00 100.6 0.0
+    extend left
+    Turbi26 - 2.00 280.6 0.0
+    extend vertical
+    Turbi26 - 2.00 0.0 90.0
+    Turbi26 - 2.00 0.0 -90.0
+    extend left
+    Turbi26 Turbi38 15.12 190.6 81.0
+    extend right
+    Turbi16 - 2.00 41.2 0.0
+    extend left
+    Turbi16 - 2.00 221.2 0.0
+    extend vertical
+    Turbi16 - 2.00 0.0 90.0
+    Turbi16 - 2.00 0.0 -90.0
+    extend left
+    Turbi16 Turbi39 18.32 131.2 85.9
+    extend vertical
+    Turbi7 - 2.00 358.5 0.0
+    Turbi7 - 2.00 178.4 0.0
+    Turbi7 - 2.00 0.0 90.0
+    Turbi7 - 2.00 0.0 -90.0
+    extend right
+    Turbi7 Turbi40 16.78 88.4 -85.7
+    extend left
+    Turbi37 - 0.50 191.4 0.0
+    extend right
+    Turbi37 - 0.50 11.4 0.0
+    extend vertical
+    Turbi37 - 2.00 0.0 90.0
+    Turbi37 - 1.00 0.0 -90.0
+    extend right
+    Turbi37 Turbi41 4.19 281.4 12.4
+    Turbi33 - 2.00 32.6 0.0
+    extend left
+    Turbi33 - 2.00 212.6 0.0
+    extend vertical
+    Turbi33 - 2.00 0.0 90.0
+    Turbi33 - 2.00 0.0 -90.0
+    extend left
+    Turbi33 Turbi42 13.35 122.6 -85.0
+    extend right
+    Turbi42 - 0.50 89.1 0.0
+    extend left
+    Turbi42 - 0.50 269.1 0.0
+    extend vertical
+    Turbi42 - 2.00 0.0 90.0
+    Turbi42 - 1.00 0.0 -90.0
+    extend left
+    Turbi42 Turbi43 0.10 179.1 1.6
+    Turbi43 - 0.50 201.1 0.0
+    extend right
+    Turbi43 - 0.50 21.1 0.0
+    extend vertical
+    Turbi43 - 2.00 0.0 90.0
+    Turbi43 - 1.00 0.0 -90.0
+    extend right
+    Turbi43 Turbi44 4.83 291.1 -27.1
+    Turbi44 - 0.50 158.8 0.0
+    extend left
+    Turbi44 - 0.50 338.8 0.0
+    extend vertical
+    Turbi44 - 2.00 0.0 90.0
+    Turbi44 - 1.00 0.0 -90.0
+    extend left
+    Turbi44 Turbi45 9.27 248.8 -2.0
+    extend right
+    Turbi45 - 0.50 165.7 0.0
+    extend left
+    Turbi45 - 0.50 345.7 0.0
+    extend vertical
+    Turbi45 - 2.00 0.0 90.0
+    Turbi45 - 1.00 0.0 -90.0
+    extend left
+    Turbi45 Turbi46 8.88 255.7 -5.8
+    Turbi44 - 0.50 324.4 0.0
+    extend right
+    Turbi44 - 0.50 144.4 0.0
+    extend vertical
+    Turbi44 - 2.00 0.0 90.0
+    Turbi44 - 1.00 0.0 -90.0
+    extend right
+    Turbi44 Turbi47 3.83 54.4 -8.6
+    extend left
+    Turbi47 - 0.50 350.0 0.0
+    extend right
+    Turbi47 - 0.50 170.0 0.0
+    extend vertical
+    Turbi47 - 3.00 0.0 90.0
+    Turbi47 - 1.00 0.0 -90.0
+    extend right
+    Turbi47 Turbi48 6.63 80.0 36.2
+    extend vertical
+    Turbi48 - 0.50 359.7 0.0
+    Turbi48 - 0.50 179.7 0.0
+    Turbi48 - 2.00 0.0 90.0
+    Turbi48 - 1.00 0.0 -90.0
+    extend right
+    Turbi48 Turbi49 4.80 89.7 47.0
+    extend vertical
+    Turbi49 - 0.50 7.8 0.0
+    Turbi49 - 0.50 187.8 0.0
+    Turbi49 - 3.00 0.0 90.0
+    Turbi49 - 1.00 0.0 -90.0
+    extend left
+    Turbi49 Turbi50 7.17 97.8 17.9
+    extend vertical
+    Turbi50 - 0.50 4.7 0.0
+    Turbi50 - 0.50 184.7 0.0
+    Turbi50 - 3.00 0.0 90.0
+    Turbi50 - 1.00 0.0 -90.0
+    extend left
+    Turbi50 Turbi51 10.06 94.7 9.8
+    extend vertical
+    Turbi51 - 0.50 352.3 0.0
+    Turbi51 - 0.50 172.3 0.0
+    Turbi51 - 2.00 0.0 90.0
+    Turbi51 - 1.00 0.0 -90.0
+    extend right
+    Turbi51 Turbi52 5.93 82.3 43.5
+  endcenterline
+
+endsurvey
+

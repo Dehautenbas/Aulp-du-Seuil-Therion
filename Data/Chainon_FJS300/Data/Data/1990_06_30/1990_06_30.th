@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 1990_06_30 -title "Chainons > 1990-06-30"
+
+    input Data/chain_1990_06_30.th
+
+    ## Plan
+    input Data/chain_1990_06_30.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 1990_06_30-maps.th
+
+endsurvey
+

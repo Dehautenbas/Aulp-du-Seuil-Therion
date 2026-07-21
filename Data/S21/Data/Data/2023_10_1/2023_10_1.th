@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey S21_2023_10_1 -title "S21 > 2023-10-1"
+
+    input Data/S21_2023_10_1.th
+
+    ## Plan
+    input Data/S21_2023_10_1.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2023_10_1-maps.th
+
+endsurvey
+

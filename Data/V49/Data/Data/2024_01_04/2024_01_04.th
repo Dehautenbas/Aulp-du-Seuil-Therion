@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey V49_2024_01_04 -title "V49 > 2024-01-04"
+
+    input Data/V49_2024_01_04.th
+
+    ## Plan
+    input Data/V49_2024_01_04.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2024_01_04-maps.th
+
+endsurvey
+

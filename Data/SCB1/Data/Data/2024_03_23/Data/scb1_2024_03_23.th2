@@ -1,0 +1,1165 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -127.99999999999997 2687.0499999999997 1112.25
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {393.70000000000005 1 1.0} {787.4060000000001 0} 2024_03_23-th_p.xvi 0 {}
+
+
+
+scrap scb1-032324-p1 -projection plan -station-names "" "@SCB1-2024-03-31" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2687.0499999999997 -128.0 0.0 0.0 71.50227 0.0 m]
+
+line border
+  320.75 766.75
+  320.75 766.75 311.46 754.41 326.75 746.0
+  smooth off
+endline
+
+line border
+  333.0 767.25
+  333.0 767.25 321.0 759.25 337.25 750.75
+  smooth off
+endline
+
+point 412.75 914.0 label -text SCB1 -scale xl
+
+line gradient
+  345.5 760.0
+  309.0 754.0
+endline
+
+line border
+  340.75 768.25
+  340.75 768.25 334.25 759.5 345.0 753.0
+  smooth off
+endline
+
+line rock-edge
+  362.25 767.75
+  370.5 776.5
+endline
+
+line rock-edge
+  375.5 770.25
+  362.25 767.75
+  351.0 760.0
+endline
+
+line rock-border -close on
+  354.0 771.0
+  351.0 760.0
+  357.5 757.5
+  375.5 770.25
+  377.0 773.25
+  370.5 776.5
+  354.0 771.0
+endline
+
+point 409.5 851.75 entrance -orientation 190.1 -scale xl
+
+line wall
+  392.0 793.0
+  altitude .
+  378.44 782.65 362.0 772.55 344.5 769.0
+  334.52 766.97 328.68 767.62 318.5 767.25
+  297.75 766.5 306.0 752.75 270.5 762.25
+  smooth off
+endline
+
+line wall -subtype pit
+endline
+
+line pit
+  261.0 757.25
+  261.0 757.25 261.28 763.71 270.5 762.25
+  smooth off
+endline
+
+line wall -subtype pit
+  270.5 762.25
+  267.5 763.5 267.04 765.29 270.25 768.5
+  272.5 770.75 280.01 775.71 281.0 777.25
+  286.19 785.36 283.0 787.0 287.0 794.0
+  smooth off
+endline
+
+point 228.0 762.25 height -value -8
+
+line wall -subtype pit
+  275.0 796.0
+  281.5 786.25 256.55 775.19 251.75 764.0
+  250.85 761.9 255.5 759.0 261.0 757.25
+  smooth off
+endline
+
+point 445.5 790.0 air-draught -orientation 238.6 -subtype winter
+
+point 456.25 772.75 date -orientation 329.7 -value [2024.03.23]
+
+line wall
+  261.0 757.25
+  269.0 754.5 284.09 743.5 310.0 740.0
+  319.25 738.75 325.25 746.0 332.5 748.75
+  338.56 751.05 343.29 752.34 349.5 754.25
+  360.15 757.53 366.45 762.06 376.0 767.75
+  387.75 774.75 394.5 777.5 399.25 780.75
+  smooth off
+endline
+
+point 281.34000000000015 788.7760000000001 station -name 4
+
+point 266.19000000000005 773.1360000000001 station -name 3
+
+point 258.49 762.066 station -name 2
+
+point 309.96000000000004 743.436 station -name 1
+
+line wall
+endline
+
+point 393.70000000000005 787.4060000000001 station -name 0
+
+endscrap
+
+
+
+scrap scb1-032324-p2 -projection plan -station-names "" "@SCB1-2024-03-31" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2687.0499999999997 -128.0 0.0 0.0 71.50227 0.0 m]
+
+point 551.3000000000001 714.3860000000001 station -name 11
+
+line wall
+endline
+
+point 541.36 717.2760000000001 station -name 10
+
+point 502.01 706.946 station -name 9
+
+point 440.6500000000001 709.5260000000001 station -name 8
+
+point 313.44000000000005 744.086 station -name 7
+
+line wall -subtype presumed
+  477.25 768.75
+  490.0 756.5
+endline
+
+point 520.5 775.5 height -value [-3]
+
+line wall -subtype presumed
+  497.0 763.75
+  482.5 774.5
+endline
+
+point 492.25 731.75 height -value [+2]
+
+point 624.0 707.5 height -value -11
+
+line pit -reverse on
+  547.0 711.25
+  543.5 741.0 547.75 751.25 578.5 745.5
+  smooth off
+endline
+
+line overhang -reverse on
+  510.75 719.5
+  510.75 719.5 507.79 710.36 520.25 704.75
+  smooth off
+endline
+
+line overhang
+  521.0 727.0
+  521.0 727.0 536.25 730.0 537.25 712.75
+  smooth off
+endline
+
+line wall
+  520.25 704.75
+  535.25 711.75 541.79 718.75 554.25 705.25
+  smooth off
+endline
+
+line wall -reverse on -subtype pit -outline none
+  554.25 705.25
+  560.25 711.0 568.75 716.5 577.25 713.0
+  582.72 710.75 584.0 703.33 585.0 697.5
+  smooth off
+endline
+
+line wall -reverse on
+  537.25 758.25
+  579.25 762.5 589.61 741.85 585.0 697.5
+  smooth off
+endline
+
+line pit
+  503.0 763.0
+  503.0 763.0 507.75 751.5 493.0 749.25
+  smooth off
+endline
+
+line wall
+  537.25 758.25
+  520.25 755.0 515.5 754.5 497.0 763.75
+  smooth off
+endline
+
+line wall
+  490.0 756.5
+  502.0 745.75 523.75 736.25 521.0 727.0
+  520.21 724.34 518.75 723.25 515.75 721.5
+  smooth off
+endline
+
+line wall -subtype pit
+  287.0 794.0
+  302.5 802.0 297.75 798.0 300.0 772.5
+  smooth off
+endline
+
+line wall
+  300.0 772.5
+  311.5 729.08 317.96 732.5 370.0 717.25
+  altitude .
+  392.75 710.58 415.87 704.94 439.25 701.0
+  501.64 690.48 485.84 686.37 520.25 704.75
+  smooth off
+endline
+
+point 419.0 713.0 blocks -orientation 294.7
+
+point 464.0 713.25 blocks
+
+line gradient
+endline
+
+line gradient
+  324.25 754.5
+  372.0 729.75
+endline
+
+line border
+  361.25 746.5
+  361.25 746.5 366.25 729.0 344.0 724.25
+  smooth off
+endline
+
+line border
+  343.5 764.0
+  343.5 764.0 359.55 738.26 319.75 734.25
+  smooth off
+endline
+
+line border
+  335.25 781.5
+  335.25 781.5 341.37 734.71 306.0 753.5
+  smooth off
+endline
+
+line wall
+  515.75 721.5
+  510.25 719.58 505.07 715.91 499.25 715.75
+  458.97 714.65 381.44 727.01 349.75 755.25
+  341.24 762.83 341.25 774.75 332.5 784.75
+  smooth off
+endline
+
+point 288.5 849.0 height -value -22
+
+line wall -subtype pit
+  332.5 784.75
+  319.5 795.25 309.45 803.99 299.5 816.0
+  292.25 824.75 275.0 834.5 264.0 820.0
+  254.14 807.0 277.25 803.5 275.0 796.0
+  smooth off
+endline
+
+point 301.84000000000015 807.916 station -name 6
+
+point 293.9100000000001 808.816 station -name 5
+
+endscrap
+
+
+
+scrap scb1-032324-p3 -projection plan -station-names "" "@SCB1-2024-03-31" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2687.0499999999997 -128.0 0.0 0.0 71.50227 0.0 m]
+
+point 524.46 669.8960000000001 station -name 13
+
+line wall -subtype unsurveyed
+  562.5 647.5
+  640.0 618.5
+endline
+
+line wall -reverse on -subtype unsurveyed
+  564.5 654.5
+  642.5 625.0
+endline
+
+line wall -subtype pit
+  554.25 705.25
+  551.25 697.0 537.79 683.3 529.5 680.25
+  512.96 674.16 499.0 673.0 511.25 649.0
+  513.77 644.06 519.0 643.5 524.0 641.75
+  529.35 639.88 536.62 641.68 542.25 642.5
+  554.25 644.25 550.0 653.5 562.5 647.5
+  smooth off
+endline
+
+line wall -subtype invisible
+  585.0 697.5
+  554.25 705.25
+endline
+
+point 656.75 616.75 remark -orientation 21.1 -text [faille] -align right
+
+point 600.75 667.0 height -value -18
+
+line wall -subtype pit
+  564.5 654.5
+  557.76 655.59 558.42 669.18 562.5 672.5
+  566.78 675.98 573.02 675.96 577.25 679.5
+  582.23 683.67 582.75 690.75 585.0 697.5
+  smooth off
+endline
+
+point 565.2800000000001 703.5360000000001 station -name 12
+
+endscrap
+
+
+
+scrap scb1-032324-p4 -projection plan -station-names "" "@SCB1-2024-03-31" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2687.0499999999997 -128.0 0.0 0.0 71.50227 0.0 m]
+
+point 488.6600000000001 663.316 station -name 14
+
+area blocks
+  l202-545-655
+endarea
+
+line border -id l202-545-655 -close on -reverse on -visibility off
+  362.0 721.25
+  499.0 672.5
+  545.0 654.25
+  550.75 639.75
+  538.0 630.25
+  539.75 620.25
+  521.0 612.25
+  499.25 621.75
+  467.75 627.25
+  426.75 655.5
+  420.75 670.5
+  368.75 701.0
+  354.75 712.25
+  362.0 721.25
+endline
+
+line wall -reverse on
+  526.75 572.25
+  522.0 580.5 514.15 588.46 510.0 597.75
+  507.22 603.98 508.54 613.91 499.75 616.25
+  470.73 623.99 476.88 614.04 447.5 632.75
+  altitude .
+  400.0 663.0 443.47 648.98 400.5 679.25
+  380.67 693.22 353.25 699.0 351.75 711.5
+  350.67 720.48 351.46 727.13 361.75 725.0
+  406.4 715.78 444.13 688.74 488.75 680.75
+  smooth off
+endline
+
+point 624.5 617.0 narrow-end -orientation 109.4
+
+line wall -reverse on -subtype presumed
+  600.5 621.5
+  571.25 632.25
+endline
+
+line wall -reverse on
+  571.25 632.25
+  559.21 636.33 553.04 643.29 544.0 630.0
+  542.06 627.15 547.0 618.25 542.5 615.75
+  538.69 613.63 532.25 608.25 532.25 603.25
+  532.25 593.59 542.0 589.75 549.5 583.5
+  smooth off
+endline
+
+line wall -reverse on
+  488.75 680.75
+  510.41 678.26 529.42 672.46 546.0 658.25
+  550.56 654.34 553.99 649.07 559.0 645.75
+  563.33 642.87 568.67 641.92 573.5 640.0
+  smooth off
+endline
+
+line wall -reverse on -subtype presumed
+  573.5 640.0
+  602.25 629.0
+endline
+
+point 516.21 601.736 station -name 15
+
+point 916.8700000000001 529.5260000000001 station -name 22
+
+point 889.95 565.116 station -name 21
+
+point 843.57 561.7860000000001 station -name 20
+
+point 841.97 496.5160000000001 station -name 19
+
+point 763.76 463.966 station -name 18
+
+point 735.11 483.72600000000006 station -name 17
+
+line wall
+  526.75 572.25
+  542.14 558.01 570.62 513.02 590.75 507.25
+  637.09 493.96 645.63 504.23 688.5 482.0
+  701.28 475.37 709.09 459.73 723.0 456.0
+  750.96 448.5 797.19 473.94 818.5 483.0
+  smooth off
+endline
+
+line wall
+  818.5 483.0
+  863.0 502.0 849.0 488.5 847.0 524.0
+  846.55 531.99 856.13 522.56 857.25 528.0
+  859.0 536.5 849.24 545.9 854.5 552.0
+  874.02 574.64 906.73 532.02 912.5 527.5
+  925.82 517.07 940.92 507.58 954.5 497.5
+  smooth off
+endline
+
+line border
+  585.0 516.5
+  585.0 516.5 606.0 529.5 604.5 556.0
+  smooth off
+endline
+
+line border
+  572.0 531.5
+  593.0 533.5 590.5 557.5 590.5 557.5
+  smooth off
+endline
+
+area blocks
+  l216-668-536
+endarea
+
+line border -id l216-668-536 -close on -visibility off
+  615.0 551.5
+  598.0 509.5
+  673.5 494.0
+  705.0 471.5
+  715.0 499.5
+  668.0 534.5
+  615.0 551.5
+endline
+
+line border
+  712.5 468.0
+  712.5 468.0 708.0 492.0 728.0 495.0
+  smooth off
+endline
+
+line border
+  724.0 460.5
+  724.0 460.5 719.0 485.5 735.0 489.0
+  smooth off
+endline
+
+line border
+  745.0 479.5
+  745.0 479.5 731.0 474.5 738.5 459.0
+  smooth off
+endline
+
+line border
+  577.0 560.0
+  581.0 543.5 560.0 543.5 560.0 543.5
+  smooth off
+endline
+
+line wall -reverse on
+  549.5 583.5
+  558.08 578.17 565.84 571.18 575.25 567.5
+  583.84 564.14 593.54 564.93 602.5 562.75
+  636.16 554.56 649.64 549.97 679.75 532.25
+  699.97 520.35 718.45 505.7 737.5 492.0
+  744.05 487.29 748.68 478.99 756.5 477.0
+  763.97 475.1 810.64 493.77 814.0 495.0
+  smooth off
+endline
+
+line wall -reverse on
+  814.0 495.0
+  857.5 505.5 823.35 558.73 842.0 564.0
+  907.5 582.5 889.4 562.29 916.5 536.5
+  922.73 530.57 930.95 527.17 938.0 522.25
+  945.53 517.0 952.83 511.42 960.25 506.0
+  smooth off
+endline
+
+point 590.9200000000001 513.326 station -name 16
+
+endscrap
+
+
+
+scrap scb1-032324-p5 -projection plan -station-names "" "@SCB1-2024-03-31" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2687.0499999999997 -128.0 0.0 0.0 71.50227 0.0 m]
+
+point 1328.01 494.73600000000005 station -name 29
+
+point 1328.96 440.61600000000004 station -name 28
+
+point 1215.8700000000001 439.23600000000005 station -name 27
+
+point 1178.18 421.586 station -name 26
+
+point 1072.27 443.5160000000001 station -name 25
+
+point 1032.94 425.17600000000004 station -name 24
+
+line border
+  1186.5 402.0
+  1186.5 402.0 1178.0 433.75 1191.5 447.25
+  smooth off
+endline
+
+line border
+  1197.5 395.0
+  1197.5 395.0 1185.0 426.5 1199.5 448.5
+  smooth off
+endline
+
+area blocks
+  l244-1241-446
+endarea
+
+area blocks
+  l245-1150-444
+endarea
+
+point 1345.5 446.0 water-flow -orientation 243.6
+
+point 1388.25 459.5 narrow-end -orientation 68.9
+
+line border -id l245-1150-444 -close on -visibility off
+  1105.0 453.0
+  1100.0 433.5
+  1170.0 415.0
+  1164.0 442.0
+  1105.0 453.0
+endline
+
+line border -id l244-1241-446 -close on -visibility off
+  1224.0 447.5
+  1217.5 392.5
+  1245.0 388.0
+  1323.0 429.0
+  1313.5 443.5
+  1224.0 447.5
+endline
+
+line gradient
+  1209.0 426.0
+  1171.0 431.0
+endline
+
+line border
+  1210.0 451.5
+  1210.0 451.5 1189.57 422.99 1208.0 390.0
+  smooth off
+endline
+
+line wall
+  1384.75 540.0
+  1368.14 521.3 1328.73 514.21 1322.75 486.5
+  1320.34 475.31 1328.57 456.87 1318.0 452.5
+  1294.51 442.79 1267.17 452.88 1241.75 453.0
+  1233.17 453.04 1228.03 454.48 1219.5 453.5
+  1211.17 452.55 1199.0 447.5 1191.5 447.25
+  1183.6 446.99 1168.67 444.17 1161.5 447.5
+  smooth off
+  1138.0 447.42 1121.5 453.0 1099.5 457.0
+  smooth off
+endline
+
+line wall -subtype unsurveyed
+  1031.0 473.0
+  1095.5 449.0
+endline
+
+point 1030.25 493.75 remark -orientation 21.1 -text [faille] -align left
+
+line wall -subtype unsurveyed
+  1099.5 457.0
+  1034.5 481.0
+endline
+
+line wall
+  1095.5 449.0
+  1095.5 449.0 1110.0 441.75 1092.5 443.0
+  1087.27 443.37 1080.0 447.0 1080.0 447.0
+  smooth off
+  1056.0 455.5 1053.5 429.5 1035.75 430.0
+  1016.58 430.54 1014.93 462.37 1002.0 476.5
+  995.68 483.4 986.39 486.85 978.75 492.25
+  972.47 496.68 966.42 501.42 960.25 506.0
+  smooth off
+endline
+
+line wall
+  1364.0 457.0
+  1356.33 454.83 1348.97 450.64 1341.0 450.5
+  1338.5 450.45 1337.04 454.06 1336.5 456.5
+  1334.07 467.49 1333.15 481.39 1339.0 491.0
+  1346.75 503.73 1358.1 504.87 1370.75 512.75
+  1377.77 517.12 1384.42 522.08 1391.25 526.75
+  smooth off
+endline
+
+line border
+endline
+
+line label -text [Galerie Kivaou]
+  1013.0 542.0
+  1189.0 539.0 1171.25 532.25 1329.0 559.0
+  smooth off
+endline
+
+line wall
+  954.5 497.5
+  965.0 489.5 962.56 476.34 1001.5 444.5
+  1012.08 435.85 1021.32 422.11 1034.5 418.5
+  1042.38 416.34 1049.58 426.59 1057.0 430.0
+  1062.87 432.69 1068.57 436.62 1075.0 436.0
+  1093.47 434.21 1110.25 427.75 1128.25 423.25
+  smooth off
+endline
+
+line wall
+  1128.25 423.25
+  1197.0 406.5 1184.02 395.58 1227.0 383.0
+  altitude .
+  1268.0 371.0 1333.5 441.0 1367.0 448.75
+  smooth off
+endline
+
+point 976.4300000000001 489.956 station -name 23
+
+endscrap
+
+
+
+scrap scb1-032324-p6 -projection plan -station-names "" "@SCB1-2024-03-31" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2687.0499999999997 -128.0 0.0 0.0 71.50227 0.0 m]
+
+point 2179.09 655.696 station -name 36
+
+point 2117.94 641.356 station -name 35
+
+point 1890.08 606.486 station -name 34
+
+point 1798.2 620.226 station -name 33
+
+point 1608.93 587.8660000000001 station -name 32
+
+line wall -subtype presumed
+  2192.25 670.25
+  2173.58 672.92 2147.75 676.0 2127.0 676.75
+  smooth off
+endline
+
+line border
+  2152.5 670.0
+  2152.5 670.0 2145.75 646.25 2156.75 627.25
+  smooth off
+endline
+
+line border
+  2145.25 671.25
+  2145.25 671.25 2135.5 648.0 2149.5 625.75
+  smooth off
+endline
+
+line border
+  2137.75 671.75
+  2137.75 671.75 2126.0 646.5 2142.5 623.5
+  smooth off
+endline
+
+area blocks
+  l224-2109-666
+endarea
+
+line border -id l224-2109-666 -close on -visibility off
+  2075.5 656.5
+  2095.75 613.75
+  2138.0 620.5
+  2126.25 671.25
+  2075.5 656.5
+endline
+
+area blocks
+  l222-2046-644
+endarea
+
+line border -id l222-2046-644 -close on -visibility off
+  1915.25 617.75
+  1931.25 583.75
+  2079.5 610.25
+  2041.0 649.5
+  1915.25 617.75
+endline
+
+line border
+  2057.25 652.25
+  2057.25 652.25 2062.0 632.5 2079.5 628.5
+  smooth off
+endline
+
+line border
+  2049.0 650.5
+  2049.0 650.5 2054.0 631.0 2076.75 622.5
+  smooth off
+endline
+
+line border
+  2064.75 655.0
+  2064.75 655.0 2064.62 639.48 2083.25 634.25
+  smooth off
+endline
+
+line wall
+  2127.0 676.75
+  2051.0 663.75 1970.52 619.89 1888.25 620.75
+  1858.13 621.07 1828.56 633.18 1798.5 631.25
+  1748.69 628.05 1700.75 615.0 1651.0 605.5
+  smooth off
+endline
+
+point 1597.0 610.0 water-flow -orientation 151.9
+
+point 1554.75 594.0 water-flow -orientation 159.3
+
+line wall
+  1651.0 605.5
+  1637.0 602.5 1622.49 596.16 1608.5 590.75
+  1590.8 583.9 1574.55 572.73 1556.0 568.75
+  1533.55 563.94 1510.19 565.69 1487.25 564.75
+  1463.18 563.77 1438.42 566.65 1415.0 561.0
+  1402.69 558.03 1391.0 544.0 1384.75 540.0
+  smooth off
+endline
+
+line wall
+  1391.25 526.75
+  1401.0 533.33 1409.06 543.78 1420.5 546.5
+  1467.59 557.71 1525.84 539.92 1565.5 554.5
+  1599.5 567.0 1611.0 578.0 1652.5 587.0
+  smooth off
+endline
+
+line wall
+  1652.5 587.0
+  1736.89 606.41 1820.99 569.94 1905.0 576.25
+  1951.09 579.71 1995.68 594.25 2041.25 602.0
+  2068.7 606.67 2096.42 609.67 2124.0 613.5
+  smooth off
+endline
+
+line wall -subtype presumed
+  2124.0 613.5
+  2163.27 621.2 2167.27 625.17 2198.75 633.5
+  smooth off
+endline
+
+point 1558.3200000000002 559.816 station -name 31
+
+point 1418.1000000000001 553.696 station -name 30
+
+line overhang -reverse on
+  1890.75 580.0
+  1883.75 607.5 1921.25 593.75 1906.0 578.5
+  smooth off
+endline
+
+endscrap
+
+
+
+scrap scb1-032324-p7 -projection plan -station-names "" "@SCB1-2024-03-31" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2687.0499999999997 -128.0 0.0 0.0 71.50227 0.0 m]
+
+point 1826.1100000000001 589.1260000000001 station -name 40
+
+point 1883.8000000000002 578.226 station -name 39
+
+point 1902.52 568.6460000000001 station -name 38
+
+line wall
+  1890.75 580.0
+  1877.5 581.5 1860.01 586.66 1838.5 590.5
+  smooth off
+endline
+
+line wall -subtype pit
+  1838.5 590.5
+  1831.5 591.75 1827.75 594.5 1824.5 599.25
+  smooth off
+endline
+
+point 1891.5 572.75 water-flow -orientation 273.6
+
+point 1923.0 552.5 water-flow -orientation 305.0
+
+point 1948.75 533.0 narrow-end -orientation 306.4
+
+line wall -reverse on -subtype pit
+  1834.25 578.5
+  1834.25 578.5 1829.73 581.33 1826.5 580.75
+  smooth off
+endline
+
+line wall -reverse on
+  1922.0 547.5
+  1914.92 553.25 1909.97 561.04 1901.75 565.0
+  1895.45 568.04 1887.8 566.4 1881.0 568.0
+  altitude .
+  1868.29 570.99 1851.25 574.25 1834.25 578.5
+  smooth off
+endline
+
+line wall -reverse on
+  1906.0 578.5
+  1907.25 565.0 1911.5 567.25 1927.75 554.0
+  smooth off
+endline
+
+point 1899.7800000000002 586.356 station -name 37
+
+endscrap
+
+
+
+scrap scb1-032324-p8 -projection plan -station-names "" "@SCB1-2024-03-31" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2687.0499999999997 -128.0 0.0 0.0 71.50227 0.0 m]
+
+point 1914.91 705.556 station -name 44
+
+point 1860.3200000000002 671.176 station -name 43
+
+line pit
+  1909.25 707.0
+  1909.25 707.0 1923.25 703.0 1917.5 687.75
+  smooth off
+endline
+
+line wall -subtype pit
+  1903.25 662.75
+  1915.0 675.25 1908.0 684.75 1923.5 691.25
+  smooth off
+endline
+
+line pit
+  1859.5 679.75
+  1859.5 679.75 1870.75 664.5 1853.25 656.5
+  smooth off
+endline
+
+line pit
+  1818.5 667.5
+  1818.5 667.5 1833.75 668.75 1837.0 656.25
+  smooth off
+endline
+
+line wall -reverse on -subtype pit
+  1903.25 662.75
+  1896.5 660.25 1890.04 663.79 1884.5 661.25
+  1878.5 658.5 1876.56 658.26 1870.0 653.25
+  1861.18 646.52 1856.95 651.93 1853.25 656.5
+  1847.68 663.39 1843.32 657.43 1837.0 656.25
+  smooth off
+endline
+
+line wall -reverse on -subtype pit
+  1886.75 690.5
+  1895.75 698.0 1911.25 706.75 1923.0 709.25
+  smooth off
+endline
+
+line wall -reverse on -subtype pit
+  1818.5 667.5
+  1828.5 680.0 1848.95 676.3 1859.5 679.75
+  1873.25 684.25 1878.4 685.57 1886.75 690.5
+  smooth off
+endline
+
+line wall
+  1818.5 667.5
+  1794.25 642.5
+  1787.5 631.0
+endline
+
+line wall -reverse on -subtype pit -outline none
+  1787.5 631.0
+  1794.75 636.5 1809.03 638.77 1817.5 635.0
+  1822.0 633.0 1834.0 625.25 1829.0 617.25
+  smooth off
+endline
+
+line wall -subtype pit
+  1787.5 631.0
+  1776.75 606.0 1778.5 590.75 1788.5 579.5
+  smooth off
+endline
+
+point 1909.0 730.5 height -value -12
+
+point 1857.0 721.0 height -value -8
+
+point 1785.5 672.5 height -value -17
+
+point 1802.5 552.5 height -value -13
+
+line wall -subtype pit
+  1788.5 579.5
+  1809.75 567.25 1814.0 580.0 1826.5 580.75
+  smooth off
+endline
+
+line wall -subtype pit
+  1824.5 599.25
+  1820.75 609.5 1824.5 612.25 1829.0 617.25
+  smooth off
+endline
+
+point 1889.25 675.25 water-flow -orientation 43.4
+
+point 1829.0 636.0 water-flow -orientation 0.0
+
+line rock-border -close on
+  1823.5 650.75
+  1825.25 647.25
+  1821.75 644.25
+  1821.5 649.0
+  1823.5 650.75
+endline
+
+line rock-edge
+  1813.25 650.0
+  1818.25 657.5
+  1822.25 658.25
+endline
+
+line rock-border -close on
+  1818.0 660.5
+  1809.75 655.25
+  1809.75 648.25
+  1818.5 647.0
+  1823.5 656.0
+  1824.25 661.5
+  1818.0 660.5
+endline
+
+line wall
+  1829.0 617.25
+  1842.56 621.9 1852.0 624.0 1847.0 644.0
+  1845.52 649.91 1824.75 646.5 1837.0 656.25
+  smooth off
+endline
+
+point 1823.7 665.576 station -name 42
+
+point 1790.1 629.5360000000001 station -name 41
+
+endscrap
+
+
+
+scrap scb1-032324-p9 -projection plan -station-names "" "@SCB1-2024-03-31" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2687.0499999999997 -128.0 0.0 0.0 71.50227 0.0 m]
+
+point 1624.49 651.2360000000001 station -name 52
+
+point 1688.21 669.1560000000001 station -name 51
+
+point 1657.8400000000001 702.176 station -name 50
+
+point 1726.69 727.376 station -name 49
+
+point 1775.05 728.6460000000001 station -name 48
+
+point 1811.54 698.346 station -name 47
+
+point 1874.9 687.6260000000001 station -name 46
+
+line wall -subtype pit
+  1642.5 647.0
+  1642.5 647.0 1634.5 650.25 1641.0 653.0
+  smooth off
+endline
+
+line wall
+  1641.0 653.0
+  1679.75 654.25
+endline
+
+point 1692.5 750.0 label -orientation 341.6 -text [Méandre Kivala]
+
+point 1681.0 665.0 water-flow -orientation 262.0
+
+point 1760.0 729.5 water-flow -orientation 262.0
+
+point 1852.75 690.25 water-flow -orientation 278.1
+
+line wall
+  1679.75 654.25
+  1722.25 666.38 1655.18 692.8 1665.25 701.25
+  1679.25 713.0 1713.0 719.0 1728.0 720.75
+  smooth off
+endline
+
+line wall -subtype pit
+  1923.5 691.25
+  1931.0 695.0 1931.0 685.0 1923.75 685.0
+  smooth off
+endline
+
+line label -text [Réseau Kilucru] -scale l
+  1529.0 741.5
+  1643.0 813.5 1773.0 856.5 1951.0 779.5
+  smooth off
+endline
+
+line wall
+  1923.75 685.0
+  1875.75 703.5 1847.28 690.0 1812.5 707.25
+  1799.91 713.49 1789.6 722.88 1778.5 731.5
+  1774.17 734.87 1766.98 740.57 1761.5 740.75
+  1747.31 741.22 1665.89 715.93 1655.5 705.0
+  1641.79 690.57 1677.0 680.14 1674.5 674.75
+  1669.71 664.42 1653.0 667.25 1642.25 663.5
+  smooth off
+endline
+
+point 1590.75 643.5 height -value -9
+
+line wall -subtype pit
+  1642.25 663.5
+  1633.41 659.88 1601.64 653.77 1617.75 631.0
+  1622.11 624.84 1631.75 626.25 1640.25 628.5
+  smooth off
+endline
+
+line wall -reverse on -subtype pit
+  1923.0 709.25
+  1949.33 713.01 1942.0 691.25 1934.0 681.5
+  smooth off
+endline
+
+line wall -reverse on
+  1934.0 681.5
+  1912.33 657.97 1913.65 685.94 1882.5 685.0
+  1870.57 684.64 1858.39 680.52 1846.5 681.5
+  1806.96 684.77 1807.21 699.22 1773.0 716.25
+  1761.07 722.19 1740.62 720.75 1728.0 720.75
+  smooth off
+  altitude .
+endline
+
+point 1931.21 695.6460000000001 station -name 45
+
+endscrap
+
+
+
+scrap scb1-032324-p10 -projection plan -station-names "" "@SCB1-2024-03-31" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2687.0499999999997 -128.0 0.0 0.0 71.50227 0.0 m]
+
+point 1870.62 580.666 station -name 56
+
+point 1834.95 581.296 station -name 55
+
+point 1796.53 595.966 station -name 54
+
+line pit
+  1861.0 587.25
+  1861.0 587.25 1876.05 591.08 1882.75 580.25
+  smooth off
+endline
+
+line wall -reverse on
+  1884.0 588.25
+  1880.75 582.5 1885.3 576.98 1881.25 575.0
+  1874.73 571.81 1863.75 575.73 1856.5 576.25
+  1835.75 577.75 1829.75 581.0 1805.0 586.75
+  1801.73 587.51 1794.5 586.75 1788.75 588.25
+  1776.05 591.56 1768.72 599.14 1756.25 603.25
+  1739.24 608.86 1721.54 611.34 1704.25 616.0
+  1681.24 622.2 1663.5 628.25 1640.25 628.5
+  smooth off
+endline
+
+line wall -reverse on -subtype pit -outline none
+  1642.5 647.0
+  1660.5 639.75 1651.0 631.25 1640.25 628.5
+  smooth off
+endline
+
+line wall -reverse on
+  1642.5 647.0
+  1647.5 648.0 1652.41 649.79 1657.5 650.0
+  1680.71 650.96 1700.47 632.32 1722.25 624.25
+  1737.18 618.72 1753.05 615.96 1768.0 610.5
+  1804.25 597.25 1790.73 598.9 1838.0 589.25
+  1854.97 585.79 1857.0 583.5 1868.75 592.5
+  smooth off
+endline
+
+point 1654.58 638.2760000000001 station -name 53
+
+endscrap
+
+
+
+scrap scb1-032324-p11 -projection plan -station-names "" "@SCB1-2024-03-31" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 2687.0499999999997 -128.0 0.0 0.0 71.50227 0.0 m]
+
+point 2027.49 617.0060000000001 station -name 60
+
+point 2063.05 604.4960000000001 station -name 59
+
+point 2020.69 640.546 station -name 58
+
+line wall -reverse on
+  1991.25 621.5
+  1984.25 621.0 1970.5 619.0 1954.75 617.5
+  smooth off
+endline
+
+line wall -reverse on -subtype pit
+  1954.75 617.5
+  1923.25 615.0 1906.75 620.25 1895.5 612.25
+  1888.97 607.61 1888.0 597.0 1884.0 588.25
+  smooth off
+endline
+
+line wall -reverse on -subtype pit -outline none
+  1952.25 636.5
+  1952.25 636.5 1973.25 631.25 1954.75 617.5
+  smooth off
+endline
+
+line wall -reverse on -subtype pit
+  1868.75 592.5
+  1886.75 609.0 1847.63 614.9 1856.25 630.0
+  1860.02 636.6 1893.94 666.86 1907.5 660.25
+  1937.75 645.5 1919.5 636.75 1952.25 636.5
+  smooth off
+endline
+
+point 1949.5 664.0 height -value -28
+
+line wall -reverse on
+  1952.25 636.5
+  1969.75 637.0 1971.0 636.5 1987.75 639.25
+  smooth off
+endline
+
+point 1893.6100000000001 620.6460000000001 station -name 57
+
+endscrap
+
+

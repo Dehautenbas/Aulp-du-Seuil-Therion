@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 03-01-2024_GV-calage -title "Guiers Vif (calage) > 2024-01-03"
+
+    input Data/gv-03-01-2024_calage.th
+
+    ## Plan
+    input Data/gv-03-01-2024_calage.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 03-01-2024_GV-calage-maps.th
+
+endsurvey
+

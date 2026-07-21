@@ -1,0 +1,83 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 324.85 521.7
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {108.848 1 1.0} {311.70000000000005 13} 2024_07_27-th_p4.xvi 0 {}
+
+
+
+scrap scb1-20240727-p4 -projection plan -station-names "" "@SCB1-2024-07-27" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 324.85 -128.0 0.0 0.0 11.50239 0.0 m]
+
+point 107.568 38.51000000000002 station -name 19
+
+point 116.148 96.59000000000002 station -name 18
+
+point 129.108 162.68 station -name 17
+
+point 102.258 224.73000000000002 station -name 16
+
+point 34.988 286.15000000000003 station -name 15
+
+point 87.128 322.39 station -name 14
+
+point 238.0 141.5 height -value [-23 m]
+
+point 120.0 250.5 height -value [-10 m]
+
+point 5.5 317.0 height -value [-18 m]
+
+line pit -reverse on
+  92.0 97.0
+  92.0 97.0 115.29 77.6 153.0 91.0
+  smooth off
+endline
+
+line pit -reverse on
+  76.5 186.0
+  76.5 186.0 116.44 189.71 126.0 224.0
+  smooth off
+endline
+
+line pit -reverse on
+  32.5 251.5
+  32.5 251.5 75.0 238.0 99.0 271.5
+  smooth off
+endline
+
+line wall -subtype pit
+  110.5 27.5
+  122.5 28.5 126.54 30.77 130.5 37.0
+  132.98 40.9 124.01 44.9 124.5 49.5
+  125.14 55.44 129.88 62.76 133.5 67.5
+  140.0 76.0 142.9 87.09 153.0 91.0
+  181.75 102.11 193.47 87.07 217.0 119.0
+  222.93 127.05 223.0 144.0 208.0 160.5
+  198.74 170.68 182.5 185.0 170.5 196.0
+  161.68 204.08 152.5 212.0 141.0 218.0
+  128.46 224.54 115.89 227.98 105.0 237.0
+  96.58 243.97 101.15 260.77 99.0 271.5
+  93.5 299.0 69.0 321.5 95.5 311.0
+  smooth off
+endline
+
+line wall -subtype pit
+  97.0 326.0
+  altitude .
+  66.01 337.62 87.61 333.27 34.5 295.5
+  20.02 285.2 -7.69 281.75 -8.5 264.0
+  -9.15 249.73 21.88 261.06 32.5 251.5
+  39.51 245.19 30.88 231.07 36.5 223.5
+  55.72 197.62 115.13 167.95 112.5 122.5
+  111.87 111.61 94.14 107.69 92.0 97.0
+  89.68 85.39 107.83 71.81 100.5 62.5
+  90.77 50.14 67.96 58.91 55.0 50.0
+  48.99 45.87 44.24 31.24 51.0 28.5
+  69.38 21.05 92.5 25.0 110.5 27.5
+  smooth off
+  altitude .
+endline
+
+point 108.848 311.70000000000005 station -name 13
+
+endscrap
+
+

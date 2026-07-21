@@ -1,0 +1,5 @@
+encoding  utf-8
+
+map BL42_2017_08_12_MP -title "BL42 > 2017_08_12"
+  BL42_SP1
+endmap

@@ -1,0 +1,30 @@
+encoding  utf-8
+survey BL42_2017_08_12 -title "BL42"
+
+centerline
+    cs UTM31
+   
+    fix 0 726490 5028310 1560
+   #fix 0 726186 5027256.000 1640.000
+   station 0 "Gouffre BL42" entrance
+    
+    date 2017.08.12 
+    #declination 1.627 degrees
+    declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    extend right
+    0 - 1.00 1 0.1
+    extend left
+    0 - 1.00 91 0.1
+    extend right
+    extend right
+    0 - 1.00 181 0.1
+    extend left
+    0 - 1.00 271 0.1
+    extend right
+endcenterline
+
+endsurvey
+

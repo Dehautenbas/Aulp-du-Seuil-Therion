@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 1990_09_15 -title "Ténébreux > 1990-09-15"
+
+    input Data/tene_1990_09_15.th
+
+    ## Plan
+    input Data/tene_1990_09_15.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 1990_09_15-maps.th
+
+endsurvey
+

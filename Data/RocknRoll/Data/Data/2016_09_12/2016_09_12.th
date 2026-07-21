@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 2016_09_12 -title "Rock'n Roll > 2016-09-12"
+
+    input Data/Rocknroll_2016_09_12.th
+
+    ## Plan
+    input Data/Rocknroll_2016_09_12.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/
+    #   join ........
+
+    ## Maps
+    input 2016_09_12-maps.th
+
+endsurvey
+

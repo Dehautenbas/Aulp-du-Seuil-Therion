@@ -1,0 +1,16 @@
+encoding  utf-8
+survey GV_Porche-emergence-tot -title "extérieur"
+
+    input Data/GV_Porche-emergence.th
+
+    ## Plan
+    input Data/exterieur.th2
+  
+    ## Coupe
+    input Data/GV_Porche-emergence-proj.th2
+
+     ## Maps
+    input GV_Porche-emergence-maps.th
+
+endsurvey
+

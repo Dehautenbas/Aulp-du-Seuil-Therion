@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey troupointage -title "Cavités non topographiées"
+
+centerline
+
+  #cs UTM31	# UTM31 Nord
+  cs EPSG:2154	# RGF93 - Lambert 93 ; projection de l'IGN
+
+
+  # FJS319 : courant d'air soufflant le 13/10/2024
+  
+    fix FJS319 726296 5030170 1447
+    station FJS319 "FJS319" entrance
+
+endcenterline
+
+endsurvey
+
