@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.0 1265.0 1039.0
+##XTHERION## xth_me_area_adjust -129.0 -129.0 1156.0 1038.0
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {196.85499999999996 1 1.0} {787.404 0} 16_12_2023_GV_Cascade-th_p.xvi 0 {}
 
@@ -94,7 +94,7 @@ line wall
   smooth off
 endline
 
-line label -reverse on -clip off -scale l -text [Le couloir de la Divine Comédie]
+line label -clip off -scale l -text [Le couloir de la Divine Comédie]
   474.0 909.0
   788.0 889.0 938.0 576.0 916.0 397.0
   smooth off
@@ -226,14 +226,15 @@ point 860.855 338.73400000000004 station -name 29
 
 point 827.015 356.194 station -name 28
 
-point 1029.5 142.0 height -value [+20]
+point 1032.5 209.0 height -value [+20]
 
-point 1134.5 259.0 label -text [<center>Puits des<br>Sombres Héros]
+point 990.5 151.5 label -align right -text [<center>Puits des<br>Sombres Héros]
 
 line wall -subtype pit
   901.25 184.5
   914.51 189.74 930.73 183.45 943.75 189.25
   950.0 192.03 952.7 199.68 958.0 204.0
+  altitude .
   970.01 213.8 982.84 222.56 995.5 231.5
   smooth off
 endline
@@ -338,9 +339,9 @@ line wall
   smooth off
 endline
 
-point 629.0 168.0 water-flow -orientation 87.5
+point 650.0 169.0 water-flow -orientation 87.5
 
-point 720.75 34.0 remark -text [Etroiture Lips] -scale xs
+point 679.75 133.0 label -scale s -text [<center><it>Etroiture<br>Lips]
 
 line wall -subtype presumed
   675.0 164.75
@@ -352,7 +353,7 @@ line wall -subtype presumed
   674.75 174.5
 endline
 
-point 891.75 127.5 height -value [+4]
+point 879.25 157.0 height -value [+4]
 
 line wall -subtype pit
 endline

@@ -1,0 +1,18 @@
+encoding  utf-8
+map MP-3ecascade -title "3e cascade"
+    SP_GV_3ecascade_1
+    SP_GV_3ecascade_2
+    SP_GV_3ecascade_3
+    SP_GV_3ecascade_4
+endmap
+
+map MP-3cascade
+    SP_3cascade
+endmap
+
+map MC-3ecascade -title "3e cascade"
+   SC_GV3ecascade_1
+   SC_GV3ecascade_2
+   SC_GV3ecascade_3
+endmap
+

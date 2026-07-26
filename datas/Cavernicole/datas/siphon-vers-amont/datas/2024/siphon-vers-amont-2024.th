@@ -5,8 +5,7 @@ survey siphon-vers-amont-2024 -title "siphon-vers-amont"
 
   centerline
     date 2024.07.14 
-    team "Martin Kern"
-    team "Théophile Cailhol"  
+    # team TC mk 
     units length meters
     units compass clino degrees
     data normal from to length compass clino

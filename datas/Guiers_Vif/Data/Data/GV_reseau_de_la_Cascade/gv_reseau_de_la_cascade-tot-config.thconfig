@@ -127,11 +127,11 @@ layout my_layout
  
   
  #export map -projection plan -fmt xvi -layout xviexport -o Data/gv_reseau_de_la_cascade-tot-th_p.xvi
- #export map -projection extended -fmt xvi -layout xviexport -o Data/gv_reseau_de_la_cascade-tot-th_e.xvi
+ #export map -projection [elevation 120] -fmt xvi -layout xviexport -o Data/gv_reseau_de_la_cascade-tot-th_e.xvi
   
  #export map -projection plan -o Outputs/gv_reseau_de_la_cascade-tot-plan-color-FIN-.pdf -layout my_layout
  #export map -projection extended -layout my_layout-coupe -o Outputs/gv_reseau_de_la_cascade-tot-coupe.pdf
- #export map  -projection [elevation 270] -layout my_layout-coupe -o Outputs/gv_reseau_de_la_cascade-tot-coupe270.pdf
+ export map  -projection [elevation 120] -layout my_layout-coupe -o Outputs/gv_reseau_de_la_cascade-tot-proj.pdf
  #export model -o Outputs/gv_reseau_de_la_cascade-tot2.lox
  #export model -fmt kml -o Outputs/gv_reseau_de_la_cascade-tot.kml
  

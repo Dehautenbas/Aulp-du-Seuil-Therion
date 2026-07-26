@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -127.99999999999989 -128.0 2293.35 3474.45
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {1968.5 1 1.0} {3149.61 0} cata_2024_06_01-th_p.xvi 0 {}
 
 
@@ -170,11 +170,7 @@ line overhang -reverse on
   smooth off
 endline
 
-line label -reverse on -text [Réseau supérieur<br>Les Catacombes] -scale l
-  1484.0 1770.0
-  1634.0 1708.0 1858.0 1506.0 1884.0 1366.0
-  smooth off
-endline
+point 1707.0 1433.5 label -orientation 45.8 -text [<center>Réseau supérieur<br><it>Les Catacombes] -scale l
 
 line wall -subtype pit
   1347.0 1621.75

@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -128.0 -128.00000000000023 5049.25 4261.849999999999
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -130.0 -130.0 5049.25 4261.849999999999
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {3149.61 1 1.0} {3543.3099999999995 0} GV_2024_06_03-th_p.xvi 0 {}
 
 
@@ -568,9 +568,9 @@ line overhang -id l132-2672-2777
   smooth off
 endline
 
-point 2651.0 3824.0 label -scale xl -text [<center>Porche d'entrée<br>Grotte du Guiers Vif] -align left
+point 3270.0 3857.0 label -scale xl -text [<center>Porche d'entrée<br>Grotte du Guiers Vif]
 
-point 2805.0 3712.0 entrance -orientation 117.3 -scale xl
+point 3175.0 3658.0 entrance -orientation 205.1 -scale xl
 
 line wall
   2947.0 2417.0
@@ -780,7 +780,7 @@ line wall
   smooth off
 endline
 
-point 4374.0 2324.25 air-draught -orientation 236.9
+point 4378.0 2318.25 air-draught -orientation 236.9
 
 line wall
   4174.0 2127.0
@@ -794,9 +794,9 @@ area blocks
   l263-4362-2234
 endarea
 
-point 4345.75 2378.25 label -orientation 329.4 -text [La poubelle]
+point 4359.75 2354.25 label -orientation 329.4 -text [La poubelle]
 
-point 4373.75 2189.5 remark -text [Mur en pierre] -scale xs -visibility off
+point 4373.75 2189.5 label -text [Mur en pierre] -align right -scale s
 
 line border -id l263-4362-2234 -close on -reverse on
   4297.75 2192.75
@@ -854,7 +854,7 @@ point 3566.98 1679.7199999999998 station -name 23
 
 point 3446.0 1609.5 blocks
 
-point 3595.0 1877.0 remark -orientation 319.4 -text [<center>zone de mise<br>en charge]
+point 3608.0 1863.0 label -orientation 315.1 -align right -text [<center><it>Zone de mise<br>en charge]
 
 point 3625.5 1633.5 blocks -orientation 253.1
 
@@ -987,10 +987,11 @@ line wall
   smooth off
 endline
 
-point 2753.0 1506.5 height -value [-3 m]
+point 2753.0 1506.5 label -text R3
 
 line wall
   2979.5 1637.0
+  altitude .
   2917.0 1639.5 2910.5 1637.0 2842.5 1634.0
   2817.54 1632.9 2740.83 1625.67 2716.5 1620.0
   smooth off
@@ -1019,7 +1020,7 @@ line wall -reverse on
   smooth off
 endline
 
-point 2339.5 1690.0 remark -orientation 195.9 -text [à topographier] -scale xs -align right
+point 2339.5 1690.0 label -orientation 17.2 -align left -text [à topographier] -scale xs
 
 line border
 endline
@@ -1035,7 +1036,12 @@ point 2155.0 1493.0 debris -orientation 329.0
 
 point 2090.5 1502.5 debris -orientation 78.4
 
-point 2071.0 1649.0 remark -text Remplissage<br>sédimentaire -scale xs
+line rock-edge -clip off
+  2079.0 1615.0
+  2117.0 1528.0
+endline
+
+point 2071.0 1649.0 label -orientation 0.4 -text [<center><it>Remplissage<br>sédimentaire]
 
 area sand
   l364-2139-1541
@@ -1091,7 +1097,7 @@ endarea
 line border -subtype invisible -clip off
 endline
 
-point 2570.0 1117.75 label -text [<center>siphon<br>imp.]
+point 2492.0 1113.75 label -text [Siphon imp.]
 
 line border -id l373-2476-1232 -close on -reverse on -subtype invisible
   2388.75 1219.0
@@ -1589,7 +1595,7 @@ endline
 
 point 2284.0 2138.5 water-flow -orientation 92.5
 
-point 2227.5 2142.0 remark -orientation 187.0 -text [à topographier] -scale xs -align right
+point 2228.5 2138.0 label -align left -text [à topographier] -scale xs
 
 line overhang
   2343.5 2164.5
@@ -1617,7 +1623,7 @@ line border -id l338-2451-2096 -close on
   2507.13 2083.09 2479.86 2089.11 2470.0 2094.0
 endline
 
-point 2426.0 1933.5 remark -orientation 220.7 -text [à topographier] -scale xs -align right
+point 2426.0 1933.5 label -orientation 34.8 -align left -text [à topographier] -scale xs
 
 line wall
   2316.25 2119.0
@@ -2295,13 +2301,13 @@ line rock-border -close on
   959.5 1078.5
 endline
 
-line rock-edge -clip off -visibility off
+line rock-edge -clip off
   614.0 955.0
   571.0 848.0
   680.0 885.0
 endline
 
-point 542.0 827.0 remark -orientation 148.4 -text [à topographier] -scale xs -align right
+point 542.0 827.0 label -orientation 323.8 -align left -text [à topographier] -scale xs
 
 line wall
   1356.5 1200.5
@@ -2360,11 +2366,7 @@ line border -id l512-1371-774 -close on -visibility off
   1488.0 812.5
 endline
 
-line label -reverse on -text [Salle de la Cascade] -scale l
-  1459.0 599.0
-  1666.0 579.0 1710.0 585.0 1916.0 695.0
-  smooth off
-endline
+point 1719.0 624.0 label -orientation 346.9 -text [Salle de la Cascade] -scale l
 
 line wall
   1887.5 837.0
@@ -2657,6 +2659,8 @@ scrap GV_030624-p12 -projection plan -station-names "" "@Grotte_GV" -author 2024
 
 point 985.8200000000002 615.1599999999999 station -name 88
 
+point 661.0 580.5 station -name 89a
+
 point 873.8800000000001 629.4099999999999 station -name 89
 
 point 888.25 673.2699999999998 station -name 79
@@ -2673,22 +2677,26 @@ line overhang -reverse on
   smooth off
 endline
 
-point 597.5 638.0 label -orientation 333.5 -text [Siphon 1] -scale l -visibility off
-
 line wall
   740.0 802.0
   754.0 810.0 771.49 816.73 799.0 714.0
   804.41 693.78 818.11 670.41 806.5 653.0
-  793.05 632.82 784.67 630.22 761.0 625.0
+  793.05 632.82 759.67 633.22 736.0 628.0
   altitude .
-  744.75 621.42 747.0 619.0 719.0 608.0
+  677.0 615.0 664.0 615.0 627.0 599.0
+  smooth off
+endline
+
+line wall -subtype invisible
+  627.0 599.0
+  599.7 587.19 556.0 555.0 579.0 541.0
+  614.92 519.14 655.75 533.17 698.0 539.5
   smooth off
 endline
 
 line wall
-  741.0 534.0
-  789.0 558.0 775.11 543.0 817.0 551.0
-  906.0 568.0 831.4 544.82 990.0 609.0
+  698.0 539.5
+  888.04 567.95 831.4 544.82 990.0 609.0
   smooth off
 endline
 
@@ -2711,14 +2719,8 @@ line wall
   smooth off
 endline
 
-area sump
-  l438-812-638
-endarea
-
 line border -visibility off
 endline
-
-point 799.5 478.5 water-flow -orientation 329.0
 
 line border
   919.0 674.5
@@ -2732,7 +2734,7 @@ line border
   smooth off
 endline
 
-point 908.75 713.0 height -value [-2 m]
+point 908.75 713.0 label -text R2
 
 line rock-edge
   970.75 661.25
@@ -2785,15 +2787,7 @@ line rock-border -close on
   880.0 640.5
 endline
 
-point 754.5 475.5 water-flow -orientation 25.7
-
-line border -id l438-812-638 -close on
-  634.0 622.5
-  714.6 645.88 894.0 657.5 868.5 582.5
-  835.28 484.79 711.47 525.15 609.5 509.0
-  590.81 506.04 555.56 513.36 559.5 561.0
-  560.23 569.83 580.26 606.91 634.0 622.5
-endline
+point 694.5 508.5 water-flow -orientation 25.7
 
 line wall
   1356.5 1092.0
@@ -2815,7 +2809,7 @@ endscrap
 
 scrap GV_030624-p13 -projection plan -station-names "" "@Grotte_GV" -author 2024 "David Parrot" -copyright 2024 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 5049.25 -128.0 0.0 0.0 131.50215 0.0 m]
 
-point 2221.5 669.5 air-draught -orientation 291.0
+point 2222.5 682.5 air-draught -orientation 291.0
 
 line overhang
 endline
@@ -2838,7 +2832,7 @@ line border -id l523-2395-705 -close on
   2332.78 684.99 2339.86 704.74 2349.0 709.5
 endline
 
-point 2002.5 839.5 height -value [+?]
+point 1999.5 827.5 height -value [+?]
 
 line wall
   1887.5 730.0

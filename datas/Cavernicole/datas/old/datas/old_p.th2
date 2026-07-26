@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 8540.0 7055.120000000001
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust 2206.52 582.0 8076.0 7055.120000000001
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {2334.52 0 1.0} {6927.120000000001 0} X.xvi 0 {}
 
 
@@ -199,11 +199,13 @@ point 5962.0 1184.0 height -value -26
 line pit
   5871.0 1175.0
   5871.0 1175.0 5892.0 1152.0 5891.0 1134.0
+  smooth off
 endline
 
 line pit
   6109.0 1141.0
   6109.0 1141.0 6064.0 1120.0 6065.0 1100.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -281,6 +283,7 @@ endline
 line pit -reverse on
   6096.0 977.0
   6096.0 977.0 6138.0 992.0 6153.0 1008.0
+  smooth off
 endline
 
 point 6156.0 871.0 height -value -54
@@ -361,11 +364,13 @@ endline
 line pit
   6822.0 1097.0
   6822.0 1097.0 6816.0 1053.0 6830.0 1046.0
+  smooth off
 endline
 
 line pit
   6483.0 984.0
   6483.0 984.0 6472.0 945.0 6505.0 936.0
+  smooth off
 endline
 
 point 6577.0 972.0 height -value -6
@@ -510,6 +515,7 @@ endline
 line pit
   6884.0 1570.0
   6884.0 1570.0 6950.0 1547.0 6973.0 1561.0
+  smooth off
 endline
 
 line wall
@@ -584,6 +590,7 @@ endline
 line pit
   7639.0 3424.0
   7639.0 3424.0 7666.0 3422.0 7689.0 3427.0
+  smooth off
 endline
 
 line wall
@@ -668,6 +675,7 @@ endline
 line pit
   7259.0 3625.0
   7259.0 3625.0 7273.0 3669.0 7271.0 3691.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -1121,133 +1129,6 @@ line wall -reverse on
 endline
 
 point 6893.92 4009.59 station -name 163
-
-endscrap
-
-
-
-scrap Cavernicol_SP37 -projection plan -station-names "" "@old-for-equate" -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
-
-point 6906.969999999999 4523.530000000001 station -name 170
-
-line wall -subtype invisible
-endline
-
-point 7773.0 4782.0 label -align top -text [arrêt sur cascade]
-
-point 7770.0 4885.0 label -align top -text [Actif 10 lps exploré sur 70 m en 1981, ]
-
-line water-flow
-  7078.0 4668.0
-  7078.0 4668.0 6972.0 4618.0 6952.0 4574.0
-  smooth off
-endline
-
-line wall -reverse on -subtype presumed
-  8318.0 4266.0
-  8318.0 4266.0 8279.0 4469.0 8260.0 4504.0
-  8241.0 4539.0 8179.0 4541.0 8024.0 4550.0
-  subtype presumed
-  7869.0 4559.0 7812.0 4575.0 7742.0 4624.0
-  7672.0 4673.0 7538.0 4669.0 7448.0 4680.0
-  7358.0 4691.0 7219.0 4663.0 7178.0 4652.0
-  7137.0 4641.0 7039.0 4599.0 7002.0 4562.0
-  smooth off
-endline
-
-line wall -reverse on -subtype presumed
-  6855.0 4558.0
-  6855.0 4558.0 6962.0 4661.0 6972.0 4666.0
-  6982.0 4671.0 7126.0 4748.0 7176.0 4755.0
-  7226.0 4762.0 7399.0 4746.0 7467.0 4751.0
-  7535.0 4756.0 7657.0 4722.0 7732.0 4698.0
-  7807.0 4674.0 7950.0 4608.0 8004.0 4621.0
-  8058.0 4634.0 8323.0 4638.0 8337.0 4584.0
-  8351.0 4530.0 8403.0 4264.0 8403.0 4264.0
-  smooth off
-endline
-
-line wall
-  6714.0 4146.0
-  6714.0 4146.0 6783.0 4222.0 6795.0 4212.0
-  6807.0 4202.0 6815.0 4198.0 6815.0 4198.0
-  smooth off
-endline
-
-line wall
-  6895.0 4242.0
-  6892.0 4245.0 6823.79 4268.27 6899.0 4351.0
-  6919.0 4373.0 6923.0 4474.0 6930.0 4486.0
-  6937.0 4498.0 7002.0 4562.0 7002.0 4562.0
-  smooth off
-endline
-
-line wall -reverse on
-  6613.0 4340.0
-  altitude .
-  6613.0 4340.0 6675.0 4375.0 6696.0 4394.0
-  6717.0 4413.0 6800.0 4488.0 6805.0 4497.0
-  6810.0 4506.0 6855.0 4558.0 6855.0 4558.0
-  smooth off
-endline
-
-point 6744.98 4300.58 station -name 168
-
-point 6856.45 4189.1 station -name 167
-
-endscrap
-
-
-
-scrap Cavernicol_SP38 -projection plan -station-names "" "@old-for-equate" -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
-
-area sump
-  l233-6480-3899
-endarea
-
-line border -id l233-6480-3899 -close on -reverse on -subtype invisible
-  6243.0 4195.0
-  6479.0 3899.0
-  6228.0 3526.0
-  5695.0 4001.0
-  6243.0 4195.0
-endline
-
-line wall
-  6077.0 4008.0
-  5973.0 3916.0 6032.0 3569.0 6217.0 3749.0
-  smooth off
-endline
-
-line wall
-  6217.0 3749.0
-  6217.0 3749.0 6536.0 4029.0 6554.0 4039.0
-  6572.0 4049.0 6711.0 4141.0 6714.0 4146.0
-  smooth off
-endline
-
-line arrow
-  7545.0 4877.0
-  7492.0 4822.0
-endline
-
-point 6138.0 4194.0 label -text Siphon -align top-left
-
-line wall
-  6282.0 4164.0
-  6282.0 4164.0 6083.0 4026.0 6077.0 4008.0
-  smooth off
-endline
-
-line wall -reverse on
-  6282.0 4164.0
-  6282.0 4164.0 6332.0 4190.0 6368.0 4201.0
-  6404.0 4212.0 6474.0 4222.0 6496.0 4243.0
-  6518.0 4264.0 6606.0 4330.0 6613.0 4340.0
-  smooth off
-endline
-
-point 6394.7 4046.08 station -name 169
 
 endscrap
 

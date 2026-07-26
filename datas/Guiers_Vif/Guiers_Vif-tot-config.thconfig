@@ -1,7 +1,9 @@
 encoding  utf-8
 #source "../../surface/AulpSeuil-DEM-Crop.th"
 
-select Guiers-Vif-tot-MP@Guiers_Vif
+#select Guiers-Vif-tot-MP@Guiers_Vif
+select Guiers-Vif-tot-2024-CP@Guiers_Vif
+
 
 source Guiers_Vif-tot.th
 
@@ -101,8 +103,8 @@ layout my_layout
 	map-header 0 45 sw
 	map-header-bg off
 	layers on
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
 	#grid bottom
 	#grid-size 100 100 100 m
 	grid off  
@@ -125,13 +127,14 @@ layout my_layout
 
  endlayout
 
+
  
   
  #export map -projection plan -fmt xvi -layout xviexport -o Data/Guiers_Vif-tot-th_p.xvi
  #export map -projection extended -fmt xvi -layout xviexport -o Data/Guiers_Vif-tot-th_e.xvi
   
- export map -projection plan -o Outputs/Guiers_Vif-tot-5JANV25.pdf -layout my_layout
+ 
  #export map -projection plan -o C:\Users\David\Desktop\GV_transition.pdf -layout my_layout
- #export map -projection extended -layout my_layout-coupe -o Outputs/Guiers_Vif-tot-coupe.pdf
+ export map -projection [elevation 120] -layout my_layout-coupe -o Outputs/Guiers_Vif-tot-coupe-proj120.pdf
  #export model -o Outputs/Guiers_Vif-totTRANSITION.lox
  #export model -o C:\Users\David\Desktop\Guiers_Vif.lox

@@ -22,15 +22,13 @@ survey Aulp_du_seuil -title "Aulp du seuil Souterrain"
       equate TASU1@tasu_1992_06_30.1992_06_30.Tasurinchi GV_FJS_radio26@gv_meora_1994_06_30.1994_06_30_GV_MEORA.Guiers_Vif
     
     #-------------------------------------
-    # ** Les autres gouffres du plâteau **
+    # ** Les autres gouffres du plateau **
     #-------------------------------------
     
     input "Cavernicole/Cavernicole-tot.th"
     input "Turbine_BL30/Turbine-tot.th"
     input "Abreq_Ad_Habra/Abreq_Ad_Habra-tot.th"
-    
-    #input "Alain_Daniel/Alain_Daniel-tot.th"
-    #input "Alain_Daniel/AD-tot.th"
+    input "Alain_Daniel/Alain_Daniel-tot.th"
     
     input "S21/S21-tot.th"
     input "S23/S23-tot.th"

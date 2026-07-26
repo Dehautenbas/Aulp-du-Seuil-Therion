@@ -13,15 +13,15 @@ survey gv_amontS1_1991_12_31 -title "Guiers Vif amont S1"
     #les donnes sous jacente sont sans doute sans correciton mag (la correction -4.5 deg a ete retiré sur visual topo), a confirmer par Marc Gally
     
     cs UTM31
-    fix b216 726196.000 5030178.000 1146.500  #coordonnees provisoire d 'apres guiersvif6.tro
+   # fix b216 726196.000 5030178.000 1146.500  #coordonnees provisoire d 'apres guiersvif6.tro
     #fix b6 725763 5028777.2 1527.3           #coordonnees changer pour deformer la topo
     
     units length meters
     units compass clino degrees
     data normal from to length compass clino
     
-    station b248  "Puits Tower of Power" entrance
-    station b81   "Secret Aven" entrance
+    station b248  "Puits Tower of Power"
+    station b81   "Secret Aven"
     
     2 - 3.50 153.0 0.0
     extend left

@@ -9,10 +9,11 @@ survey 1991_12_31_GV_amont_S1 -title "Guiers Vif > 1991-12-31"
     #    join .......
     
     ## Coupe
-    #input Data/
+    input Data/GV_amont_91.th2
     #   join ........
 
     ## Maps
     input 1991_12_31_GV_amont_S1-maps.th
 
 endsurvey
+

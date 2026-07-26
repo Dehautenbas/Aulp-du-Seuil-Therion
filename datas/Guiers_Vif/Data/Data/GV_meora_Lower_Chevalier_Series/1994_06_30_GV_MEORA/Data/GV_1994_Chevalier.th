@@ -1,0 +1,157 @@
+encoding  utf-8
+survey departchevalier
+
+centerline
+    date 1994.06.30 
+    declination 0.00 degrees
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    
+
+    GV_FJS_radio5 - 1.01 144.7 0.0
+    extend vertical
+    GV_FJS_radio5 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_radio5 GV_FJS_radio6 5.57 54.7 -11.6
+    extend vertical
+    GV_FJS_radio6 - 1.01 353.2 0.0
+    GV_FJS_radio6 - 1.01 173.2 0.0
+    GV_FJS_radio6 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_radio6 GV_FJS_radio7 8.07 83.2 13.4
+    GV_FJS_radio7 - 1.01 54.7 0.0
+    extend left
+    GV_FJS_radio7 - 1.01 234.7 0.0
+    extend vertical
+    GV_FJS_radio7 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_radio7 GV_FJS_radio8 5.50 144.7 -7.8
+    extend vertical
+    GV_FJS_radio8 - 1.01 351.4 0.0
+    GV_FJS_radio8 - 1.01 171.4 0.0
+    GV_FJS_radio8 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_radio8 GV_FJS_radio9 13.70 81.4 0.0
+    GV_FJS_radio9 - 1.01 14.7 0.0
+    extend left
+    GV_FJS_radio9 - 1.01 194.7 0.0
+    extend vertical
+    GV_FJS_radio9 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_radio9 GV_FJS_radio10 8.77 104.7 33.7
+    GV_FJS_radio10 - 1.01 348.5 0.0
+    extend right
+    GV_FJS_radio10 - 1.01 168.5 0.0
+    extend vertical
+    GV_FJS_radio10 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_radio10 GV_FJS_radio11 8.34 78.5 2.6
+    extend left
+    GV_FJS_radio11 - 1.01 340.5 0.0
+    extend right
+    GV_FJS_radio11 - 1.01 160.5 0.0
+    extend vertical
+    GV_FJS_radio11 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_radio11 GV_FJS_radio12 6.15 70.5 7.0
+    extend vertical
+    GV_FJS_radio12 - 1.01 4.5 0.0
+    GV_FJS_radio12 - 1.01 184.6 0.0
+    GV_FJS_radio12 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_radio12 GV_FJS_radio13 5.17 94.5 -25.7
+    extend vertical
+    GV_FJS_radio13 - 1.01 360.0 0.0
+    GV_FJS_radio13 - 1.01 180.0 0.0
+    GV_FJS_radio13 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_radio13 GV_FJS_radio14 9.35 90.0 -6.9
+    extend vertical
+    GV_FJS_radio14 - 1.01 1.2 0.0
+    GV_FJS_radio14 - 1.01 181.2 0.0
+    GV_FJS_radio14 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_radio14 GV_FJS_radio15 8.57 91.2 -5.0
+    GV_FJS_radio15 - 1.01 344.9 0.0
+    extend right
+    GV_FJS_radio15 - 1.01 164.9 0.0
+    extend vertical
+    GV_FJS_radio15 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_radio15 GV_FJS_radio16 5.01 74.9 4.3
+    extend vertical
+    GV_FJS_radio16 - 1.01 350.1 0.0
+    GV_FJS_radio16 - 1.01 170.1 0.0
+    GV_FJS_radio16 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_radio16 GV_FJS_radio17 8.97 80.1 -32.8
+    extend vertical
+    GV_FJS_radio17 - 1.01 351.9 0.0
+    GV_FJS_radio17 - 1.01 171.9 0.0
+    GV_FJS_radio17 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_radio17 GV_FJS_radio18 10.50 81.9 2.0
+    GV_FJS_radio18 - 1.01 85.2 0.0
+    extend left
+    GV_FJS_radio18 - 1.01 265.2 0.0
+    extend vertical
+    GV_FJS_radio18 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_radio18 GV_FJS_radio19 6.79 175.2 9.5
+    GV_FJS_radio19 - 1.01 346.7 0.0
+    extend right
+    GV_FJS_radio19 - 1.01 166.7 0.0
+    GV_FJS_radio19 GV_FJS_radio20 7.28 76.7 -5.9
+    extend vertical
+    GV_FJS_radio20 - 1.01 360.0 0.0
+    GV_FJS_radio20 - 1.01 180.0 0.0
+    GV_FJS_radio20 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_radio20 GV_FJS_radio21 5.73 90.0 -36.0
+    extend right
+    GV_FJS_radio21 - 1.01 80.5 0.0
+    extend left
+    GV_FJS_radio21 - 1.01 260.5 0.0
+    extend vertical
+    GV_FJS_radio21 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_radio21 GV_FJS_radio22 2.29 170.5 -9.3
+    extend vertical
+    GV_FJS_radio22 - 1.01 360.0 0.0
+    GV_FJS_radio22 - 1.01 180.0 0.0
+    GV_FJS_radio22 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_radio22 GV_FJS_radio23 3.73 90.0 -5.8
+    extend right
+    GV_FJS_radio23 - 1.01 71.6 0.0
+    extend left
+    GV_FJS_radio23 - 1.01 251.6 0.0
+    extend vertical
+    GV_FJS_radio23 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_radio23 GV_FJS_radio24 3.60 161.6 12.0
+    extend vertical
+    GV_FJS_radio24 - 1.01 350.7 0.0
+    GV_FJS_radio24 - 1.01 170.7 0.0
+    GV_FJS_radio24 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_radio24 GV_FJS_radio25 10.45 80.7 8.2
+    extend vertical
+    GV_FJS_radio25 - 1.01 6.9 0.0
+    GV_FJS_radio25 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_radio25 GV_FJS_radio26 6.22 96.9 6.9
+    extend right
+    GV_FJS_radio26 - 1.01 140.6 0.0
+    extend left
+    GV_FJS_radio26 - 1.01 320.6 0.0
+    extend vertical
+    GV_FJS_radio26 - 5.00 0.0 90.0
+    
+    
+    
+      endcenterline
+
+endsurvey

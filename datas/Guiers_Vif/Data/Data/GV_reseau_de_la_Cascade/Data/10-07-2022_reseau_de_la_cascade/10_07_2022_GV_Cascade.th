@@ -9,7 +9,7 @@ survey 10_07_2022_GV_Cascade -title "Guiers Vif > 2022-07-10"
     #    join .......
     
     ## Coupe
-    #input Data/
+    input Data/gv_10-07-2022_reseau_de_la_cascade-proj.th2
     #   join ........
 
     ## Maps

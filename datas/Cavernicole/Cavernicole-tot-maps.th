@@ -40,6 +40,9 @@ map Cavernicole-tot-massif-MP
   break
   siphon-vers-amont_tot_MP@siphon-vers-amont_tot
   break
+  fond-riviere_MP@siphon-vers-amont_tot
+  break
+  fond-puits_MP@siphon-vers-amont_tot
 endmap
 
 

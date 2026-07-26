@@ -5,9 +5,7 @@ survey Cavernicole_depart_lucarne_fond -title "Cavernicole départ lucarne fond"
 
   centerline
     date 2025.07.13 
-    team "Martin Kern"
-    team "Prune Roche"
-    team "Théophile Cailhol" 
+    # team mk pr tc 
     units length meters
     units compass clino degrees
     data normal from to length compass clino

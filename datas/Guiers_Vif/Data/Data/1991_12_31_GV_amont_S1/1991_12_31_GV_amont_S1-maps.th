@@ -3,7 +3,10 @@ encoding  utf-8
 map GV7amS1_MP-
   GV7amS1_SP16
   break
-  
+  GV7amS1_SP1
+  GV7amS1_SP2
+  GV7amS1_SP3
+  GV7amS1_SP4
   GV7amS1_SP5
   
   GV7amS1_SP8
@@ -82,8 +85,41 @@ endmap
 map gv_amontS1_1991_12_31_MP -title "Guiers Vif > 1991-12-31"
   GV7amS1_MP-
   break
-  GV7amS1_MP-- #[-150 150 m] below
-  GV7amS1_MP--- #[-75 0 m] below
+  GV7amS1_MP-- [-150 150 m] below
+  GV7amS1_MP--- [-75 0 m] below
   #GV7amS1_MP---- [50 -50 m] above
+endmap
+
+
+map MC_GV_Amont91-Coupe-proj
+SC_GV91_1
+break
+SC_GV91_2
+break
+SC_GV91_3
+break
+SC_GV91_31
+break
+SC_GV91_5
+break
+SC_GV91_30
+break
+SC_GV91_4
+break
+SC_GV91_33
+break
+SC_GV91_6
+break
+SC_GV91_32
+break
+SC_GV91_8
+break
+SC_GV91_7
+break
+SC_GV91_9
+break
+SC_GV91_10
+break
+SC_GV91_11
 endmap
 

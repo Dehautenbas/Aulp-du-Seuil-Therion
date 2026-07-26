@@ -7,3 +7,8 @@ map gv_10-07-2022_reseau_de_la_cascade_MP -title "Réseau de la Cascade > 10-07-
   scrap4
   scrap5
 endmap
+
+map gv_10-07-2022_reseau_de_la_cascade_MC
+ sc1
+ endmap
+

@@ -1,0 +1,70 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 3868.15 5049.25
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1736.47 1 1.0} {848.1499999999999 dp_stat_37} 12_03_2022_GV_Cascade-calage-th_p.xvi 0 {}
+
+
+
+scrap scrap1 -projection plan -station-names "" "@gv_12-03-2022_reseau_de_la_cascade-calage" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3868.15 -128.0 0.0 0.0 101.50221 0.0 m]
+
+point 2471.74 2643.9 station -name dp_stat_64
+
+point 2502.09 2688.56 station -name dp_stat_66
+
+point 2779.67 3043.85 station -name dp_stat_68
+
+point 2971.96 3544.7799999999997 station -name dp_stat_70
+
+point 3130.0299999999997 3771.37 station -name dp_stat_72
+
+point 3110.23 4527.5599999999995 station -name dp_stat_73
+
+endscrap
+
+
+
+scrap scrap2 -projection plan -station-names "" "@gv_12-03-2022_reseau_de_la_cascade-calage" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3868.15 -128.0 0.0 0.0 101.50221 0.0 m]
+
+point 2031.04 1496.07 station -name dp_stat_54
+
+point 2532.54 1903.6299999999999 station -name dp_stat_56
+
+point 2498.66 1942.1799999999998 station -name dp_stat_58
+
+point 2571.1800000000003 2188.56 station -name dp_stat_60
+
+point 2430.66 2327.6099999999997 station -name dp_stat_62
+
+endscrap
+
+
+
+scrap scrap3 -projection plan -station-names "" "@gv_12-03-2022_reseau_de_la_cascade-calage" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3868.15 -128.0 0.0 0.0 101.50221 0.0 m]
+
+point 1507.0 883.27 station -name dp_stat_38
+
+point 1736.47 848.1499999999999 station -name dp_stat_37
+
+point 1567.23 1132.05 station -name dp_stat_50
+
+point 1680.5500000000002 1284.6499999999999 station -name dp_stat_52
+
+endscrap
+
+
+
+scrap scrap4 -projection plan -station-names "" "@gv_12-03-2022_reseau_de_la_cascade-calage" -author 2022 "David Parrot" -copyright 2022 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/" -scale [-128.0 -128.0 3868.15 -128.0 0.0 0.0 101.50221 0.0 m]
+
+point 614.8600000000001 572.28 station -name dp_stat_48
+
+point 663.3700000000001 679.6999999999998 station -name dp_stat_46
+
+point 872.48 709.8399999999999 station -name dp_stat_44
+
+point 1063.96 757.2199999999998 station -name dp_stat_42
+
+point 1205.06 739.8999999999999 station -name dp_stat_40
+
+endscrap
+
+

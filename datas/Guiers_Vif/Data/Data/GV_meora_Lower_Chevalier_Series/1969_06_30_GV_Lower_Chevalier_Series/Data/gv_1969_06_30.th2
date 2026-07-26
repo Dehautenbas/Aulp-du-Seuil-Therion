@@ -3,8 +3,6 @@ encoding  utf-8
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {2952.75 1 1.0} {2637.79 GMO1} GMO_p.xvi 0 {}
 
-
-
 scrap GMO_SP1 -projection plan -station-names "" "@gv_lower_chevalier_1969_06_30" -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
 
 point 1457.65 416.10000000000014 station -name GMO14
@@ -34,9 +32,8 @@ point 2239.91 2474.19 station -name GMO3
 line wall
   1463.0 405.0
   1463.0 405.0 1477.0 437.0 1503.0 461.0
-  1529.0 485.0 1536.0 503.0 1547.0 513.0
-  altitude .
-  1558.0 523.0 1574.0 547.0 1557.0 560.0
+  1529.0 485.0 1529.0 509.0 1540.0 519.0
+  1551.0 529.0 1574.0 547.0 1557.0 560.0
   1540.0 573.0 1515.0 587.0 1503.0 605.0
   1491.0 623.0 1477.0 639.0 1475.0 654.0
   1473.0 669.0 1463.0 747.0 1459.0 761.0
@@ -72,7 +69,23 @@ endline
 
 point 1649.0 2395.0 altitude -align top
 
-point 1356.0 337.0 label -align bottom-left -text [Imp. Boyau sans CA]
+point 1452.0 440.0 altitude -align left
+
+point 1407.0 973.0 altitude -align left
+
+point 754.0 544.0 label -align bottom-left -text [Boyau sans CA]
+
+point 1042.0 -28.0 label -align bottom-left -text Imp
+
+line rock-edge -clip off
+  1446.0 378.0
+  1084.0 22.0
+endline
+
+line rock-edge -clip off
+  1388.0 1190.0
+  778.0 576.0
+endline
 
 line wall
   2959.0 2663.0
@@ -189,11 +202,24 @@ point 1900.6599999999999 1858.8 station -name GMO17
 
 point 1936.0 1868.0 altitude -align right
 
-point 1820.0 629.0 label -align bottom-right -text [Imp. Laminoir sans CA]
+point 1799.0 749.0 altitude -align right
+
+point 3192.0 1374.0 label -align bottom-left -text [Laminoir sans CA]
+
+line rock-edge -clip off
+  1848.0 1378.0
+  3106.0 1378.0
+endline
+
+point 2488.0 -44.0 label -align bottom-right -text Imp
+
+line rock-edge -clip off
+  1774.0 708.0
+  2438.0 4.0
+endline
 
 line wall
   1779.0 730.0
-  altitude .
   1781.0 735.0 1785.0 808.0 1781.0 862.0
   1777.0 916.0 1766.0 988.0 1778.0 1054.0
   1790.0 1120.0 1811.0 1184.0 1802.0 1246.0
@@ -259,7 +285,6 @@ point 1376.97 3247.9 station -name GMO25
 
 line wall
   1732.0 3457.0
-  altitude .
   1722.0 3456.0 1687.0 3428.0 1681.0 3422.0
   1675.0 3416.0 1631.0 3417.0 1601.0 3395.0
   1571.0 3373.0 1502.0 3357.0 1496.0 3348.0
@@ -270,6 +295,8 @@ line wall
   1161.0 3426.0 1096.0 3412.0 1096.0 3412.0
   smooth off
 endline
+
+point 1728.0 3384.0 altitude -align bottom-right
 
 line wall
   1077.0 3353.0
@@ -314,10 +341,13 @@ line wall
 endline
 
 line label -text [Lower Chevalier Series]
-  1136.0 3256.0
-  1176.0 3080.0
-  1216.0 2608.0
-  1136.0 2340.0
+  -38.0 896.0
+  -38.0 896.0 -402.0 1976.0 -320.0 2244.0
+  -238.0 2512.0 -216.0 3246.0 -132.0 3376.0
+  -48.0 3506.0 220.0 4100.0 448.0 4132.0
+  676.0 4164.0 1006.0 4302.0 1224.0 4384.0
+  1442.0 4466.0 1950.0 4540.0 2236.0 4568.0
+  smooth off
 endline
 
 line wall
@@ -329,6 +359,8 @@ line wall
   smooth off
 endline
 
+point 759.0 2159.0 altitude -align left
+
 line wall -reverse on
   1578.0 2190.0
   1578.0 2190.0 1528.0 2184.0 1486.0 2181.0
@@ -339,7 +371,6 @@ line wall -reverse on
   858.0 2125.0 791.0 2133.0 791.0 2133.0
   smooth off
   791.0 2133.0 760.0 2155.0 782.0 2161.0
-  altitude .
   804.0 2167.0 830.0 2164.0 841.0 2185.0
   852.0 2206.0 900.0 2251.0 906.0 2268.0
   912.0 2285.0 945.0 2351.0 953.0 2371.0
@@ -372,6 +403,10 @@ endscrap
 
 scrap GMO_SP5 -projection plan -station-names "" "@gv_lower_chevalier_1969_06_30" -scale [0 0 393.7 393.7 0.0 0.0 10 10 m]
 
+point 937.0 3451.0 altitude -align top
+
+point 387.0 2576.0 altitude -align top-left
+
 line wall -reverse on
   589.0 2496.0
   589.0 2496.0 542.0 2501.0 526.0 2499.0
@@ -384,7 +419,6 @@ endline
 line wall -reverse on
   344.0 2572.0
   367.08 2556.62 399.0 2577.0 417.0 2568.0
-  altitude .
   435.0 2559.0 473.0 2554.0 479.0 2545.0
   485.0 2536.0 510.0 2531.0 525.0 2527.0
   540.0 2523.0 591.0 2524.0 591.0 2524.0
@@ -403,13 +437,31 @@ endarea
 line border -subtype invisible
 endline
 
-point 1157.0 3567.0 label -align right -text [Jonction siphon 1]
+line border -close on -subtype invisible
+  908.0 3522.0
+  747.0 3536.0
+  639.0 3376.0
+  814.0 3268.0
+  908.0 3522.0
+endline
 
-point 123.0 2629.0 label -text Siphon -align bottom
+point 1702.0 3817.0 label -text Siphon -align right
+
+point 355.0 1195.0 label -text Siphon -align bottom
 
 line rock-edge -clip off
-  1041.0 3441.0
-  1118.0 3527.0
+  356.0 2400.0
+  353.0 1226.0
+endline
+
+line rock-edge -clip off
+  1181.0 3815.0
+  1669.0 3815.0
+endline
+
+line rock-edge -clip off
+  826.0 3462.0
+  1181.0 3815.0
 endline
 
 area water
@@ -419,6 +471,11 @@ endarea
 area sump
   l82-347-2639
 endarea
+
+line map-connection
+  332.0 3176.0
+  -484.0 3928.0
+endline
 
 line border -id l82-347-2639 -close on -subtype invisible
   394.0 2623.0
@@ -438,28 +495,27 @@ line border -id l81-469-2667 -close on -subtype invisible
 endline
 
 line border -id l75-970-3518 -close on -subtype invisible
-  739.0 3529.0
-  741.0 3528.0 662.12 3299.12 664.0 3297.0
-  734.0 3218.0 1020.0 3275.0 1050.0 3251.0
+  908.0 3522.0
+  910.0 3521.0 812.12 3270.12 814.0 3268.0
+  884.0 3189.0 1020.0 3275.0 1050.0 3251.0
   1080.0 3227.0 1108.0 3251.0 1098.0 3274.0
   1088.0 3297.0 1054.0 3429.0 1057.0 3473.0
-  1060.0 3517.0 726.19 3535.41 739.0 3529.0
+  1060.0 3517.0 895.19 3528.41 908.0 3522.0
 endline
 
-line wall -reverse on
+line wall
   956.0 3067.0
   956.0 3067.0 946.0 3118.0 948.0 3156.0
   950.0 3194.0 947.0 3226.0 937.0 3253.0
-  927.0 3280.0 858.0 3230.0 839.0 3276.0
-  altitude .
-  816.85 3329.63 840.0 3336.0 727.0 3398.0
+  927.0 3280.0 834.0 3240.0 832.0 3298.0
+  830.0 3356.0 840.0 3336.0 727.0 3398.0
   smooth off
 endline
 
 line wall
   891.0 3435.0
-  891.0 3435.0 842.23 3435.88 822.0 3446.0
-  808.0 3453.0 757.0 3483.0 757.0 3483.0
+  891.0 3435.0 801.0 3449.0 785.0 3465.0
+  769.0 3481.0 745.0 3493.0 745.0 3493.0
   smooth off
 endline
 

@@ -16,6 +16,6 @@ endmap
 map gv_1969_06_30_MP -title "Guiers Vif > 1969_06_30"
   GMO_MP-
   break
-  GMO_MP-- #[75 -75 m] below
+  GMO_MP-- [75 -75 m] below
 endmap
 

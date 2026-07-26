@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -257.0 -219.0 450.5 546.0
+##XTHERION## xth_me_area_adjust -233.0 -219.0 450.5 394.75
 ##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {288.706 1 1.0} {105.85399999999998 0} 2024-01-05_GV_Cascade-th_p.xvi 0 {}
 
@@ -52,15 +52,15 @@ line wall -subtype pit
   smooth off
 endline
 
-point 196.25 97.0 height -value -10 -scale s
+point 200.5 133.25 height -value -10 -scale s
 
-point 225.5 227.75 height -value [+9]
+point 212.25 199.25 height -value [+9]
 
-point 317.5 199.0 height -value [+20]
+point 293.5 176.25 height -value [+20]
 
-point 311.5 34.5 height -value [+40]
+point 268.75 66.0 height -value [+40]
 
-point 261.25 7.75 label -text [Puits Amado Mio] -align bottom
+point 268.5 23.0 label -align center -text [<center>Puits<br>Amado Mio]
 
 line wall -subtype pit
   192.5 149.0
@@ -95,7 +95,7 @@ line wall -reverse on
   smooth off
 endline
 
-point 162.0 245.75 height -value [+11]
+point 156.75 231.25 height -value [+11]
 
 line wall -reverse on -subtype pit
   157.0 185.75
@@ -135,9 +135,16 @@ line wall -subtype presumed
   smooth off
 endline
 
-point 88.75 130.0 height -value [+12]
+line rock-edge -clip off
+  -78.0 185.75
+  11.25 159.75
+endline
 
-point 12.5 439.75 label -text [Puits Total Reboot]
+point -91.0 187.0 remark -text Chauve-souris -scale s -align left
+
+point 113.5 150.5 height -value [+12]
+
+point 71.5 292.5 label -text [<center>Puits<br>Total Reboot]
 
 line wall -subtype presumed
   162.75 177.75
@@ -162,13 +169,11 @@ line wall -reverse on
   altitude .
 endline
 
-point -43.0 171.5 bat
+point -31.0 52.25 narrow-end -orientation 224.7
 
-point -38.25 43.25 narrow-end -orientation 224.7
+point -72.25 96.5 date -orientation 307.9 -value [2024.01.05] -scale xs
 
-point -127.75 48.0 date -orientation 318.0 -value [2024.01.05] -scale xs
-
-point -95.5 -11.0 air-draught -orientation 229.2 -subtype winter
+point -53.5 80.25 air-draught -orientation 216.9 -subtype winter
 
 point 0.25 84.0 water-flow -orientation 33.9
 

@@ -6,12 +6,12 @@ survey gv_meora_1994_06_30 -title "Guiers Vif Radiesthesiste / Saint Antoine"
     date 1994.06.30 
     declination 0.00 degrees
     
-    #station Guiersvif1          "Grotte du Guiers Vif" entrance
+    station Guiersvif1          "Grotte du Guiers Vif" entrance
     
-    #station GV_FJS_stantoine23  "Galerie des Marmites Ouest"
-    station GV_FJS_stantoine79  "Galerie des Marmites Est" entrance
-    station GV_FJS_stantoine148 "Réseau Saint Antoine" entrance
-    station GV_FJS_radio40      "Réseau du Radiésthésiste" entrance
+    station GV_FJS_stantoine23  "Galerie des Marmites Ouest"
+    station GV_FJS_stantoine79  "Galerie des Marmites Est"
+    station GV_FJS_stantoine148 "Réseau Saint Antoine"
+    station GV_FJS_radio40      "Réseau du Radiésthésiste"
     
     # degrees donnes prise sur la publi FJS 1994, plan selon nord geographique: les donnees ont ete prise selon le nord geographique
     units length meters
@@ -24,38 +24,36 @@ survey gv_meora_1994_06_30 -title "Guiers Vif Radiesthesiste / Saint Antoine"
     #***************************************************
     
     
-    # extend right
-    # Guiersvif5 - 2.01 16.0 0.0
-    # extend left
-    # Guiersvif5 - 2.99 196.1 0.0
-    # extend vertical
-    # Guiersvif5 - 5.00 0.0 90.0
-    # extend left
-    # Guiersvif5 GV_FJS_radio2 55.04 106.0 -0.8
-    # GV_FJS_radio2 - 2.99 333.7 0.0
-    # extend right
-    # GV_FJS_radio2 - 2.01 153.7 0.0
-    # extend vertical
-    # GV_FJS_radio2 - 5.00 0.0 90.0
-    # extend right
-    # GV_FJS_radio2 GV_FJS_radio3 16.35 63.7 -1.3
-    # extend left
-    # GV_FJS_radio3 - 0.30 325.8 0.0
-    # extend right
-    # GV_FJS_radio3 - 0.30 145.8 0.0
-    # extend vertical
-    # GV_FJS_radio3 - 0.21 0.0 90.0
-    # GV_FJS_radio3 - 0.49 0.0 -90.0
-    # extend right
-    # GV_FJS_radio3 GV_FJS_radio4 5.62 55.8 3.8
-    # extend vertical
-    # GV_FJS_radio4 - 1.01 2.9 0.0
-    # GV_FJS_radio4 - 1.01 182.9 0.0
-    # GV_FJS_radio4 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_radio4 GV_FJS_radio5 7.99 92.9 -24.9
-    
-
+    extend right
+    Guiersvif5 - 2.01 16.0 0.0
+    extend left
+    Guiersvif5 - 2.99 196.1 0.0
+    extend vertical
+    Guiersvif5 - 5.00 0.0 90.0
+    extend left
+    Guiersvif5 GV_FJS_radio2 55.04 106.0 -0.8
+    GV_FJS_radio2 - 2.99 333.7 0.0
+    extend right
+    GV_FJS_radio2 - 2.01 153.7 0.0
+    extend vertical
+    GV_FJS_radio2 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_radio2 GV_FJS_radio3 16.35 63.7 -1.3
+    extend left
+    GV_FJS_radio3 - 0.30 325.8 0.0
+    extend right
+    GV_FJS_radio3 - 0.30 145.8 0.0
+    extend vertical
+    GV_FJS_radio3 - 0.21 0.0 90.0
+    GV_FJS_radio3 - 0.49 0.0 -90.0
+    extend right
+    GV_FJS_radio3 GV_FJS_radio4 5.62 55.8 3.8
+    extend vertical
+    GV_FJS_radio4 - 1.01 2.9 0.0
+    GV_FJS_radio4 - 1.01 182.9 0.0
+    GV_FJS_radio4 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_radio4 GV_FJS_radio5 7.99 92.9 -24.9
     GV_FJS_radio5 - 1.01 324.7 0.0
     extend right
     GV_FJS_radio5 - 1.01 144.7 0.0
@@ -470,114 +468,116 @@ survey gv_meora_1994_06_30 -title "Guiers Vif Radiesthesiste / Saint Antoine"
     #******************************************************
     
     
-    # Guiersvif1 - 6.00 102.9 0.0
-    # extend left
-    # Guiersvif1 - 6.00 282.9 0.0
-    # extend vertical
-    # Guiersvif1 - 6.00 0.0 90.0
-    # extend left
-    # Guiersvif1 Guiersvif2 33.62 192.9 2.1
-    # extend right
-    # Guiersvif2 - 5.00 102.3 0.0
-    # extend left
-    # Guiersvif2 - 5.00 282.3 0.0
-    # extend vertical
-    # Guiersvif2 - 5.00 0.0 90.0
-    # extend left
-    # Guiersvif2 Guiersvif3 24.76 192.3 2.9
-    # extend right
-    # Guiersvif3 - 3.99 131.1 0.0
-    # extend left
-    # Guiersvif3 - 3.99 311.1 0.0
-    # extend vertical
-    # Guiersvif3 - 5.00 0.0 90.0
-    # extend left
-    # Guiersvif3 Guiersvif4 27.62 221.1 2.6
-    # extend right
-    # Guiersvif4 - 2.99 107.1 0.0
-    # extend left
-    # Guiersvif4 - 2.99 287.1 0.0
-    # extend vertical
-    # Guiersvif4 - 5.00 0.0 90.0
-    # extend left
-    # Guiersvif4 Guiersvif5 36.53 197.2 5.3
-    # extend vertical
-    # Guiersvif5 - 3.99 178.7 0.0
-    # Guiersvif5 - 2.99 358.7 0.0
-    # Guiersvif5 - 5.00 0.0 90.0
-    # extend left
-    # Guiersvif5 Guiersvif6 12.67 268.7 5.7
-    # extend right
-    # Guiersvif6 - 3.99 110.4 0.0
-    # extend left
-    # Guiersvif6 - 2.99 290.4 0.0
-    # extend vertical
-    # Guiersvif6 - 5.00 0.0 90.0
-    # extend left
-    # Guiersvif6 Guiersvif7 25.02 200.4 9.6
-    # extend right
-    # Guiersvif7 - 3.99 49.2 0.0
-    # extend left
-    # Guiersvif7 - 2.99 229.2 0.0
-    # extend vertical
-    # Guiersvif7 - 5.00 0.0 90.0
-    # extend left
-    # Guiersvif7 Guiersvif8 12.52 139.2 -3.8
-    # extend right
-    # Guiersvif8 - 3.99 119.5 0.0
-    # extend left
-    # Guiersvif8 - 2.99 299.5 0.0
-    # extend vertical
-    # Guiersvif8 - 5.00 0.0 90.0
-    # extend left
-    # Guiersvif8 Guiersvif9 26.80 209.5 1.8
-    # extend right
-    # Guiersvif9 - 3.99 152.7 0.0
-    # extend left
-    # Guiersvif9 - 2.99 332.7 0.0
-    # extend vertical
-    # Guiersvif9 - 5.00 0.0 90.0
-    # extend left
-    # Guiersvif9 Guiersvif10 29.61 242.7 7.3
-    # extend right
-    # Guiersvif10 - 2.99 165.1 0.0
-    # extend left
-    # Guiersvif10 - 2.99 345.1 0.0
-    # extend vertical
-    # Guiersvif10 - 5.00 0.0 90.0
-    # extend left
-    # Guiersvif10 Guiersvif11 28.85 255.1 11.7
-    # extend right
-    # Guiersvif11 - 5.00 87.3 0.0
-    # extend vertical
-    # Guiersvif11 - 5.00 0.0 90.0
-    # extend left
-    # Guiersvif11 Guiersvif12 19.02 177.3 3.8
-    # extend vertical
-    # Guiersvif12 - 2.99 176.9 0.0
-    # Guiersvif12 - 2.99 356.9 0.0
-    # Guiersvif12 - 3.99 0.0 90.0
-    # extend left
-    # Guiersvif12 Guiersvif13 52.65 266.9 -3.2
-    # extend right
-    # Guiersvif13 - 2.99 154.6 0.0
-    # extend left
-    # Guiersvif13 - 2.99 334.6 0.0
-    # extend vertical
-    # Guiersvif13 - 3.99 0.0 90.0
-    # extend left
-    # Guiersvif13 Guiersvif14 24.27 244.6 -52.6
+    Guiersvif1 - 6.00 102.9 0.0
+    extend left
+    Guiersvif1 - 6.00 282.9 0.0
+    extend vertical
+    Guiersvif1 - 6.00 0.0 90.0
+    extend left
+    Guiersvif1 Guiersvif2 33.62 192.9 2.1
+    extend right
+    Guiersvif2 - 5.00 102.3 0.0
+    extend left
+    Guiersvif2 - 5.00 282.3 0.0
+    extend vertical
+    Guiersvif2 - 5.00 0.0 90.0
+    extend left
+    Guiersvif2 Guiersvif3 24.76 192.3 2.9
+    extend right
+    Guiersvif3 - 3.99 131.1 0.0
+    extend left
+    Guiersvif3 - 3.99 311.1 0.0
+    extend vertical
+    Guiersvif3 - 5.00 0.0 90.0
+    extend left
+    Guiersvif3 Guiersvif4 27.62 221.1 2.6
+    extend right
+    Guiersvif4 - 2.99 107.1 0.0
+    extend left
+    Guiersvif4 - 2.99 287.1 0.0
+    extend vertical
+    Guiersvif4 - 5.00 0.0 90.0
+    extend left
+    Guiersvif4 Guiersvif5 36.53 197.2 5.3
+    extend vertical
+    Guiersvif5 - 3.99 178.7 0.0
+    Guiersvif5 - 2.99 358.7 0.0
+    Guiersvif5 - 5.00 0.0 90.0
+    extend left
+    Guiersvif5 Guiersvif6 12.67 268.7 5.7
+    extend right
+    Guiersvif6 - 3.99 110.4 0.0
+    extend left
+    Guiersvif6 - 2.99 290.4 0.0
+    extend vertical
+    Guiersvif6 - 5.00 0.0 90.0
+    extend left
+    Guiersvif6 Guiersvif7 25.02 200.4 9.6
+    extend right
+    Guiersvif7 - 3.99 49.2 0.0
+    extend left
+    Guiersvif7 - 2.99 229.2 0.0
+    extend vertical
+    Guiersvif7 - 5.00 0.0 90.0
+    extend left
+    Guiersvif7 Guiersvif8 12.52 139.2 -3.8
+    extend right
+    Guiersvif8 - 3.99 119.5 0.0
+    extend left
+    Guiersvif8 - 2.99 299.5 0.0
+    extend vertical
+    Guiersvif8 - 5.00 0.0 90.0
+    extend left
+    Guiersvif8 Guiersvif9 26.80 209.5 1.8
+    extend right
+    Guiersvif9 - 3.99 152.7 0.0
+    extend left
+    Guiersvif9 - 2.99 332.7 0.0
+    extend vertical
+    Guiersvif9 - 5.00 0.0 90.0
+    extend left
+    Guiersvif9 Guiersvif10 29.61 242.7 7.3
+    extend right
+    Guiersvif10 - 2.99 165.1 0.0
+    extend left
+    Guiersvif10 - 2.99 345.1 0.0
+    extend vertical
+    Guiersvif10 - 5.00 0.0 90.0
+    extend left
+    Guiersvif10 Guiersvif11 28.85 255.1 11.7
+    extend right
+    Guiersvif11 - 5.00 87.3 0.0
+    extend vertical
+    Guiersvif11 - 5.00 0.0 90.0
+    extend left
+    Guiersvif11 Guiersvif12 19.02 177.3 3.8
+    extend vertical
+    Guiersvif12 - 2.99 176.9 0.0
+    Guiersvif12 - 2.99 356.9 0.0
+    Guiersvif12 - 3.99 0.0 90.0
+    extend left
+    Guiersvif12 Guiersvif13 52.65 266.9 -3.2
+    extend right
+    Guiersvif13 - 2.99 154.6 0.0
+    extend left
+    Guiersvif13 - 2.99 334.6 0.0
+    extend vertical
+    Guiersvif13 - 3.99 0.0 90.0
+    extend left
+    
     
     #*************************************************************************************************
     # GUIERS VIF PT. 14 vasque aval du S1 correspond au point b216 de la topo Guiers Vif post siphon1
     #*************************************************************************************************
     
-    #extend right
-    #Guiersvif14 - 2.99 102.0 0.0
-    #extend left
-    #Guiersvif14 - 2.99 282.0 0.0
-    #extend vertical
-    #Guiersvif14 - 3.99 0.0 90.0
+    Guiersvif13 Guiersvif14 24.27 244.6 -52.6
+    
+    extend right
+    Guiersvif14 - 2.99 102.0 0.0
+    extend left
+    Guiersvif14 - 2.99 282.0 0.0
+    extend vertical
+    Guiersvif14 - 3.99 0.0 90.0
     
     
     
@@ -586,330 +586,316 @@ survey gv_meora_1994_06_30 -title "Guiers Vif Radiesthesiste / Saint Antoine"
     #****************************************************************************
     
     
-    # extend right
-    # Guiersvif12 - 5.00 16.3 0.0
-    # extend vertical
-    # Guiersvif12 - 5.00 0.0 90.0
-    # extend left
-    # Guiersvif12 GV_FJS_stantoine2 22.43 106.3 1.0
-    # extend vertical
-    # GV_FJS_stantoine2 - 5.00 358.0 0.0
-    # GV_FJS_stantoine2 - 5.00 0.0 90.0
-    # extend right
-    # GV_FJS_stantoine2 GV_FJS_stantoine3 10.61 88.0 -4.0
-    # GV_FJS_stantoine3 - 5.00 24.2 0.0
-    # extend vertical
-    # GV_FJS_stantoine3 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine3 GV_FJS_stantoine4 12.23 114.2 -3.5
-  
-  
-    # extend right
-    # GV_FJS_stantoine4 - 5.00 84.1 0.0
-    # extend vertical
-    # GV_FJS_stantoine4 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine4 GV_FJS_stantoine5 14.55 174.1 -1.5
-    # extend right
-    # GV_FJS_stantoine5 - 5.00 64.4 0.0
-    # extend vertical
-    # GV_FJS_stantoine5 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine5 GV_FJS_stantoine6 14.62 154.4 -1.5
-    # extend right
-    # GV_FJS_stantoine6 - 5.00 114.1 0.0
-    # extend vertical
-    # GV_FJS_stantoine6 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine6 GV_FJS_stantoine7 11.39 204.1 -1.9
-    # extend right
-    # GV_FJS_stantoine7 - 5.00 159.6 0.0
-    # extend vertical
-    # GV_FJS_stantoine7 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine7 GV_FJS_stantoine8 6.93 249.6 0.0
-    # extend right
-    # GV_FJS_stantoine8 - 5.00 123.4 0.0
-    # extend vertical
-    # GV_FJS_stantoine8 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine8 GV_FJS_stantoine9 9.23 213.4 9.3
-    # extend right
-    # GV_FJS_stantoine9 - 5.00 99.2 0.0
-    # extend vertical
-    # GV_FJS_stantoine9 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine9 GV_FJS_stantoine10 12.80 189.2 -3.3
-    # extend right
-    # GV_FJS_stantoine10 - 5.00 71.6 0.0
-    # extend vertical
-    # GV_FJS_stantoine10 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine10 GV_FJS_stantoine11 11.16 161.6 1.9
-    # extend right
-    # GV_FJS_stantoine11 - 5.00 88.4 0.0
-    # extend vertical
-    # GV_FJS_stantoine11 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine11 GV_FJS_stantoine12 6.76 178.4 -16.0
-    # extend vertical
-    # GV_FJS_stantoine12 - 5.00 353.9 0.0
-    # GV_FJS_stantoine12 - 5.00 0.0 90.0
-    # extend right
-    # GV_FJS_stantoine12 GV_FJS_stantoine13 10.56 83.9 8.1
-    # GV_FJS_stantoine13 - 5.00 11.8 0.0
-    # extend vertical
-    # GV_FJS_stantoine13 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine13 GV_FJS_stantoine14 8.16 101.8 2.6
-    # extend right
-    # GV_FJS_stantoine14 - 3.99 60.8 0.0
-    # extend vertical
-    # GV_FJS_stantoine14 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine14 GV_FJS_stantoine15 12.68 150.8 8.5
-    # extend right
-    # GV_FJS_stantoine15 - 3.99 90.8 0.0
-    # extend vertical
-    # GV_FJS_stantoine15 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine15 GV_FJS_stantoine16 14.04 180.8 7.6
-    # extend right
-    # GV_FJS_stantoine16 - 2.99 115.8 0.0
-    # extend vertical
-    # GV_FJS_stantoine16 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine16 GV_FJS_stantoine17 6.43 205.8 -6.7
-    # extend right
-    # GV_FJS_stantoine17 - 3.99 101.5 0.0
-    # extend vertical
-    # GV_FJS_stantoine17 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine17 GV_FJS_stantoine18 10.23 191.5 2.1
-    # extend right
-    # GV_FJS_stantoine18 - 2.99 70.6 0.0
-    # extend vertical
-    # GV_FJS_stantoine18 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine18 GV_FJS_stantoine19 7.29 160.6 -2.9
-    # extend right
-    # GV_FJS_stantoine19 - 2.99 103.5 0.0
-    # extend vertical
-    # GV_FJS_stantoine19 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine19 GV_FJS_stantoine20 8.78 193.5 2.4
-    # extend right
-    # GV_FJS_stantoine20 - 2.99 167.4 0.0
-    # extend vertical
-    # GV_FJS_stantoine20 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine20 GV_FJS_stantoine21 5.15 257.4 4.2
-    # extend right
-    # GV_FJS_stantoine21 - 3.99 98.1 0.0
-    # extend vertical
-    # GV_FJS_stantoine21 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine21 GV_FJS_stantoine22 3.95 188.1 -5.4
-    # extend right
-    # GV_FJS_stantoine22 - 2.99 151.5 0.0
-    # extend vertical
-    # GV_FJS_stantoine22 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine22 GV_FJS_stantoine23 14.78 241.5 0.0
-    # extend right
-    # GV_FJS_stantoine23 - 2.01 144.5 0.0
-    # extend vertical
-    # GV_FJS_stantoine23 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine23 GV_FJS_stantoine24 9.59 234.5 -2.2
-    # extend vertical
-    # GV_FJS_stantoine24 - 2.01 173.6 0.0
-    # GV_FJS_stantoine24 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine24 GV_FJS_stantoine25 5.16 263.6 -12.5
-    # extend vertical
-    # GV_FJS_stantoine25 - 2.01 170.5 0.0
-    # GV_FJS_stantoine25 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine25 GV_FJS_stantoine26 10.19 260.5 4.2
-    # GV_FJS_stantoine26 - 2.01 190.6 0.0
-    # extend vertical
-    # GV_FJS_stantoine26 - 5.00 0.0 90.0
-    # extend right
-    # GV_FJS_stantoine26 GV_FJS_stantoine27 6.22 280.6 13.9
-    # GV_FJS_stantoine27 - 2.99 157.7 0.0
-    # extend vertical
-    # GV_FJS_stantoine27 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine27 GV_FJS_stantoine28 4.43 247.7 -4.9
-    # extend right
-    # GV_FJS_stantoine28 - 2.01 169.0 0.0
-    # extend vertical
-    # GV_FJS_stantoine28 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine28 GV_FJS_stantoine29 6.81 259.0 0.0
-    # extend right
-    # GV_FJS_stantoine29 - 2.01 101.4 0.0
-    # extend left
-    # GV_FJS_stantoine29 - 2.99 281.4 0.0
-    # extend vertical
-    # GV_FJS_stantoine29 - 2.99 0.0 90.0
-    # GV_FJS_stantoine29 - 2.99 0.0 -90.0
-    # extend left
-    # GV_FJS_stantoine29 GV_FJS_stantoine30 11.64 191.4 -85.3
-    # extend right
-    # GV_FJS_stantoine30 GV_FJS_stantoine31 4.63 80.7 -75.9
-    # GV_FJS_stantoine29 - 2.01 166.7 0.0
-    # extend vertical
-    # GV_FJS_stantoine29 - 5.00 0.0 90.0
-    # extend left
-    
-    #-------------------------------------
-    # ESCALADE UPPER CHEVALIER SERIES     -------------------------------
-    #-------------------------------------
-    
-    # GV_FJS_stantoine29 GV_FJS_stantoine32 7.25 256.7 0.0
-    # GV_FJS_stantoine32 - 2.01 191.3 0.0
-    # extend vertical
-    # GV_FJS_stantoine32 - 5.00 0.0 90.0
-    # extend right
-    # GV_FJS_stantoine32 GV_FJS_stantoine33 12.76 281.4 85.7
-    # extend left
-    # GV_FJS_stantoine33 - 2.01 191.3 0.0
-    # extend vertical
-    # GV_FJS_stantoine33 - 5.00 0.0 90.0
-    # extend right
-    # GV_FJS_stantoine33 GV_FJS_stantoine34 4.07 281.3 21.6
-    # extend vertical
-    # GV_FJS_stantoine34 - 2.01 184.4 0.0
-    # GV_FJS_stantoine34 - 2.99 4.4 0.0
-    # GV_FJS_stantoine34 - 2.99 0.0 90.0
-    # GV_FJS_stantoine34 - 2.99 0.0 -90.0
-    # extend right
-    # GV_FJS_stantoine34 GV_FJS_stantoine35 3.85 274.4 51.0
-    # extend vertical
-    # GV_FJS_stantoine35 - 2.01 180.0 0.0
-    # GV_FJS_stantoine35 - 2.99 360.0 0.0
-    # GV_FJS_stantoine35 - 2.99 0.0 90.0
-    # GV_FJS_stantoine35 - 2.99 0.0 -90.0
-    # extend left
-    # GV_FJS_stantoine35 GV_FJS_stantoine36 10.48 270.0 88.0
-    # extend vertical
-    # GV_FJS_stantoine36 - 2.01 178.0 0.0
-    # GV_FJS_stantoine36 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine36 GV_FJS_stantoine37 10.47 268.0 59.1
-    # extend right
-    # GV_FJS_stantoine37 - 2.01 156.8 0.0
-    # extend vertical
-    # GV_FJS_stantoine37 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine37 GV_FJS_stantoine38 3.39 246.8 33.4
-    # extend vertical
-    # GV_FJS_stantoine38 - 2.01 172.2 0.0
-    # GV_FJS_stantoine38 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine38 GV_FJS_stantoine39 5.74 262.2 19.0
-    # GV_FJS_stantoine39 - 2.01 343.6 0.0
-    # extend vertical
-    # GV_FJS_stantoine39 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine39 GV_FJS_stantoine40 4.20 253.6 38.5
-    # extend vertical
-    # GV_FJS_stantoine40 - 2.01 352.3 0.0
-    # GV_FJS_stantoine40 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine40 GV_FJS_stantoine41 6.09 262.3 47.5
-    # GV_FJS_stantoine41 - 2.01 346.7 0.0
-    # extend vertical
-    # GV_FJS_stantoine41 - 5.00 0.0 90.0
-    # extend left
-    # GV_FJS_stantoine41 GV_FJS_stantoine42 4.41 256.7 42.7
-    # extend vertical
-    # GV_FJS_stantoine42 - 2.99 172.5 0.0
-    # GV_FJS_stantoine42 - 2.01 352.5 0.0
-    # GV_FJS_stantoine42 - 2.99 0.0 90.0
-    # GV_FJS_stantoine42 - 2.99 0.0 -90.0
-    # extend left
-    # GV_FJS_stantoine42 GV_FJS_stantoine43 8.62 262.5 34.4
-    # GV_FJS_stantoine43 - 2.01 345.9 0.0
-    # extend vertical
-    # GV_FJS_stantoine43 - 2.99 0.0 90.0
-    # GV_FJS_stantoine43 - 2.99 0.0 -90.0
-    # extend left
-    # GV_FJS_stantoine43 GV_FJS_stantoine44 6.18 255.9 75.7
-    # GV_FJS_stantoine44 - 2.99 231.3 0.0
-    # extend right
-    # GV_FJS_stantoine44 - 2.01 51.3 0.0
-    # extend vertical
-    # GV_FJS_stantoine44 - 2.99 0.0 90.0
-    # GV_FJS_stantoine44 - 2.99 0.0 -90.0
-    # extend right
-    # GV_FJS_stantoine44 GV_FJS_stantoine45 8.56 321.3 73.9
-    # extend left
-    # GV_FJS_stantoine45 - 2.99 314.9 0.0
-    # extend vertical
-    # GV_FJS_stantoine45 - 2.99 0.0 90.0
-    # GV_FJS_stantoine45 - 2.99 0.0 -90.0
-    # extend right
-    # GV_FJS_stantoine45 GV_FJS_stantoine46 7.35 44.9 75.5
-    # GV_FJS_stantoine46 GV_FJS_stantoine47 10.49 45.0 68.0
-    
-    
-    # GV_FJS_stantoine37 - 2.01 48.0 0.0
-    # extend vertical
-    # GV_FJS_stantoine37 - 5.00 0.0 90.0
-    # extend right
-    # GV_FJS_stantoine37 GV_FJS_stantoine48 2.52 318.0 8.5
-    # extend left
-    # GV_FJS_stantoine48 - 2.99 249.2 0.0
-    # extend right
-    # GV_FJS_stantoine48 - 2.99 69.1 0.0
-    # extend vertical
-    # GV_FJS_stantoine48 - 2.99 0.0 90.0
-    # GV_FJS_stantoine48 - 2.99 0.0 -90.0
-    # extend right
-    # GV_FJS_stantoine48 GV_FJS_stantoine49 4.19 339.1 5.1
-    # extend left
-    # GV_FJS_stantoine49 - 2.01 284.0 0.0
-    # extend vertical
-    # GV_FJS_stantoine49 - 5.00 0.0 90.0
-    # extend right
-    # GV_FJS_stantoine49 GV_FJS_stantoine50 7.52 14.0 84.1
-    # extend left
-    # GV_FJS_stantoine50 - 2.01 270.0 0.0
-    # extend vertical
-    # GV_FJS_stantoine50 - 5.00 0.0 90.0
-    # extend right
-    # GV_FJS_stantoine50 GV_FJS_stantoine51 3.00 0.0 30.0
-    # extend left
-    # GV_FJS_stantoine51 - 2.01 238.0 0.0
-    # extend vertical
-    # GV_FJS_stantoine51 - 5.00 0.0 90.0
-    # extend right
-    # GV_FJS_stantoine51 GV_FJS_stantoine52 3.68 328.0 17.8
-    # extend left
-    # GV_FJS_stantoine52 - 2.01 219.3 0.0
-    # extend vertical
-    # GV_FJS_stantoine52 - 5.00 0.0 90.0
-    # extend right
-    # GV_FJS_stantoine52 GV_FJS_stantoine53 2.64 309.3 0.0
-    # extend left
-    # GV_FJS_stantoine53 - 2.99 213.7 0.0
-    # extend right
-    # GV_FJS_stantoine53 - 2.99 33.7 0.0
-    # extend vertical
-    # GV_FJS_stantoine53 - 2.99 0.0 90.0
-    # GV_FJS_stantoine53 - 2.99 0.0 -90.0
-    # extend right
-    # GV_FJS_stantoine53 GV_FJS_stantoine54 2.04 303.7 10.5
-    # extend left
-    # GV_FJS_stantoine54 GV_FJS_stantoine55 14.25 270.0 86.3
-    
-    
-    #--------------------------------------------------------------------
-    
-    
+    extend right
+    Guiersvif12 - 5.00 16.3 0.0
+    extend vertical
+    Guiersvif12 - 5.00 0.0 90.0
+    extend left
+    Guiersvif12 GV_FJS_stantoine2 22.43 106.3 1.0
+    extend vertical
+    GV_FJS_stantoine2 - 5.00 358.0 0.0
+    GV_FJS_stantoine2 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_stantoine2 GV_FJS_stantoine3 10.61 88.0 -4.0
+    GV_FJS_stantoine3 - 5.00 24.2 0.0
+    extend vertical
+    GV_FJS_stantoine3 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine3 GV_FJS_stantoine4 12.23 114.2 -3.5
+    extend right
+    GV_FJS_stantoine4 - 5.00 84.1 0.0
+    extend vertical
+    GV_FJS_stantoine4 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine4 GV_FJS_stantoine5 14.55 174.1 -1.5
+    extend right
+    GV_FJS_stantoine5 - 5.00 64.4 0.0
+    extend vertical
+    GV_FJS_stantoine5 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine5 GV_FJS_stantoine6 14.62 154.4 -1.5
+    extend right
+    GV_FJS_stantoine6 - 5.00 114.1 0.0
+    extend vertical
+    GV_FJS_stantoine6 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine6 GV_FJS_stantoine7 11.39 204.1 -1.9
+    extend right
+    GV_FJS_stantoine7 - 5.00 159.6 0.0
+    extend vertical
+    GV_FJS_stantoine7 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine7 GV_FJS_stantoine8 6.93 249.6 0.0
+    extend right
+    GV_FJS_stantoine8 - 5.00 123.4 0.0
+    extend vertical
+    GV_FJS_stantoine8 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine8 GV_FJS_stantoine9 9.23 213.4 9.3
+    extend right
+    GV_FJS_stantoine9 - 5.00 99.2 0.0
+    extend vertical
+    GV_FJS_stantoine9 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine9 GV_FJS_stantoine10 12.80 189.2 -3.3
+    extend right
+    GV_FJS_stantoine10 - 5.00 71.6 0.0
+    extend vertical
+    GV_FJS_stantoine10 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine10 GV_FJS_stantoine11 11.16 161.6 1.9
+    extend right
+    GV_FJS_stantoine11 - 5.00 88.4 0.0
+    extend vertical
+    GV_FJS_stantoine11 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine11 GV_FJS_stantoine12 6.76 178.4 -16.0
+    extend vertical
+    GV_FJS_stantoine12 - 5.00 353.9 0.0
+    GV_FJS_stantoine12 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_stantoine12 GV_FJS_stantoine13 10.56 83.9 8.1
+    GV_FJS_stantoine13 - 5.00 11.8 0.0
+    extend vertical
+    GV_FJS_stantoine13 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine13 GV_FJS_stantoine14 8.16 101.8 2.6
+    extend right
+    GV_FJS_stantoine14 - 3.99 60.8 0.0
+    extend vertical
+    GV_FJS_stantoine14 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine14 GV_FJS_stantoine15 12.68 150.8 8.5
+    extend right
+    GV_FJS_stantoine15 - 3.99 90.8 0.0
+    extend vertical
+    GV_FJS_stantoine15 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine15 GV_FJS_stantoine16 14.04 180.8 7.6
+    extend right
+    GV_FJS_stantoine16 - 2.99 115.8 0.0
+    extend vertical
+    GV_FJS_stantoine16 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine16 GV_FJS_stantoine17 6.43 205.8 -6.7
+    extend right
+    GV_FJS_stantoine17 - 3.99 101.5 0.0
+    extend vertical
+    GV_FJS_stantoine17 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine17 GV_FJS_stantoine18 10.23 191.5 2.1
+    extend right
+    GV_FJS_stantoine18 - 2.99 70.6 0.0
+    extend vertical
+    GV_FJS_stantoine18 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine18 GV_FJS_stantoine19 7.29 160.6 -2.9
+    extend right
+    GV_FJS_stantoine19 - 2.99 103.5 0.0
+    extend vertical
+    GV_FJS_stantoine19 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine19 GV_FJS_stantoine20 8.78 193.5 2.4
+    extend right
+    GV_FJS_stantoine20 - 2.99 167.4 0.0
+    extend vertical
+    GV_FJS_stantoine20 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine20 GV_FJS_stantoine21 5.15 257.4 4.2
+    extend right
+    GV_FJS_stantoine21 - 3.99 98.1 0.0
+    extend vertical
+    GV_FJS_stantoine21 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine21 GV_FJS_stantoine22 3.95 188.1 -5.4
+    extend right
+    GV_FJS_stantoine22 - 2.99 151.5 0.0
+    extend vertical
+    GV_FJS_stantoine22 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine22 GV_FJS_stantoine23 14.78 241.5 0.0
+    extend right
+    GV_FJS_stantoine23 - 2.01 144.5 0.0
+    extend vertical
+    GV_FJS_stantoine23 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine23 GV_FJS_stantoine24 9.59 234.5 -2.2
+    extend vertical
+    GV_FJS_stantoine24 - 2.01 173.6 0.0
+    GV_FJS_stantoine24 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine24 GV_FJS_stantoine25 5.16 263.6 -12.5
+    extend vertical
+    GV_FJS_stantoine25 - 2.01 170.5 0.0
+    GV_FJS_stantoine25 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine25 GV_FJS_stantoine26 10.19 260.5 4.2
+    GV_FJS_stantoine26 - 2.01 190.6 0.0
+    extend vertical
+    GV_FJS_stantoine26 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_stantoine26 GV_FJS_stantoine27 6.22 280.6 13.9
+    GV_FJS_stantoine27 - 2.99 157.7 0.0
+    extend vertical
+    GV_FJS_stantoine27 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine27 GV_FJS_stantoine28 4.43 247.7 -4.9
+    extend right
+    GV_FJS_stantoine28 - 2.01 169.0 0.0
+    extend vertical
+    GV_FJS_stantoine28 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine28 GV_FJS_stantoine29 6.81 259.0 0.0
+    extend right
+    GV_FJS_stantoine29 - 2.01 101.4 0.0
+    extend left
+    GV_FJS_stantoine29 - 2.99 281.4 0.0
+    extend vertical
+    GV_FJS_stantoine29 - 2.99 0.0 90.0
+    GV_FJS_stantoine29 - 2.99 0.0 -90.0
+    extend left
+    GV_FJS_stantoine29 GV_FJS_stantoine30 11.64 191.4 -85.3
+    extend right
+    GV_FJS_stantoine30 GV_FJS_stantoine31 4.63 80.7 -75.9
+    GV_FJS_stantoine29 - 2.01 166.7 0.0
+    extend vertical
+    GV_FJS_stantoine29 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine29 GV_FJS_stantoine32 7.25 256.7 0.0
+    GV_FJS_stantoine32 - 2.01 191.3 0.0
+    extend vertical
+    GV_FJS_stantoine32 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_stantoine32 GV_FJS_stantoine33 12.76 281.4 85.7
+    extend left
+    GV_FJS_stantoine33 - 2.01 191.3 0.0
+    extend vertical
+    GV_FJS_stantoine33 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_stantoine33 GV_FJS_stantoine34 4.07 281.3 21.6
+    extend vertical
+    GV_FJS_stantoine34 - 2.01 184.4 0.0
+    GV_FJS_stantoine34 - 2.99 4.4 0.0
+    GV_FJS_stantoine34 - 2.99 0.0 90.0
+    GV_FJS_stantoine34 - 2.99 0.0 -90.0
+    extend right
+    GV_FJS_stantoine34 GV_FJS_stantoine35 3.85 274.4 51.0
+    extend vertical
+    GV_FJS_stantoine35 - 2.01 180.0 0.0
+    GV_FJS_stantoine35 - 2.99 360.0 0.0
+    GV_FJS_stantoine35 - 2.99 0.0 90.0
+    GV_FJS_stantoine35 - 2.99 0.0 -90.0
+    extend left
+    GV_FJS_stantoine35 GV_FJS_stantoine36 10.48 270.0 88.0
+    extend vertical
+    GV_FJS_stantoine36 - 2.01 178.0 0.0
+    GV_FJS_stantoine36 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine36 GV_FJS_stantoine37 10.47 268.0 59.1
+    extend right
+    GV_FJS_stantoine37 - 2.01 156.8 0.0
+    extend vertical
+    GV_FJS_stantoine37 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine37 GV_FJS_stantoine38 3.39 246.8 33.4
+    extend vertical
+    GV_FJS_stantoine38 - 2.01 172.2 0.0
+    GV_FJS_stantoine38 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine38 GV_FJS_stantoine39 5.74 262.2 19.0
+    GV_FJS_stantoine39 - 2.01 343.6 0.0
+    extend vertical
+    GV_FJS_stantoine39 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine39 GV_FJS_stantoine40 4.20 253.6 38.5
+    extend vertical
+    GV_FJS_stantoine40 - 2.01 352.3 0.0
+    GV_FJS_stantoine40 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine40 GV_FJS_stantoine41 6.09 262.3 47.5
+    GV_FJS_stantoine41 - 2.01 346.7 0.0
+    extend vertical
+    GV_FJS_stantoine41 - 5.00 0.0 90.0
+    extend left
+    GV_FJS_stantoine41 GV_FJS_stantoine42 4.41 256.7 42.7
+    extend vertical
+    GV_FJS_stantoine42 - 2.99 172.5 0.0
+    GV_FJS_stantoine42 - 2.01 352.5 0.0
+    GV_FJS_stantoine42 - 2.99 0.0 90.0
+    GV_FJS_stantoine42 - 2.99 0.0 -90.0
+    extend left
+    GV_FJS_stantoine42 GV_FJS_stantoine43 8.62 262.5 34.4
+    GV_FJS_stantoine43 - 2.01 345.9 0.0
+    extend vertical
+    GV_FJS_stantoine43 - 2.99 0.0 90.0
+    GV_FJS_stantoine43 - 2.99 0.0 -90.0
+    extend left
+    GV_FJS_stantoine43 GV_FJS_stantoine44 6.18 255.9 75.7
+    GV_FJS_stantoine44 - 2.99 231.3 0.0
+    extend right
+    GV_FJS_stantoine44 - 2.01 51.3 0.0
+    extend vertical
+    GV_FJS_stantoine44 - 2.99 0.0 90.0
+    GV_FJS_stantoine44 - 2.99 0.0 -90.0
+    extend right
+    GV_FJS_stantoine44 GV_FJS_stantoine45 8.56 321.3 73.9
+    extend left
+    GV_FJS_stantoine45 - 2.99 314.9 0.0
+    extend vertical
+    GV_FJS_stantoine45 - 2.99 0.0 90.0
+    GV_FJS_stantoine45 - 2.99 0.0 -90.0
+    extend right
+    GV_FJS_stantoine45 GV_FJS_stantoine46 7.35 44.9 75.5
+    GV_FJS_stantoine46 GV_FJS_stantoine47 10.49 45.0 68.0
+    GV_FJS_stantoine37 - 2.01 48.0 0.0
+    extend vertical
+    GV_FJS_stantoine37 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_stantoine37 GV_FJS_stantoine48 2.52 318.0 8.5
+    extend left
+    GV_FJS_stantoine48 - 2.99 249.2 0.0
+    extend right
+    GV_FJS_stantoine48 - 2.99 69.1 0.0
+    extend vertical
+    GV_FJS_stantoine48 - 2.99 0.0 90.0
+    GV_FJS_stantoine48 - 2.99 0.0 -90.0
+    extend right
+    GV_FJS_stantoine48 GV_FJS_stantoine49 4.19 339.1 5.1
+    extend left
+    GV_FJS_stantoine49 - 2.01 284.0 0.0
+    extend vertical
+    GV_FJS_stantoine49 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_stantoine49 GV_FJS_stantoine50 7.52 14.0 84.1
+    extend left
+    GV_FJS_stantoine50 - 2.01 270.0 0.0
+    extend vertical
+    GV_FJS_stantoine50 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_stantoine50 GV_FJS_stantoine51 3.00 0.0 30.0
+    extend left
+    GV_FJS_stantoine51 - 2.01 238.0 0.0
+    extend vertical
+    GV_FJS_stantoine51 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_stantoine51 GV_FJS_stantoine52 3.68 328.0 17.8
+    extend left
+    GV_FJS_stantoine52 - 2.01 219.3 0.0
+    extend vertical
+    GV_FJS_stantoine52 - 5.00 0.0 90.0
+    extend right
+    GV_FJS_stantoine52 GV_FJS_stantoine53 2.64 309.3 0.0
+    extend left
+    GV_FJS_stantoine53 - 2.99 213.7 0.0
+    extend right
+    GV_FJS_stantoine53 - 2.99 33.7 0.0
+    extend vertical
+    GV_FJS_stantoine53 - 2.99 0.0 90.0
+    GV_FJS_stantoine53 - 2.99 0.0 -90.0
+    extend right
+    GV_FJS_stantoine53 GV_FJS_stantoine54 2.04 303.7 10.5
+    extend left
+    GV_FJS_stantoine54 GV_FJS_stantoine55 14.25 270.0 86.3
     extend right
     GV_FJS_stantoine15 - 3.99 45.0 0.0
     extend vertical

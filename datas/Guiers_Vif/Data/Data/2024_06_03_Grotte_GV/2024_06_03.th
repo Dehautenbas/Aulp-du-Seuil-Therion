@@ -9,7 +9,7 @@ survey 2024_06_03 -title "GV > 2024-06-03"
     #    join .......
     
     ## Coupe
-    #input Data/
+    input Data/GV_proj.th2
     #   join ........
 
     ## Maps

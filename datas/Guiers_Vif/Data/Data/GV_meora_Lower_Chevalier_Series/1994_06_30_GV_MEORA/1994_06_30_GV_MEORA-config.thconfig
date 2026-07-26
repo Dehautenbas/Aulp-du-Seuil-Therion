@@ -113,8 +113,8 @@ layout my_layout
 
  
   
- #export map -projection plan -fmt xvi -layout xviexport -o Data/1994_06_30_GV_MEORA-th_p.xvi
- #export map -projection extended -fmt xvi -layout xviexport -o Data/1994_06_30_GV_MEORA-th_e.xvi
+ export map -projection plan -fmt xvi -layout xviexport -o Data/1994_06_30_GV_MEORA-th_p.xvi
+ export map -projection extended -fmt xvi -layout xviexport -o Data/1994_06_30_GV_MEORA-th_e.xvi
   
  #export map -projection plan -o Outputs/1994_06_30_GV_MEORA-plan.pdf -layout my_layout
  #export map -projection extended -layout my_layout-coupe -o Outputs/1994_06_30_GV_MEORA-coupe.pdf

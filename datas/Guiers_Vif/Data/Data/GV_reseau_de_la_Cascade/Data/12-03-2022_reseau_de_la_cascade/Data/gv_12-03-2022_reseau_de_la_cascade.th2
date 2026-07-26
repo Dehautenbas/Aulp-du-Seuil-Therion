@@ -1,7 +1,7 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -228.0 -228.1500000000001 1066.25 618.3999999999999
+##XTHERION## xth_me_area_adjust -228.0 -228.0 1053.0 618.55
 ##XTHERION## xth_me_area_zoom_to 400
-##XTHERION## xth_me_image_insert {884.255 1 1.0} {293.5469999999999 dp_stat_} 12_03_2022_GV_Cascade-th_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {884.255 1 1.0} {293.697 dp_stat_} 12_03_2022_GV_Cascade-th_p.xvi 0 {}
 
 
 
@@ -27,7 +27,7 @@ endline
 
 point 110.38499999999999 245.627 station -name dp_stat_35
 
-point 123.53500000000003 221.7569999999999 station -name dp_stat_37
+point 168.375 141.027 station -name dp_stat_37
 
 endscrap
 
@@ -185,9 +185,9 @@ line overhang -reverse on
   smooth off
 endline
 
-point 278.75 326.5 height -value [+9] -scale s
+point 285.75 314.25 height -value [+9] -scale s
 
-point 279.5 215.0 height -value [+10]
+point 264.25 213.75 height -value [+10]
 
 line pit -reverse on
   306.25 294.25
@@ -207,14 +207,14 @@ line pit -reverse on
   smooth off
 endline
 
-point 341.25 339.5 height -value [+2] -scale s
+point 346.25 324.5 height -value [+2] -scale s
 
 line wall
 endline
 
 point 392.25 310.5 water-flow -orientation 190.8
 
-point 395.0 344.5 narrow-end -orientation 7.1
+point 394.75 337.75 narrow-end -orientation 7.1
 
 line wall -reverse on
   396.25 313.75
@@ -253,7 +253,7 @@ line wall
   smooth off
 endline
 
-point 517.75 255.75 height -value [+13]
+point 506.75 272.5 height -value [+13]
 
 point 462.5 279.25 water-flow -orientation 215.4
 
@@ -352,7 +352,7 @@ line wall
   smooth off
 endline
 
-point 560.75 405.25 dig -scale xs
+point 560.75 398.5 dig -scale xs
 
 line wall
   548.5 370.0
@@ -365,7 +365,7 @@ line wall
   smooth off
 endline
 
-point 618.0 352.0 remark -text [Terminus de 1965] -scale s -align bottom
+point 618.0 352.0 remark -text [<it>Terminus de 1965]
 
 line wall -reverse on
   552.25 381.0
@@ -377,7 +377,7 @@ line wall -reverse on
   smooth off
 endline
 
-point 514.5 455.75 height -value [+14]
+point 512.5 427.25 height -value [+14]
 
 line wall -subtype pit
   492.5 378.75
@@ -393,7 +393,7 @@ line wall
   smooth off
 endline
 
-point 379.25 438.25 narrow-end -orientation 307.2
+point 384.5 433.75 narrow-end -orientation 307.2
 
 line wall
   397.5 420.5
@@ -445,7 +445,7 @@ line floor-meander
   smooth off
 endline
 
-point 948.25 279.25 narrow-end -orientation 101.6
+point 937.0 282.25 narrow-end -orientation 101.6
 
 line border
   870.75 326.75

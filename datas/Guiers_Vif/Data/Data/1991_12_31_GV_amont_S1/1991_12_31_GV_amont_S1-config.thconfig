@@ -78,7 +78,7 @@ layout my_layout
 	transparency on
 	opacity 75
 	language fr
-	map-comment "<it>Coupe<ss> - 1991-12-31, Guiers Vif amont S1, Plateau des Petites Roches, 38, France"
+	map-comment "<it>Coupe<ss> - 1991-12-31, Guiers Vif amont S1"
 	statistics explo-length off
 	statistics topo-length off
 	statistics copyright all
@@ -87,8 +87,8 @@ layout my_layout
 	map-header 0 45 sw
 	map-header-bg off
 	layers on
-	#symbol-hide line survey
-	debug station-names
+	symbol-hide line survey
+	#debug station-names
 	#grid bottom
 	#grid-size 100 100 100 m
 	grid off  
@@ -111,11 +111,14 @@ layout my_layout
 
  endlayout
 
+select MC_GV_Amont91-Coupe-proj@1991_12_31_GV_amont_S1
+
+
  
   
  #export map -projection plan -fmt xvi -layout xviexport -o Data/1991_12_31_GV_amont_S1-th_p.xvi
- #export map -projection extended -fmt xvi -layout xviexport -o Data/1991_12_31_GV_amont_S1-th_e.xvi
+# export map -projection [elevation 120] -fmt xvi -layout xviexport -o Data/1991_12_31_GV_amont_S1-th_e.xvi
   
  #export map -projection plan -o Outputs/1991_12_31_GV_amont_S1-planB.pdf -layout my_layout
- #export map -projection extended -layout my_layout-coupe -o Outputs/1991_12_31_GV_amont_S1-coupe.pdf
+export map -projection [elevation 120] -layout my_layout-coupe -o Outputs/1991_12_31_GV_amont_S1-coupe-proj.pdf
  #export model -o Outputs/1991_12_31_GV_amont_S1.lox

@@ -16,3 +16,14 @@ map gv_2024-MP
   GV_030624-p12
   GV_030624-p13
 endmap
+
+map gv_2024-MCproj
+
+ SC_GV1
+ break
+ SC_GV2
+ break
+ SC_GV3
+ 
+ endmap
+

@@ -14,6 +14,9 @@ survey gv_12-03-2022_reseau_de_la_cascade -title "Réseau de la Cascade : 12-03-
     units compass clino degrees
     data normal from to length compass clino
     
+    # pour définir une altitude 0 hors synthèse
+    #fix dp_stat_37 0 0 0
+    
     #station dp_stat_ "TOPO > sur la paroie" continuation attr "PTR" "point jaune"
     #station dp_stat_1 "TOPO > sur la colonette" continuation attr "PTR" "point jaune"
     #station dp_stat_16 "TOPO > sur la paroie" continuation attr "PTR" "point jaune"
@@ -223,7 +226,7 @@ survey gv_12-03-2022_reseau_de_la_cascade -title "Réseau de la Cascade : 12-03-
     dp_stat_35 . 2.91 178.8 -9.6
     dp_stat_35 . 1.66 198.0 -10.4
     extend vertical
-    dp_stat_35 dp_stat_37 15.81 151.0 -85
+    dp_stat_35 dp_stat_37 15.81 151.0 -67.4
     
     # Topographie du pied de la Salle de la Cascade, vers le siphon 1 du guiers vif
   

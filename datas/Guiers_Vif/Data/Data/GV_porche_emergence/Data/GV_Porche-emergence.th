@@ -5,17 +5,12 @@ survey GV_Porche-emergence -title "GV Porche-emergence"
 
   centerline
     date 2024.08.10 
-    team "Théophile Cailhol" 
+    team "Théophile CAILHOL" 
     units length meters
     units compass clino degrees
     data normal from to length compass clino
-    
-    cs UTM31
    
-   station 11 "Emergence" entrance
-   
-    fix 11 726356 5030418 1068
-    
+  #  fix 11 0726356 5030418 1068
     # extend auto
     0 . 12.13 287.0 2.9
     0 . 8.62 116.8 25.3

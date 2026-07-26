@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -228.00000000000003 -228.0000000000001 618.55 1409.5
+##XTHERION## xth_me_area_adjust -228.00000000000003 -228.0000000000001 618.55 1406.75
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {293.70399999999995 1 1.0} {1277.955 dp_stat_} 10_07_2022_GV_Cascade-th_p.xvi 0 {}
 
@@ -140,7 +140,7 @@ point 305.394 682.035 station -name dp_stat_19
 
 point 327.0 685.5 water-flow -orientation 32.6
 
-point 341.0 716.0 sink -orientation 32.6
+point 338.5 704.5 sink -orientation 32.6
 
 line pit
   294.5 668.25
@@ -178,7 +178,7 @@ line wall
   smooth off
 endline
 
-point 280.0 430.5 height -value [+3]
+point 265.0 443.0 height -value [+3]
 
 line overhang
   224.5 472.5
@@ -188,7 +188,7 @@ endline
 
 point 337.0 530.75 air-draught -orientation 23.2 -subtype winter
 
-point 381.5 513.25 date -orientation 290.0 -value [2022.12.03] -scale s
+point 369.0 517.75 date -orientation 290.0 -value [2022.12.03] -scale s
 
 line wall
   236.25 701.5
@@ -264,9 +264,9 @@ line wall
   smooth off
 endline
 
-point 140.5 497.5 height -value [+20]
+point 97.0 437.0 height -value [+20]
 
-point 101.0 464.75 label -text [<center>Puits Michto]
+point 95.5 480.25 label -text [<center>Puits Michto]
 
 line wall
   268.25 279.0

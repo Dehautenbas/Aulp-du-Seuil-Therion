@@ -4,8 +4,6 @@ survey pts-alain-robert_tot -title "Cavernicole > Alain Robert > Pts Alain-rober
 
     input pts-alain-robert_maps.th
     input datas/alain-robert.th
-    input datas/sommet-pts-robert.th
-        equate 0@sommet-pts-robert PTRX@alain-robert
 
     ## Plan
     input datas/alain-robert_2_p.th2

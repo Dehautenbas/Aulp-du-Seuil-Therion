@@ -1,0 +1,158 @@
+encoding  utf-8
+
+#****************************************************************************
+# Cette séance est issu de la seance du 12-03-2022, puis extrait une partie
+# des visées correspondant au cheminement de l'entrée du porche du GV
+# jusqu'au siphon pour recaler exactement la topo du réseau de la Cascade
+#****************************************************************************
+
+survey gv_12-03-2022_reseau_de_la_cascade-calage -title "Réseau de la Cascade calage : 12-03-2022"
+
+  centerline
+    date 2022.03.12 
+    team "Léa Varnerot"
+    team "David Parrot"
+    explo-team "David Parrot"
+    explo-team "Léa Varnerot"
+    explo-team "Olivier Gente"
+    
+    units length meters
+    units compass clino degrees
+    data normal from to length compass clino
+    
+    # pour définir une altitude 0 hors synthèse
+    #fix dp_stat_37 0 0 0
+    
+    # pour geolocaliser
+   # fix dp_stat_73 726318 5030360 1152
+    
+    #station dp_stat_73             "Réseau de la Cascade" entrance
+    
+    flags duplicate
+    
+    # Topographie du pied de la Salle de la Cascade, vers le siphon 1 du guiers vif
+  
+    extend left
+    dp_stat_37 dp_stat_38 11.93 278.7 8.7
+    #extend auto
+    dp_stat_38 . 5.89 171.1 -4.3
+    dp_stat_38 . 1.34 331.2 9.6
+    dp_stat_38 . 5.32 203.1 86.3
+    dp_stat_38 . 0.90 133.4 -74.8
+    extend left
+    dp_stat_38 dp_stat_40 16.98 244.6 0.4
+    #extend auto
+    dp_stat_40 . 5.45 152.4 -7.1
+    dp_stat_40 . 3.39 332.7 13.5
+    dp_stat_40 . 6.31 192.1 84.6
+    dp_stat_40 . 0.79 156.4 -65.0
+    extend left
+    dp_stat_40 dp_stat_42 7.40 277.0 -12.6
+    #extend auto
+    dp_stat_42 . 4.03 185.6 -2.9
+    dp_stat_42 . 3.75 198.7 76.0
+    dp_stat_42 . 2.26 248.4 -86.7
+    extend left
+    dp_stat_42 dp_stat_44 13.40 256.1 -41.6
+    #extend auto
+    dp_stat_44 . 3.35 174.7 -3.6
+    dp_stat_44 . 2.13 345.0 5.9
+    dp_stat_44 . 6.88 287.4 80.4
+    dp_stat_44 . 0.96 41.4 -70.4
+    extend left
+    dp_stat_44 dp_stat_46 12.10 261.8 -27.5
+    #extend auto
+    dp_stat_46 . 5.27 163.1 -8.1
+    dp_stat_46 . 4.66 327.6 -0.4
+    dp_stat_46 . 1.09 2.2 85.6
+    dp_stat_46 . 12.61 120.9 78.6
+    extend left
+    dp_stat_46 dp_stat_48 7.42 204.3 -36.2
+    
+    # Topographie du pied de la Salle de la Cascade, vers l'entrée de la grotte guiers vif
+    
+    
+    
+    extend right
+    #dp_stat_37 dp_stat_50 16.92 329.2 -7.1
+    dp_stat_37 dp_stat_50 10.92 329.2 -7.1
+    
+    #extend auto
+    dp_stat_48 . 4.31 19.8 86.7
+    dp_stat_48 . 0.90 69.6 -82.0
+    dp_stat_48 . 3.91 117.6 -3.5
+    extend right
+    dp_stat_50 dp_stat_52 9.96 36.6 -14.2
+    #extend auto
+    dp_stat_52 . 2.42 345.9 1.2
+    dp_stat_52 . 2.17 165.7 -6.5
+    dp_stat_52 . 5.36 26.3 84.1
+    dp_stat_52 . 0.43 71.4 -87.0
+    extend right
+    dp_stat_52 dp_stat_54 20.81 58.9 2.3
+    #extend auto
+    dp_stat_54 . 2.87 153.7 -1.2
+    dp_stat_54 . 12.89 27.9 86.7
+    dp_stat_54 . 1.19 317.2 -86.3
+    extend right
+    dp_stat_54 dp_stat_56 32.98 50.9 -5.5
+    dp_stat_56 dp_stat_58 2.62 318.7 5.7
+    #extend auto
+    dp_stat_58 . 1.39 288.6 3.6
+    dp_stat_58 . 1.35 97.3 3.6
+    dp_stat_58 . 4.34 67.9 76.9
+    dp_stat_58 . 0.88 262.1 -81.2
+    extend right
+    dp_stat_58 dp_stat_60 13.08 16.4 4.1
+    #extend auto
+    dp_stat_60 . 2.29 252.9 1.5
+    dp_stat_60 . 3.26 267.2 66.2
+    dp_stat_60 . 1.71 330.3 81.9
+    dp_stat_60 . 1.16 235.6 -77.2
+    extend right
+    dp_stat_60 dp_stat_62 10.12 314.7 -7.1
+    #extend auto
+    dp_stat_62 . 1.96 260.5 1.9
+    dp_stat_62 . 2.05 78.0 -5.4
+    dp_stat_62 . 3.90 10.1 79.4
+    dp_stat_62 . 0.91 107.7 -86.2
+    extend right
+    dp_stat_62 dp_stat_64 16.67 7.4 -13.6
+    #extend auto
+    dp_stat_64 . 5.56 309.3 24.2
+    dp_stat_64 . 7.01 136.3 16.3
+    dp_stat_64 . 5.64 13.8 86.8
+    dp_stat_64 . 0.96 99.9 -74.3
+    extend right
+    dp_stat_64 dp_stat_66 2.75 34.2 -4.0
+    dp_stat_66 dp_stat_68 23.25 38.0 -9.9
+    #extend auto
+    dp_stat_68 . 8.91 289.4 12.3
+    dp_stat_68 . 2.43 104.2 2.2
+    dp_stat_68 . 8.99 10.0 82.0
+    dp_stat_68 . 0.90 357.0 -77.4
+    extend right
+    dp_stat_68 dp_stat_70 27.28 21.0 2.3
+    #extend auto
+    dp_stat_70 . 10.35 300.9 -2.7
+    dp_stat_70 . 5.89 112.2 20.4
+    dp_stat_70 . 8.06 18.1 81.8
+    dp_stat_70 . 0.77 90.5 -76.0
+    extend right
+    dp_stat_70 dp_stat_72 14.23 34.9 -9.5       # dp_stat_72 point jaune bloc entrée aplomb du porche
+    #extend auto
+    dp_stat_72 . 11.52 290.5 -3.8
+    dp_stat_72 . 8.56 112.4 24.6
+    dp_stat_72 . 12.95 0.9 79.7
+    dp_stat_72 . 0.73 187.0 -89.4
+    
+    flags not duplicate
+    
+    # visée crée pour fixer un point GPS
+    
+    dp_stat_72 dp_stat_73 38.47 358.5 -2.7
+    
+  endcenterline
+
+endsurvey
+
