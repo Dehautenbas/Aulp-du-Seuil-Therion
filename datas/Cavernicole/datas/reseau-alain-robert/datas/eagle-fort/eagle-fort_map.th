@@ -1,0 +1,13 @@
+encoding  utf-8
+map MP_eagle-fort -proj plan -title "eagle-fort"
+  SP1_eagle-fort
+  break
+  SP2_eagle-fort
+endmap
+
+
+map MC_eagle-fort -proj extended -title "eagle-fort"
+  SC1_eagle-fort
+  break
+  SC2_eagle-fort
+endmap

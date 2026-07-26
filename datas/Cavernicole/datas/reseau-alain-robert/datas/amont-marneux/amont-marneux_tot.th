@@ -1,0 +1,15 @@
+encoding  utf-8
+
+survey amont-marneux_tot -title "Cavernicole > Alain Robert > Amont marneux"
+
+    input datas/amont-marneux.th
+    input datas/amont-marneux-actif-26.th
+        equate 14@amont-marneux-actif-26 PTR10@amont-marneux
+
+
+    input datas/amont-marneux_p.th2
+    
+    input amont-marneux_maps.th
+
+endsurvey
+
