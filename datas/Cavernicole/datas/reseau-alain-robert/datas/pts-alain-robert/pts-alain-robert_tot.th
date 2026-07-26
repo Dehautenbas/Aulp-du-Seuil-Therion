@@ -2,6 +2,7 @@ encoding  utf-8
 
 survey pts-alain-robert_tot -title "Cavernicole > Alain Robert > Pts Alain-robert"
 
+    input pts-alain-robert_maps.th
     input datas/alain-robert.th
     input datas/sommet-pts-robert.th
         equate 0@sommet-pts-robert PTRX@alain-robert
@@ -9,15 +10,12 @@ survey pts-alain-robert_tot -title "Cavernicole > Alain Robert > Pts Alain-rober
     ## Plan
     input datas/alain-robert_2_p.th2
     input datas/alain-robert_p.th2
-    
-    join alain-robert_sp2 alain-robert_2_sp1
+         join alain-robert_sp2 alain-robert_2_sp1
     
     ## Coupe
-    #input datas/
-    #   join ........
+    input datas/alain-robert_c.th2
 
-    ## Maps
-    input pts-alain-robert_maps.th
+    
 
 endsurvey
 

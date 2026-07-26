@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -130.0 1962.07 2427.885
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust 1273.0 1758.5000000000002 1962.07 2427.885
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1794.701 1 1.0} {2103.032 PTR7} salle-mimine-sup_p.xvi 0 {}
 
 
@@ -30,6 +30,7 @@ point 1552.0 1995.5 label -text "R6"
 line label -text "vire" -scale s
   1521.5 2064.0
   1521.5 2064.0 1548.5 2062.0 1552.0 2068.0
+  smooth off
 endline
 
 line slope
@@ -131,6 +132,7 @@ line wall -reverse on
   1555.0 1955.0
   1530.5 1954.5 1507.75 1978.0 1502.25 1980.25
   1496.75 1982.5 1472.75 1979.75 1470.25 1977.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -161,6 +163,7 @@ line wall -reverse on
   1677.25 2088.5 1632.25 2061.25 1627.25 2034.0
   1622.25 2006.75 1613.25 1989.75 1605.75 1984.75
   1598.25 1979.75 1581.25 1956.75 1555.0 1955.0
+  smooth off
 endline
 
 point 1610.191 2114.812 station -name 57

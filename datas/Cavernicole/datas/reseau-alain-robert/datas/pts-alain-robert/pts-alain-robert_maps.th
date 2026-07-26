@@ -19,7 +19,14 @@ map mp3_alain-robert
     break
 endmap
 
-# map alain-robert_sp1_MP
-#     alain-robert_sp1
-# endmap
+
+
+### COUPE
+
+map MC-pts-alain-robert
+    alain-robert_sc1
+    alain-robert_sc2
+    alain-robert_sc3
+    alain-robert_sc4
+endmap
 

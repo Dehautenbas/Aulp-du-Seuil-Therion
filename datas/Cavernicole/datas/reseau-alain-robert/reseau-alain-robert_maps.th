@@ -30,3 +30,14 @@ map reseau-alain-robert_tot_massif_MP -title "reseau_alain_robert-tot-MP"
     
     
 endmap
+
+
+
+#----------------------------------------------------------------------
+# COUPE
+#----------------------------------------------------------------------
+
+map reseau-alain-robert_tot_MC -title "reseau_alain_robert-tot-MC"
+    MC-pts-alain-robert@pts-alain-robert_tot
+    salle-mimine-sup_MC@salle-mimine-sup_tot #[-10 0 m] 
+endmap

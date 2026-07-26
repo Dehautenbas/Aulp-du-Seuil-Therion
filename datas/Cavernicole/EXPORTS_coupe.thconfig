@@ -1,0 +1,49 @@
+encoding  utf-8
+
+source Cavernicole-tot.th
+
+input config2.thconfig
+input layouts/config3.thcfg
+
+
+########################## exports #############################
+#####################################################################
+select Cavernicole-tot-MC@Cavernicole
+
+
+
+###### PLAN ######
+
+     ### colors-uniformes
+#export map \ 
+     -projection plan \
+     -layout plan_uniforme-color  \
+     -output exports/Cavernicole_P_colors-uniformes.pdf \
+
+     ### colors-altis
+#export map \ 
+     -projection plan \
+     -layout plan_altitude-color   \
+     -output exports/Cavernicole_P_colors-altis.pdf \
+
+     ### colors-dates
+#export map \ 
+     -projection plan \
+     -layout plan_explo-dates-color   \
+     -output exports/Cavernicole_P_colors-dates.pdf \
+
+
+
+
+
+export map \ 
+     -projection extended \
+     -layout coupe  \
+     -output exports/Cavernicole_C_.pdf \
+
+     ### Stations
+export map \
+     -projection extended \
+     -layout coupe  \ 
+     -layout centerline  \ 
+     -output exports/Cavernicole_C_stations.pdf \

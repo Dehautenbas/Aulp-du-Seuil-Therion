@@ -18,7 +18,7 @@ survey salle-mimine-sup -title "salle-mimine-sup"
     51 . 3.69 286.0 83.6
     51 . 1.12 150.5 -56.8
     51 . 1.79 297.3 3.4
-    extend right
+    extend left
     51 52 1.57 290.7 -9.7
     # extend auto
     52 . 0.62 140.6 6.7

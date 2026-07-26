@@ -1,8 +1,9 @@
 encoding  utf-8
 map salle-mimine-sup_MP -title "salle-mimine-sup_mp"
-
-  salle-mimine-sup_sp1
-  break
-  
+  salle-mimine-sup_sp1  
 endmap
 
+
+map salle-mimine-sup_MC -title "salle-mimine-sup_mc"
+  salle-mimine-sup_sc1
+endmap

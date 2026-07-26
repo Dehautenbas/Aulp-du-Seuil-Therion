@@ -3,16 +3,15 @@ encoding  utf-8
 survey salle-mimine-sup_tot -title "Cavernicole > Alain Robert > Salle-mimine-sup"
 
     input datas/salle-mimine-sup.th
+    input salle-mimine-sup_maps.th
 
     ## Plan
     input datas/salle-mimine-sup_p.th2
     
     ## Coupe
-    #input datas/
-    #   join ........
+    input datas/salle-mimine-sup_c.th2
 
-    ## Maps
-    input salle-mimine-sup_maps.th
+    
 
 endsurvey
 
