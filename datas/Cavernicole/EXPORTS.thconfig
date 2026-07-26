@@ -33,7 +33,7 @@ export map \
      -output exports/Cavernicole_P_colors-dates.pdf \
 
      ### Stations
-#export map \
+export map \
      -projection plan \
      -layout plan_uniforme-color  \ 
      -layout centerline  \ 

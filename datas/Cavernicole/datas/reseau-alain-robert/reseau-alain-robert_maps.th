@@ -8,6 +8,7 @@ map reseau-alain-robert_tot_MP -title "reseau_alain_robert-tot-MP"
     amont-marneux_MP@amont-marneux_tot
     
     salle-mimine-sup_MP@salle-mimine-sup_tot 
+    MP_eagle-fort@eagle-fort_tot
     
     mp1_alain-robert@pts-alain-robert_tot
     mp2_alain-robert@pts-alain-robert_tot 

@@ -9,6 +9,8 @@ survey alain-robert -title "alain-robert"
     units length meters
     units compass clino degrees
     data normal from to length compass clino
+
+    extend right
     0 1 6.03 91.5 -15.7
     # extend auto
     1 . 0.45 352.3 4.4
@@ -21,13 +23,12 @@ survey alain-robert -title "alain-robert"
     2 . 3.04 251.0 85.1
     2 . 0.83 3.1 15.5
     2 . 0.84 307.4 -88.7
-    extend vertical
+    
     2 PTR1 5.10 92.0 22.2
     # extend auto
     PTR1 . 1.65 245.8 2.2
     PTR1 . 3.88 242.8 78.9
     PTR1 . 3.22 231.7 -77.2
-    extend left
     PTR1 4 8.82 211.1 -13.8
     # extend auto
     4 . 5.41 57.7 0.9
@@ -35,19 +36,16 @@ survey alain-robert -title "alain-robert"
     4 . 5.13 21.5 15.5
     4 . 1.34 97.2 -81.4
     4 . 24.03 91.0 85.6
-    extend left
     4 5 9.77 162.8 85.1
     # extend auto
     5 . 6.30 47.4 -1.0
     5 . 3.39 120.7 -1.0
     5 . 5.15 4.5 4.3
-    extend left
     5 6 6.79 148.1 81.5
     # extend auto
     6 . 2.04 99.7 1.0
     6 . 5.56 13.7 0.8
     6 . 6.75 57.4 84.8
-    extend left
     6 7 3.63 160.9 54.1
     # extend auto
     7 . 7.44 6.4 -1.0
@@ -55,15 +53,12 @@ survey alain-robert -title "alain-robert"
     7 . 2.53 184.1 0.1
     7 . 1.91 124.4 81.9
     7 . 21.51 356.2 -80.8
-    extend left
     7 8 4.29 182.8 40.2
     # extend auto
     8 . 0.59 39.1 -1.0
     8 . 1.32 80.4 79.0
     8 . 1.27 48.9 -69.6
-    extend right
     8 9 0.75 61.5 28.4
-    extend left
     9 PTR2 5.03 104.9 23.1
     # extend auto
     PTR2 . 2.12 3.4 -3.7
@@ -113,7 +108,7 @@ survey alain-robert -title "alain-robert"
     16 . 1.30 295.6 0.2
     16 . 1.29 258.2 -79.2
     16 . 4.36 279.9 79.5
-    extend left
+
     16 17 1.87 172.0 -7.6
     # extend auto
     17 . 0.73 2.3 2.6
@@ -153,7 +148,7 @@ survey alain-robert -title "alain-robert"
     21 . 0.82 335.7 0.3
     21 . 0.83 3.1 82.3
     21 . 1.22 236.8 -83.0
-    extend vertical
+
     21 22 1.66 271.8 -9.8
     # extend auto
     22 . 0.40 141.1 10.1
@@ -179,7 +174,7 @@ survey alain-robert -title "alain-robert"
     24 . 9.28 239.2 78.4
     24 . 12.22 283.3 -86.9
     24 . 3.18 74.7 79.4
-    extend vertical
+    
     24 PTR4 3.81 87.0 79.4
     # extend auto
     PTR4 . 4.05 262.7 -6.0
@@ -228,7 +223,7 @@ survey alain-robert -title "alain-robert"
     31 . 5.43 87.2 -0.0
     31 . 0.78 70.0 77.9
     31 . 0.36 335.9 -82.0
-    extend vertical
+    
     31 32 5.42 87.2 0.0
     # extend auto
     32 . 2.05 334.7 6.9
@@ -272,27 +267,25 @@ survey alain-robert -title "alain-robert"
     PTR6 . 1.60 102.5 56.3
     PTR6 . 4.48 69.6 -42.7
     PTR6 . 3.17 209.0 13.2
-    extend vertical
+    
     PTR6 38 7.88 84.7 0.2
     # extend auto
     38 . 1.57 194.2 8.7
     38 . 0.49 328.9 39.4
     38 . 0.59 144.0 75.8
     38 . 0.91 70.6 -80.7
-    extend left
     38 39 7.66 113.4 4.2
     # extend auto
     39 . 1.37 13.1 -7.9
     39 . 0.82 232.2 7.1
     39 . 1.11 43.8 75.7
     39 . 1.44 349.4 -69.0
-    extend vertical
+    
     39 40 6.23 97.8 2.9
     # extend auto
     40 . 1.56 338.4 -5.1
     40 . 1.07 215.3 -4.5
     40 . 0.99 324.8 -83.2
-    extend left
     40 41 3.68 183.9 2.9
     extend right
     40 42 6.32 348.6 -4.2
@@ -305,7 +298,7 @@ survey alain-robert -title "alain-robert"
     42 . 3.38 307.9 -8.4
     42 . 3.60 307.8 -8.4
     42 . 3.18 308.0 -8.5
-    extend ignore
+
     42 42b 3.58 307.8 -8.4
     # extend auto
     42b . 0.69 44.8 -12.2
@@ -346,9 +339,9 @@ survey alain-robert -title "alain-robert"
     PTR7 . 4.92 134.9 -4.2
     PTR7 . 1.77 212.5 77.5
     PTR7 . 7.05 211.1 -40.9
-    extend vertical
+    
     PTR7 47 6.99 276.9 61.1
-    extend left
+
     PTR7 48 5.73 107.0 -8.9
     # extend auto
     48 . 1.19 337.3 7.9
@@ -367,10 +360,8 @@ survey alain-robert -title "alain-robert"
     49 . 6.01 17.3 64.6
     extend right
     49 50 7.92 19.3 63.6  #50 = haut ch8
-    extend left
 
    
-    extend ignore
     49 63 10.79 76.1 -3.4
     # extend auto
     49 . 12.32 76.2 -3.8
@@ -381,32 +372,32 @@ survey alain-robert -title "alain-robert"
     63 . 1.11 164.8 15.7
     63 . 1.13 161.6 84.1
     63 . 2.64 185.8 -74.1
-    extend left
+    
     63 64 2.55 171.1 -75.3
     # extend auto
     64 . 1.80 83.1 12.7
     64 . 1.68 225.4 16.5
     64 . 3.70 285.8 87.7
     64 . 1.03 64.6 -76.3
-    extend left
+    
     64 65 2.48 159.3 -14.3
     # extend auto
     65 . 0.80 298.8 11.0
     65 . 0.53 291.2 75.9
     65 . 1.83 121.0 -74.7
-    extend left
+    
     65 PTR9 2.71 243.7 -17.3
     # extend auto
     PTR9 . 0.62 110.2 11.4
     PTR9 . 0.91 58.3 83.8
     PTR9 . 2.63 178.6 -66.7
-    extend left
+    
     PTR9 67 1.62 199.8 -27.7
     # extend auto
     67 . 0.68 322.1 2.1
     67 . 2.26 313.4 67.3
     67 . 1.75 169.5 -64.7
-    extend left
+    
     67 68 3.89 251.9 -21.0
     # extend auto
     68 . 0.68 10.6 5.3
@@ -424,7 +415,7 @@ survey alain-robert -title "alain-robert"
     70 . 0.72 175.1 13.4
     70 . 4.28 230.7 69.3
     70 . 0.84 186.4 -58.8
-    extend left
+    
     70 71 5.05 246.3 -1.2
     # extend auto
     71 . 0.46 356.2 3.7
@@ -469,7 +460,7 @@ survey alain-robert -title "alain-robert"
     77 . 0.29 168.2 9.9
     77 . 1.61 328.1 88.7
     77 . 2.15 250.3 -81.2
-    extend vertical
+    
     77 78 3.69 278.0 -24.1
     # extend auto
     78 . 2.65 156.1 -3.1
@@ -486,7 +477,7 @@ survey alain-robert -title "alain-robert"
     79 . 2.44 230.0 7.3
     79 . 18.58 332.4 87.3
     79 . 0.89 161.5 -51.4
-    extend left
+    
     79 80 2.80 123.6 -14.3
     # extend auto
     80 . 1.09 203.3 -2.1
@@ -494,6 +485,7 @@ survey alain-robert -title "alain-robert"
     80 . 0.97 108.8 -84.3
     80 . 2.56 233.4 1.1
     80 . 3.18 233.3 1.2
+    
     extend left
     80 81 2.57 233.3 1.0
     # extend auto
@@ -502,9 +494,12 @@ survey alain-robert -title "alain-robert"
     81 . 0.86 154.5 -80.8
     81 . 3.29 254.7 -3.3
     81 . 4.58 254.5 -3.9
-    extend left
+    
     81 82 3.28 254.9 -3.6
+
+    extend right
     80 83 0.51 210.4 22.6
+
     83 84 5.61 115.9 -0.6
     # extend auto
     84 . 0.70 353.8 0.9
@@ -516,7 +511,7 @@ survey alain-robert -title "alain-robert"
     85 . 0.40 162.6 -3.4
     85 . 1.49 149.0 -82.0
     85 . 0.21 53.3 75.2
-    extend left
+    
     85 86 1.68 113.9 -0.9
     # extend auto
     86 . 0.43 359.6 -0.5
@@ -530,13 +525,13 @@ survey alain-robert -title "alain-robert"
     87 . 2.34 96.5 79.5
     87 . 1.54 111.4 -87.9
     87 . 1.48 91.2 -6.1
-    extend vertical
+    
     87 88 1.51 91.6 -6.1
     # extend auto
     88 . 0.20 12.4 2.7
     88 . 0.21 194.5 3.0
     88 . 1.44 306.9 -87.0
-    extend vertical
+    
     88 89 1.45 83.2 -12.4
     # extend auto
     89 . 0.29 331.7 -0.6
@@ -560,8 +555,8 @@ survey alain-robert -title "alain-robert"
     91 . 1.68 60.7 0.6
     91 . 1.73 60.6 0.4
     91 . 1.69 60.6 0.5
-    extend left
-   
+    
+   extend left
     PTR5 97 5.62 262.9 8.2
     # extend auto
     97 . 1.96 347.5 -1.2
@@ -574,7 +569,7 @@ survey alain-robert -title "alain-robert"
     116 . 1.10 150.3 19.2
     116 . 1.07 336.2 84.6
     116 . 2.62 49.6 -76.7
-    extend right
+
     116 PTRX 1.50 310.0 18.8
     # extend auto
     PTRX . 1.49 307.2 18.2
@@ -584,7 +579,7 @@ survey alain-robert -title "alain-robert"
     PTRX . 2.73 82.6 -0.9
     PTRX . 1.64 221.1 83.0
     PTRX . 0.90 171.1 -75.8
-    extend right
+
     PTRX 118 1.95 309.7 2.2
     # extend auto
     118 . 1.95 303.7 4.8
@@ -593,7 +588,7 @@ survey alain-robert -title "alain-robert"
     118 . 5.20 228.6 2.3
     118 . 8.37 235.8 83.8
     118 . 7.98 193.9 -63.5
-    extend left
+    
     118 119 10.12 201.9 23.7
   endcenterline
 

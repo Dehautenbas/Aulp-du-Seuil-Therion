@@ -99,7 +99,7 @@ line pit -reverse on
   smooth off
 endline
 
-point 517.5 995.0 label -text "imp."
+point 603.0 881.0 label -text "imp." -scale s
 
 line wall -subtype presumed
   555.5 880.0
