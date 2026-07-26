@@ -1,8 +1,9 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -130.0 -130.0 2637.5 2805.16
+##XTHERION## xth_me_area_adjust -128.0 -128.0 2637.5 3053.6949999999997
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {295.2700000000001 1 1.0} {669.2900000000001 0} alain-robert_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {1779.701 1 1.0} {2106.942 PTR7} ../salle-mimine-sup/salle-mimine-sup_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {440.665 1 1.0} {438.32899999999984 0} sommet-pts-robert_P.xvi 0 {}
 
 
 
@@ -285,6 +286,24 @@ endscrap
 
 scrap alain-robert_2_sp3 -projection plan -station-names "" "@alain-robert" -scale [0 0 78.7402 0 0 0 1 0 m]
 
+line wall
+  421.5 400.25
+  431.5 399.75 449.25 392.5 453.5 395.0
+  smooth off
+endline
+
+line wall
+  453.5 469.0
+  443.25 469.75 428.5 473.0 420.75 473.5
+endline
+
+line wall -id alain-robert_2_sp2_l1d
+  453.5 395.0
+  457.36 398.45 481.5 415.0 506.5 405.5
+  609.83 366.23 690.5 396.0 689.0 348.5
+  smooth off
+endline
+
 point 704.0 422.0 label -text "E25 puits Robert"
 
 point 834.9000000000001 454.7800000000001 station -name 27
@@ -316,16 +335,16 @@ line wall -id alain-robert_2_sp2_l1g
   smooth off
 endline
 
-line label -scale L -text "<it>Branche Alain-Robert"
+line label -scale L -text "<it> Réseau Alain-Robert"
   442.0 755.0
   442.0 755.0 848.0 1045.0 1015.0 1193.0
   smooth off
 endline
 
 line pit -id robert4o
-  741.0 350.0
-  741.5 360.0 747.21 379.56 755.5 381.5
-  817.5 396.0 860.5 422.5 861.0 433.0
+  737.75 351.0
+  738.25 361.0 747.21 379.56 755.5 381.5
+  817.5 396.0 828.0 406.5 844.0 415.5
   smooth off
 endline
 
@@ -423,7 +442,7 @@ line slope
   l-size 20.0
 endline
 
-point 822.5 745.0 air-draught -orientation 183.3 -subtype winter
+point 822.5 745.0 air-draught -orientation 0.0 -subtype summer
 
 line wall -reverse on
   970.5 855.0
@@ -680,8 +699,15 @@ endline
 
 line rock-edge -clip off
   1820.0 2038.0
-  2139.0 1784.0
+  1907.0 1963.0
 endline
+
+line water-flow
+  1623.5 1981.0
+  1653.5 2000.0
+endline
+
+point 1789.5 1954.0 continuation
 
 point 1790.0 1972.5 label -scale xs -text [Puits<br>sous blocs]
 
@@ -795,7 +821,7 @@ line wall -subtype presumed
   smooth off
 endline
 
-point 2157.0 1765.0 label -text [Salle Mimine] -align bottom-right -scale l
+point 1919.5 1929.0 label -text "<it>Salle Mimine" -scale l
 
 line wall -reverse on
   1785.5 2164.5
@@ -850,9 +876,9 @@ line wall -id robert3ok
 endline
 
 line pit -id robert3o
-  817.0 461.5
-  804.5 450.5 739.0 454.5 729.5 453.5
-  720.0 452.5 623.5 449.5 623.5 449.5
+  809.0 457.5
+  791.0 452.5 739.0 454.5 729.5 453.5
+  720.0 452.5 628.0 448.5 628.0 448.5
   smooth off
 endline
 
@@ -866,17 +892,16 @@ endline
 line pit -id l214-814-394 -close on
   843.0 408.5
   843.0 408.5 845.0 439.0 846.5 446.0
-  848.0 453.0 847.5 451.5 836.5 449.5
-  825.5 447.5 813.5 455.0 805.0 460.5
+  848.0 453.0 842.0 456.5 831.0 454.5
+  820.0 452.5 813.5 455.0 805.0 460.5
   796.5 466.0 632.0 459.5 632.0 459.5
   smooth off
   632.0 459.5 627.5 443.5 617.5 437.0
   607.5 430.5 569.0 424.5 571.5 419.0
   574.0 413.5 561.0 407.5 585.0 406.5
   609.0 405.5 683.0 375.0 684.5 370.5
-  686.0 366.0 682.0 357.0 682.0 357.0
-  smooth off
-  682.0 357.0 741.0 356.0 749.5 362.0
+  686.0 366.0 677.76 359.05 682.0 357.0
+  711.0 343.0 741.0 356.0 749.5 362.0
   758.0 368.0 843.0 408.5 843.0 408.5
   smooth off
 endline
@@ -889,44 +914,6 @@ line pit -reverse on
   470.0 408.0 473.0 398.5 473.5 396.0
   smooth off
 endline
-
-line wall -id robert6ok
-  453.5 469.0
-  448.5 471.5 392.0 493.0 381.5 485.0
-  371.0 477.0 333.5 403.5 333.0 397.5
-  332.5 391.5 328.0 291.5 342.0 286.5
-  356.0 281.5 424.0 280.5 429.5 291.0
-  435.0 301.5 434.5 378.0 453.5 395.0
-  smooth off
-endline
-
-line pit -id robert6o
-  453.5 469.0
-  448.5 471.5 392.0 493.0 381.5 485.0
-  371.0 477.0 333.5 403.5 333.0 397.5
-  332.5 391.5 328.0 291.5 342.0 286.5
-  356.0 281.5 424.0 280.5 429.5 291.0
-  435.0 301.5 434.5 378.0 453.5 395.0
-  smooth off
-endline
-
-line water-flow
-  308.5 359.0
-  308.5 359.0 354.0 386.5 362.5 387.0
-  smooth off
-endline
-
-line chimney -close on
-  360.5 360.5
-  350.0 352.0 343.5 328.5 345.0 318.0
-  346.5 307.5 388.5 289.0 398.5 292.5
-  408.5 296.0 437.5 334.0 428.5 344.0
-  419.5 354.0 371.0 369.0 360.5 360.5
-endline
-
-point 384.0 330.0 continuation
-
-point 387.0 405.5 label -text "P14 ?"
 
 point 864.5 708.5 stalagmite
 
@@ -942,20 +929,13 @@ area u:galerie
   l214-814-394
 endarea
 
-line wall -id alain-robert_2_sp2_l1d
-  453.5 395.0
-  457.36 398.45 481.5 415.0 506.5 405.5
-  609.83 366.23 690.5 396.0 689.0 348.5
-  smooth off
-endline
-
 endscrap
 
 
 
 scrap alain-robert_2_sp4 -projection plan -station-names "" "@alain-robert" -scale [0 0 78.7402 0 0 0 1 0 m]
 
-line label -text "Méandre point trop n'en faut"
+line label -text "Méandre Fort et Trois"
   1904.0 2244.5
   2054.0 2262.5 2129.5 2286.5 2241.0 2362.0
   smooth off
@@ -1117,6 +1097,111 @@ point 1801.2600000000002 2315.8500000000004 station -name 83
 point 1805.9500000000003 2323.8500000000004 station -name 80
 
 point 1761.46 2353.4 station -name 79
+
+endscrap
+
+
+
+scrap alain-robert_2_sp5 -projection plan -station-names "" "@sommet-pts-robert" -scale [0 0 78.7402 0 0 0 1 0 m]
+
+line arrow
+  349.25 469.0
+  386.0 431.0
+endline
+
+line wall
+  420.75 473.5
+  413.0 474.0 389.5 488.5 382.25 483.75
+  375.0 479.0 365.75 465.25 363.25 459.0
+  360.75 452.75 337.75 431.25 337.75 426.5
+  337.75 421.75 327.75 389.5 331.5 386.5
+  335.25 383.5 345.0 385.0 356.75 395.5
+  360.77 399.1 343.75 357.5 338.75 355.25
+  333.75 353.0 318.25 361.0 311.5 358.5
+  304.75 356.0 292.75 352.5 288.75 348.25
+  altitude .
+  284.75 344.0 275.5 333.0 274.75 331.25
+  smooth off
+endline
+
+point 314.5 472.75 label -text "pommes de pain" -scale xs
+
+line rock-border
+  389.0 414.5
+  392.5 416.5
+  400.25 415.75
+endline
+
+line rock-border
+  396.0 420.5
+  392.5 416.5
+  390.25 424.0
+endline
+
+line rock-border -close on
+  397.0 427.0
+  390.25 424.0
+  389.0 419.0
+  389.0 419.0 388.0 415.75 389.0 414.5
+  390.0 413.25 393.75 414.25 393.75 414.25
+  smooth off
+  400.0 412.25
+  402.0 420.0
+  396.0 420.5
+  397.0 427.0
+endline
+
+point 409.75 438.0 label -text "R6"
+
+point 415.495 466.67899999999986 station -name 1
+
+point 373.825 393.61899999999986 station -name 4
+
+point 345.005 348.9089999999999 station -name 5
+
+point 309.135 355.68899999999985 station -name 6
+
+line wall
+  358.0 306.25
+  360.25 331.75 384.0 319.25 391.5 328.5
+  399.0 337.75 407.0 359.5 405.0 368.75
+  403.0 378.0 396.75 391.5 397.75 395.75
+  398.75 400.0 411.5 400.75 421.5 400.25
+endline
+
+point 276.5 320.75 label -text "imp." -scale s
+
+line water-flow
+  346.25 341.5
+  346.25 341.5 338.0 350.5 329.5 352.5
+  smooth off
+endline
+
+line water-flow
+  349.75 293.25
+  349.75 293.25 351.25 318.75 355.75 328.25
+  smooth off
+endline
+
+line pit -reverse on
+  363.5 315.0
+  363.5 315.0 351.5 322.0 343.0 319.0
+  smooth off
+endline
+
+line wall
+  284.25 328.25
+  288.5 334.0 287.25 336.5 293.5 341.0
+  299.75 345.5 304.75 352.75 308.0 353.25
+  311.25 353.75 330.0 349.75 331.25 348.5
+  332.5 347.25 326.25 341.25 325.5 335.25
+  324.75 329.25 350.75 337.5 346.0 308.5
+  smooth off
+endline
+
+point 287.425 341.36899999999986 station -name 7
+
+point 364.0 287.25 label -text "E10 ?"
 
 endscrap
 
