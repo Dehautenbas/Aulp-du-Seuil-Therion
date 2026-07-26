@@ -1,0 +1,19 @@
+encoding  utf-8
+
+survey 2023_07_15 -title "Cavernicole > 2023_07_15"
+
+    input Data/0-100.th
+
+    ## Plan
+    input Data/0-100_p.th2
+    #    join .......
+    
+    ## Coupe
+    #input Data/0-100_c.th2
+    #   join ........
+
+    ## Maps
+    input 2023_07_15-maps.th
+
+endsurvey
+

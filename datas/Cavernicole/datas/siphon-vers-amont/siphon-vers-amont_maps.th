@@ -1,0 +1,28 @@
+encoding  utf-8
+  map siphon-vers-amont_tot_MP
+  fond_Cavernicole_sp1
+  break
+  fond_Cavernicole_sp2
+  break
+  fond_Cavernicole_sp3
+  break 
+  fond_Cavernicole_sp4
+  break
+  fond_Cavernicole_sp4b
+  break
+  fond_Cavernicole_sp5
+  break
+  fond_Cavernicole_sp6
+  break
+  fond_Cavernicole_sp7
+  break
+  endmap
+
+
+  map fond-riviere_MP
+  SP-fond-riv_1
+  endmap
+  
+  map fond-puits_MP
+  SP-fond-puits_1
+  endmap

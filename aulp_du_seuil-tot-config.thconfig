@@ -2,7 +2,7 @@ encoding  utf-8
 
 select Aulp_du_seuil-tot_MP@Aulp_du_seuil
 
-source "Data/aulp_du_seuil-tot.th"
+source "datas/aulp_du_seuil-tot.th"
 
 #source "surface/AulpSeuil-DEM-Crop.th" #cs EPSG:2154
 
