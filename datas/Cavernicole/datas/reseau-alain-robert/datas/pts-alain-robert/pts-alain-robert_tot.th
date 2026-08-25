@@ -11,7 +11,7 @@ survey pts-alain-robert_tot -title "Cavernicole > Alain Robert > Pts Alain-rober
          join alain-robert_sp2 alain-robert_2_sp1
     
     ## Coupe
-    input datas/alain-robert_c.th2
+  #  input datas/alain-robert_c.th2
 
     
 

@@ -3,6 +3,10 @@ map MP_eagle-fort -proj plan -title "eagle-fort"
   SP1_eagle-fort
   break
   SP2_eagle-fort
+  break
+  SP3_eagle-fort
+  break
+  SP4_eagle-fort
 endmap
 
 

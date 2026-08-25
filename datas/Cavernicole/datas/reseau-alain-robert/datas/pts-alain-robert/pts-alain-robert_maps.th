@@ -22,10 +22,10 @@ endmap
 
 ### COUPE
 
-map MC-pts-alain-robert
-    alain-robert_sc1
-    alain-robert_sc2
-    alain-robert_sc3
-    alain-robert_sc4
-endmap
+#map MC-pts-alain-robert
+#    alain-robert_sc1
+#    alain-robert_sc2
+#    alain-robert_sc3
+#    alain-robert_sc4
+#endmap
 

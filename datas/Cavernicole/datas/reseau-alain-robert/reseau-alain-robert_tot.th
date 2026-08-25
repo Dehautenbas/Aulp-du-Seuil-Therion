@@ -7,8 +7,8 @@ survey reseau-alain-robert_tot -title "Cavernicole > Réseau Alain-Robert"
     input datas/salle-mimine-sup/salle-mimine-sup_tot.th
         equate PTR7@alain-robert.pts-alain-robert_tot PTR7@salle-mimine-sup.salle-mimine-sup_tot
         equate 97@alain-robert.pts-alain-robert_tot 97@amont-marneux.amont-marneux_tot
-            join alain-robert_b@pts-alain-robert_tot:end mimine_b@salle-mimine-sup_tot:0
-            join alain-robert_h@pts-alain-robert_tot:end mimine_h@salle-mimine-sup_tot:end
+          #  join alain-robert_b@pts-alain-robert_tot:end mimine_b@salle-mimine-sup_tot:0
+           # join alain-robert_h@pts-alain-robert_tot:end mimine_h@salle-mimine-sup_tot:end
     input datas/eagle-fort/eagle-fort_tot.th
         equate PTR8@salle-mimine-sup.salle-mimine-sup_tot 0@eagle-fort.eagle-fort_tot
             join SP1_eagle-fort@eagle-fort_tot salle-mimine-sup_sp1@salle-mimine-sup_tot
