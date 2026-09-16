@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -130.0 -130.0 2637.5 2805.16
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 400
 ##XTHERION## xth_me_image_insert {295.2700000000001 1 1.0} {669.2900000000001 0} alain-robert_p.xvi 0 {}
 ##XTHERION## xth_me_image_insert {1779.701 1 1.0} {2106.942 PTR7} ../salle-mimine-sup/salle-mimine-sup_p.xvi 0 {}
 
@@ -319,6 +319,7 @@ endline
 line label -scale L -text "<it>Branche Alain-Robert"
   442.0 755.0
   442.0 755.0 848.0 1045.0 1015.0 1193.0
+  smooth off
 endline
 
 line pit -id robert4o
@@ -955,13 +956,6 @@ line label -text "Méandre point trop n'en faut"
 endline
 
 line chimney -close on
-  1687.5 2284.0
-  1685.5 2279.5 1685.0 2268.5 1690.0 2269.0
-  1695.0 2269.5 1708.5 2280.0 1704.0 2283.5
-  1699.5 2287.0 1689.5 2288.5 1687.5 2284.0
-endline
-
-line chimney -close on
   2392.5 2498.0
   2383.5 2490.0 2379.0 2483.0 2383.5 2480.0
   2388.0 2477.0 2407.5 2475.5 2408.5 2482.5
@@ -978,27 +972,13 @@ point 2504.0 2537.5 height -value -7?
 
 point 2375.0 2535.5 height -value [+12?]
 
-point 1625.0 2236.5 continuation
-
 point 1766.0 2417.5 height -value -20
 
 point 1765.0 2451.5 label -text [Puits Mimine]
 
-line wall -reverse on -subtype presumed
-  1644.0 2248.0
-  altitude .
-  1644.0 2248.0 1662.0 2257.5 1666.5 2260.5
-  smooth off
-endline
-
 line wall -reverse on
-  1666.5 2260.5
-  1671.0 2263.5 1678.0 2266.0 1676.0 2271.0
-  1674.0 2276.0 1687.0 2297.0 1691.5 2294.0
-  1696.0 2291.0 1707.5 2289.0 1713.0 2289.0
-  1718.5 2289.0 1758.0 2297.0 1762.5 2302.0
-  1767.0 2307.0 1794.5 2319.5 1793.0 2321.0
-  1791.5 2322.5 1785.5 2336.5 1776.0 2331.0
+  1794.5 2314.0
+  1793.0 2315.5 1785.5 2336.5 1776.0 2331.0
   1766.5 2325.5 1749.0 2305.5 1738.5 2311.0
   1728.0 2316.5 1716.0 2322.5 1719.5 2329.5
   smooth off
@@ -1021,12 +1001,6 @@ line water-flow
   2089.0 2328.5
 endline
 
-line water-flow
-  1634.0 2245.5
-  1634.0 2245.5 1646.0 2239.5 1654.0 2247.5
-  smooth off
-endline
-
 point 2166.0 2408.0 label -text Etr.
 
 line wall -reverse on
@@ -1039,17 +1013,7 @@ line wall -reverse on
   1972.0 2282.0 1956.0 2282.0 1949.0 2281.5
   1942.0 2281.0 1930.5 2295.0 1918.5 2282.0
   1906.5 2269.0 1905.0 2262.0 1895.5 2265.0
-  1886.0 2268.0 1806.5 2306.5 1799.5 2306.5
-  1792.5 2306.5 1776.0 2296.5 1765.5 2289.5
-  1755.0 2282.5 1710.5 2275.0 1704.5 2272.0
-  1698.5 2269.0 1671.5 2258.0 1670.0 2256.5
-  smooth off
-endline
-
-line wall -reverse on -subtype presumed
-  1670.0 2256.5
-  1668.5 2255.0 1649.0 2239.0 1646.5 2238.0
-  smooth off
+  1886.0 2268.0 1806.75 2302.0 1799.5 2305.5
 endline
 
 point 1764.0 2379.0 map-connection

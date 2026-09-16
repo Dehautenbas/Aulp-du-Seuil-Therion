@@ -12,7 +12,8 @@ survey reseau-alain-robert_tot -title "Cavernicole > Réseau Alain-Robert"
     input datas/eagle-fort/eagle-fort_tot.th
         equate PTR8@salle-mimine-sup.salle-mimine-sup_tot 0@eagle-fort.eagle-fort_tot
             join SP1_eagle-fort@eagle-fort_tot salle-mimine-sup_sp1@salle-mimine-sup_tot
-    
+    equate 22@eagle-fort.eagle-fort_tot 80@alain-robert.pts-alain-robert_tot
+        join alain-robert_2_sp4@pts-alain-robert_tot SP3_eagle-fort@eagle-fort_tot
     equate PTR7@alain-robert.pts-alain-robert_tot PTR7@salle-mimine-sup.salle-mimine-sup_tot
     equate 97@alain-robert.pts-alain-robert_tot 97@amont-marneux.amont-marneux_tot
     
