@@ -19,6 +19,9 @@ map Cavernicole-tot-MP
   break
   siphon-vers-amont_tot_MP@siphon-vers-amont_tot
   break
+  fond-riviere_MP@siphon-vers-amont_tot
+  break
+  fond-puits_MP@siphon-vers-amont_tot
 endmap
 
 map Cavernicole-tot-massif-MP
@@ -75,6 +78,19 @@ endmap
 
 
 
-#map Cavernicole-tot-MC
-#  reseau-alain-robert_tot_MC@reseau-alain-robert_tot
-#endmap
+map Cavernicole-tot-MC
+  0-100_MC@0-100_tot
+  break
+  100-130-escalade_MC@100-130-escalade_tot
+  break
+  100-130-normal_MC@100-130-normal_tot
+  break
+  jonction-innapercue_MC@jonction-innapercue_tot
+  break
+  pullover_MC@pull-over-amont_tot
+  break
+  pull-over-aval_MC@pull-over-aval_tot
+  break
+ # reseau-alain-robert_tot_MC@reseau-alain-robert_tot
+  #break
+endmap

@@ -10,3 +10,15 @@ map 0-100_MP
   break
 endmap
 
+map 0-100_MC
+  sc1_0-100
+  break
+  sc2_0-100
+  break
+  sc3_0-100
+  break
+  sc4_0-100
+  break
+  sc5_0-100
+endmap
+

@@ -8,7 +8,7 @@ survey amont-marneux_tot -title "Cavernicole > Alain Robert > Amont marneux"
     input datas/amont-marneux_p.th2
     
     ## Coupe
-    #input datas/
+    input datas/amont-marneux_c.th2
     #   join ........
 
     ## Maps

@@ -71,3 +71,18 @@ map pullover_MP----
   break
 endmap
 
+map pullover_MC
+  sc0_pull-over
+  break
+  sc1_pull-over
+  break
+  sc2_pull-over
+  break
+  sc3_pull-over
+  break
+  sc4_pull-over
+  break
+  sc5_pull-over
+  break
+  sc6_pull-over
+endmap

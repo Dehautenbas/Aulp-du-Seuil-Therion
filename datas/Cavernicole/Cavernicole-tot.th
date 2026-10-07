@@ -69,9 +69,12 @@ input Cavernicole-tot-maps.th
     #-----------
     ## Coupe
     #-----------
-    
-    #   join ........
-
+      join sc0_pull-over@pull-over-amont_tot sc-pull-over-aval-1@pull-over-aval_tot
+      join sc0_pull-over@pull-over-amont_tot sc5_0-100@0-100_tot
+      join sc_jonction-innapercue@jonction-innapercue_tot sc3_0-100@0-100_tot
+      join sc_jonction-innapercue@jonction-innapercue_tot sc4_pull-over@pull-over-amont_tot
+      join sc-pull-over-aval-1@pull-over-aval_tot sc_100-130@100-130-normal_tot
+      join sc_100-130@100-130-normal_tot sc5_0-100@0-100_tot
 
 endsurvey
 

@@ -4,6 +4,7 @@ survey 0-100_tot -title "Cavernicole > 0-100"
 
     input datas/0-100.th
     input datas/0-100_p.th2
+    input datas/0-100_c.th2
     #    join .......
     
     ## Coupe

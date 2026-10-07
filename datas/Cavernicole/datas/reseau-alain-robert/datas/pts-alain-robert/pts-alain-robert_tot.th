@@ -4,6 +4,9 @@ survey pts-alain-robert_tot -title "Cavernicole > Alain Robert > Pts Alain-rober
 
     input pts-alain-robert_maps.th
     input datas/alain-robert.th
+    input datas/sommet-pts-robert.th
+
+
 
     ## Plan
     input datas/alain-robert_2_p.th2
@@ -11,7 +14,7 @@ survey pts-alain-robert_tot -title "Cavernicole > Alain Robert > Pts Alain-rober
          join alain-robert_sp2 alain-robert_2_sp1
     
     ## Coupe
-  #  input datas/alain-robert_c.th2
+    input datas/alain-robert_c.th2
 
     
 

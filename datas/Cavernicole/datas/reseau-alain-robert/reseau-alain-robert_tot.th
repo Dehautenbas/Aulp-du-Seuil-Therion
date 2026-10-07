@@ -16,6 +16,7 @@ survey reseau-alain-robert_tot -title "Cavernicole > Réseau Alain-Robert"
         join alain-robert_2_sp4@pts-alain-robert_tot SP3_eagle-fort@eagle-fort_tot
     equate PTR7@alain-robert.pts-alain-robert_tot PTR7@salle-mimine-sup.salle-mimine-sup_tot
     equate 97@alain-robert.pts-alain-robert_tot 97@amont-marneux.amont-marneux_tot
+    equate 0@sommet-pts-robert.pts-alain-robert_tot PTRX@alain-robert.pts-alain-robert_tot
     
     ## Plan
 
@@ -28,7 +29,8 @@ survey reseau-alain-robert_tot -title "Cavernicole > Réseau Alain-Robert"
     
     ## Coupe
     #input datas/
-    #   join ........
+       join alain-robert_sc2@pts-alain-robert_tot sc-amont-marneux_c@amont-marneux_tot
+       
 
     ## Maps
     input reseau-alain-robert_maps.th

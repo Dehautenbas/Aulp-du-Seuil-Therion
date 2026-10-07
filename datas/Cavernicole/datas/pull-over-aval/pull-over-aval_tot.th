@@ -6,6 +6,8 @@ survey pull-over-aval_tot -title "Cavernicole > Pull-over-aval"
 
     ## Plan
     input datas/pull-over-aval_p.th2
+    input datas/pull-over-aval_c.th2
+
     #    join .......
     
     ## Coupe

@@ -6,6 +6,7 @@ survey 100-130-escalade_tot -title "Cavernicole > 100-130-escalade"
 
     ## Plan
     input datas/100-130-escalade_p.th2
+    input datas/100-130-escalade_c.th2
 
     #    join .......
     
@@ -14,6 +15,7 @@ survey 100-130-escalade_tot -title "Cavernicole > 100-130-escalade"
     #   join ........
 
     ## Maps
+
     input 100-130-escalade_maps.th
 
 endsurvey

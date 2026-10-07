@@ -41,7 +41,9 @@ endmap
 # COUPE
 #----------------------------------------------------------------------
 
-#map reseau-alain-robert_tot_MC -title "reseau_alain_robert-tot-MC"
-#    MC-pts-alain-robert@pts-alain-robert_tot
-#    salle-mimine-sup_MC@salle-mimine-sup_tot #[-10 0 m] 
-#endmap
+map reseau-alain-robert_tot_MC -title "reseau_alain_robert-tot-MC"
+    MC-pts-alain-robert@pts-alain-robert_tot
+    salle-mimine-sup_MC@salle-mimine-sup_tot #[-10 0 m] 
+    amont-marneux_MC@amont-marneux_tot
+    MC_eagle-fort@eagle-fort_tot
+endmap

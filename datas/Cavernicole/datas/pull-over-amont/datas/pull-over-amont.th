@@ -33,13 +33,13 @@ survey pull-over-amont -title "Amont du pull over jaune"
     1 . 0.77 181.9 63.7
     1 . 1.49 331.1 -80.2
     1 . 1.26 283.7 -10.8
-    extend left
+    extend ignore
     2 3 5.62 272.0 -1.5
     # extend auto
     2 . 1.49 273.1 81.2
     2 . 1.90 163.1 -81.3
     2 . 0.40 202.6 3.6
-    extend left
+    extend ignore
     3 4 9.88 271.5 4.0
     # extend auto
     3 . 2.66 338.3 87.8

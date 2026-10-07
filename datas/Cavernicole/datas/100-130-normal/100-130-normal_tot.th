@@ -8,6 +8,7 @@ survey 100-130-normal_tot -title "Cavernicole > 100-130-normal"
     ## Plan
     input datas/100-130-normal.th2
     input ../reseau-alain-robert/datas/pts-alain-robert/datas/alain-robert_p.th2 # Car une partie du dessin est dans ce th2
+    input datas/100-130-normal_C.th2
     #    join .......
     
     ## Coupe

@@ -6,6 +6,7 @@ survey jonction-innapercue_tot -title "Cavernicole > Jonction innapercue"
 
     ## Plan
     input datas/jonction-innapercue.th2
+    input datas/jonction-innapercue_C.th2
     #    join .......
     
     ## Coupe

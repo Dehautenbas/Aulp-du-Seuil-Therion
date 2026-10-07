@@ -1,6 +1,6 @@
+encoding  utf-8
 
 survey alain-robert -title "alain-robert"
-
   centerline
     date 2023.11.21 
      team "Théophile Cailhol" 
@@ -27,7 +27,7 @@ survey alain-robert -title "alain-robert"
     PTR1 . 1.65 245.8 2.2
     PTR1 . 3.88 242.8 78.9
     PTR1 . 3.22 231.7 -77.2
-    extend left
+    extend ignore
     PTR1 4 8.82 211.1 -13.8
     # extend auto
     4 . 5.41 57.7 0.9
@@ -600,3 +600,4 @@ survey alain-robert -title "alain-robert"
 
 
 endsurvey
+
